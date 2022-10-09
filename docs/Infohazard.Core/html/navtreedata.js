@@ -92,7 +92,6 @@ var NAVTREE =
       ] ]
     ] ],
     [ "LICENSE", "md__l_i_c_e_n_s_e.html", null ],
-    [ "Infohazard.Core: A Unity Utility Library", "md__r_e_a_d_m_e.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ],
       [ "Package Members", "namespacemembers.html", [
