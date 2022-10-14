@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['spawned_0',['Spawned',['../class_infohazard_1_1_core_1_1_spawnable.html#af19586dae1cbdb751a1688a2bdc335c5',1,'Infohazard::Core::Spawnable']]]
+  ['gamepaused_0',['GamePaused',['../class_infohazard_1_1_core_1_1_pause.html#ae62ec9d96ea92288162ad703d9da63de',1,'Infohazard::Core::Pause']]],
+  ['gameresumed_1',['GameResumed',['../class_infohazard_1_1_core_1_1_pause.html#adc70d1f34ecc723afa0f15da37b7de4a',1,'Infohazard::Core::Pause']]]
 ];

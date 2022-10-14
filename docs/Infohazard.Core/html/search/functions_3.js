@@ -1,8 +1,17 @@
 var searchData=
 [
-  ['endinterval_0',['EndInterval',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a57625439975f60d33aeb4e5361849ff2',1,'Infohazard::Core::PassiveTimer']]],
-  ['enqueue_1',['Enqueue',['../class_infohazard_1_1_core_1_1_list_queue.html#a15d4ea6cbf3d12ee1224507fcefdbc97',1,'Infohazard::Core::ListQueue']]],
-  ['ensurecapacity_2',['EnsureCapacity',['../class_infohazard_1_1_core_1_1_list_queue.html#ab24c956730c66a4d6ff2e30ccee97b8b',1,'Infohazard::Core::ListQueue']]],
-  ['equals_3',['Equals',['../struct_infohazard_1_1_core_1_1_component_i_d.html#a6948e169e7bfa2ada7d9633932ee56c2',1,'Infohazard.Core.ComponentID.Equals(ComponentID other)'],['../struct_infohazard_1_1_core_1_1_component_i_d.html#a5019a6addd1ef3363783313803f3c0a2',1,'Infohazard.Core.ComponentID.Equals(object obj)'],['../struct_infohazard_1_1_core_1_1_tag_mask.html#ad839ed9f3fb5dc4c05c8b0e2c783f5f9',1,'Infohazard.Core.TagMask.Equals(TagMask other)'],['../struct_infohazard_1_1_core_1_1_tag_mask.html#ad349d1fece29f74e46016ba711dc6f86',1,'Infohazard.Core.TagMask.Equals(object obj)']]],
-  ['expandableattribute_4',['ExpandableAttribute',['../class_infohazard_1_1_core_1_1_expandable_attribute.html#a0a72529d2280dc93992f1ee631ea7b26',1,'Infohazard::Core::ExpandableAttribute']]]
+  ['debugbreakafterframes_0',['DebugBreakAfterFrames',['../class_infohazard_1_1_core_1_1_debug_utility.html#a1cb9f40647f3ddfdb27f78b93cc6329e',1,'Infohazard::Core::DebugUtility']]],
+  ['dequeue_1',['Dequeue',['../class_infohazard_1_1_core_1_1_list_queue.html#acbcece71aaf0439641989fdd3722bcb8',1,'Infohazard::Core::ListQueue']]],
+  ['despawn_2',['Despawn',['../class_infohazard_1_1_core_1_1_spawnable.html#ae46abe2cecd908442903d92768e23a8f',1,'Infohazard.Core.Spawnable.Despawn(Spawnable instance, float inSeconds=0.0f)'],['../class_infohazard_1_1_core_1_1_spawnable.html#ac205c42df28036752f606be12f26480e',1,'Infohazard.Core.Spawnable.Despawn(GameObject instance, float inSeconds=0.0f)']]],
+  ['despawnchildren_3',['DespawnChildren',['../class_infohazard_1_1_core_1_1_game_object_utility.html#abfc3f6c13a4ae572c9348a685b031542',1,'Infohazard::Core::GameObjectUtility']]],
+  ['despawnself_4',['DespawnSelf',['../class_infohazard_1_1_core_1_1_spawnable.html#a71e1558c0b48dfc8501930742340a3f9',1,'Infohazard::Core::Spawnable']]],
+  ['destroychildren_5',['DestroyChildren',['../class_infohazard_1_1_core_1_1_game_object_utility.html#aeb584fdaf56bc763ad9485f8db4ff884',1,'Infohazard::Core::GameObjectUtility']]],
+  ['destroychildrenimmediate_6',['DestroyChildrenImmediate',['../class_infohazard_1_1_core_1_1_game_object_utility.html#a04e79165efb82bdbe7a1d9ae22a45fbf',1,'Infohazard::Core::GameObjectUtility']]],
+  ['dispose_7',['Dispose',['../class_infohazard_1_1_core_1_1_pool.html#a5b07ddef3b41cbfb473bbdc06749682b',1,'Infohazard::Core::Pool']]],
+  ['divide_8',['Divide',['../class_infohazard_1_1_core_1_1_math_utility.html#a1c32e68071bcdbb3d860f9841de6bdd9',1,'Infohazard.Core.MathUtility.Divide(Vector3 left, Vector3 right)'],['../class_infohazard_1_1_core_1_1_math_utility.html#abefb5c172710d1fc5a7c8913f1ae39f3',1,'Infohazard.Core.MathUtility.Divide(float left, Vector3 right)']]],
+  ['doessegmentintersecttriangle_9',['DoesSegmentIntersectTriangle',['../class_infohazard_1_1_core_1_1_math_utility.html#a367d82927178e9e61b2083031b7e698b',1,'Infohazard::Core::MathUtility']]],
+  ['dolazydropdown_3c_20t_20_3e_10',['DoLazyDropdown&lt; T &gt;',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#af5210935781fb60e87eca5e6ef31bc22',1,'Infohazard::Core::Editor::CoreEditorUtility']]],
+  ['dot_11',['Dot',['../class_infohazard_1_1_core_1_1_math_utility.html#a1f041a6906b40d38970da936d684e35a',1,'Infohazard::Core::MathUtility']]],
+  ['drawdebugbounds_12',['DrawDebugBounds',['../class_infohazard_1_1_core_1_1_debug_utility.html#a4fa9a8a7e51c2e3ab4f0379ecae5de0a',1,'Infohazard::Core::DebugUtility']]],
+  ['drawsinglechildpropertyattribute_13',['DrawSingleChildPropertyAttribute',['../class_infohazard_1_1_core_1_1_draw_single_child_property_attribute.html#a7265382ac6a1fb5782cc6d3ea784a068',1,'Infohazard::Core::DrawSingleChildPropertyAttribute']]]
 ];

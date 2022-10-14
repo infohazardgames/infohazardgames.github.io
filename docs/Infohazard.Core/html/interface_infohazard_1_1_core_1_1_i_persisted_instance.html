@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
  </tr>
  </tbody>
@@ -104,15 +106,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aff263459771b3bc9eee79dd90ba141d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_infohazard_1_1_core_1_1_i_persisted_instance.html#aff263459771b3bc9eee79dd90ba141d2">SetupDynamicInstance</a> (ulong persistedInstanceID)</td></tr>
 <tr class="memdesc:aff263459771b3bc9eee79dd90ba141d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the current object as a new persisted instance with the given ID.   <a href="interface_infohazard_1_1_core_1_1_i_persisted_instance.html#aff263459771b3bc9eee79dd90ba141d2">More...</a><br /></td></tr>
 <tr class="separator:aff263459771b3bc9eee79dd90ba141d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4b6385b27fd88b47f08f788e50a832f"><td class="memItemLeft" align="right" valign="top"><a id="ae4b6385b27fd88b47f08f788e50a832f" name="ae4b6385b27fd88b47f08f788e50a832f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>RegisterDestroyed</b> ()</td></tr>
-<tr class="memdesc:ae4b6385b27fd88b47f08f788e50a832f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the current object from persistence.  <br /></td></tr>
+<tr class="memitem:ae4b6385b27fd88b47f08f788e50a832f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_infohazard_1_1_core_1_1_i_persisted_instance.html#ae4b6385b27fd88b47f08f788e50a832f">RegisterDestroyed</a> ()</td></tr>
+<tr class="memdesc:ae4b6385b27fd88b47f08f788e50a832f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the current object from persistence.   <a href="interface_infohazard_1_1_core_1_1_i_persisted_instance.html#ae4b6385b27fd88b47f08f788e50a832f">More...</a><br /></td></tr>
 <tr class="separator:ae4b6385b27fd88b47f08f788e50a832f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >This is a hack so that <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> can send messages to PersistedGameObjects.  </p>
 <p >There is likely no need to use this interface yourself. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae4b6385b27fd88b47f08f788e50a832f" name="ae4b6385b27fd88b47f08f788e50a832f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4b6385b27fd88b47f08f788e50a832f">&#9670;&#160;</a></span>RegisterDestroyed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Infohazard.Core.IPersistedInstance.RegisterDestroyed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove the current object from persistence.  </p>
+
+</div>
+</div>
 <a id="aff263459771b3bc9eee79dd90ba141d2" name="aff263459771b3bc9eee79dd90ba141d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aff263459771b3bc9eee79dd90ba141d2">&#9670;&#160;</a></span>SetupDynamicInstance()</h2>
 

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ipersistedinstance_0',['IPersistedInstance',['../interface_infohazard_1_1_core_1_1_i_persisted_instance.html',1,'Infohazard::Core']]]
+  ['gameobjectutility_0',['GameObjectUtility',['../class_infohazard_1_1_core_1_1_game_object_utility.html',1,'Infohazard::Core']]]
 ];

@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
  </tr>
  </tbody>
@@ -102,30 +104,124 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_core_1_1_time_to_
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a647c4c4f6657a585eae562edea567779"><td class="memItemLeft" align="right" valign="top"><a id="a647c4c4f6657a585eae562edea567779" name="a647c4c4f6657a585eae562edea567779"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>TimeRemaining</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:a647c4c4f6657a585eae562edea567779"><td class="mdescLeft">&#160;</td><td class="mdescRight">How much time remains before the GameObject is destroyed.  <br /></td></tr>
+<tr class="memitem:a647c4c4f6657a585eae562edea567779"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_time_to_live.html#a647c4c4f6657a585eae562edea567779">TimeRemaining</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a647c4c4f6657a585eae562edea567779"><td class="mdescLeft">&#160;</td><td class="mdescRight">How much time remains before the GameObject is destroyed.   <a href="class_infohazard_1_1_core_1_1_time_to_live.html#a647c4c4f6657a585eae562edea567779">More...</a><br /></td></tr>
 <tr class="separator:a647c4c4f6657a585eae562edea567779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a080788d82f27f22fea8584f5b9f07214"><td class="memItemLeft" align="right" valign="top"><a id="a080788d82f27f22fea8584f5b9f07214" name="a080788d82f27f22fea8584f5b9f07214"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_timeToLive</b> = 5</td></tr>
-<tr class="memdesc:a080788d82f27f22fea8584f5b9f07214"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) How much time remains before the GameObject is destroyed.  <br /></td></tr>
+<tr class="memitem:a080788d82f27f22fea8584f5b9f07214"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_time_to_live.html#a080788d82f27f22fea8584f5b9f07214">_timeToLive</a> = 5</td></tr>
+<tr class="memdesc:a080788d82f27f22fea8584f5b9f07214"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) How much time remains before the GameObject is destroyed.   <a href="class_infohazard_1_1_core_1_1_time_to_live.html#a080788d82f27f22fea8584f5b9f07214">More...</a><br /></td></tr>
 <tr class="separator:a080788d82f27f22fea8584f5b9f07214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a242d9ea86c8a5635849fdbd7c209290b"><td class="memItemLeft" align="right" valign="top"><a id="a242d9ea86c8a5635849fdbd7c209290b" name="a242d9ea86c8a5635849fdbd7c209290b"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_linger</b> = 0</td></tr>
-<tr class="memdesc:a242d9ea86c8a5635849fdbd7c209290b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) How long the object will remain after its time to live has passed.  <br /></td></tr>
+<tr class="memitem:a242d9ea86c8a5635849fdbd7c209290b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_time_to_live.html#a242d9ea86c8a5635849fdbd7c209290b">_linger</a> = 0</td></tr>
+<tr class="memdesc:a242d9ea86c8a5635849fdbd7c209290b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) How long the object will remain after its time to live has passed.   <a href="class_infohazard_1_1_core_1_1_time_to_live.html#a242d9ea86c8a5635849fdbd7c209290b">More...</a><br /></td></tr>
 <tr class="separator:a242d9ea86c8a5635849fdbd7c209290b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91470957a4698de43923e6ff56bd0e6e"><td class="memItemLeft" align="right" valign="top"><a id="a91470957a4698de43923e6ff56bd0e6e" name="a91470957a4698de43923e6ff56bd0e6e"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_spawnOnDeath</b></td></tr>
-<tr class="memdesc:a91470957a4698de43923e6ff56bd0e6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Optional object that will be spawned when the time to live has passed (but before the linger).  <br /></td></tr>
+<tr class="memitem:a91470957a4698de43923e6ff56bd0e6e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_time_to_live.html#a91470957a4698de43923e6ff56bd0e6e">_spawnOnDeath</a></td></tr>
+<tr class="memdesc:a91470957a4698de43923e6ff56bd0e6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Optional object that will be spawned when the time to live has passed (but before the linger).   <a href="class_infohazard_1_1_core_1_1_time_to_live.html#a91470957a4698de43923e6ff56bd0e6e">More...</a><br /></td></tr>
 <tr class="separator:a91470957a4698de43923e6ff56bd0e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Despawns a GameObject after a set amount of time.  </p>
 <p >Compatible with the pooling system. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a242d9ea86c8a5635849fdbd7c209290b" name="a242d9ea86c8a5635849fdbd7c209290b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a242d9ea86c8a5635849fdbd7c209290b">&#9670;&#160;</a></span>_linger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.Core.TimeToLive._linger = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) How long the object will remain after its time to live has passed.  </p>
+
+</div>
+</div>
+<a id="a91470957a4698de43923e6ff56bd0e6e" name="a91470957a4698de43923e6ff56bd0e6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91470957a4698de43923e6ff56bd0e6e">&#9670;&#160;</a></span>_spawnOnDeath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Infohazard.Core.TimeToLive._spawnOnDeath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Optional object that will be spawned when the time to live has passed (but before the linger).  </p>
+
+</div>
+</div>
+<a id="a080788d82f27f22fea8584f5b9f07214" name="a080788d82f27f22fea8584f5b9f07214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a080788d82f27f22fea8584f5b9f07214">&#9670;&#160;</a></span>_timeToLive</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.Core.TimeToLive._timeToLive = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) How much time remains before the GameObject is destroyed.  </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a647c4c4f6657a585eae562edea567779" name="a647c4c4f6657a585eae562edea567779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a647c4c4f6657a585eae562edea567779">&#9670;&#160;</a></span>TimeRemaining</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.Core.TimeToLive.TimeRemaining</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>How much time remains before the GameObject is destroyed.  </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>Runtime/Timing/TimeToLive.cs</li>
 </ul>
 </div><!-- contents -->

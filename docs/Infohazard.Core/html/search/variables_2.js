@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['finishmask_0',['FinishMask',['../struct_infohazard_1_1_core_1_1_tag_mask.html#ae0cf1b0fce554f5286f6c2947ce88ff9',1,'Infohazard::Core::TagMask']]]
+  ['complex_0',['Complex',['../class_infohazard_1_1_core_1_1_math_utility.html#a7acad77bc04b57ac521cee3edee14c59',1,'Infohazard::Core::MathUtility']]]
 ];

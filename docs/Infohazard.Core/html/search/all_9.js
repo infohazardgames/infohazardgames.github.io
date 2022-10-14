@@ -6,7 +6,7 @@ var searchData=
   ['infohazard_3',['Infohazard',['../namespace_infohazard.html',1,'']]],
   ['infohazard_2ecore_20documentation_4',['Infohazard.Core Documentation',['../index.html',1,'']]],
   ['initialinterval_5',['InitialInterval',['../struct_infohazard_1_1_core_1_1_passive_timer.html#af898bd3fef0cfbe09958676aeef534dc',1,'Infohazard::Core::PassiveTimer']]],
-  ['initialize_6',['Initialize',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a9fdf4496c09cb8f0fa2381df454a547a',1,'Infohazard::Core::PassiveTimer']]],
+  ['initialize_6',['Initialize',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a9fdf4496c09cb8f0fa2381df454a547a',1,'Infohazard.Core.PassiveTimer.Initialize()'],['../class_infohazard_1_1_core_1_1_game_object_utility.html#ade33da9a44af936fc961b51391b391f2',1,'Infohazard.Core.GameObjectUtility.Initialize(this Transform transform, Transform parent, Vector3? position=null, Quaternion? rotation=null, Vector3? scale=null, bool inWorldSpace=false, Scene? scene=null)'],['../class_infohazard_1_1_core_1_1_game_object_utility.html#ac629c41e13723b1fddba5daa515d3ee7',1,'Infohazard.Core.GameObjectUtility.Initialize(this Transform transform, Vector3? position, Quaternion? rotation, Vector3? scale)']]],
   ['insert_7',['Insert',['../class_infohazard_1_1_core_1_1_list_queue.html#a9f6068342d16c15e0d006e76099bb47d',1,'Infohazard::Core::ListQueue']]],
   ['instance_8',['Instance',['../class_infohazard_1_1_core_1_1_singleton.html#a9089fd0c8df1988bfadbbc78cfbb11f1',1,'Infohazard.Core.Singleton.Instance()'],['../class_infohazard_1_1_core_1_1_singleton_asset.html#a2dbaa1aa0f2c0a7df246972ac0fdd3a4',1,'Infohazard.Core.SingletonAsset.Instance()'],['../class_infohazard_1_1_core_1_1_pool_manager.html#aa9ac8f6b4db786432808f0e70ebcca5e',1,'Infohazard.Core.PoolManager.Instance()']]],
   ['interval_9',['Interval',['../struct_infohazard_1_1_core_1_1_passive_timer.html#ae6969e9544d8a3cb754d58b3e12c5df4',1,'Infohazard::Core::PassiveTimer']]],
@@ -17,6 +17,7 @@ var searchData=
   ['isinitialized_14',['IsInitialized',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a403851779209651580066555c5ab8a15',1,'Infohazard::Core::PassiveTimer']]],
   ['isintervalended_15',['IsIntervalEnded',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a4b312f0cad501a05797a0fdbeddbb26a',1,'Infohazard::Core::PassiveTimer']]],
   ['ispaused_16',['IsPaused',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a1d0af99949c1f07568d13c7aad40e590',1,'Infohazard::Core::PassiveTimer']]],
-  ['isreadonly_17',['IsReadOnly',['../class_infohazard_1_1_core_1_1_list_queue.html#a2081e93b5121fd61a221f50804a5d80c',1,'Infohazard::Core::ListQueue']]],
-  ['isspawned_18',['IsSpawned',['../class_infohazard_1_1_core_1_1_spawnable.html#ad88857228d82dd86c0806f3aae7c283d',1,'Infohazard::Core::Spawnable']]]
+  ['ispointinsidebound_17',['IsPointInsideBound',['../class_infohazard_1_1_core_1_1_math_utility.html#a5810beab8bd36d930c88e1952fed2ef1',1,'Infohazard::Core::MathUtility']]],
+  ['isreadonly_18',['IsReadOnly',['../class_infohazard_1_1_core_1_1_list_queue.html#a2081e93b5121fd61a221f50804a5d80c',1,'Infohazard::Core::ListQueue']]],
+  ['isspawned_19',['IsSpawned',['../class_infohazard_1_1_core_1_1_spawnable.html#ad88857228d82dd86c0806f3aae7c283d',1,'Infohazard::Core::Spawnable']]]
 ];

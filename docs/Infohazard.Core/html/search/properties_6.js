@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hasintervalstarted_0',['HasIntervalStarted',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a1d58337c34acf22ac561e0d5faf39af3',1,'Infohazard::Core::PassiveTimer']]]
+  ['getaction_0',['GetAction',['../class_infohazard_1_1_core_1_1_pool.html#a8e93cf2f3a547bb672b28857cfcb1771',1,'Infohazard::Core::Pool']]]
 ];

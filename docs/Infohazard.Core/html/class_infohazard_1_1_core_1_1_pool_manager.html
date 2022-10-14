@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
  </tr>
  </tbody>
@@ -90,7 +92,6 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_core_1_1_pool_man
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_infohazard_1_1_core_1_1_pool_manager-members.html">List of all members</a>  </div>
@@ -101,16 +102,10 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_core_1_1_pool_man
 <p>The singleton manager class that handles object pooling.   
  <a href="class_infohazard_1_1_core_1_1_pool_manager.html#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager_1_1_spawn_pool.html">SpawnPool</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:affac6a6635bec3e39c5d11448f971a5d"><td class="memItemLeft" align="right" valign="top"><a id="affac6a6635bec3e39c5d11448f971a5d" name="affac6a6635bec3e39c5d11448f971a5d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearInactiveObjects</b> ()</td></tr>
-<tr class="memdesc:affac6a6635bec3e39c5d11448f971a5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove and destroy any inactive pooled objects.  <br /></td></tr>
+<tr class="memitem:affac6a6635bec3e39c5d11448f971a5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#affac6a6635bec3e39c5d11448f971a5d">ClearInactiveObjects</a> ()</td></tr>
+<tr class="memdesc:affac6a6635bec3e39c5d11448f971a5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove and destroy any inactive pooled objects.   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#affac6a6635bec3e39c5d11448f971a5d">More...</a><br /></td></tr>
 <tr class="separator:affac6a6635bec3e39c5d11448f971a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
@@ -122,7 +117,27 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The singleton manager class that handles object pooling.  </p>
 <p >There should only ever be on <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> at a time, but this can be created either manually or automatically when needed. You can have one <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> per scene, or have a shared one across all scenes. The only time you'll typically need to interact with the <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> is to call <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#affac6a6635bec3e39c5d11448f971a5d" title="Remove and destroy any inactive pooled objects.">ClearInactiveObjects</a> when loading a new level, if the previously pooled objects are no longer necessary. All normal spawning and despawning of instances should be done through the <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> class. </p>
-</div><h2 class="groupheader">Property Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="affac6a6635bec3e39c5d11448f971a5d" name="affac6a6635bec3e39c5d11448f971a5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affac6a6635bec3e39c5d11448f971a5d">&#9670;&#160;</a></span>ClearInactiveObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Infohazard.Core.PoolManager.ClearInactiveObjects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove and destroy any inactive pooled objects.  </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
 <a id="aa9ac8f6b4db786432808f0e70ebcca5e" name="aa9ac8f6b4db786432808f0e70ebcca5e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa9ac8f6b4db786432808f0e70ebcca5e">&#9670;&#160;</a></span>Instance</h2>
 
