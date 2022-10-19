@@ -26,5 +26,7 @@ var class_infohazard_1_1_hyper_nav_1_1_nav_agent =
     [ "MeasuredVelocity", "class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135", null ],
     [ "NextWaypoint", "class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aab1aabbcca8c6377481ba71759319abe", null ],
     [ "SampleRadius", "class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a43ce47b65550307d7fd5da67b8bc4c7c", null ],
-    [ "StoppingDistance", "class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f", null ]
+    [ "StoppingDistance", "class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f", null ],
+    [ "PathFailed", "class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a67310670bd37233eb9637aa44eed3e65", null ],
+    [ "PathReady", "class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a74a03139914cd81ff4d7aa9864fbe1bd", null ]
 ];

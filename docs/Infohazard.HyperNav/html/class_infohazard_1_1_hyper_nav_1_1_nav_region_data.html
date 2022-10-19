@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -116,56 +118,44 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a2b9fe1b8cc48159d18c605db249848c0"><td class="memItemLeft" align="right" valign="top"><a id="a2b9fe1b8cc48159d18c605db249848c0" name="a2b9fe1b8cc48159d18c605db249848c0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>ID</b><code> [get]</code></td></tr>
-<tr class="memdesc:a2b9fe1b8cc48159d18c605db249848c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the region.  <br /></td></tr>
+<tr class="memitem:a2b9fe1b8cc48159d18c605db249848c0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a2b9fe1b8cc48159d18c605db249848c0">ID</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2b9fe1b8cc48159d18c605db249848c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the region.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a2b9fe1b8cc48159d18c605db249848c0">More...</a><br /></td></tr>
 <tr class="separator:a2b9fe1b8cc48159d18c605db249848c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52fbe4799f5eb95272e92300ded1f925"><td class="memItemLeft" align="right" valign="top"><a id="a52fbe4799f5eb95272e92300ded1f925" name="a52fbe4799f5eb95272e92300ded1f925"></a>
-Bounds&#160;</td><td class="memItemRight" valign="bottom"><b>Bounds</b><code> [get]</code></td></tr>
-<tr class="memdesc:a52fbe4799f5eb95272e92300ded1f925"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bounds of the region in local space of the volume.  <br /></td></tr>
+<tr class="memitem:a52fbe4799f5eb95272e92300ded1f925"><td class="memItemLeft" align="right" valign="top">Bounds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">Bounds</a><code> [get]</code></td></tr>
+<tr class="memdesc:a52fbe4799f5eb95272e92300ded1f925"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bounds of the region in local space of the volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">More...</a><br /></td></tr>
 <tr class="separator:a52fbe4799f5eb95272e92300ded1f925"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e619ac3d072b62730f067bfcbd0cad1"><td class="memItemLeft" align="right" valign="top"><a id="a2e619ac3d072b62730f067bfcbd0cad1" name="a2e619ac3d072b62730f067bfcbd0cad1"></a>
-IReadOnlyList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Indices</b><code> [get]</code></td></tr>
-<tr class="memdesc:a2e619ac3d072b62730f067bfcbd0cad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The indices of the region's triangle vertices in the volume's vertices array.  <br /></td></tr>
+<tr class="memitem:a2e619ac3d072b62730f067bfcbd0cad1"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a2e619ac3d072b62730f067bfcbd0cad1">Indices</a><code> [get]</code></td></tr>
+<tr class="memdesc:a2e619ac3d072b62730f067bfcbd0cad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The indices of the region's triangle vertices in the volume's vertices array.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a2e619ac3d072b62730f067bfcbd0cad1">More...</a><br /></td></tr>
 <tr class="separator:a2e619ac3d072b62730f067bfcbd0cad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56e6106833ac55da949bbfcc0188c9ba"><td class="memItemLeft" align="right" valign="top"><a id="a56e6106833ac55da949bbfcc0188c9ba" name="a56e6106833ac55da949bbfcc0188c9ba"></a>
-IReadOnlyList&lt; <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>InternalLinks</b><code> [get]</code></td></tr>
-<tr class="memdesc:a56e6106833ac55da949bbfcc0188c9ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The links between this region and other regions in the same volume.  <br /></td></tr>
+<tr class="memitem:a56e6106833ac55da949bbfcc0188c9ba"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a56e6106833ac55da949bbfcc0188c9ba">InternalLinks</a><code> [get]</code></td></tr>
+<tr class="memdesc:a56e6106833ac55da949bbfcc0188c9ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The links between this region and other regions in the same volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a56e6106833ac55da949bbfcc0188c9ba">More...</a><br /></td></tr>
 <tr class="separator:a56e6106833ac55da949bbfcc0188c9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8127e684df673781bf20f6450f596154"><td class="memItemLeft" align="right" valign="top"><a id="a8127e684df673781bf20f6450f596154" name="a8127e684df673781bf20f6450f596154"></a>
-IReadOnlyList&lt; <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ExternalLinks</b><code> [get]</code></td></tr>
-<tr class="memdesc:a8127e684df673781bf20f6450f596154"><td class="mdescLeft">&#160;</td><td class="mdescRight">The links between this region and regions in other volumes.  <br /></td></tr>
+<tr class="memitem:a8127e684df673781bf20f6450f596154"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8127e684df673781bf20f6450f596154">ExternalLinks</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8127e684df673781bf20f6450f596154"><td class="mdescLeft">&#160;</td><td class="mdescRight">The links between this region and regions in other volumes.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8127e684df673781bf20f6450f596154">More...</a><br /></td></tr>
 <tr class="separator:a8127e684df673781bf20f6450f596154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07cbbbe6c885fb31829d9d8d65092bed"><td class="memItemLeft" align="right" valign="top"><a id="a07cbbbe6c885fb31829d9d8d65092bed" name="a07cbbbe6c885fb31829d9d8d65092bed"></a>
-IReadOnlyList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>BoundPlanes</b><code> [get]</code></td></tr>
-<tr class="memdesc:a07cbbbe6c885fb31829d9d8d65092bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">The planes that form the boundaries of this region, to check if a point is inside or not.  <br /></td></tr>
+<tr class="memitem:a07cbbbe6c885fb31829d9d8d65092bed"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a07cbbbe6c885fb31829d9d8d65092bed">BoundPlanes</a><code> [get]</code></td></tr>
+<tr class="memdesc:a07cbbbe6c885fb31829d9d8d65092bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">The planes that form the boundaries of this region, to check if a point is inside or not.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a07cbbbe6c885fb31829d9d8d65092bed">More...</a><br /></td></tr>
 <tr class="separator:a07cbbbe6c885fb31829d9d8d65092bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a1a2e7f148e4f2538c756bac5c8271b31"><td class="memItemLeft" align="right" valign="top"><a id="a1a2e7f148e4f2538c756bac5c8271b31" name="a1a2e7f148e4f2538c756bac5c8271b31"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_id</b></td></tr>
-<tr class="memdesc:a1a2e7f148e4f2538c756bac5c8271b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The ID of the region.  <br /></td></tr>
+<tr class="memitem:a1a2e7f148e4f2538c756bac5c8271b31"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a1a2e7f148e4f2538c756bac5c8271b31">_id</a></td></tr>
+<tr class="memdesc:a1a2e7f148e4f2538c756bac5c8271b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The ID of the region.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a1a2e7f148e4f2538c756bac5c8271b31">More...</a><br /></td></tr>
 <tr class="separator:a1a2e7f148e4f2538c756bac5c8271b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa01c1630845b1e5315d581cf18b2b098"><td class="memItemLeft" align="right" valign="top"><a id="aa01c1630845b1e5315d581cf18b2b098" name="aa01c1630845b1e5315d581cf18b2b098"></a>
-<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">Bounds</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_bounds</b></td></tr>
-<tr class="memdesc:aa01c1630845b1e5315d581cf18b2b098"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The bounds of the region in local space of the volume.  <br /></td></tr>
+<tr class="memitem:aa01c1630845b1e5315d581cf18b2b098"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">Bounds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aa01c1630845b1e5315d581cf18b2b098">_bounds</a></td></tr>
+<tr class="memdesc:aa01c1630845b1e5315d581cf18b2b098"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The bounds of the region in local space of the volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aa01c1630845b1e5315d581cf18b2b098">More...</a><br /></td></tr>
 <tr class="separator:aa01c1630845b1e5315d581cf18b2b098"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba897a8b34686125dcf122509779fd9a"><td class="memItemLeft" align="right" valign="top"><a id="aba897a8b34686125dcf122509779fd9a" name="aba897a8b34686125dcf122509779fd9a"></a>
-int[]&#160;</td><td class="memItemRight" valign="bottom"><b>_indices</b></td></tr>
-<tr class="memdesc:aba897a8b34686125dcf122509779fd9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The indices of the region's triangle vertices in the volume's vertices array.  <br /></td></tr>
+<tr class="memitem:aba897a8b34686125dcf122509779fd9a"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aba897a8b34686125dcf122509779fd9a">_indices</a></td></tr>
+<tr class="memdesc:aba897a8b34686125dcf122509779fd9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The indices of the region's triangle vertices in the volume's vertices array.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aba897a8b34686125dcf122509779fd9a">More...</a><br /></td></tr>
 <tr class="separator:aba897a8b34686125dcf122509779fd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ab8a1a9b4b2eb6abe8b8f1fd120332b"><td class="memItemLeft" align="right" valign="top"><a id="a8ab8a1a9b4b2eb6abe8b8f1fd120332b" name="a8ab8a1a9b4b2eb6abe8b8f1fd120332b"></a>
-<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>_internalLinks</b></td></tr>
-<tr class="memdesc:a8ab8a1a9b4b2eb6abe8b8f1fd120332b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The links between this region and other regions in the same volume.  <br /></td></tr>
+<tr class="memitem:a8ab8a1a9b4b2eb6abe8b8f1fd120332b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8ab8a1a9b4b2eb6abe8b8f1fd120332b">_internalLinks</a></td></tr>
+<tr class="memdesc:a8ab8a1a9b4b2eb6abe8b8f1fd120332b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The links between this region and other regions in the same volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8ab8a1a9b4b2eb6abe8b8f1fd120332b">More...</a><br /></td></tr>
 <tr class="separator:a8ab8a1a9b4b2eb6abe8b8f1fd120332b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40ba89483bc462bd5fe400dd79593ab5"><td class="memItemLeft" align="right" valign="top"><a id="a40ba89483bc462bd5fe400dd79593ab5" name="a40ba89483bc462bd5fe400dd79593ab5"></a>
-<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>_externalLinks</b></td></tr>
-<tr class="memdesc:a40ba89483bc462bd5fe400dd79593ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The links between this region and regions in other volumes.  <br /></td></tr>
+<tr class="memitem:a40ba89483bc462bd5fe400dd79593ab5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a40ba89483bc462bd5fe400dd79593ab5">_externalLinks</a></td></tr>
+<tr class="memdesc:a40ba89483bc462bd5fe400dd79593ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The links between this region and regions in other volumes.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a40ba89483bc462bd5fe400dd79593ab5">More...</a><br /></td></tr>
 <tr class="separator:a40ba89483bc462bd5fe400dd79593ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d0f20b5abcca5e2295144ab41fac704"><td class="memItemLeft" align="right" valign="top"><a id="a9d0f20b5abcca5e2295144ab41fac704" name="a9d0f20b5abcca5e2295144ab41fac704"></a>
-<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>_boundPlanes</b></td></tr>
-<tr class="memdesc:a9d0f20b5abcca5e2295144ab41fac704"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The planes that form the boundaries of this region, to check if a point is inside or not.  <br /></td></tr>
+<tr class="memitem:a9d0f20b5abcca5e2295144ab41fac704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a9d0f20b5abcca5e2295144ab41fac704">_boundPlanes</a></td></tr>
+<tr class="memdesc:a9d0f20b5abcca5e2295144ab41fac704"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The planes that form the boundaries of this region, to check if a point is inside or not.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a9d0f20b5abcca5e2295144ab41fac704">More...</a><br /></td></tr>
 <tr class="separator:a9d0f20b5abcca5e2295144ab41fac704"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -262,6 +252,296 @@ int[]&#160;</td><td class="memItemRight" valign="bottom"><b>_indices</b></td></t
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9d0f20b5abcca5e2295144ab41fac704" name="a9d0f20b5abcca5e2295144ab41fac704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d0f20b5abcca5e2295144ab41fac704">&#9670;&#160;</a></span>_boundPlanes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a> [] Infohazard.HyperNav.NavRegionData._boundPlanes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) The planes that form the boundaries of this region, to check if a point is inside or not.  </p>
+
+</div>
+</div>
+<a id="aa01c1630845b1e5315d581cf18b2b098" name="aa01c1630845b1e5315d581cf18b2b098"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa01c1630845b1e5315d581cf18b2b098">&#9670;&#160;</a></span>_bounds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">Bounds</a> Infohazard.HyperNav.NavRegionData._bounds</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) The bounds of the region in local space of the volume.  </p>
+
+</div>
+</div>
+<a id="a40ba89483bc462bd5fe400dd79593ab5" name="a40ba89483bc462bd5fe400dd79593ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40ba89483bc462bd5fe400dd79593ab5">&#9670;&#160;</a></span>_externalLinks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a> [] Infohazard.HyperNav.NavRegionData._externalLinks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) The links between this region and regions in other volumes.  </p>
+
+</div>
+</div>
+<a id="a1a2e7f148e4f2538c756bac5c8271b31" name="a1a2e7f148e4f2538c756bac5c8271b31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a2e7f148e4f2538c756bac5c8271b31">&#9670;&#160;</a></span>_id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Infohazard.HyperNav.NavRegionData._id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) The ID of the region.  </p>
+
+</div>
+</div>
+<a id="aba897a8b34686125dcf122509779fd9a" name="aba897a8b34686125dcf122509779fd9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba897a8b34686125dcf122509779fd9a">&#9670;&#160;</a></span>_indices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] Infohazard.HyperNav.NavRegionData._indices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) The indices of the region's triangle vertices in the volume's vertices array.  </p>
+
+</div>
+</div>
+<a id="a8ab8a1a9b4b2eb6abe8b8f1fd120332b" name="a8ab8a1a9b4b2eb6abe8b8f1fd120332b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ab8a1a9b4b2eb6abe8b8f1fd120332b">&#9670;&#160;</a></span>_internalLinks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a> [] Infohazard.HyperNav.NavRegionData._internalLinks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) The links between this region and other regions in the same volume.  </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a07cbbbe6c885fb31829d9d8d65092bed" name="a07cbbbe6c885fb31829d9d8d65092bed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07cbbbe6c885fb31829d9d8d65092bed">&#9670;&#160;</a></span>BoundPlanes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a>&gt; Infohazard.HyperNav.NavRegionData.BoundPlanes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The planes that form the boundaries of this region, to check if a point is inside or not.  </p>
+
+</div>
+</div>
+<a id="a52fbe4799f5eb95272e92300ded1f925" name="a52fbe4799f5eb95272e92300ded1f925"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52fbe4799f5eb95272e92300ded1f925">&#9670;&#160;</a></span>Bounds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Bounds Infohazard.HyperNav.NavRegionData.Bounds</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The bounds of the region in local space of the volume.  </p>
+
+</div>
+</div>
+<a id="a8127e684df673781bf20f6450f596154" name="a8127e684df673781bf20f6450f596154"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8127e684df673781bf20f6450f596154">&#9670;&#160;</a></span>ExternalLinks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a>&gt; Infohazard.HyperNav.NavRegionData.ExternalLinks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The links between this region and regions in other volumes.  </p>
+
+</div>
+</div>
+<a id="a2b9fe1b8cc48159d18c605db249848c0" name="a2b9fe1b8cc48159d18c605db249848c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b9fe1b8cc48159d18c605db249848c0">&#9670;&#160;</a></span>ID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Infohazard.HyperNav.NavRegionData.ID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The ID of the region.  </p>
+
+</div>
+</div>
+<a id="a2e619ac3d072b62730f067bfcbd0cad1" name="a2e619ac3d072b62730f067bfcbd0cad1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e619ac3d072b62730f067bfcbd0cad1">&#9670;&#160;</a></span>Indices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;int&gt; Infohazard.HyperNav.NavRegionData.Indices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The indices of the region's triangle vertices in the volume's vertices array.  </p>
+
+</div>
+</div>
+<a id="a56e6106833ac55da949bbfcc0188c9ba" name="a56e6106833ac55da949bbfcc0188c9ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56e6106833ac55da949bbfcc0188c9ba">&#9670;&#160;</a></span>InternalLinks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>&gt; Infohazard.HyperNav.NavRegionData.InternalLinks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The links between this region and other regions in the same volume.  </p>
 
 </div>
 </div>

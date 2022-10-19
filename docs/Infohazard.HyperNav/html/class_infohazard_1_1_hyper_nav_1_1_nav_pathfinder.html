@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -93,6 +95,7 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pac-methods">Package Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -106,10 +109,8 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder_1_1_pending_path.html">PendingPath</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>PropNames</b></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used to refer to the names of private fields in this class from a custom <a class="el" href="namespace_infohazard_1_1_hyper_nav_1_1_editor.html">Editor</a>.  <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder_1_1_prop_names.html">PropNames</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used to refer to the names of private fields in this class from a custom <a class="el" href="namespace_infohazard_1_1_hyper_nav_1_1_editor.html">Editor</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder_1_1_prop_names.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -126,18 +127,21 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a77b0aa601a53082b4388e23a817a4c6c"><td class="memItemLeft" align="right" valign="top"><a id="a77b0aa601a53082b4388e23a817a4c6c" name="a77b0aa601a53082b4388e23a817a4c6c"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
-<tr class="memdesc:a77b0aa601a53082b4388e23a817a4c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#acf0259cd4c80ae25bdc287b1025a481d" title="Whether to set NavPathfinder.Instance to this instance.">IsMainInstance</a> is true, set <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a061885e442e7f993ac3bef05b700a6fd" title="The main instance, which should be used in most situations.">MainInstance</a> or log an error if it is already set.  <br /></td></tr>
+<tr class="memitem:a77b0aa601a53082b4388e23a817a4c6c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a77b0aa601a53082b4388e23a817a4c6c">Awake</a> ()</td></tr>
+<tr class="memdesc:a77b0aa601a53082b4388e23a817a4c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#acf0259cd4c80ae25bdc287b1025a481d" title="Whether to set NavPathfinder.Instance to this instance.">IsMainInstance</a> is true, set <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a061885e442e7f993ac3bef05b700a6fd" title="The main instance, which should be used in most situations.">MainInstance</a> or log an error if it is already set.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a77b0aa601a53082b4388e23a817a4c6c">More...</a><br /></td></tr>
 <tr class="separator:a77b0aa601a53082b4388e23a817a4c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d0e172c83b677974c76b47d302c544e"><td class="memItemLeft" align="right" valign="top"><a id="a4d0e172c83b677974c76b47d302c544e" name="a4d0e172c83b677974c76b47d302c544e"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
-<tr class="memdesc:a4d0e172c83b677974c76b47d302c544e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispose the pools of pending paths and completed paths, and all memory allocated for pathfinding jobs.  <br /></td></tr>
+<tr class="memitem:a4d0e172c83b677974c76b47d302c544e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a4d0e172c83b677974c76b47d302c544e">OnDestroy</a> ()</td></tr>
+<tr class="memdesc:a4d0e172c83b677974c76b47d302c544e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispose the pools of pending paths and completed paths, and all memory allocated for pathfinding jobs.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a4d0e172c83b677974c76b47d302c544e">More...</a><br /></td></tr>
 <tr class="separator:a4d0e172c83b677974c76b47d302c544e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa015f23090f0c0388e8b8825401076d5"><td class="memItemLeft" align="right" valign="top"><a id="aa015f23090f0c0388e8b8825401076d5" name="aa015f23090f0c0388e8b8825401076d5"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
-<tr class="memdesc:aa015f23090f0c0388e8b8825401076d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">If mode is JobThread, check job completion. If mode is MainThreadAsynchronous, perform pathfinding work.  <br /></td></tr>
+<tr class="memitem:aa015f23090f0c0388e8b8825401076d5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#aa015f23090f0c0388e8b8825401076d5">Update</a> ()</td></tr>
+<tr class="memdesc:aa015f23090f0c0388e8b8825401076d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">If mode is JobThread, check job completion. If mode is MainThreadAsynchronous, perform pathfinding work.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#aa015f23090f0c0388e8b8825401076d5">More...</a><br /></td></tr>
 <tr class="separator:aa015f23090f0c0388e8b8825401076d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pac-methods" name="pac-methods"></a>
+Package Functions</h2></td></tr>
+<tr class="memitem:a82bcd8e3d4ed3165ce4185b095913521"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a82bcd8e3d4ed3165ce4185b095913521">DisposePath</a> (<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html">NavPath</a> path)</td></tr>
+<tr class="memdesc:a82bcd8e3d4ed3165ce4185b095913521"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html#a820477738da41266302fb0cf4554019c" title="Dispose the path, returning it to an object pool.">NavPath.Dispose</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a82bcd8e3d4ed3165ce4185b095913521">More...</a><br /></td></tr>
+<tr class="separator:a82bcd8e3d4ed3165ce4185b095913521"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -147,9 +151,8 @@ Properties</h2></td></tr>
 <tr class="memitem:afd2fe4fb5d2945d2ae9b01ce59d45d5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a4e76dbff84c16110fac8ea8736f5272d">NavPathfindingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#afd2fe4fb5d2945d2ae9b01ce59d45d5f">PathfindingMode</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:afd2fe4fb5d2945d2ae9b01ce59d45d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mode to use for calculating paths.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#afd2fe4fb5d2945d2ae9b01ce59d45d5f">More...</a><br /></td></tr>
 <tr class="separator:afd2fe4fb5d2945d2ae9b01ce59d45d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7f95643b08d0af5ef914c2c3b628b45"><td class="memItemLeft" align="right" valign="top"><a id="ab7f95643b08d0af5ef914c2c3b628b45" name="ab7f95643b08d0af5ef914c2c3b628b45"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>MaxExecutingRequests</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:ab7f95643b08d0af5ef914c2c3b628b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">(MainThreadAsynchronous Mode ONLY) If greater than zero, limit on the number of requests actively being worked on.  <br /></td></tr>
+<tr class="memitem:ab7f95643b08d0af5ef914c2c3b628b45"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ab7f95643b08d0af5ef914c2c3b628b45">MaxExecutingRequests</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab7f95643b08d0af5ef914c2c3b628b45"><td class="mdescLeft">&#160;</td><td class="mdescRight">(MainThreadAsynchronous Mode ONLY) If greater than zero, limit on the number of requests actively being worked on.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ab7f95643b08d0af5ef914c2c3b628b45">More...</a><br /></td></tr>
 <tr class="separator:ab7f95643b08d0af5ef914c2c3b628b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aea3b845b5dd49cbe8ef035d07f74c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a0aea3b845b5dd49cbe8ef035d07f74c5">MaxPathOpsPerFrame</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a0aea3b845b5dd49cbe8ef035d07f74c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(MainThreadAsynchronous Mode ONLY) Maximum total number of pathfinding steps that can be performed per frame by this instance.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a0aea3b845b5dd49cbe8ef035d07f74c5">More...</a><br /></td></tr>
@@ -166,42 +169,62 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>MaxExecutingRequests</
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a1304414c34e926d22b9554196bf87fdc"><td class="memItemLeft" align="right" valign="top"><a id="a1304414c34e926d22b9554196bf87fdc" name="a1304414c34e926d22b9554196bf87fdc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>LateUpdate</b> ()</td></tr>
-<tr class="memdesc:a1304414c34e926d22b9554196bf87fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move paths from the pending queue and start executing them.  <br /></td></tr>
+<tr class="memitem:a1304414c34e926d22b9554196bf87fdc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a1304414c34e926d22b9554196bf87fdc">LateUpdate</a> ()</td></tr>
+<tr class="memdesc:a1304414c34e926d22b9554196bf87fdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move paths from the pending queue and start executing them.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a1304414c34e926d22b9554196bf87fdc">More...</a><br /></td></tr>
 <tr class="separator:a1304414c34e926d22b9554196bf87fdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ac05d9cb2ba85437dcbd5c7ffe25ba459"><td class="memItemLeft" align="right" valign="top"><a id="ac05d9cb2ba85437dcbd5c7ffe25ba459" name="ac05d9cb2ba85437dcbd5c7ffe25ba459"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isMainInstance</b> = true</td></tr>
-<tr class="memdesc:ac05d9cb2ba85437dcbd5c7ffe25ba459"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether to set NavPathfinder.Instance to this instance.  <br /></td></tr>
+<tr class="memitem:ac05d9cb2ba85437dcbd5c7ffe25ba459"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ac05d9cb2ba85437dcbd5c7ffe25ba459">_isMainInstance</a> = true</td></tr>
+<tr class="memdesc:ac05d9cb2ba85437dcbd5c7ffe25ba459"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether to set NavPathfinder.Instance to this instance.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ac05d9cb2ba85437dcbd5c7ffe25ba459">More...</a><br /></td></tr>
 <tr class="separator:ac05d9cb2ba85437dcbd5c7ffe25ba459"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabd0468e7a21f9de5428e09d93b40d97"><td class="memItemLeft" align="right" valign="top"><a id="aabd0468e7a21f9de5428e09d93b40d97" name="aabd0468e7a21f9de5428e09d93b40d97"></a>
-<a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a4e76dbff84c16110fac8ea8736f5272d">NavPathfindingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_pathfindingMode</b> = NavPathfindingMode.JobThread</td></tr>
-<tr class="memdesc:aabd0468e7a21f9de5428e09d93b40d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The mode to use for calculating paths.  <br /></td></tr>
+<tr class="memitem:aabd0468e7a21f9de5428e09d93b40d97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a4e76dbff84c16110fac8ea8736f5272d">NavPathfindingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#aabd0468e7a21f9de5428e09d93b40d97">_pathfindingMode</a> = NavPathfindingMode.JobThread</td></tr>
+<tr class="memdesc:aabd0468e7a21f9de5428e09d93b40d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The mode to use for calculating paths.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#aabd0468e7a21f9de5428e09d93b40d97">More...</a><br /></td></tr>
 <tr class="separator:aabd0468e7a21f9de5428e09d93b40d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566ed9c0c8698f1b72a4b8dfd9f5e987"><td class="memItemLeft" align="right" valign="top"><a id="a566ed9c0c8698f1b72a4b8dfd9f5e987" name="a566ed9c0c8698f1b72a4b8dfd9f5e987"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_maxExecutingRequests</b> = 0</td></tr>
-<tr class="memdesc:a566ed9c0c8698f1b72a4b8dfd9f5e987"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) If greater than zero, limit on the number of requests actively being worked on.  <br /></td></tr>
+<tr class="memitem:a566ed9c0c8698f1b72a4b8dfd9f5e987"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a566ed9c0c8698f1b72a4b8dfd9f5e987">_maxExecutingRequests</a> = 0</td></tr>
+<tr class="memdesc:a566ed9c0c8698f1b72a4b8dfd9f5e987"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) If greater than zero, limit on the number of requests actively being worked on.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a566ed9c0c8698f1b72a4b8dfd9f5e987">More...</a><br /></td></tr>
 <tr class="separator:a566ed9c0c8698f1b72a4b8dfd9f5e987"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d3602c3c888feec264c791b0fe2df8f"><td class="memItemLeft" align="right" valign="top"><a id="a2d3602c3c888feec264c791b0fe2df8f" name="a2d3602c3c888feec264c791b0fe2df8f"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_maxPathOpsPerFrame</b> = 100</td></tr>
-<tr class="memdesc:a2d3602c3c888feec264c791b0fe2df8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Maximum total number of pathfinding steps that can be performed per frame by this instance.  <br /></td></tr>
+<tr class="memitem:a2d3602c3c888feec264c791b0fe2df8f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a2d3602c3c888feec264c791b0fe2df8f">_maxPathOpsPerFrame</a> = 100</td></tr>
+<tr class="memdesc:a2d3602c3c888feec264c791b0fe2df8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Maximum total number of pathfinding steps that can be performed per frame by this instance.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a2d3602c3c888feec264c791b0fe2df8f">More...</a><br /></td></tr>
 <tr class="separator:a2d3602c3c888feec264c791b0fe2df8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7457fbb6c9698404c2b2de9765754bf0"><td class="memItemLeft" align="right" valign="top"><a id="a7457fbb6c9698404c2b2de9765754bf0" name="a7457fbb6c9698404c2b2de9765754bf0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_maxConcurrentJobs</b> = 1</td></tr>
-<tr class="memdesc:a7457fbb6c9698404c2b2de9765754bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Maximum number of pathfinding jobs that can be actively running at once.  <br /></td></tr>
+<tr class="memitem:a7457fbb6c9698404c2b2de9765754bf0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a7457fbb6c9698404c2b2de9765754bf0">_maxConcurrentJobs</a> = 1</td></tr>
+<tr class="memdesc:a7457fbb6c9698404c2b2de9765754bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Maximum number of pathfinding jobs that can be actively running at once.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a7457fbb6c9698404c2b2de9765754bf0">More...</a><br /></td></tr>
 <tr class="separator:a7457fbb6c9698404c2b2de9765754bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ee4ead502ab91f338cd629f1311db9b"><td class="memItemLeft" align="right" valign="top"><a id="a2ee4ead502ab91f338cd629f1311db9b" name="a2ee4ead502ab91f338cd629f1311db9b"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>_maxCompletionFrames</b> = 3</td></tr>
-<tr class="memdesc:a2ee4ead502ab91f338cd629f1311db9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Maximum number of frames a job can take before the main thread must wait for it.  <br /></td></tr>
+<tr class="memitem:a2ee4ead502ab91f338cd629f1311db9b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a2ee4ead502ab91f338cd629f1311db9b">_maxCompletionFrames</a> = 3</td></tr>
+<tr class="memdesc:a2ee4ead502ab91f338cd629f1311db9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Maximum number of frames a job can take before the main thread must wait for it.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a2ee4ead502ab91f338cd629f1311db9b">More...</a><br /></td></tr>
 <tr class="separator:a2ee4ead502ab91f338cd629f1311db9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A script used to calculate <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> paths.  </p>
 <p >Can be used as a singleton, or you can have more than one if needed. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a77b0aa601a53082b4388e23a817a4c6c" name="a77b0aa601a53082b4388e23a817a4c6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b0aa601a53082b4388e23a817a4c6c">&#9670;&#160;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Infohazard.HyperNav.NavPathfinder.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#acf0259cd4c80ae25bdc287b1025a481d" title="Whether to set NavPathfinder.Instance to this instance.">IsMainInstance</a> is true, set <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a061885e442e7f993ac3bef05b700a6fd" title="The main instance, which should be used in most situations.">MainInstance</a> or log an error if it is already set.  </p>
+
+</div>
+</div>
 <a id="a8c05aea5bf03d25b17c24e3ab23c95c1" name="a8c05aea5bf03d25b17c24e3ab23c95c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c05aea5bf03d25b17c24e3ab23c95c1">&#9670;&#160;</a></span>CancelPath()</h2>
 
@@ -223,6 +246,40 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>_maxCompletionFrames</
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>The path ID to cancel.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a82bcd8e3d4ed3165ce4185b095913521" name="a82bcd8e3d4ed3165ce4185b095913521"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82bcd8e3d4ed3165ce4185b095913521">&#9670;&#160;</a></span>DisposePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Infohazard.HyperNav.NavPathfinder.DisposePath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html">NavPath</a>&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html#a820477738da41266302fb0cf4554019c" title="Dispose the path, returning it to an object pool.">NavPath.Dispose</a>.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>The path to dispose.</td></tr>
   </table>
   </dd>
 </dl>
@@ -342,6 +399,232 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>_maxCompletionFrames</
 
 </div>
 </div>
+<a id="a1304414c34e926d22b9554196bf87fdc" name="a1304414c34e926d22b9554196bf87fdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1304414c34e926d22b9554196bf87fdc">&#9670;&#160;</a></span>LateUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Infohazard.HyperNav.NavPathfinder.LateUpdate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Move paths from the pending queue and start executing them.  </p>
+
+</div>
+</div>
+<a id="a4d0e172c83b677974c76b47d302c544e" name="a4d0e172c83b677974c76b47d302c544e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d0e172c83b677974c76b47d302c544e">&#9670;&#160;</a></span>OnDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Infohazard.HyperNav.NavPathfinder.OnDestroy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dispose the pools of pending paths and completed paths, and all memory allocated for pathfinding jobs.  </p>
+
+</div>
+</div>
+<a id="aa015f23090f0c0388e8b8825401076d5" name="aa015f23090f0c0388e8b8825401076d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa015f23090f0c0388e8b8825401076d5">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Infohazard.HyperNav.NavPathfinder.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If mode is JobThread, check job completion. If mode is MainThreadAsynchronous, perform pathfinding work.  </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac05d9cb2ba85437dcbd5c7ffe25ba459" name="ac05d9cb2ba85437dcbd5c7ffe25ba459"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac05d9cb2ba85437dcbd5c7ffe25ba459">&#9670;&#160;</a></span>_isMainInstance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.NavPathfinder._isMainInstance = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Whether to set NavPathfinder.Instance to this instance.  </p>
+
+</div>
+</div>
+<a id="a2ee4ead502ab91f338cd629f1311db9b" name="a2ee4ead502ab91f338cd629f1311db9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ee4ead502ab91f338cd629f1311db9b">&#9670;&#160;</a></span>_maxCompletionFrames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Infohazard.HyperNav.NavPathfinder._maxCompletionFrames = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Maximum number of frames a job can take before the main thread must wait for it.  </p>
+
+</div>
+</div>
+<a id="a7457fbb6c9698404c2b2de9765754bf0" name="a7457fbb6c9698404c2b2de9765754bf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7457fbb6c9698404c2b2de9765754bf0">&#9670;&#160;</a></span>_maxConcurrentJobs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Infohazard.HyperNav.NavPathfinder._maxConcurrentJobs = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Maximum number of pathfinding jobs that can be actively running at once.  </p>
+
+</div>
+</div>
+<a id="a566ed9c0c8698f1b72a4b8dfd9f5e987" name="a566ed9c0c8698f1b72a4b8dfd9f5e987"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a566ed9c0c8698f1b72a4b8dfd9f5e987">&#9670;&#160;</a></span>_maxExecutingRequests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Infohazard.HyperNav.NavPathfinder._maxExecutingRequests = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) If greater than zero, limit on the number of requests actively being worked on.  </p>
+
+</div>
+</div>
+<a id="a2d3602c3c888feec264c791b0fe2df8f" name="a2d3602c3c888feec264c791b0fe2df8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d3602c3c888feec264c791b0fe2df8f">&#9670;&#160;</a></span>_maxPathOpsPerFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Infohazard.HyperNav.NavPathfinder._maxPathOpsPerFrame = 100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Maximum total number of pathfinding steps that can be performed per frame by this instance.  </p>
+
+</div>
+</div>
+<a id="aabd0468e7a21f9de5428e09d93b40d97" name="aabd0468e7a21f9de5428e09d93b40d97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabd0468e7a21f9de5428e09d93b40d97">&#9670;&#160;</a></span>_pathfindingMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a4e76dbff84c16110fac8ea8736f5272d">NavPathfindingMode</a> Infohazard.HyperNav.NavPathfinder._pathfindingMode = NavPathfindingMode.JobThread</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) The mode to use for calculating paths.  </p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="acf0259cd4c80ae25bdc287b1025a481d" name="acf0259cd4c80ae25bdc287b1025a481d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf0259cd4c80ae25bdc287b1025a481d">&#9670;&#160;</a></span>IsMainInstance</h2>
@@ -440,6 +723,30 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>_maxCompletionFrames</
 
 <p>(JobThread Mode ONLY) Maximum number of pathfinding jobs that can be actively running at once.  </p>
 <p >Requests beyond this number are queued. You should keep this number fairly low, as each job has the potential to take up a CPU thread. </p>
+
+</div>
+</div>
+<a id="ab7f95643b08d0af5ef914c2c3b628b45" name="ab7f95643b08d0af5ef914c2c3b628b45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7f95643b08d0af5ef914c2c3b628b45">&#9670;&#160;</a></span>MaxExecutingRequests</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Infohazard.HyperNav.NavPathfinder.MaxExecutingRequests</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(MainThreadAsynchronous Mode ONLY) If greater than zero, limit on the number of requests actively being worked on.  </p>
 
 </div>
 </div>

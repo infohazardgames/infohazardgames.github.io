@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -100,8 +102,12 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_bounds&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aa01c1630845b1e5315d581cf18b2b098">Infohazard.HyperNav.NavRegionData</a>, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a4f34c929afbb8c38b8745095aab6d983">Infohazard.HyperNav.NavVolume</a></li>
 <li>_connectedRegionID&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#af561565d865e0def4f08069222fa66dd">Infohazard.HyperNav.NavExternalLinkData</a>, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a22b5505b0f49e17da281556f1d725431">Infohazard.HyperNav.NavInternalLinkData</a></li>
 <li>_connectedVolumeID&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a54b35c4b2bf20a62c486c632bfc14062">Infohazard.HyperNav.NavExternalLinkData</a></li>
+<li>_curvatureOfMaxSlowdown&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#abf39c597e09091a04d90ce14e9df38e9">Infohazard.HyperNav.SplineNavAgent</a></li>
+<li>_curvatureSampleDistance&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a23ffdc27b5754a3b607a7208544a3c80">Infohazard.HyperNav.SplineNavAgent</a></li>
 <li>_data&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#af662c341effb3cf75a769d9f7608ab7a">Infohazard.HyperNav.NavVolume</a></li>
 <li>_debugPath&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a2fc1edae0b38cf06300fa588fb74578d">Infohazard.HyperNav.NavAgent</a></li>
+<li>_debugPointCount&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a7e395a0385d029c75910bd154066e147">Infohazard.HyperNav.SplineNavAgent</a></li>
+<li>_distanceSamplesPerSegment&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a061eedd859496fca6f97960e613164ac">Infohazard.HyperNav.SplineNavAgent</a></li>
 <li>_edges&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#ac5a7a41136940caec53878b4afd90660">Infohazard.HyperNav.NavInternalLinkData</a></li>
 <li>_externalLinks&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a40ba89483bc462bd5fe400dd79593ab5">Infohazard.HyperNav.NavRegionData</a></li>
 <li>_fromPosition&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#acf71a84b3c4cac05a53e3b28061241fb">Infohazard.HyperNav.NavExternalLinkData</a></li>
@@ -113,11 +119,16 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_isMainInstance&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ac05d9cb2ba85437dcbd5c7ffe25ba459">Infohazard.HyperNav.NavPathfinder</a></li>
 <li>_keepPathWhileCalculating&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ac50b9bcf14cdcf2b0b869fb7df984933">Infohazard.HyperNav.NavAgent</a></li>
 <li>_maxAgentRadius&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a45eb8918749d6062d6aaf2480577a017">Infohazard.HyperNav.NavVolume</a></li>
+<li>_maxAlignmentVelocityDistance&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a98910df441be57b4bad262c7ca01fe5c">Infohazard.HyperNav.SplineNavAgent</a></li>
 <li>_maxCompletionFrames&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a2ee4ead502ab91f338cd629f1311db9b">Infohazard.HyperNav.NavPathfinder</a></li>
 <li>_maxConcurrentJobs&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a7457fbb6c9698404c2b2de9765754bf0">Infohazard.HyperNav.NavPathfinder</a></li>
+<li>_maxCurvatureSlowdown&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a9763b1b83126fad69ab255982aa17684">Infohazard.HyperNav.SplineNavAgent</a></li>
 <li>_maxExecutingRequests&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a566ed9c0c8698f1b72a4b8dfd9f5e987">Infohazard.HyperNav.NavPathfinder</a></li>
 <li>_maxExternalLinkDistance&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a854ed96c4702e56a467180c344fceebd">Infohazard.HyperNav.NavVolume</a></li>
 <li>_maxPathOpsPerFrame&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a2d3602c3c888feec264c791b0fe2df8f">Infohazard.HyperNav.NavPathfinder</a></li>
+<li>_maxVertex&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#acac66a762a60409f57d18fac4553d8b4">Infohazard.HyperNav.Edge</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html#a250403c42a60b15bf70f5a2513e7a44a">Infohazard.HyperNav.Triangle</a></li>
+<li>_midVertex&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html#ada3f52eb99c5162c7593c6f6fac8c15e">Infohazard.HyperNav.Triangle</a></li>
+<li>_minVertex&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a50acc186d83ded10f43809dbc6d8080f">Infohazard.HyperNav.Edge</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html#a391a317424daad56b6690a96ee168885">Infohazard.HyperNav.Triangle</a></li>
 <li>_normal&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html#a5cceb1cda7c0a04c60dd3fb8f734e1e7">Infohazard.HyperNav.NavRegionBoundPlane</a></li>
 <li>_pathfindingMode&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#aabd0468e7a21f9de5428e09d93b40d97">Infohazard.HyperNav.NavPathfinder</a></li>
 <li>_regions&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a878eb9ab071d27db9a5f7700cbc2cc53">Infohazard.HyperNav.NavVolumeData</a></li>
@@ -126,6 +137,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>_showVertexNumbersRange&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a7cec91f298b0207ceccc1cfacafe7997">Infohazard.HyperNav.NavVolume</a></li>
 <li>_startLocations&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#af73a6f5458cb9e19cb81f1c8d527b2ee">Infohazard.HyperNav.NavVolume</a></li>
 <li>_staticOnly&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a70b9539f4a8a9b892af48ccc0e95cb39">Infohazard.HyperNav.NavVolume</a></li>
+<li>_tangentScale&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a1896d8deaaf9df8a7bf46f122d58c668">Infohazard.HyperNav.SplineNavAgent</a></li>
 <li>_toPosition&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a69164e346c748666b1f77e8f118ae08f">Infohazard.HyperNav.NavExternalLinkData</a></li>
 <li>_triangles&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#aa5511ea19e062b627ed1109acf79cc43">Infohazard.HyperNav.NavInternalLinkData</a></li>
 <li>_useMultithreading&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a06e8666311c5ec47be4a97b26c2d9517">Infohazard.HyperNav.NavVolume</a></li>
@@ -138,7 +150,14 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </ul>
 
 
+<h3><a id="index_a" name="index_a"></a>- a -</h3><ul>
+<li>AcrossCenterMidpoints&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_tables.html#a69dd041b56709782b46b753d907c8214">Infohazard.HyperNav.Editor.MarchingCubesTables</a></li>
+</ul>
+
+
 <h3><a id="index_b" name="index_b"></a>- b -</h3><ul>
+<li>BakeCoroutines&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#a824b4c9f4dcb496d715335479be9b990">Infohazard.HyperNav.Editor.NavVolumeBakingUtil</a></li>
+<li>BakeProgress&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#a946954716601248d3beb1cd4eacece83">Infohazard.HyperNav.Editor.NavVolumeBakingUtil</a></li>
 <li>BlockingTriangleIndices&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#a46f0cf864892bf0c3d6a981ae1ffbba0">Infohazard.HyperNav.Jobs.NativeNavVolumeData</a></li>
 <li>Bounds&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#ad9dd7e951d517c189650c674d73ed320">Infohazard.HyperNav.Jobs.NativeNavRegionData</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#addaa833fbf7ccc668be686159fc4f58b">Infohazard.HyperNav.Jobs.NativeNavVolumeData</a></li>
 </ul>
@@ -146,12 +165,18 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
 <li>Center&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_bounds.html#af7d2f09ec1824f283310ec15ec1ae250">Infohazard.HyperNav.Jobs.NativeBounds</a></li>
+<li>ConnectionIndex&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#adb86128cd5c448309d4cf112b886657c">Infohazard.HyperNav.Jobs.PendingPathNode</a></li>
+<li>CubeConcaveNeighbors&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_cavity_tables.html#a4f81646b73133a3ce29420cfa7f70541">Infohazard.HyperNav.Editor.MarchingCubesCavityTables</a></li>
+<li>CubesWithInternalCavities&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_cavity_tables.html#ae99aba6beb6c1b566d5a1a1d1bfe25fa">Infohazard.HyperNav.Editor.MarchingCubesCavityTables</a></li>
+<li>CumulativeCost&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#a7df71a47c97bb206ded3faa5daf3fc40">Infohazard.HyperNav.Jobs.VisitedNodeInfo</a></li>
 </ul>
 
 
 <h3><a id="index_e" name="index_e"></a>- e -</h3><ul>
 <li>EdgesCount&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#a5cb0e967849e2735f4fe0b69b8ca5814">Infohazard.HyperNav.Jobs.NativeNavInternalLinkData</a></li>
 <li>EdgesStart&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#a9898539ef604c4cc344e3d5d884bb4cd">Infohazard.HyperNav.Jobs.NativeNavInternalLinkData</a></li>
+<li>EdgeToVertexIndices&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_tables.html#a60c901727dac2bc2bd6a6d531e627324">Infohazard.HyperNav.Editor.MarchingCubesTables</a></li>
+<li>EndHit&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a5a0efb5dbd2d27e0b11bd78d2833da41">Infohazard.HyperNav.Jobs.NavPathJob</a></li>
 <li>Extents&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_bounds.html#ae566b804a45bf7645ab51a9c412609d2">Infohazard.HyperNav.Jobs.NativeBounds</a></li>
 <li>ExternalLinkCount&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#a5e884f701c579a23103cb8e9627ac9b3">Infohazard.HyperNav.Jobs.NativeNavRegionData</a></li>
 <li>ExternalLinks&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#a0bd7c8655882590ca4437cf7ce1cc8c2">Infohazard.HyperNav.Jobs.NativeNavVolumeData</a></li>
@@ -161,6 +186,15 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 
 <h3><a id="index_f" name="index_f"></a>- f -</h3><ul>
 <li>FromPosition&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html#a773b1fe05ee28a9e9f97df2f5bbffe2c">Infohazard.HyperNav.Jobs.NativeNavExternalLinkData</a></li>
+<li>FromRegion&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#aff822aa02a215c268363bdd620907072">Infohazard.HyperNav.Jobs.PendingPathNode</a></li>
+<li>FromVolume&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#a125233d287ba39983ef17cedf8e32dbc">Infohazard.HyperNav.Jobs.PendingPathNode</a></li>
+<li>Frontier&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a3c14815bd1f80a6b45a7ef46a2a4eb03">Infohazard.HyperNav.Jobs.NavPathJob</a></li>
+</ul>
+
+
+<h3><a id="index_h" name="index_h"></a>- h -</h3><ul>
+<li>HasPrevious&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#ad8d32660ca91ae729df4cf0a23675b72">Infohazard.HyperNav.Jobs.VisitedNodeInfo</a></li>
+<li>Heuristic&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#a559823ebf8089846006d6a2733bbc275">Infohazard.HyperNav.Jobs.VisitedNodeInfo</a></li>
 </ul>
 
 
@@ -171,6 +205,7 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 <li>InternalLinks&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#afd5301ec44994feff6062507905b311c">Infohazard.HyperNav.Jobs.NativeNavVolumeData</a></li>
 <li>InternalLinkStart&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#ae1a8bca887ab98501e0feae57bd7301d">Infohazard.HyperNav.Jobs.NativeNavRegionData</a></li>
 <li>InverseTransform&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#ad65422a5a7ba1f22b9ea21ed15a12265">Infohazard.HyperNav.Jobs.NativeNavVolumeData</a></li>
+<li>IsExternalConnection&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#a2047a58775b2b51c51e8ef8765b9336d">Infohazard.HyperNav.Jobs.PendingPathNode</a></li>
 <li>IsOnEdge&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html#ae44e7ccfa60b8fc3afb18544cdbfa577">Infohazard.HyperNav.Jobs.NativeNavHit</a></li>
 </ul>
 
@@ -182,8 +217,20 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </ul>
 
 
+<h3><a id="index_n" name="index_n"></a>- n -</h3><ul>
+<li>NodeTable&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a45c5441e949f00b89a4f79c0f140845e">Infohazard.HyperNav.Jobs.NavPathJob</a></li>
+</ul>
+
+
+<h3><a id="index_o" name="index_o"></a>- o -</h3><ul>
+<li>OutPathWaypoints&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#af2ca0d6c0422f900298f60051090a9d7">Infohazard.HyperNav.Jobs.NavPathJob</a></li>
+</ul>
+
+
 <h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
-<li>Position&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html#aae9c659da728b82c234d17fb1880ea82">Infohazard.HyperNav.Jobs.NativeNavHit</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint.html#a69d614441eb8171d237ce044c5cc79cb">Infohazard.HyperNav.Jobs.NativeNavWaypoint</a></li>
+<li>Position&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html#aae9c659da728b82c234d17fb1880ea82">Infohazard.HyperNav.Jobs.NativeNavHit</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint.html#a69d614441eb8171d237ce044c5cc79cb">Infohazard.HyperNav.Jobs.NativeNavWaypoint</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#a80d99fd4ed3245cf9eb0beb30562bf29">Infohazard.HyperNav.Jobs.PendingPathNode</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#ac69b87e0a3e42a84f6deccfcf03cfab9">Infohazard.HyperNav.Jobs.VisitedNodeInfo</a></li>
+<li>PositiveDirections&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_tables.html#a2d57eef0f1d7b7329c0896e3e7213b0f">Infohazard.HyperNav.Editor.MarchingCubesTables</a></li>
+<li>Previous&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#a4352a4246242a1e9713f1947c8e53633">Infohazard.HyperNav.Jobs.VisitedNodeInfo</a></li>
 </ul>
 
 
@@ -193,22 +240,42 @@ $(document).ready(function(){initNavTree('functions_vars.html',''); initResizabl
 </ul>
 
 
+<h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
+<li>SizeX&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a40a0a9d44dd9db47f844aca52502495b">Infohazard.HyperNav.Editor.Fast3DArray</a></li>
+<li>SizeY&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a811c2930ed513fd3e9fb718e91a930de">Infohazard.HyperNav.Editor.Fast3DArray</a></li>
+<li>SizeZ&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a17ea7e182c984688c2e5ce04b5e797a9">Infohazard.HyperNav.Editor.Fast3DArray</a></li>
+<li>StartHit&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a0fbe3b31e15d099fa2cbb5be72dead9d">Infohazard.HyperNav.Jobs.NavPathJob</a></li>
+<li>StartPosition&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a6bec1222fc9a5253f74b159a017f91f6">Infohazard.HyperNav.Jobs.NavPathJob</a></li>
+</ul>
+
+
 <h3><a id="index_t" name="index_t"></a>- t -</h3><ul>
 <li>ToPosition&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html#a9f5301a57306cd14a94e9f05b98b3a10">Infohazard.HyperNav.Jobs.NativeNavExternalLinkData</a></li>
-<li>ToRegion&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html#a53a707d9cd052bf0b68c2af007a223e4">Infohazard.HyperNav.Jobs.NativeNavExternalLinkData</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#af2e3b577280c88d5843ddccbd3165866">Infohazard.HyperNav.Jobs.NativeNavInternalLinkData</a></li>
-<li>ToVolume&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html#afd985a68421f5b317298647593c4aac1">Infohazard.HyperNav.Jobs.NativeNavExternalLinkData</a></li>
+<li>ToRegion&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html#a53a707d9cd052bf0b68c2af007a223e4">Infohazard.HyperNav.Jobs.NativeNavExternalLinkData</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#af2e3b577280c88d5843ddccbd3165866">Infohazard.HyperNav.Jobs.NativeNavInternalLinkData</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#aec0ada73342282f51845b6fd2aa0309a">Infohazard.HyperNav.Jobs.PendingPathNode</a></li>
+<li>ToVolume&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html#afd985a68421f5b317298647593c4aac1">Infohazard.HyperNav.Jobs.NativeNavExternalLinkData</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#ac5c56490972bd9e5495b33065a630cc2">Infohazard.HyperNav.Jobs.PendingPathNode</a></li>
 <li>Transform&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#a6315bb1bba9314df84c5c22dcd390061">Infohazard.HyperNav.Jobs.NativeNavVolumeData</a></li>
 <li>TrianglesCount&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#ae22966e33871980fc22d74e53bd8f0b4">Infohazard.HyperNav.Jobs.NativeNavInternalLinkData</a></li>
 <li>TrianglesStart&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#a18ff64aec5333db580f460abf2bc1735">Infohazard.HyperNav.Jobs.NativeNavInternalLinkData</a></li>
+<li>TriTable&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_tables.html#adbd207d356064b1f2c6d8d757b3b0404">Infohazard.HyperNav.Editor.MarchingCubesTables</a></li>
 <li>Type&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint.html#aee0f3f455fcc98127ded22d05adc1d1f">Infohazard.HyperNav.Jobs.NativeNavWaypoint</a></li>
 </ul>
 
 
 <h3><a id="index_v" name="index_v"></a>- v -</h3><ul>
-<li>Vertices&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#aae59ca23985fe3b02e13d8f6f36d8344">Infohazard.HyperNav.Jobs.NativeNavVolumeData</a></li>
+<li>Vertices&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_tables.html#a6c0a09e1ab898e561be5e334f0ed4071">Infohazard.HyperNav.Editor.MarchingCubesTables</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#aae59ca23985fe3b02e13d8f6f36d8344">Infohazard.HyperNav.Jobs.NativeNavVolumeData</a></li>
 <li>VerticesCount&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#a7470190aa756c02d26d87442ee7a5c0e">Infohazard.HyperNav.Jobs.NativeNavInternalLinkData</a></li>
+<li>VerticesOnSideAPerDirection&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_tables.html#ab8d79f93018c6a5e92ea90840d68ceca">Infohazard.HyperNav.Editor.MarchingCubesTables</a></li>
+<li>VerticesOnSideBPerDirection&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_tables.html#a5bbcb88afbf12005c0e60ec6e08925dc">Infohazard.HyperNav.Editor.MarchingCubesTables</a></li>
 <li>VerticesStart&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#af83ff297759e8e4327f7b76d908d3885">Infohazard.HyperNav.Jobs.NativeNavInternalLinkData</a></li>
+<li>Visited&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#a060d525f1b5930662d43b36fe2ca8eb6">Infohazard.HyperNav.Jobs.VisitedNodeInfo</a></li>
 <li>Volume&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html#abf5728314c967695bd8ffb03150f824a">Infohazard.HyperNav.Jobs.NativeNavHit</a></li>
+<li>VolumeData&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a54faaf9663a04877b4a72825823abf25">Infohazard.HyperNav.NavVolume</a></li>
+<li>Volumes&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a26118644ef6940d336d7f6ebc5c18463">Infohazard.HyperNav.Jobs.NavPathJob</a></li>
+</ul>
+
+
+<h3><a id="index_w" name="index_w"></a>- w -</h3><ul>
+<li>Waypoints&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a25a7e98ec760e18094744d0f346b9aa4">Infohazard.HyperNav.Jobs.NavPathJob</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

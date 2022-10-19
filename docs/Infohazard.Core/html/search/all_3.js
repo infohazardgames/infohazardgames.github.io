@@ -17,6 +17,8 @@ var searchData=
   ['coreeditorutility_14',['CoreEditorUtility',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html',1,'Infohazard::Core::Editor']]],
   ['count_15',['Count',['../class_infohazard_1_1_core_1_1_list_queue.html#ae0f718ba6c358402d5223a90b90af00c',1,'Infohazard::Core::ListQueue']]],
   ['createfunc_16',['CreateFunc',['../class_infohazard_1_1_core_1_1_pool.html#aaea8558627660af9139a90095a20aa3f',1,'Infohazard::Core::Pool']]],
-  ['currenttime_17',['CurrentTime',['../struct_infohazard_1_1_core_1_1_passive_timer.html#acc8ff85478289990725a295ae5a181e2',1,'Infohazard::Core::PassiveTimer']]],
-  ['currenttimewithoutpause_18',['CurrentTimeWithoutPause',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a99d5f27668fb925b0c500f2c5d5a02a1',1,'Infohazard::Core::PassiveTimer']]]
+  ['creategameobjectinscene_17',['CreateGameObjectInScene',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a16159f7655b45bebf45649902a1f90d2',1,'Infohazard::Core::Editor::CoreEditorUtility']]],
+  ['creategameobjectinscenewithcomponent_3c_20t_20_3e_18',['CreateGameObjectInSceneWithComponent&lt; T &gt;',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a7b7b1f2ad30393887140311dc08c9b1d',1,'Infohazard::Core::Editor::CoreEditorUtility']]],
+  ['currenttime_19',['CurrentTime',['../struct_infohazard_1_1_core_1_1_passive_timer.html#acc8ff85478289990725a295ae5a181e2',1,'Infohazard::Core::PassiveTimer']]],
+  ['currenttimewithoutpause_20',['CurrentTimeWithoutPause',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a99d5f27668fb925b0c500f2c5d5a02a1',1,'Infohazard::Core::PassiveTimer']]]
 ];

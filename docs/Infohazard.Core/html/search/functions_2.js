@@ -9,5 +9,7 @@ var searchData=
   ['componentid_6',['ComponentID',['../struct_infohazard_1_1_core_1_1_component_i_d.html#af48d410d3b3f4726e08f325c650ee51c',1,'Infohazard::Core::ComponentID']]],
   ['conditionaldrawattribute_7',['ConditionalDrawAttribute',['../class_infohazard_1_1_core_1_1_conditional_draw_attribute.html#ad2c5e71029f815e2e5ea27049fb3a2d0',1,'Infohazard.Core.ConditionalDrawAttribute.ConditionalDrawAttribute(string boolCondition)'],['../class_infohazard_1_1_core_1_1_conditional_draw_attribute.html#a1c9071f6c971bd67dab96a46c643d12c',1,'Infohazard.Core.ConditionalDrawAttribute.ConditionalDrawAttribute(string condition, object value, bool isEqual=true)']]],
   ['contains_8',['Contains',['../class_infohazard_1_1_core_1_1_list_queue.html#a8794e743c726868f0c044e4b5913b9f5',1,'Infohazard::Core::ListQueue']]],
-  ['copyto_9',['CopyTo',['../class_infohazard_1_1_core_1_1_list_queue.html#a62ef65cd2ebb7655dbc48ef92ce92247',1,'Infohazard::Core::ListQueue']]]
+  ['copyto_9',['CopyTo',['../class_infohazard_1_1_core_1_1_list_queue.html#a62ef65cd2ebb7655dbc48ef92ce92247',1,'Infohazard::Core::ListQueue']]],
+  ['creategameobjectinscene_10',['CreateGameObjectInScene',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a16159f7655b45bebf45649902a1f90d2',1,'Infohazard::Core::Editor::CoreEditorUtility']]],
+  ['creategameobjectinscenewithcomponent_3c_20t_20_3e_11',['CreateGameObjectInSceneWithComponent&lt; T &gt;',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a7b7b1f2ad30393887140311dc08c9b1d',1,'Infohazard::Core::Editor::CoreEditorUtility']]]
 ];

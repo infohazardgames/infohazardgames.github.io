@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -90,10 +92,234 @@ $(document).ready(function(){initNavTree('struct_infohazard_1_1_hyper_nav_1_1_ed
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.HyperNav.Editor.Fast3DArray Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>A data structure equivalent to a three-dimensional int array (int[,,]), but more efficient.   
+ <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af6985884fbbdb7dda15739582e47004d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#af6985884fbbdb7dda15739582e47004d">Fast3DArray</a> (int sizeX, int sizeY, int sizeZ)</td></tr>
+<tr class="memdesc:af6985884fbbdb7dda15739582e47004d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html" title="A data structure equivalent to a three-dimensional int array (int[,,]), but more efficient.">Fast3DArray</a> with the given dimensions.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#af6985884fbbdb7dda15739582e47004d">More...</a><br /></td></tr>
+<tr class="separator:af6985884fbbdb7dda15739582e47004d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66f1cc5a532e96656d7a76f36dc1daf1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a66f1cc5a532e96656d7a76f36dc1daf1">IsOneOf</a> (int x, int y, int z, int option1, int option2)</td></tr>
+<tr class="memdesc:a66f1cc5a532e96656d7a76f36dc1daf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the element at [x, y, z] is either option1 or option2.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a66f1cc5a532e96656d7a76f36dc1daf1">More...</a><br /></td></tr>
+<tr class="separator:a66f1cc5a532e96656d7a76f36dc1daf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a40a0a9d44dd9db47f844aca52502495b"><td class="memItemLeft" align="right" valign="top">readonly int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a40a0a9d44dd9db47f844aca52502495b">SizeX</a></td></tr>
+<tr class="memdesc:a40a0a9d44dd9db47f844aca52502495b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of first dimension.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a40a0a9d44dd9db47f844aca52502495b">More...</a><br /></td></tr>
+<tr class="separator:a40a0a9d44dd9db47f844aca52502495b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a811c2930ed513fd3e9fb718e91a930de"><td class="memItemLeft" align="right" valign="top">readonly int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a811c2930ed513fd3e9fb718e91a930de">SizeY</a></td></tr>
+<tr class="memdesc:a811c2930ed513fd3e9fb718e91a930de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of second dimension.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a811c2930ed513fd3e9fb718e91a930de">More...</a><br /></td></tr>
+<tr class="separator:a811c2930ed513fd3e9fb718e91a930de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ea7e182c984688c2e5ce04b5e797a9"><td class="memItemLeft" align="right" valign="top">readonly int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a17ea7e182c984688c2e5ce04b5e797a9">SizeZ</a></td></tr>
+<tr class="memdesc:a17ea7e182c984688c2e5ce04b5e797a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of third dimension.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a17ea7e182c984688c2e5ce04b5e797a9">More...</a><br /></td></tr>
+<tr class="separator:a17ea7e182c984688c2e5ce04b5e797a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:aa8730440239ab46b162015ed2593e253"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#aa8730440239ab46b162015ed2593e253">this[int x, int y, int z]</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aa8730440239ab46b162015ed2593e253"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get or set the value at given coordinates.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#aa8730440239ab46b162015ed2593e253">More...</a><br /></td></tr>
+<tr class="separator:aa8730440239ab46b162015ed2593e253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >A data structure equivalent to a three-dimensional int array (int[,,]), but more efficient.  </p>
+<p >Unlike an int[,,], this type does not perform bounds checking on each dimension. The performance is equivalent to using a single-dimension array and doing the index math yourself. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af6985884fbbdb7dda15739582e47004d" name="af6985884fbbdb7dda15739582e47004d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6985884fbbdb7dda15739582e47004d">&#9670;&#160;</a></span>Fast3DArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Infohazard.HyperNav.Editor.Fast3DArray.Fast3DArray </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sizeX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sizeY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sizeZ</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a new <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html" title="A data structure equivalent to a three-dimensional int array (int[,,]), but more efficient.">Fast3DArray</a> with the given dimensions.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sizeX</td><td>Size of first dimension.</td></tr>
+    <tr><td class="paramname">sizeY</td><td>Size of second dimension.</td></tr>
+    <tr><td class="paramname">sizeZ</td><td>Size of third dimension.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a66f1cc5a532e96656d7a76f36dc1daf1" name="a66f1cc5a532e96656d7a76f36dc1daf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66f1cc5a532e96656d7a76f36dc1daf1">&#9670;&#160;</a></span>IsOneOf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.Editor.Fast3DArray.IsOneOf </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>option1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>option2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return true if the element at [x, y, z] is either option1 or option2.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>First coordinate.</td></tr>
+    <tr><td class="paramname">y</td><td>Second coordinate.</td></tr>
+    <tr><td class="paramname">z</td><td>Third coordinate.</td></tr>
+    <tr><td class="paramname">option1</td><td>First option to check equality.</td></tr>
+    <tr><td class="paramname">option2</td><td>Second option to check equality.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If the value at the given coordinates is equal to either option1 or option2.</dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a40a0a9d44dd9db47f844aca52502495b" name="a40a0a9d44dd9db47f844aca52502495b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40a0a9d44dd9db47f844aca52502495b">&#9670;&#160;</a></span>SizeX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly int Infohazard.HyperNav.Editor.Fast3DArray.SizeX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Size of first dimension.  </p>
+
+</div>
+</div>
+<a id="a811c2930ed513fd3e9fb718e91a930de" name="a811c2930ed513fd3e9fb718e91a930de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a811c2930ed513fd3e9fb718e91a930de">&#9670;&#160;</a></span>SizeY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly int Infohazard.HyperNav.Editor.Fast3DArray.SizeY</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Size of second dimension.  </p>
+
+</div>
+</div>
+<a id="a17ea7e182c984688c2e5ce04b5e797a9" name="a17ea7e182c984688c2e5ce04b5e797a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17ea7e182c984688c2e5ce04b5e797a9">&#9670;&#160;</a></span>SizeZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly int Infohazard.HyperNav.Editor.Fast3DArray.SizeZ</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Size of third dimension.  </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="aa8730440239ab46b162015ed2593e253" name="aa8730440239ab46b162015ed2593e253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8730440239ab46b162015ed2593e253">&#9670;&#160;</a></span>this[int x, int y, int z]</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Infohazard.HyperNav.Editor.Fast3DArray.this[int x, int y, int z]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get or set the value at given coordinates.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>First coordinate.</td></tr>
+    <tr><td class="paramname">y</td><td>Second coordinate.</td></tr>
+    <tr><td class="paramname">z</td><td>Third coordinate.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>Editor/Fast3DArray.cs</li>
 </ul>

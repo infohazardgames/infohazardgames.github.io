@@ -1,6 +1,5 @@
 var struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap =
 [
-    [ "Element", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap_1_1_element.html", null ],
     [ "NativeHeap", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html#ae6659d85a91fd7fc18bc03a5cb25c555", null ],
     [ "Add", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html#a290a435eab507dc39439d0814959dc55", null ],
     [ "Clear", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html#a037b17d2473445528a0b534d72fb2cc8", null ],

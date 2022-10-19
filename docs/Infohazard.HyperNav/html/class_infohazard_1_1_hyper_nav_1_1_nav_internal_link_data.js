@@ -1,5 +1,6 @@
 var class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data =
 [
+    [ "Create", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#af22974933860eb308a0ad56e59a5d866", null ],
     [ "_connectedRegionID", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a22b5505b0f49e17da281556f1d725431", null ],
     [ "_edges", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#ac5a7a41136940caec53878b4afd90660", null ],
     [ "_triangles", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#aa5511ea19e062b627ed1109acf79cc43", null ],

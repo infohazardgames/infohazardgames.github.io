@@ -1,8 +1,9 @@
 var class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder =
 [
-    [ "PendingPath", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder_1_1_pending_path.html", null ],
+    [ "PropNames", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder_1_1_prop_names.html", null ],
     [ "Awake", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a77b0aa601a53082b4388e23a817a4c6c", null ],
     [ "CancelPath", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a8c05aea5bf03d25b17c24e3ab23c95c1", null ],
+    [ "DisposePath", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a82bcd8e3d4ed3165ce4185b095913521", null ],
     [ "FindPath", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ae38657352c0795c00d44d1fafdff3ef1", null ],
     [ "FindPath", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ab77d20b263e0f075fd54a7ddfe1388d2", null ],
     [ "LateUpdate", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a1304414c34e926d22b9554196bf87fdc", null ],
@@ -15,6 +16,7 @@ var class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder =
     [ "_maxPathOpsPerFrame", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a2d3602c3c888feec264c791b0fe2df8f", null ],
     [ "_pathfindingMode", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#aabd0468e7a21f9de5428e09d93b40d97", null ],
     [ "IsMainInstance", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#acf0259cd4c80ae25bdc287b1025a481d", null ],
+    [ "MainInstance", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a061885e442e7f993ac3bef05b700a6fd", null ],
     [ "MaxCompletionFrames", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#af75fd284455658b4a531d210454cca6a", null ],
     [ "MaxConcurrentJobs", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#af9ab82ccbd806edbbce03d60a139685d", null ],
     [ "MaxExecutingRequests", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ab7f95643b08d0af5ef914c2c3b628b45", null ],

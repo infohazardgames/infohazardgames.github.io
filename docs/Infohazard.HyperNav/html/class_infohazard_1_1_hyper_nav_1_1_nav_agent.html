@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -93,13 +95,14 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.HyperNav.NavAgent Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>A script that can be used to calculates paths by any entity that needs to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> for navigation.   
+<p>A script that can be used to calculate paths by any entity that needs to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> for navigation.   
  <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -113,29 +116,23 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a58384bd709b1a241ce3b6a04d305551c"><td class="memItemLeft" align="right" valign="top"><a id="a58384bd709b1a241ce3b6a04d305551c" name="a58384bd709b1a241ce3b6a04d305551c"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnEnable</b> ()</td></tr>
-<tr class="memdesc:a58384bd709b1a241ce3b6a04d305551c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135" title="Velocity of the agent measured as delta position / delta time over the last frame,...">MeasuredVelocity</a> and sets <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a205558ab9973e02638069ea8b1fd6485" title="True if the agent has no active or pending path.">Arrived</a> to true.  <br /></td></tr>
+<tr class="memitem:a58384bd709b1a241ce3b6a04d305551c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a58384bd709b1a241ce3b6a04d305551c">OnEnable</a> ()</td></tr>
+<tr class="memdesc:a58384bd709b1a241ce3b6a04d305551c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135" title="Velocity of the agent measured as delta position / delta time over the last frame,...">MeasuredVelocity</a> and sets <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a205558ab9973e02638069ea8b1fd6485" title="True if the agent has no active or pending path.">Arrived</a> to true.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a58384bd709b1a241ce3b6a04d305551c">More...</a><br /></td></tr>
 <tr class="separator:a58384bd709b1a241ce3b6a04d305551c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b9f6f547a1abc9270964a7c03086076"><td class="memItemLeft" align="right" valign="top"><a id="a0b9f6f547a1abc9270964a7c03086076" name="a0b9f6f547a1abc9270964a7c03086076"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDisable</b> ()</td></tr>
-<tr class="memdesc:a0b9f6f547a1abc9270964a7c03086076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops all pathfinding and cancels path requests.  <br /></td></tr>
+<tr class="memitem:a0b9f6f547a1abc9270964a7c03086076"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a0b9f6f547a1abc9270964a7c03086076">OnDisable</a> ()</td></tr>
+<tr class="memdesc:a0b9f6f547a1abc9270964a7c03086076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops all pathfinding and cancels path requests.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a0b9f6f547a1abc9270964a7c03086076">More...</a><br /></td></tr>
 <tr class="separator:a0b9f6f547a1abc9270964a7c03086076"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebf92806f87237c666f7ce09122cb967"><td class="memItemLeft" align="right" valign="top"><a id="aebf92806f87237c666f7ce09122cb967" name="aebf92806f87237c666f7ce09122cb967"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
-<tr class="memdesc:aebf92806f87237c666f7ce09122cb967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates measured velocity and current index in path.  <br /></td></tr>
+<tr class="memitem:aebf92806f87237c666f7ce09122cb967"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aebf92806f87237c666f7ce09122cb967">Update</a> ()</td></tr>
+<tr class="memdesc:aebf92806f87237c666f7ce09122cb967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates measured velocity and current index in path.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aebf92806f87237c666f7ce09122cb967">More...</a><br /></td></tr>
 <tr class="separator:aebf92806f87237c666f7ce09122cb967"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d96b8e2634bde486a202a78a7c5e9fd"><td class="memItemLeft" align="right" valign="top"><a id="a1d96b8e2634bde486a202a78a7c5e9fd" name="a1d96b8e2634bde486a202a78a7c5e9fd"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDrawGizmos</b> ()</td></tr>
-<tr class="memdesc:a1d96b8e2634bde486a202a78a7c5e9fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the current path as a sequence of debug lines if <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a103b570ffba0f342e8ff1230543f8748" title="Whether to draw a debug line in the scene view showing the agent&#39;s current path.">DebugPath</a> is true.  <br /></td></tr>
+<tr class="memitem:a1d96b8e2634bde486a202a78a7c5e9fd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a1d96b8e2634bde486a202a78a7c5e9fd">OnDrawGizmos</a> ()</td></tr>
+<tr class="memdesc:a1d96b8e2634bde486a202a78a7c5e9fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the current path as a sequence of debug lines if <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a103b570ffba0f342e8ff1230543f8748" title="Whether to draw a debug line in the scene view showing the agent&#39;s current path.">DebugPath</a> is true.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a1d96b8e2634bde486a202a78a7c5e9fd">More...</a><br /></td></tr>
 <tr class="separator:a1d96b8e2634bde486a202a78a7c5e9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76da2dfabdb41cf217e22ef7077fb5a0"><td class="memItemLeft" align="right" valign="top"><a id="a76da2dfabdb41cf217e22ef7077fb5a0" name="a76da2dfabdb41cf217e22ef7077fb5a0"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateMeasuredVelocity</b> ()</td></tr>
-<tr class="memdesc:a76da2dfabdb41cf217e22ef7077fb5a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the value of <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135" title="Velocity of the agent measured as delta position / delta time over the last frame,...">MeasuredVelocity</a>, which is used to determine <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f" title="The distance that it will take the agent to come to a stop from its current velocity,...">StoppingDistance</a>.  <br /></td></tr>
+<tr class="memitem:a76da2dfabdb41cf217e22ef7077fb5a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a76da2dfabdb41cf217e22ef7077fb5a0">UpdateMeasuredVelocity</a> ()</td></tr>
+<tr class="memdesc:a76da2dfabdb41cf217e22ef7077fb5a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the value of <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135" title="Velocity of the agent measured as delta position / delta time over the last frame,...">MeasuredVelocity</a>, which is used to determine <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f" title="The distance that it will take the agent to come to a stop from its current velocity,...">StoppingDistance</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a76da2dfabdb41cf217e22ef7077fb5a0">More...</a><br /></td></tr>
 <tr class="separator:a76da2dfabdb41cf217e22ef7077fb5a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac65961b68688cbd617c8115cb819c81b"><td class="memItemLeft" align="right" valign="top"><a id="ac65961b68688cbd617c8115cb819c81b" name="ac65961b68688cbd617c8115cb819c81b"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdatePathIndex</b> ()</td></tr>
-<tr class="memdesc:ac65961b68688cbd617c8115cb819c81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the current path index, which is used to determine <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aab1aabbcca8c6377481ba71759319abe" title="The current path waypoint that the agent is trying to move towards.">NextWaypoint</a>.  <br /></td></tr>
+<tr class="memitem:ac65961b68688cbd617c8115cb819c81b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ac65961b68688cbd617c8115cb819c81b">UpdatePathIndex</a> ()</td></tr>
+<tr class="memdesc:ac65961b68688cbd617c8115cb819c81b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the current path index, which is used to determine <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aab1aabbcca8c6377481ba71759319abe" title="The current path waypoint that the agent is trying to move towards.">NextWaypoint</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ac65961b68688cbd617c8115cb819c81b">More...</a><br /></td></tr>
 <tr class="separator:ac65961b68688cbd617c8115cb819c81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a7a9a9cef5143200750991e533e68cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a1a7a9a9cef5143200750991e533e68cc">OnPathReady</a> (long id, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html">NavPath</a> path)</td></tr>
 <tr class="memdesc:a1a7a9a9cef5143200750991e533e68cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback that is received when a pathfinding request completes, which should start moving along that path.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a1a7a9a9cef5143200750991e533e68cc">More...</a><br /></td></tr>
@@ -149,24 +146,20 @@ Properties</h2></td></tr>
 <tr class="memitem:ab17eaa990c787a25dfb06e73537b0c88"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab17eaa990c787a25dfb06e73537b0c88">AccelerationEstimate</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ab17eaa990c787a25dfb06e73537b0c88"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) This should be set to the maximum acceleration of your agent.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab17eaa990c787a25dfb06e73537b0c88">More...</a><br /></td></tr>
 <tr class="separator:ab17eaa990c787a25dfb06e73537b0c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43ce47b65550307d7fd5da67b8bc4c7c"><td class="memItemLeft" align="right" valign="top"><a id="a43ce47b65550307d7fd5da67b8bc4c7c" name="a43ce47b65550307d7fd5da67b8bc4c7c"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>SampleRadius</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:a43ce47b65550307d7fd5da67b8bc4c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The radius to search when finding the nearest <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>.  <br /></td></tr>
+<tr class="memitem:a43ce47b65550307d7fd5da67b8bc4c7c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a43ce47b65550307d7fd5da67b8bc4c7c">SampleRadius</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a43ce47b65550307d7fd5da67b8bc4c7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The radius to search when finding the nearest <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a43ce47b65550307d7fd5da67b8bc4c7c">More...</a><br /></td></tr>
 <tr class="separator:a43ce47b65550307d7fd5da67b8bc4c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a103b570ffba0f342e8ff1230543f8748"><td class="memItemLeft" align="right" valign="top"><a id="a103b570ffba0f342e8ff1230543f8748" name="a103b570ffba0f342e8ff1230543f8748"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>DebugPath</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:a103b570ffba0f342e8ff1230543f8748"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to draw a debug line in the scene view showing the agent's current path.  <br /></td></tr>
+<tr class="memitem:a103b570ffba0f342e8ff1230543f8748"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a103b570ffba0f342e8ff1230543f8748">DebugPath</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a103b570ffba0f342e8ff1230543f8748"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to draw a debug line in the scene view showing the agent's current path.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a103b570ffba0f342e8ff1230543f8748">More...</a><br /></td></tr>
 <tr class="separator:a103b570ffba0f342e8ff1230543f8748"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab64b1a53a15c57de4a627e29aa8971dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab64b1a53a15c57de4a627e29aa8971dd">KeepPathWhileCalculating</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ab64b1a53a15c57de4a627e29aa8971dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to keep following the current path while waiting for a new path to finish calculating.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab64b1a53a15c57de4a627e29aa8971dd">More...</a><br /></td></tr>
 <tr class="separator:ab64b1a53a15c57de4a627e29aa8971dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaadb9eb34ea58c0dff8b4955fee24e19"><td class="memItemLeft" align="right" valign="top"><a id="aaadb9eb34ea58c0dff8b4955fee24e19" name="aaadb9eb34ea58c0dff8b4955fee24e19"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsPathPending</b><code> [get]</code></td></tr>
-<tr class="memdesc:aaadb9eb34ea58c0dff8b4955fee24e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a path is currently in the process of being calculated for this agent.  <br /></td></tr>
+<tr class="memitem:aaadb9eb34ea58c0dff8b4955fee24e19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aaadb9eb34ea58c0dff8b4955fee24e19">IsPathPending</a><code> [get]</code></td></tr>
+<tr class="memdesc:aaadb9eb34ea58c0dff8b4955fee24e19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a path is currently in the process of being calculated for this agent.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aaadb9eb34ea58c0dff8b4955fee24e19">More...</a><br /></td></tr>
 <tr class="separator:aaadb9eb34ea58c0dff8b4955fee24e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c90d079a5756739e3f3dd8c9216bd7f"><td class="memItemLeft" align="right" valign="top"><a id="a3c90d079a5756739e3f3dd8c9216bd7f" name="a3c90d079a5756739e3f3dd8c9216bd7f"></a>
-virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>StoppingDistance</b><code> [get]</code></td></tr>
-<tr class="memdesc:a3c90d079a5756739e3f3dd8c9216bd7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The distance that it will take the agent to come to a stop from its current velocity, determined using the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab17eaa990c787a25dfb06e73537b0c88" title="(Serialized) This should be set to the maximum acceleration of your agent.">AccelerationEstimate</a>.  <br /></td></tr>
+<tr class="memitem:a3c90d079a5756739e3f3dd8c9216bd7f"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f">StoppingDistance</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3c90d079a5756739e3f3dd8c9216bd7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The distance that it will take the agent to come to a stop from its current velocity, determined using the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab17eaa990c787a25dfb06e73537b0c88" title="(Serialized) This should be set to the maximum acceleration of your agent.">AccelerationEstimate</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f">More...</a><br /></td></tr>
 <tr class="separator:a3c90d079a5756739e3f3dd8c9216bd7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b78432eeaf82525030732529e0d3c57"><td class="memItemLeft" align="right" valign="top">virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a0b78432eeaf82525030732529e0d3c57">DesiredVelocity</a><code> [get]</code></td></tr>
 <tr class="memdesc:a0b78432eeaf82525030732529e0d3c57"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity the agent wants to move in, in the range [0, 1].   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a0b78432eeaf82525030732529e0d3c57">More...</a><br /></td></tr>
@@ -174,9 +167,8 @@ virtual float&#160;</td><td class="memItemRight" valign="bottom"><b>StoppingDist
 <tr class="memitem:aab1aabbcca8c6377481ba71759319abe"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aab1aabbcca8c6377481ba71759319abe">NextWaypoint</a><code> [get]</code></td></tr>
 <tr class="memdesc:aab1aabbcca8c6377481ba71759319abe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current path waypoint that the agent is trying to move towards.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aab1aabbcca8c6377481ba71759319abe">More...</a><br /></td></tr>
 <tr class="separator:aab1aabbcca8c6377481ba71759319abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a205558ab9973e02638069ea8b1fd6485"><td class="memItemLeft" align="right" valign="top"><a id="a205558ab9973e02638069ea8b1fd6485" name="a205558ab9973e02638069ea8b1fd6485"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Arrived</b><code> [get, private set]</code></td></tr>
-<tr class="memdesc:a205558ab9973e02638069ea8b1fd6485"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the agent has no active or pending path.  <br /></td></tr>
+<tr class="memitem:a205558ab9973e02638069ea8b1fd6485"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a205558ab9973e02638069ea8b1fd6485">Arrived</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:a205558ab9973e02638069ea8b1fd6485"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the agent has no active or pending path.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a205558ab9973e02638069ea8b1fd6485">More...</a><br /></td></tr>
 <tr class="separator:a205558ab9973e02638069ea8b1fd6485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a095e7a31d3f959dd2ab521fb3d30b4d0"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a095e7a31d3f959dd2ab521fb3d30b4d0">Destination</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a095e7a31d3f959dd2ab521fb3d30b4d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get or set the agent's destination (the position it is trying to get to).   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a095e7a31d3f959dd2ab521fb3d30b4d0">More...</a><br /></td></tr>
@@ -184,40 +176,126 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>Arrived</b><code> [ge
 <tr class="memitem:aba8daf9344fc3e228bdf9e3edfd21135"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135">MeasuredVelocity</a><code> [get, protected set]</code></td></tr>
 <tr class="memdesc:aba8daf9344fc3e228bdf9e3edfd21135"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity of the agent measured as delta position / delta time over the last frame, which is used to determine stopping distance.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135">More...</a><br /></td></tr>
 <tr class="separator:aba8daf9344fc3e228bdf9e3edfd21135"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec9a7aeff8728d75113f598fe8833e7b"><td class="memItemLeft" align="right" valign="top"><a id="aec9a7aeff8728d75113f598fe8833e7b" name="aec9a7aeff8728d75113f598fe8833e7b"></a>
-<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html">NavPath</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CurrentPath</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:aec9a7aeff8728d75113f598fe8833e7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current path that the agent is following.  <br /></td></tr>
+<tr class="memitem:aec9a7aeff8728d75113f598fe8833e7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html">NavPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aec9a7aeff8728d75113f598fe8833e7b">CurrentPath</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aec9a7aeff8728d75113f598fe8833e7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current path that the agent is following.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aec9a7aeff8728d75113f598fe8833e7b">More...</a><br /></td></tr>
 <tr class="separator:aec9a7aeff8728d75113f598fe8833e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:a74a03139914cd81ff4d7aa9864fbe1bd"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a74a03139914cd81ff4d7aa9864fbe1bd">PathReady</a></td></tr>
+<tr class="memdesc:a74a03139914cd81ff4d7aa9864fbe1bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the agent finds a path to the destination.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a74a03139914cd81ff4d7aa9864fbe1bd">More...</a><br /></td></tr>
+<tr class="separator:a74a03139914cd81ff4d7aa9864fbe1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67310670bd37233eb9637aa44eed3e65"><td class="memItemLeft" align="right" valign="top">Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a67310670bd37233eb9637aa44eed3e65">PathFailed</a></td></tr>
+<tr class="memdesc:a67310670bd37233eb9637aa44eed3e65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the agent fails to find a path to the destination.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a67310670bd37233eb9637aa44eed3e65">More...</a><br /></td></tr>
+<tr class="separator:a67310670bd37233eb9637aa44eed3e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a90358359c5bc2cb0596049eaac4d2a8c"><td class="memItemLeft" align="right" valign="top"><a id="a90358359c5bc2cb0596049eaac4d2a8c" name="a90358359c5bc2cb0596049eaac4d2a8c"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_acceptance</b> = 1</td></tr>
-<tr class="memdesc:a90358359c5bc2cb0596049eaac4d2a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) How close the agent must get to a destination before it is considered to have arrived.  <br /></td></tr>
+<tr class="memitem:a90358359c5bc2cb0596049eaac4d2a8c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a90358359c5bc2cb0596049eaac4d2a8c">_acceptance</a> = 1</td></tr>
+<tr class="memdesc:a90358359c5bc2cb0596049eaac4d2a8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) How close the agent must get to a destination before it is considered to have arrived.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a90358359c5bc2cb0596049eaac4d2a8c">More...</a><br /></td></tr>
 <tr class="separator:a90358359c5bc2cb0596049eaac4d2a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2de58a9b4316eaa5f9fafae837fe59a4"><td class="memItemLeft" align="right" valign="top"><a id="a2de58a9b4316eaa5f9fafae837fe59a4" name="a2de58a9b4316eaa5f9fafae837fe59a4"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_accelerationEstimate</b> = 0</td></tr>
-<tr class="memdesc:a2de58a9b4316eaa5f9fafae837fe59a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) This should be set to the maximum acceleration of your agent (can be set dynamically as well).  <br /></td></tr>
+<tr class="memitem:a2de58a9b4316eaa5f9fafae837fe59a4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a2de58a9b4316eaa5f9fafae837fe59a4">_accelerationEstimate</a> = 0</td></tr>
+<tr class="memdesc:a2de58a9b4316eaa5f9fafae837fe59a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) This should be set to the maximum acceleration of your agent (can be set dynamically as well).   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a2de58a9b4316eaa5f9fafae837fe59a4">More...</a><br /></td></tr>
 <tr class="separator:a2de58a9b4316eaa5f9fafae837fe59a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6065ce99b01a5999a01fb8192f72a5d5"><td class="memItemLeft" align="right" valign="top"><a id="a6065ce99b01a5999a01fb8192f72a5d5" name="a6065ce99b01a5999a01fb8192f72a5d5"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>_sampleRadius</b> = 2</td></tr>
-<tr class="memdesc:a6065ce99b01a5999a01fb8192f72a5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The radius to search when finding the nearest <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>.  <br /></td></tr>
+<tr class="memitem:a6065ce99b01a5999a01fb8192f72a5d5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a6065ce99b01a5999a01fb8192f72a5d5">_sampleRadius</a> = 2</td></tr>
+<tr class="memdesc:a6065ce99b01a5999a01fb8192f72a5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The radius to search when finding the nearest <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a6065ce99b01a5999a01fb8192f72a5d5">More...</a><br /></td></tr>
 <tr class="separator:a6065ce99b01a5999a01fb8192f72a5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fc1edae0b38cf06300fa588fb74578d"><td class="memItemLeft" align="right" valign="top"><a id="a2fc1edae0b38cf06300fa588fb74578d" name="a2fc1edae0b38cf06300fa588fb74578d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_debugPath</b> = true</td></tr>
-<tr class="memdesc:a2fc1edae0b38cf06300fa588fb74578d"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether to draw a debug line in the scene view showing the agent's current path.  <br /></td></tr>
+<tr class="memitem:a2fc1edae0b38cf06300fa588fb74578d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a2fc1edae0b38cf06300fa588fb74578d">_debugPath</a> = true</td></tr>
+<tr class="memdesc:a2fc1edae0b38cf06300fa588fb74578d"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether to draw a debug line in the scene view showing the agent's current path.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a2fc1edae0b38cf06300fa588fb74578d">More...</a><br /></td></tr>
 <tr class="separator:a2fc1edae0b38cf06300fa588fb74578d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac50b9bcf14cdcf2b0b869fb7df984933"><td class="memItemLeft" align="right" valign="top"><a id="ac50b9bcf14cdcf2b0b869fb7df984933" name="ac50b9bcf14cdcf2b0b869fb7df984933"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_keepPathWhileCalculating</b> = true</td></tr>
-<tr class="memdesc:ac50b9bcf14cdcf2b0b869fb7df984933"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether to keep following the current path while waiting for a new path to finish calculating.  <br /></td></tr>
+<tr class="memitem:ac50b9bcf14cdcf2b0b869fb7df984933"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ac50b9bcf14cdcf2b0b869fb7df984933">_keepPathWhileCalculating</a> = true</td></tr>
+<tr class="memdesc:ac50b9bcf14cdcf2b0b869fb7df984933"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether to keep following the current path while waiting for a new path to finish calculating.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ac50b9bcf14cdcf2b0b869fb7df984933">More...</a><br /></td></tr>
 <tr class="separator:ac50b9bcf14cdcf2b0b869fb7df984933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >A script that can be used to calculates paths by any entity that needs to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> for navigation.  </p>
-<p >While a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html" title="A script that can be used to calculates paths by any entity that needs to use HyperNav for navigation...">NavAgent</a> is not necessary to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a>, it makes pathfinding easier. The <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html" title="A script that can be used to calculates paths by any entity that needs to use HyperNav for navigation...">NavAgent</a> does not impose any restrictions on how movement occurs, nor does it actually perform any movement. It simply provides a desired movement velocity, which other scripts on the object are responsible for using however they need. </p>
+<div class="textblock"><p >A script that can be used to calculate paths by any entity that needs to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> for navigation.  </p>
+<p >While a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html" title="A script that can be used to calculate paths by any entity that needs to use HyperNav for navigation.">NavAgent</a> is not necessary to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a>, it makes pathfinding easier. The <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html" title="A script that can be used to calculate paths by any entity that needs to use HyperNav for navigation.">NavAgent</a> does not impose any restrictions on how movement occurs, nor does it actually perform any movement. It simply provides a desired movement velocity, which other scripts on the object are responsible for using however they need. </p>
 <p >The agent can have one active path (the path it is currently following), but can have multiple pending paths (paths in the process of being calculated by a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html" title="A script used to calculate HyperNav paths.">NavPathfinder</a>). </p>
-<p >If you desire smoother movement then what the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html" title="A script that can be used to calculates paths by any entity that needs to use HyperNav for navigation...">NavAgent</a> provides, see <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html">SplineNavAgent</a>. </p>
+<p >If you desire smoother movement then what the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html" title="A script that can be used to calculate paths by any entity that needs to use HyperNav for navigation.">NavAgent</a> provides, see <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html" title="A script that can be used to calculate smooth paths by any entity that needs to use HyperNav for navi...">SplineNavAgent</a>. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0b9f6f547a1abc9270964a7c03086076" name="a0b9f6f547a1abc9270964a7c03086076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b9f6f547a1abc9270964a7c03086076">&#9670;&#160;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Infohazard.HyperNav.NavAgent.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stops all pathfinding and cancels path requests.  </p>
+
+</div>
+</div>
+<a id="a1d96b8e2634bde486a202a78a7c5e9fd" name="a1d96b8e2634bde486a202a78a7c5e9fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d96b8e2634bde486a202a78a7c5e9fd">&#9670;&#160;</a></span>OnDrawGizmos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Infohazard.HyperNav.NavAgent.OnDrawGizmos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draws the current path as a sequence of debug lines if <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a103b570ffba0f342e8ff1230543f8748" title="Whether to draw a debug line in the scene view showing the agent&#39;s current path.">DebugPath</a> is true.  </p>
+
+<p>Reimplemented in <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a110e985d0c78317c2b146890875f9a02">Infohazard.HyperNav.SplineNavAgent</a>.</p>
+
+</div>
+</div>
+<a id="a58384bd709b1a241ce3b6a04d305551c" name="a58384bd709b1a241ce3b6a04d305551c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58384bd709b1a241ce3b6a04d305551c">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Infohazard.HyperNav.NavAgent.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resets <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135" title="Velocity of the agent measured as delta position / delta time over the last frame,...">MeasuredVelocity</a> and sets <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a205558ab9973e02638069ea8b1fd6485" title="True if the agent has no active or pending path.">Arrived</a> to true.  </p>
+
+</div>
+</div>
 <a id="a1a7a9a9cef5143200750991e533e68cc" name="a1a7a9a9cef5143200750991e533e68cc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1a7a9a9cef5143200750991e533e68cc">&#9670;&#160;</a></span>OnPathReady()</h2>
 
@@ -301,6 +379,62 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_keepPathWhileCalcula
 
 </div>
 </div>
+<a id="aebf92806f87237c666f7ce09122cb967" name="aebf92806f87237c666f7ce09122cb967"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebf92806f87237c666f7ce09122cb967">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Infohazard.HyperNav.NavAgent.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates measured velocity and current index in path.  </p>
+
+<p>Reimplemented in <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a7aabfe9b4fc310f037e44c78b92cd5dc">Infohazard.HyperNav.SplineNavAgent</a>.</p>
+
+</div>
+</div>
+<a id="a76da2dfabdb41cf217e22ef7077fb5a0" name="a76da2dfabdb41cf217e22ef7077fb5a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76da2dfabdb41cf217e22ef7077fb5a0">&#9670;&#160;</a></span>UpdateMeasuredVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Infohazard.HyperNav.NavAgent.UpdateMeasuredVelocity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the value of <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135" title="Velocity of the agent measured as delta position / delta time over the last frame,...">MeasuredVelocity</a>, which is used to determine <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f" title="The distance that it will take the agent to come to a stop from its current velocity,...">StoppingDistance</a>.  </p>
+
+</div>
+</div>
 <a id="a33479c196e1a828fa7763fd757a3c9bf" name="a33479c196e1a828fa7763fd757a3c9bf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a33479c196e1a828fa7763fd757a3c9bf">&#9670;&#160;</a></span>UpdatePath()</h2>
 
@@ -326,6 +460,154 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_keepPathWhileCalcula
 
 <p>Request a new path from the current position to the desired destination.  </p>
 <p >It is usually not necessary to call this yourself, as it is called when setting <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a095e7a31d3f959dd2ab521fb3d30b4d0" title="Get or set the agent&#39;s destination (the position it is trying to get to).">Destination</a>. However, if the agent gets stuck or pushed off course, you may wish to use this to get a new path. </p>
+
+</div>
+</div>
+<a id="ac65961b68688cbd617c8115cb819c81b" name="ac65961b68688cbd617c8115cb819c81b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac65961b68688cbd617c8115cb819c81b">&#9670;&#160;</a></span>UpdatePathIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Infohazard.HyperNav.NavAgent.UpdatePathIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update the current path index, which is used to determine <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aab1aabbcca8c6377481ba71759319abe" title="The current path waypoint that the agent is trying to move towards.">NextWaypoint</a>.  </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2de58a9b4316eaa5f9fafae837fe59a4" name="a2de58a9b4316eaa5f9fafae837fe59a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de58a9b4316eaa5f9fafae837fe59a4">&#9670;&#160;</a></span>_accelerationEstimate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.NavAgent._accelerationEstimate = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) This should be set to the maximum acceleration of your agent (can be set dynamically as well).  </p>
+
+</div>
+</div>
+<a id="a90358359c5bc2cb0596049eaac4d2a8c" name="a90358359c5bc2cb0596049eaac4d2a8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90358359c5bc2cb0596049eaac4d2a8c">&#9670;&#160;</a></span>_acceptance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.NavAgent._acceptance = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) How close the agent must get to a destination before it is considered to have arrived.  </p>
+
+</div>
+</div>
+<a id="a2fc1edae0b38cf06300fa588fb74578d" name="a2fc1edae0b38cf06300fa588fb74578d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fc1edae0b38cf06300fa588fb74578d">&#9670;&#160;</a></span>_debugPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.NavAgent._debugPath = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Whether to draw a debug line in the scene view showing the agent's current path.  </p>
+
+</div>
+</div>
+<a id="ac50b9bcf14cdcf2b0b869fb7df984933" name="ac50b9bcf14cdcf2b0b869fb7df984933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac50b9bcf14cdcf2b0b869fb7df984933">&#9670;&#160;</a></span>_keepPathWhileCalculating</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.NavAgent._keepPathWhileCalculating = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Whether to keep following the current path while waiting for a new path to finish calculating.  </p>
+
+</div>
+</div>
+<a id="a6065ce99b01a5999a01fb8192f72a5d5" name="a6065ce99b01a5999a01fb8192f72a5d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6065ce99b01a5999a01fb8192f72a5d5">&#9670;&#160;</a></span>_sampleRadius</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.NavAgent._sampleRadius = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) The radius to search when finding the nearest <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>.  </p>
 
 </div>
 </div>
@@ -380,6 +662,78 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_keepPathWhileCalcula
 
 </div>
 </div>
+<a id="a205558ab9973e02638069ea8b1fd6485" name="a205558ab9973e02638069ea8b1fd6485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a205558ab9973e02638069ea8b1fd6485">&#9670;&#160;</a></span>Arrived</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.NavAgent.Arrived</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if the agent has no active or pending path.  </p>
+
+</div>
+</div>
+<a id="aec9a7aeff8728d75113f598fe8833e7b" name="aec9a7aeff8728d75113f598fe8833e7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec9a7aeff8728d75113f598fe8833e7b">&#9670;&#160;</a></span>CurrentPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html">NavPath</a> Infohazard.HyperNav.NavAgent.CurrentPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The current path that the agent is following.  </p>
+
+</div>
+</div>
+<a id="a103b570ffba0f342e8ff1230543f8748" name="a103b570ffba0f342e8ff1230543f8748"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a103b570ffba0f342e8ff1230543f8748">&#9670;&#160;</a></span>DebugPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.NavAgent.DebugPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether to draw a debug line in the scene view showing the agent's current path.  </p>
+
+</div>
+</div>
 <a id="a0b78432eeaf82525030732529e0d3c57" name="a0b78432eeaf82525030732529e0d3c57"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0b78432eeaf82525030732529e0d3c57">&#9670;&#160;</a></span>DesiredVelocity</h2>
 
@@ -427,6 +781,30 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_keepPathWhileCalcula
 
 <p>Get or set the agent's destination (the position it is trying to get to).  </p>
 <p >If set within the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a90358359c5bc2cb0596049eaac4d2a8c" title="(Serialized) How close the agent must get to a destination before it is considered to have arrived.">_acceptance</a> radius of the current position, will abort all movement. </p>
+
+</div>
+</div>
+<a id="aaadb9eb34ea58c0dff8b4955fee24e19" name="aaadb9eb34ea58c0dff8b4955fee24e19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaadb9eb34ea58c0dff8b4955fee24e19">&#9670;&#160;</a></span>IsPathPending</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.NavAgent.IsPathPending</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether a path is currently in the process of being calculated for this agent.  </p>
 
 </div>
 </div>
@@ -502,6 +880,87 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_keepPathWhileCalcula
 
 <p>The current path waypoint that the agent is trying to move towards.  </p>
 <p >If there is no active path, will return the agent's current position. </p>
+
+</div>
+</div>
+<a id="a43ce47b65550307d7fd5da67b8bc4c7c" name="a43ce47b65550307d7fd5da67b8bc4c7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43ce47b65550307d7fd5da67b8bc4c7c">&#9670;&#160;</a></span>SampleRadius</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.NavAgent.SampleRadius</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The radius to search when finding the nearest <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>.  </p>
+
+</div>
+</div>
+<a id="a3c90d079a5756739e3f3dd8c9216bd7f" name="a3c90d079a5756739e3f3dd8c9216bd7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c90d079a5756739e3f3dd8c9216bd7f">&#9670;&#160;</a></span>StoppingDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float Infohazard.HyperNav.NavAgent.StoppingDistance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The distance that it will take the agent to come to a stop from its current velocity, determined using the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab17eaa990c787a25dfb06e73537b0c88" title="(Serialized) This should be set to the maximum acceleration of your agent.">AccelerationEstimate</a>.  </p>
+
+</div>
+</div>
+<h2 class="groupheader">Event Documentation</h2>
+<a id="a67310670bd37233eb9637aa44eed3e65" name="a67310670bd37233eb9637aa44eed3e65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67310670bd37233eb9637aa44eed3e65">&#9670;&#160;</a></span>PathFailed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action Infohazard.HyperNav.NavAgent.PathFailed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invoked when the agent fails to find a path to the destination.  </p>
+
+</div>
+</div>
+<a id="a74a03139914cd81ff4d7aa9864fbe1bd" name="a74a03139914cd81ff4d7aa9864fbe1bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74a03139914cd81ff4d7aa9864fbe1bd">&#9670;&#160;</a></span>PathReady</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action Infohazard.HyperNav.NavAgent.PathReady</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invoked when the agent finds a path to the destination.  </p>
 
 </div>
 </div>

@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -90,10 +92,193 @@ $(document).ready(function(){initNavTree('struct_infohazard_1_1_hyper_nav_1_1_ed
 
 <div class="header">
   <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.HyperNav.Editor.MultiRegionMeshInfo Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>A struct used to store mesh data of an in-progress volume mesh.   
+ <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ae11b61d97b154e17f4833a6c421d9e31"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html">MultiRegionMeshInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#ae11b61d97b154e17f4833a6c421d9e31">CreateEmptyInfo</a> ()</td></tr>
+<tr class="memdesc:ae11b61d97b154e17f4833a6c421d9e31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new empty <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html" title="A struct used to store mesh data of an in-progress volume mesh.">MultiRegionMeshInfo</a> with all data structures allocated.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#ae11b61d97b154e17f4833a6c421d9e31">More...</a><br /></td></tr>
+<tr class="separator:ae11b61d97b154e17f4833a6c421d9e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a73de12a15b69cfff07eb229232124bb4"><td class="memItemLeft" align="right" valign="top">List&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a73de12a15b69cfff07eb229232124bb4">Vertices</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:a73de12a15b69cfff07eb229232124bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">All vertices of the mesh.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a73de12a15b69cfff07eb229232124bb4">More...</a><br /></td></tr>
+<tr class="separator:a73de12a15b69cfff07eb229232124bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a522aa35beb52aa274ed350e1fed5dc85"><td class="memItemLeft" align="right" valign="top">List&lt; List&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a522aa35beb52aa274ed350e1fed5dc85">VertexConnections</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:a522aa35beb52aa274ed350e1fed5dc85"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each vertex index, which other vertex indices it is connected to via edges.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a522aa35beb52aa274ed350e1fed5dc85">More...</a><br /></td></tr>
+<tr class="separator:a522aa35beb52aa274ed350e1fed5dc85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af9c5ad6dff59e0f7bbc683f2a842af"><td class="memItemLeft" align="right" valign="top">List&lt; List&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a0af9c5ad6dff59e0f7bbc683f2a842af">VertexRegionMembership</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:a0af9c5ad6dff59e0f7bbc683f2a842af"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each vertex index, which regions it is a part of.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a0af9c5ad6dff59e0f7bbc683f2a842af">More...</a><br /></td></tr>
+<tr class="separator:a0af9c5ad6dff59e0f7bbc683f2a842af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20bce45caf9ccc68f12a00bc79b1ea26"><td class="memItemLeft" align="right" valign="top">List&lt; List&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a20bce45caf9ccc68f12a00bc79b1ea26">RegionTriangleLists</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:a20bce45caf9ccc68f12a00bc79b1ea26"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each region, the indices of all the triangles in that region.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a20bce45caf9ccc68f12a00bc79b1ea26">More...</a><br /></td></tr>
+<tr class="separator:a20bce45caf9ccc68f12a00bc79b1ea26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421f5eae360436d8966d5d3cac1dd2c6"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a>, Dictionary&lt; int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a421f5eae360436d8966d5d3cac1dd2c6">TriangleIndicesPerRegion</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:a421f5eae360436d8966d5d3cac1dd2c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each triangle, for each region, what index that triangle's vertices start in that region.   <a href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a421f5eae360436d8966d5d3cac1dd2c6">More...</a><br /></td></tr>
+<tr class="separator:a421f5eae360436d8966d5d3cac1dd2c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >A struct used to store mesh data of an in-progress volume mesh.  </p>
+<p >Contains cached info about connections to make mesh operations simpler. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae11b61d97b154e17f4833a6c421d9e31" name="ae11b61d97b154e17f4833a6c421d9e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae11b61d97b154e17f4833a6c421d9e31">&#9670;&#160;</a></span>CreateEmptyInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html">MultiRegionMeshInfo</a> Infohazard.HyperNav.Editor.MultiRegionMeshInfo.CreateEmptyInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a new empty <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html" title="A struct used to store mesh data of an in-progress volume mesh.">MultiRegionMeshInfo</a> with all data structures allocated.  </p>
+<dl class="section return"><dt>Returns</dt><dd>The created <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html" title="A struct used to store mesh data of an in-progress volume mesh.">MultiRegionMeshInfo</a>.</dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a20bce45caf9ccc68f12a00bc79b1ea26" name="a20bce45caf9ccc68f12a00bc79b1ea26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20bce45caf9ccc68f12a00bc79b1ea26">&#9670;&#160;</a></span>RegionTriangleLists</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;List&lt;int&gt; &gt; Infohazard.HyperNav.Editor.MultiRegionMeshInfo.RegionTriangleLists</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>For each region, the indices of all the triangles in that region.  </p>
+
+</div>
+</div>
+<a id="a421f5eae360436d8966d5d3cac1dd2c6" name="a421f5eae360436d8966d5d3cac1dd2c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a421f5eae360436d8966d5d3cac1dd2c6">&#9670;&#160;</a></span>TriangleIndicesPerRegion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a>, Dictionary&lt;int, int&gt; &gt; Infohazard.HyperNav.Editor.MultiRegionMeshInfo.TriangleIndicesPerRegion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>For each triangle, for each region, what index that triangle's vertices start in that region.  </p>
+
+</div>
+</div>
+<a id="a522aa35beb52aa274ed350e1fed5dc85" name="a522aa35beb52aa274ed350e1fed5dc85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a522aa35beb52aa274ed350e1fed5dc85">&#9670;&#160;</a></span>VertexConnections</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;List&lt;int&gt; &gt; Infohazard.HyperNav.Editor.MultiRegionMeshInfo.VertexConnections</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>For each vertex index, which other vertex indices it is connected to via edges.  </p>
+
+</div>
+</div>
+<a id="a0af9c5ad6dff59e0f7bbc683f2a842af" name="a0af9c5ad6dff59e0f7bbc683f2a842af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0af9c5ad6dff59e0f7bbc683f2a842af">&#9670;&#160;</a></span>VertexRegionMembership</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;List&lt;int&gt; &gt; Infohazard.HyperNav.Editor.MultiRegionMeshInfo.VertexRegionMembership</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>For each vertex index, which regions it is a part of.  </p>
+
+</div>
+</div>
+<a id="a73de12a15b69cfff07eb229232124bb4" name="a73de12a15b69cfff07eb229232124bb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73de12a15b69cfff07eb229232124bb4">&#9670;&#160;</a></span>Vertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Vector3&gt; Infohazard.HyperNav.Editor.MultiRegionMeshInfo.Vertices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All vertices of the mesh.  </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li>Editor/NavVolumeBakingUtil.cs</li>
 </ul>

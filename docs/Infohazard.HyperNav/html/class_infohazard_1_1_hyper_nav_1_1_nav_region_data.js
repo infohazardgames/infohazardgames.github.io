@@ -1,5 +1,6 @@
 var class_infohazard_1_1_hyper_nav_1_1_nav_region_data =
 [
+    [ "Create", "class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a636af0929327ff2a31b324e7ce6a8be5", null ],
     [ "SetExternalLinks", "class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a6516fcb49f3291bbacaee76d9511e4db", null ],
     [ "_boundPlanes", "class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a9d0f20b5abcca5e2295144ab41fac704", null ],
     [ "_bounds", "class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aa01c1630845b1e5315d581cf18b2b098", null ],

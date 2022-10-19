@@ -1,7 +1,11 @@
 var searchData=
 [
-  ['this_5bint_20index_5d_0',['this[int index]',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_array_ptr.html#ad60d116ca4d8f9a66d05122e5242758a',1,'Infohazard::HyperNav::Jobs::NativeArrayPtr']]],
-  ['toposition_1',['ToPosition',['../class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#ac2fa20897c446fffbbb13da77fd7e5e8',1,'Infohazard::HyperNav::NavExternalLinkData']]],
-  ['triangles_2',['Triangles',['../class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a717c627877f7db408f45cfeb9648ad68',1,'Infohazard::HyperNav::NavInternalLinkData']]],
-  ['type_3',['Type',['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a58dd77bca1760c9571f89069026c58b0',1,'Infohazard::HyperNav::NavWaypoint']]]
+  ['sampleradius_0',['SampleRadius',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a43ce47b65550307d7fd5da67b8bc4c7c',1,'Infohazard::HyperNav::NavAgent']]],
+  ['showvertexnumbers_1',['ShowVertexNumbers',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a3b11e312e67b70b1d83991d2f66551e1',1,'Infohazard::HyperNav::NavVolume']]],
+  ['showvertexnumbersrange_2',['ShowVertexNumbersRange',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a98b5c21b34153a776ff09c5755dc17cd',1,'Infohazard::HyperNav::NavVolume']]],
+  ['starthit_3',['StartHit',['../class_infohazard_1_1_hyper_nav_1_1_nav_path.html#aecfe3abfb9587ffe48668be4fa03cc90',1,'Infohazard::HyperNav::NavPath']]],
+  ['startlocations_4',['StartLocations',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a31c168e2ad85f9bf9d001fdda15ecc62',1,'Infohazard::HyperNav::NavVolume']]],
+  ['startpos_5',['StartPos',['../class_infohazard_1_1_hyper_nav_1_1_nav_path.html#af7bd408b42f0cc3c158bd952b354a93e',1,'Infohazard::HyperNav::NavPath']]],
+  ['staticonly_6',['StaticOnly',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a7982b0ee3b4ede6af998e5aa48a7f0b9',1,'Infohazard::HyperNav::NavVolume']]],
+  ['stoppingdistance_7',['StoppingDistance',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f',1,'Infohazard::HyperNav::NavAgent']]]
 ];

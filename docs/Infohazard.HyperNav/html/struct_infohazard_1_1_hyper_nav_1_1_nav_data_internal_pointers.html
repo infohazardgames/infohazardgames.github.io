@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -101,15 +103,34 @@ $(document).ready(function(){initNavTree('struct_infohazard_1_1_hyper_nav_1_1_na
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9edd4b564538ae23f1347bf8b18d7edb"><td class="memItemLeft" align="right" valign="top"><a id="a9edd4b564538ae23f1347bf8b18d7edb" name="a9edd4b564538ae23f1347bf8b18d7edb"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> ()</td></tr>
-<tr class="memdesc:a9edd4b564538ae23f1347bf8b18d7edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispose and nullify all of the native array references.  <br /></td></tr>
+<tr class="memitem:a9edd4b564538ae23f1347bf8b18d7edb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_data_internal_pointers.html#a9edd4b564538ae23f1347bf8b18d7edb">Dispose</a> ()</td></tr>
+<tr class="memdesc:a9edd4b564538ae23f1347bf8b18d7edb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dispose and nullify all of the native array references.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_data_internal_pointers.html#a9edd4b564538ae23f1347bf8b18d7edb">More...</a><br /></td></tr>
 <tr class="separator:a9edd4b564538ae23f1347bf8b18d7edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >References to the NativeArrays allocated for a NativeNavVolumeData.  </p>
 <p >In the NativeNavVolumeData itself, these arrays are kept as pointers, which cannot be used to deallocate the arrays under Unity's safe memory system. In order to play nicely with that system, the original references must be kept and disposed. </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9edd4b564538ae23f1347bf8b18d7edb" name="a9edd4b564538ae23f1347bf8b18d7edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9edd4b564538ae23f1347bf8b18d7edb">&#9670;&#160;</a></span>Dispose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Infohazard.HyperNav.NavDataInternalPointers.Dispose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dispose and nullify all of the native array references.  </p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>Runtime/NavVolumeData.cs</li>
 </ul>
 </div><!-- contents -->

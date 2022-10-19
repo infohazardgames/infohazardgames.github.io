@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -100,8 +102,12 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>_bounds&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aa01c1630845b1e5315d581cf18b2b098">Infohazard.HyperNav.NavRegionData</a>, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a4f34c929afbb8c38b8745095aab6d983">Infohazard.HyperNav.NavVolume</a></li>
 <li>_connectedRegionID&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#af561565d865e0def4f08069222fa66dd">Infohazard.HyperNav.NavExternalLinkData</a>, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a22b5505b0f49e17da281556f1d725431">Infohazard.HyperNav.NavInternalLinkData</a></li>
 <li>_connectedVolumeID&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a54b35c4b2bf20a62c486c632bfc14062">Infohazard.HyperNav.NavExternalLinkData</a></li>
+<li>_curvatureOfMaxSlowdown&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#abf39c597e09091a04d90ce14e9df38e9">Infohazard.HyperNav.SplineNavAgent</a></li>
+<li>_curvatureSampleDistance&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a23ffdc27b5754a3b607a7208544a3c80">Infohazard.HyperNav.SplineNavAgent</a></li>
 <li>_data&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#af662c341effb3cf75a769d9f7608ab7a">Infohazard.HyperNav.NavVolume</a></li>
 <li>_debugPath&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a2fc1edae0b38cf06300fa588fb74578d">Infohazard.HyperNav.NavAgent</a></li>
+<li>_debugPointCount&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a7e395a0385d029c75910bd154066e147">Infohazard.HyperNav.SplineNavAgent</a></li>
+<li>_distanceSamplesPerSegment&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a061eedd859496fca6f97960e613164ac">Infohazard.HyperNav.SplineNavAgent</a></li>
 <li>_edges&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#ac5a7a41136940caec53878b4afd90660">Infohazard.HyperNav.NavInternalLinkData</a></li>
 <li>_externalLinks&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a40ba89483bc462bd5fe400dd79593ab5">Infohazard.HyperNav.NavRegionData</a></li>
 <li>_fromPosition&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#acf71a84b3c4cac05a53e3b28061241fb">Infohazard.HyperNav.NavExternalLinkData</a></li>
@@ -113,11 +119,16 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>_isMainInstance&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ac05d9cb2ba85437dcbd5c7ffe25ba459">Infohazard.HyperNav.NavPathfinder</a></li>
 <li>_keepPathWhileCalculating&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ac50b9bcf14cdcf2b0b869fb7df984933">Infohazard.HyperNav.NavAgent</a></li>
 <li>_maxAgentRadius&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a45eb8918749d6062d6aaf2480577a017">Infohazard.HyperNav.NavVolume</a></li>
+<li>_maxAlignmentVelocityDistance&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a98910df441be57b4bad262c7ca01fe5c">Infohazard.HyperNav.SplineNavAgent</a></li>
 <li>_maxCompletionFrames&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a2ee4ead502ab91f338cd629f1311db9b">Infohazard.HyperNav.NavPathfinder</a></li>
 <li>_maxConcurrentJobs&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a7457fbb6c9698404c2b2de9765754bf0">Infohazard.HyperNav.NavPathfinder</a></li>
+<li>_maxCurvatureSlowdown&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a9763b1b83126fad69ab255982aa17684">Infohazard.HyperNav.SplineNavAgent</a></li>
 <li>_maxExecutingRequests&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a566ed9c0c8698f1b72a4b8dfd9f5e987">Infohazard.HyperNav.NavPathfinder</a></li>
 <li>_maxExternalLinkDistance&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a854ed96c4702e56a467180c344fceebd">Infohazard.HyperNav.NavVolume</a></li>
 <li>_maxPathOpsPerFrame&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a2d3602c3c888feec264c791b0fe2df8f">Infohazard.HyperNav.NavPathfinder</a></li>
+<li>_maxVertex&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#acac66a762a60409f57d18fac4553d8b4">Infohazard.HyperNav.Edge</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html#a250403c42a60b15bf70f5a2513e7a44a">Infohazard.HyperNav.Triangle</a></li>
+<li>_midVertex&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html#ada3f52eb99c5162c7593c6f6fac8c15e">Infohazard.HyperNav.Triangle</a></li>
+<li>_minVertex&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a50acc186d83ded10f43809dbc6d8080f">Infohazard.HyperNav.Edge</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html#a391a317424daad56b6690a96ee168885">Infohazard.HyperNav.Triangle</a></li>
 <li>_normal&#160;:&#160;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html#a5cceb1cda7c0a04c60dd3fb8f734e1e7">Infohazard.HyperNav.NavRegionBoundPlane</a></li>
 <li>_pathfindingMode&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#aabd0468e7a21f9de5428e09d93b40d97">Infohazard.HyperNav.NavPathfinder</a></li>
 <li>_regions&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a878eb9ab071d27db9a5f7700cbc2cc53">Infohazard.HyperNav.NavVolumeData</a></li>
@@ -126,6 +137,7 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>_showVertexNumbersRange&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a7cec91f298b0207ceccc1cfacafe7997">Infohazard.HyperNav.NavVolume</a></li>
 <li>_startLocations&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#af73a6f5458cb9e19cb81f1c8d527b2ee">Infohazard.HyperNav.NavVolume</a></li>
 <li>_staticOnly&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a70b9539f4a8a9b892af48ccc0e95cb39">Infohazard.HyperNav.NavVolume</a></li>
+<li>_tangentScale&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a1896d8deaaf9df8a7bf46f122d58c668">Infohazard.HyperNav.SplineNavAgent</a></li>
 <li>_toPosition&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a69164e346c748666b1f77e8f118ae08f">Infohazard.HyperNav.NavExternalLinkData</a></li>
 <li>_triangles&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#aa5511ea19e062b627ed1109acf79cc43">Infohazard.HyperNav.NavInternalLinkData</a></li>
 <li>_useMultithreading&#160;:&#160;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a06e8666311c5ec47be4a97b26c2d9517">Infohazard.HyperNav.NavVolume</a></li>

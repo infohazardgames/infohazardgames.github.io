@@ -1,5 +1,6 @@
 var class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data =
 [
+    [ "Create", "class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#affb585062ede1469c52db17463dec47a", null ],
     [ "_connectedRegionID", "class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#af561565d865e0def4f08069222fa66dd", null ],
     [ "_connectedVolumeID", "class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a54b35c4b2bf20a62c486c632bfc14062", null ],
     [ "_fromPosition", "class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#acf71a84b3c4cac05a53e3b28061241fb", null ],

@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -101,34 +103,173 @@ $(document).ready(function(){initNavTree('struct_infohazard_1_1_hyper_nav_1_1_na
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a1b72e329acc52a3ac0cfe3a6e831db02"><td class="memItemLeft" align="right" valign="top"><a id="a1b72e329acc52a3ac0cfe3a6e831db02" name="a1b72e329acc52a3ac0cfe3a6e831db02"></a>
-<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html">NavVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Volume</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:a1b72e329acc52a3ac0cfe3a6e831db02"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> that was hit.  <br /></td></tr>
+<tr class="memitem:a1b72e329acc52a3ac0cfe3a6e831db02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html">NavVolume</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a1b72e329acc52a3ac0cfe3a6e831db02">Volume</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1b72e329acc52a3ac0cfe3a6e831db02"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> that was hit.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a1b72e329acc52a3ac0cfe3a6e831db02">More...</a><br /></td></tr>
 <tr class="separator:a1b72e329acc52a3ac0cfe3a6e831db02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad95e37d0e930426bb6ed625ea3f69185"><td class="memItemLeft" align="right" valign="top"><a id="ad95e37d0e930426bb6ed625ea3f69185" name="ad95e37d0e930426bb6ed625ea3f69185"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>Region</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:ad95e37d0e930426bb6ed625ea3f69185"><td class="mdescLeft">&#160;</td><td class="mdescRight">The region index within the hit <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a1b72e329acc52a3ac0cfe3a6e831db02" title="The NavVolume that was hit.">Volume</a>.  <br /></td></tr>
+<tr class="memitem:ad95e37d0e930426bb6ed625ea3f69185"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#ad95e37d0e930426bb6ed625ea3f69185">Region</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad95e37d0e930426bb6ed625ea3f69185"><td class="mdescLeft">&#160;</td><td class="mdescRight">The region index within the hit <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a1b72e329acc52a3ac0cfe3a6e831db02" title="The NavVolume that was hit.">Volume</a>.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#ad95e37d0e930426bb6ed625ea3f69185">More...</a><br /></td></tr>
 <tr class="separator:ad95e37d0e930426bb6ed625ea3f69185"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9928fde3032e19afce728781ec70c039"><td class="memItemLeft" align="right" valign="top"><a id="a9928fde3032e19afce728781ec70c039" name="a9928fde3032e19afce728781ec70c039"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsOnEdge</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:a9928fde3032e19afce728781ec70c039"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, query point was outside the region and thus this result is the nearest point. If false, query point was inside the region and the hit was at that exact position.  <br /></td></tr>
+<tr class="memitem:a9928fde3032e19afce728781ec70c039"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a9928fde3032e19afce728781ec70c039">IsOnEdge</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a9928fde3032e19afce728781ec70c039"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, query point was outside the region and thus this result is the nearest point. If false, query point was inside the region and the hit was at that exact position.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a9928fde3032e19afce728781ec70c039">More...</a><br /></td></tr>
 <tr class="separator:a9928fde3032e19afce728781ec70c039"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35f5b4cbde921ea510568d55180e58be"><td class="memItemLeft" align="right" valign="top"><a id="a35f5b4cbde921ea510568d55180e58be" name="a35f5b4cbde921ea510568d55180e58be"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>Position</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:a35f5b4cbde921ea510568d55180e58be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the query result point.  <br /></td></tr>
+<tr class="memitem:a35f5b4cbde921ea510568d55180e58be"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a35f5b4cbde921ea510568d55180e58be">Position</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a35f5b4cbde921ea510568d55180e58be"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the query result point.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a35f5b4cbde921ea510568d55180e58be">More...</a><br /></td></tr>
 <tr class="separator:a35f5b4cbde921ea510568d55180e58be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a258186864b1b0c4607827245651d43d7"><td class="memItemLeft" align="right" valign="top"><a id="a258186864b1b0c4607827245651d43d7" name="a258186864b1b0c4607827245651d43d7"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>Normal</b><code> [get, set]</code></td></tr>
-<tr class="memdesc:a258186864b1b0c4607827245651d43d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently not used and always Vector3.zero.  <br /></td></tr>
+<tr class="memitem:a258186864b1b0c4607827245651d43d7"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a258186864b1b0c4607827245651d43d7">Normal</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a258186864b1b0c4607827245651d43d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently not used and always Vector3.zero.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a258186864b1b0c4607827245651d43d7">More...</a><br /></td></tr>
 <tr class="separator:a258186864b1b0c4607827245651d43d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79fa06f63e3d119cd16b509e3428e7b2"><td class="memItemLeft" align="right" valign="top"><a id="a79fa06f63e3d119cd16b509e3428e7b2" name="a79fa06f63e3d119cd16b509e3428e7b2"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsValid</b><code> [get]</code></td></tr>
-<tr class="memdesc:a79fa06f63e3d119cd16b509e3428e7b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a valid <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a1b72e329acc52a3ac0cfe3a6e831db02" title="The NavVolume that was hit.">Volume</a> and <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#ad95e37d0e930426bb6ed625ea3f69185" title="The region index within the hit Volume.">Region</a> were hit.  <br /></td></tr>
+<tr class="memitem:a79fa06f63e3d119cd16b509e3428e7b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a79fa06f63e3d119cd16b509e3428e7b2">IsValid</a><code> [get]</code></td></tr>
+<tr class="memdesc:a79fa06f63e3d119cd16b509e3428e7b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a valid <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a1b72e329acc52a3ac0cfe3a6e831db02" title="The NavVolume that was hit.">Volume</a> and <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#ad95e37d0e930426bb6ed625ea3f69185" title="The region index within the hit Volume.">Region</a> were hit.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a79fa06f63e3d119cd16b509e3428e7b2">More...</a><br /></td></tr>
 <tr class="separator:a79fa06f63e3d119cd16b509e3428e7b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Structure that is used to report the nearest point on a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> to a query.  </p>
-</div><hr/>The documentation for this struct was generated from the following file:<ul>
+</div><h2 class="groupheader">Property Documentation</h2>
+<a id="a9928fde3032e19afce728781ec70c039" name="a9928fde3032e19afce728781ec70c039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9928fde3032e19afce728781ec70c039">&#9670;&#160;</a></span>IsOnEdge</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.NavHit.IsOnEdge</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If true, query point was outside the region and thus this result is the nearest point. If false, query point was inside the region and the hit was at that exact position.  </p>
+
+</div>
+</div>
+<a id="a79fa06f63e3d119cd16b509e3428e7b2" name="a79fa06f63e3d119cd16b509e3428e7b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79fa06f63e3d119cd16b509e3428e7b2">&#9670;&#160;</a></span>IsValid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.NavHit.IsValid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether a valid <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a1b72e329acc52a3ac0cfe3a6e831db02" title="The NavVolume that was hit.">Volume</a> and <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#ad95e37d0e930426bb6ed625ea3f69185" title="The region index within the hit Volume.">Region</a> were hit.  </p>
+
+</div>
+</div>
+<a id="a258186864b1b0c4607827245651d43d7" name="a258186864b1b0c4607827245651d43d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a258186864b1b0c4607827245651d43d7">&#9670;&#160;</a></span>Normal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Infohazard.HyperNav.NavHit.Normal</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Currently not used and always Vector3.zero.  </p>
+
+</div>
+</div>
+<a id="a35f5b4cbde921ea510568d55180e58be" name="a35f5b4cbde921ea510568d55180e58be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35f5b4cbde921ea510568d55180e58be">&#9670;&#160;</a></span>Position</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 Infohazard.HyperNav.NavHit.Position</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The position of the query result point.  </p>
+
+</div>
+</div>
+<a id="ad95e37d0e930426bb6ed625ea3f69185" name="ad95e37d0e930426bb6ed625ea3f69185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad95e37d0e930426bb6ed625ea3f69185">&#9670;&#160;</a></span>Region</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Infohazard.HyperNav.NavHit.Region</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The region index within the hit <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a1b72e329acc52a3ac0cfe3a6e831db02" title="The NavVolume that was hit.">Volume</a>.  </p>
+
+</div>
+</div>
+<a id="a1b72e329acc52a3ac0cfe3a6e831db02" name="a1b72e329acc52a3ac0cfe3a6e831db02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b72e329acc52a3ac0cfe3a6e831db02">&#9670;&#160;</a></span>Volume</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html">NavVolume</a> Infohazard.HyperNav.NavHit.Volume</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> that was hit.  </p>
+
+</div>
+</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
 <li>Runtime/NavHit.cs</li>
 </ul>
 </div><!-- contents -->

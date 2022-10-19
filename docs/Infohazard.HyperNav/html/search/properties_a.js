@@ -1,5 +1,14 @@
 var searchData=
 [
-  ['nextwaypoint_0',['NextWaypoint',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aab1aabbcca8c6377481ba71759319abe',1,'Infohazard::HyperNav::NavAgent']]],
-  ['normal_1',['Normal',['../struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a258186864b1b0c4607827245651d43d7',1,'Infohazard.HyperNav.NavHit.Normal()'],['../struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html#a17874eecfd3f3c8fe5d94af195ff7900',1,'Infohazard.HyperNav.NavRegionBoundPlane.Normal()']]]
+  ['maininstance_0',['MainInstance',['../class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a061885e442e7f993ac3bef05b700a6fd',1,'Infohazard::HyperNav::NavPathfinder']]],
+  ['maxagentradius_1',['MaxAgentRadius',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ab200ae18e2232228948f9dc28ee94687',1,'Infohazard::HyperNav::NavVolume']]],
+  ['maxalignmentvelocitydistance_2',['MaxAlignmentVelocityDistance',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#ae7969c786d8c8109ed8d10527e6ba5ae',1,'Infohazard::HyperNav::SplineNavAgent']]],
+  ['maxcompletionframes_3',['MaxCompletionFrames',['../class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#af75fd284455658b4a531d210454cca6a',1,'Infohazard::HyperNav::NavPathfinder']]],
+  ['maxconcurrentjobs_4',['MaxConcurrentJobs',['../class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#af9ab82ccbd806edbbce03d60a139685d',1,'Infohazard::HyperNav::NavPathfinder']]],
+  ['maxcurvatureslowdown_5',['MaxCurvatureSlowdown',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a6bd41362235132e33903a7a62782d2c1',1,'Infohazard::HyperNav::SplineNavAgent']]],
+  ['maxexecutingrequests_6',['MaxExecutingRequests',['../class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ab7f95643b08d0af5ef914c2c3b628b45',1,'Infohazard::HyperNav::NavPathfinder']]],
+  ['maxexternallinkdistance_7',['MaxExternalLinkDistance',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a6f545067b61c7a1cbc093a1d19c7754f',1,'Infohazard::HyperNav::NavVolume']]],
+  ['maxpathopsperframe_8',['MaxPathOpsPerFrame',['../class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a0aea3b845b5dd49cbe8ef035d07f74c5',1,'Infohazard::HyperNav::NavPathfinder']]],
+  ['maxsplinedistance_9',['MaxSplineDistance',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#acf0b25d962871306530a25cfc4d30cb1',1,'Infohazard::HyperNav::SplineNavAgent']]],
+  ['measuredvelocity_10',['MeasuredVelocity',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135',1,'Infohazard::HyperNav::NavAgent']]]
 ];

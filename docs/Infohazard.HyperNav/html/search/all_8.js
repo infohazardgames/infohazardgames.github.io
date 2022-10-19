@@ -1,21 +1,8 @@
 var searchData=
 [
-  ['editor_0',['Editor',['../namespace_infohazard_1_1_hyper_nav_1_1_editor.html',1,'Infohazard::HyperNav']]],
-  ['hypernav_1',['HyperNav',['../namespace_infohazard_1_1_hyper_nav.html',1,'Infohazard']]],
-  ['id_2',['ID',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#a3c65672ea288477f31ff0ff18e5df0df',1,'Infohazard.HyperNav.Jobs.NativeNavVolumeData.ID()'],['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#af2218e93f045621ba5daf3409a1eadb7',1,'Infohazard.HyperNav.Jobs.NativeNavRegionData.ID()'],['../class_infohazard_1_1_hyper_nav_1_1_nav_path.html#a05d1674b4fb31b5376782794fb791d6f',1,'Infohazard.HyperNav.NavPath.ID()'],['../class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a2b9fe1b8cc48159d18c605db249848c0',1,'Infohazard.HyperNav.NavRegionData.ID()']]],
-  ['indices_3',['Indices',['../class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a2e619ac3d072b62730f067bfcbd0cad1',1,'Infohazard::HyperNav::NavRegionData']]],
-  ['infohazard_4',['Infohazard',['../namespace_infohazard.html',1,'']]],
-  ['instanceid_5',['InstanceID',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a443754a053b338368c1888801b490b16',1,'Infohazard::HyperNav::NavVolume']]],
-  ['internalcost_6',['InternalCost',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html#ae25a93659e388141c27b08ae9c9d91bc',1,'Infohazard::HyperNav::Jobs::NativeNavExternalLinkData']]],
-  ['internallinkcount_7',['InternalLinkCount',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#ac71e869eb0f43d0e76f90161408887ff',1,'Infohazard::HyperNav::Jobs::NativeNavRegionData']]],
-  ['internallinks_8',['InternalLinks',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#afd5301ec44994feff6062507905b311c',1,'Infohazard.HyperNav.Jobs.NativeNavVolumeData.InternalLinks()'],['../class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a56e6106833ac55da949bbfcc0188c9ba',1,'Infohazard.HyperNav.NavRegionData.InternalLinks()']]],
-  ['internallinkstart_9',['InternalLinkStart',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#ae1a8bca887ab98501e0feae57bd7301d',1,'Infohazard::HyperNav::Jobs::NativeNavRegionData']]],
-  ['intersectvertex_10',['IntersectVertex',['../struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html#a27b53563af1c120711eeb46b2577c91a',1,'Infohazard::HyperNav::NavRegionBoundPlane']]],
-  ['inversetransform_11',['InverseTransform',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#ad65422a5a7ba1f22b9ea21ed15a12265',1,'Infohazard::HyperNav::Jobs::NativeNavVolumeData']]],
-  ['iscreated_12',['IsCreated',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html#afd12ddf7a653e285962bf6fd222617f9',1,'Infohazard::HyperNav::Jobs::NativeHeap']]],
-  ['ismaininstance_13',['IsMainInstance',['../class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#acf0259cd4c80ae25bdc287b1025a481d',1,'Infohazard::HyperNav::NavPathfinder']]],
-  ['isonedge_14',['IsOnEdge',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html#ae44e7ccfa60b8fc3afb18544cdbfa577',1,'Infohazard.HyperNav.Jobs.NativeNavHit.IsOnEdge()'],['../struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a9928fde3032e19afce728781ec70c039',1,'Infohazard.HyperNav.NavHit.IsOnEdge()']]],
-  ['ispathpending_15',['IsPathPending',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aaadb9eb34ea58c0dff8b4955fee24e19',1,'Infohazard::HyperNav::NavAgent']]],
-  ['isvalid_16',['IsValid',['../struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a79fa06f63e3d119cd16b509e3428e7b2',1,'Infohazard::HyperNav::NavHit']]],
-  ['jobs_17',['Jobs',['../namespace_infohazard_1_1_hyper_nav_1_1_jobs.html',1,'Infohazard::HyperNav']]]
+  ['hasbeendisposed_0',['HasBeenDisposed',['../class_infohazard_1_1_hyper_nav_1_1_nav_path.html#aa3dfe911e3d2762875b48910f7208b9c',1,'Infohazard::HyperNav::NavPath']]],
+  ['hasprevious_1',['HasPrevious',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#ad8d32660ca91ae729df4cf0a23675b72',1,'Infohazard::HyperNav::Jobs::VisitedNodeInfo']]],
+  ['heuristic_2',['Heuristic',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#a559823ebf8089846006d6a2733bbc275',1,'Infohazard::HyperNav::Jobs::VisitedNodeInfo']]],
+  ['hypernav_20documentation_3',['HyperNav Documentation',['../index.html',1,'']]],
+  ['hypernavpathcallback_4',['HyperNavPathCallback',['../namespace_infohazard_1_1_hyper_nav.html#a893f3d0e39a2a9a747fbc30f4d85522c',1,'Infohazard::HyperNav']]]
 ];

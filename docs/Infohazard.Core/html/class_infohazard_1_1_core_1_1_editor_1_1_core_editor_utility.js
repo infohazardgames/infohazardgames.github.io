@@ -1,5 +1,7 @@
 var class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility =
 [
+    [ "CreateGameObjectInScene", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a16159f7655b45bebf45649902a1f90d2", null ],
+    [ "CreateGameObjectInSceneWithComponent< T >", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a7b7b1f2ad30393887140311dc08c9b1d", null ],
     [ "DoLazyDropdown< T >", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#af5210935781fb60e87eca5e6ef31bc22", null ],
     [ "EnsureDataFolderExists", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#ac1adf21a3eb4d7eebd201442c764397e", null ],
     [ "ExecuteProcess", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#ab332ba27169c871fa06cee4bb04925d0", null ],
@@ -13,6 +15,7 @@ var class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility =
     [ "GetResourcePath", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a9121acebd38e353ce513e0f52e3a9ac9", null ],
     [ "GetTypeName", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#aa25a3ae73fcaa9cbd077119369bd24a6", null ],
     [ "GetValue", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a8a3e663dcc75f54b8e5e009af87e3e32", null ],
+    [ "InstantiatePrefabInScene", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#aaec0397fc169bebf67995afc4ef20890", null ],
     [ "SetSymbolDefined", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a803d9fe725e4f7f15e58ea9871e27ee2", null ],
     [ "DataFolder", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a1dad005eb664819ab376271fa66d0881", null ]
 ];

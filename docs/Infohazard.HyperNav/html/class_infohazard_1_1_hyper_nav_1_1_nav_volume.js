@@ -1,5 +1,6 @@
 var class_infohazard_1_1_hyper_nav_1_1_nav_volume =
 [
+    [ "PropNames", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_1_1_prop_names.html", null ],
     [ "Awake", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ad8da45ed4676c95eaa9985e6f0694894", null ],
     [ "OnDestroy", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a342e17641741561d17f02896b89f98c9", null ],
     [ "OnDisable", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a52cf8830e29a9b790fc816fb89b2d22f", null ],
@@ -21,6 +22,7 @@ var class_infohazard_1_1_hyper_nav_1_1_nav_volume =
     [ "_visualizeNeighbors", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a59bf97ceb90c7c1a96e7e788708364b5", null ],
     [ "_visualizeNeighborsRegion", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a9e0e14a6f7be8554e727094b1a1c6879", null ],
     [ "_voxelSize", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a9b7858170ddb48e4be0f173d9aa71592", null ],
+    [ "VolumeData", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a54faaf9663a04877b4a72825823abf25", null ],
     [ "BlockingLayers", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a028ce34e73aaab9b1c6f63df13629077", null ],
     [ "Bounds", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a1d77c77b379e62ad00b599550a2c7367", null ],
     [ "Data", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a0108b53c76e1333023ef9e574861fe63", null ],
@@ -36,5 +38,6 @@ var class_infohazard_1_1_hyper_nav_1_1_nav_volume =
     [ "VisualizationMode", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a745bbfb20e1e28c195059bafc480201c", null ],
     [ "VisualizeNeighbors", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a83f1257c5f54ddc4acadcb37189bf3e7", null ],
     [ "VisualizeNeighborsRegion", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ac794a53a58b0d28b6342b9f17245316c", null ],
+    [ "Volumes", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aef1c17f45f49e648edea7cec80b5e54b", null ],
     [ "VoxelSize", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a45ce16bda7db65a6d92a7b842ff840a2", null ]
 ];

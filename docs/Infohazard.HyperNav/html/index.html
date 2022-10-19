@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Infohazard.HyperNav: Main Page</title>
+<title>Infohazard.HyperNav: HyperNav Documentation</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -88,10 +90,128 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">Infohazard.HyperNav Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">HyperNav Documentation </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p ><a class="anchor" id="md_README"></a> </p>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Table of Contents</h1>
+<ul>
+<li>HyperNav Documentation<ul>
+<li>Table of Contents</li>
+<li>Introduction</li>
+<li>Documentation</li>
+<li>License</li>
+<li>Installation<ul>
+<li>Prerequisites</li>
+<li>Asset Store</li>
+<li>Package Manager (Git URL or Submodule)</li>
+</ul>
+</li>
+<li>Setup<ul>
+<li>General Setup</li>
+<li>SRP Setup</li>
+</ul>
+</li>
+<li>Features Guide<ul>
+<li>Volume Setup</li>
+<li>Pathfinder Setup</li>
+<li>Agent Setup</li>
+<li>Spline Agent Setup</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md5"></a>
+Introduction</h1>
+<p >HyperNav is a navmesh-like system for implementing volume-based navigation. Unlike a navmesh, which is bound to walkable surfaces, HyperNav creates volumes in which characters can navigate on all three axes. I developed it for Astral Horizon, an FPS with 6-DOF gameplay, and it is best suited to similar games (where characters with the ability to fly need to navigate enclosed spaces).</p>
+<h1><a class="anchor" id="autotoc_md6"></a>
+Documentation</h1>
+<p ><a href="https://www.infohazardgames.com/docs/Infohazard.HyperNav/html/">API Docs</a></p>
+<p ><a href="https://www.youtube.com/playlist?list=PLpnNr8QNHD90de9WhmbQUZSPXKoPctVV8">Tutorial Playlist</a></p>
+<h1><a class="anchor" id="autotoc_md7"></a>
+License</h1>
+<p >HyperNav uses the standard Unity Asset Store per-seat license for tools.</p>
+<h1><a class="anchor" id="autotoc_md8"></a>
+Installation</h1>
+<h2><a class="anchor" id="autotoc_md9"></a>
+Prerequisites</h2>
+<p >HyperNav depends on the Infohazard.Core library, which you can get from the Asset Store or as a Package Manager package from <a href="https://github.com/infohazardgames/Infohazard.Core">Github</a>. Regardless of how you install it, you should do so before importing HyperNav. You can see more information about the core library <a href="../../Infohazard.Core/html/index.html">here</a></p>
+<p >HyperNav also has three additional package manager dependencies: burst, collections, and editorcoroutines. However, these will automatically be installed when you import it, so no need to do anything here.</p>
+<h2><a class="anchor" id="autotoc_md10"></a>
+Asset Store</h2>
+<p >The main way to install HyperNav is through the asset store. Just install it as you would any other asset, and make sure you allow Unity to update package manager dependencies.</p>
+<h2><a class="anchor" id="autotoc_md11"></a>
+Package Manager (Git URL or Submodule)</h2>
+<p >Because HyperNav is a paid asset, the Github repository is not open source. However, if you wish to contribute to HyperNav and have purchased a seat, please feel free to <a href="#" onclick="location.href='mai'+'lto:'+'inf'+'oh'+'aza'+'rd'+'.ga'+'me'+'s@g'+'ma'+'il.'+'co'+'m'; return false;">email me</a> and I can look into getting you read access to the repository.</p>
+<h1><a class="anchor" id="autotoc_md12"></a>
+Setup</h1>
+<h2><a class="anchor" id="autotoc_md13"></a>
+General Setup</h2>
+<p >The only setup required beyond installation is to add references to the <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">Infohazard.HyperNav</a> assembly if you are using an assembly definition. If you are using the default assemblies (such as Assembly-CSharp), nothing is needed here.</p>
+<h2><a class="anchor" id="autotoc_md14"></a>
+SRP Setup</h2>
+<p >If you are using a scriptable render pipeline (URP, HDRP, etc) and wish to run the demos, you will need to upgrade the materials using your render pipeline's material upgrade system. The materials you'll need to upgrade are in <code>Assets/Plugins/Infohazard/Demos/Infohazard.HyperNav/Materials</code> and <code>Assets/Plugins/Infohazard/Demos/Shared Demo Assets/Materials</code>.</p>
+<h1><a class="anchor" id="autotoc_md15"></a>
+Features Guide</h1>
+<h2><a class="anchor" id="autotoc_md16"></a>
+Volume Setup</h2>
+<p >The first step to setup navigation in your scene is to create a NavVolume, using the menu item <a class="el" href="namespace_infohazard.html">Infohazard</a> &gt; Create &gt; HyperNav &gt; Nav Volume.</p>
+<h3><a class="anchor" id="autotoc_md17"></a>
+NavVolume Parameters Configuration</h3>
+<p >There are a lot of parameters in NavVolume, which you can read about in full in the <a href="https://infohazardgames.com/docs/Infohazard.HyperNav/html/class_infohazard_1_1_hyper_nav_1_1_nav_volume.html">API Docs</a>. The most important properties that you will probably want to configure here are:</p><ul>
+<li>Bounds: The boundaries of the volume, which you can edit visually.</li>
+<li>BlockingLayers: The layers that are considered impassible to agents.</li>
+<li>MaxAgentRadius: Paths in this volume must be able to accommodate an agent of this radius.</li>
+<li>VoxelSize: Size of voxel samples when baking, which is a tradeoff between accuracy and performance (both baking and at runtime).</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md18"></a>
+Baking</h3>
+<p >Once your parameters are configured, you can bake the NavVolume! Just hit the "Bake" button and wait for it to finish (it should be fairly quick). If the baking is taking a long time, consider breaking your volume up into multiple smaller volumes. By default, when baking is done, you should see the baked results rendered as a blue mesh in the scene view when the volume is selected.</p>
+<h3><a class="anchor" id="autotoc_md19"></a>
+External Links</h3>
+<p >If you are using multiple volumes, you most likely will want agents to be able to find paths between them. This is accomplished using external links. Simply use the "Generate External Links" button after all volumes are baked, or, for convenience, "Generate All External Links" to generate links on all loaded NavVolumes. Once the external links are generated, you should see them as green lines in the scene view when a volume is selected.</p>
+<p >Note that if you re-bake a volume, you will need to regenerate not only its external links but the external links of all of its neighbors. If you don't do this, you will get links leading to the wrong region, and potentially paths that cross through impassible areas. The "Generate All External Links" button comes in handy here.</p>
+<h2><a class="anchor" id="autotoc_md20"></a>
+Pathfinder Setup</h2>
+<p >Before you can start pathfinding, you also need to create a NavPathfinder, using the menu item <a class="el" href="namespace_infohazard.html">Infohazard</a> &gt; Create &gt; HyperNav &gt; Nav Pathfinder. You can create a NavPathfinder in each scene that needs one, or you can create one that persists through level loading.</p>
+<h3><a class="anchor" id="autotoc_md21"></a>
+NavPathfinder Parameters Configuration</h3>
+<p >Like with volumes, there are a lot of parameters in NavPathfinder, which you can read about in full in the <a href="https://infohazardgames.com/docs/Infohazard.HyperNav/html/class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html">API Docs</a>. The most important properties that you will probably want to configure here are:</p><ul>
+<li>PathfindingMode: Where paths are calculated. To enjoy the performance boost of the C# Job System and Burst, I recommend leaving this as Worker Thread (Job).</li>
+<li>MaxConcurrentJobs: How many pathfinding jobs can be running at once. This should be kept fairly low. Additional jobs will be kept in a queue.</li>
+<li>MaxCompletionFrames: How many frames pathfinding jobs are allowed to take to complete. I recommend starting this at three, as that is the max allowed when using high-performance TempJob memory. If your paths are consistently taking longer than three frames (this will print warning messages in the console), increase it as needed.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md22"></a>
+Agent Setup</h2>
+<p >The final step to start pathfinding is to set up agents. A NavAgent is the easiest way to start finding paths from code. Simply add the NavAgent to your GameObject, set its Destination, and read its DesiredVelocity.</p>
+<h3><a class="anchor" id="autotoc_md23"></a>
+NavAgent Parameters Configuration</h3>
+<p >You can find full parameter documentation in the <a href="https://infohazardgames.com/docs/Infohazard.HyperNav/html/class_infohazard_1_1_hyper_nav_1_1_nav_agent.html">API Docs</a>. The main paremeters you'll want to configure for NavAgent are:</p><ul>
+<li>Acceptance: How close the agent must get to a waypoint before it is considered arrived. If acceptance is too low, the agent may not be able to feasibly reach its destination (depending on your movement system).</li>
+<li>AccelerationEstimate: How fast the agent is able to accelerate. This value is used so that it knows when to slow down. You can set this dynamically if your character's acceleration changes.</li>
+<li>SampleRadius: Radius outside the agent to search for a NavVolume. If no NavVolume is found within this radius, pathfinding cannot occur.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md24"></a>
+Agent Usage</h3>
+<p >With your agent set up, you'll need to reference it in code. Your movement code should set NavAgent.Destination to start finding a path, and use NavAgent.DesiredVelocity to determine the direction and speed to move in. You can check NavAgent.Arrived to see if the agent has reached its destination or not.</p>
+<h2><a class="anchor" id="autotoc_md25"></a>
+Spline Agent Setup</h2>
+<p >If you wish to use the spline path system to achieve smoother navigation paths, simply replace the NavAgent with a SplineNavAgent. SplineNavAgent provides the same properties as NavAgent (as it is a subclass) with some additional properties.</p>
+<h3><a class="anchor" id="autotoc_md26"></a>
+SplineNavAgent Paremeters Configuration</h3>
+<p >SplineNavAgent's parameters are documented in the <a href="https://infohazardgames.com/docs/Infohazard.HyperNav/html/class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html">API Docs</a>. In addition to the parameters offered by NavAgent, SplineNavAgent contains the following parameters that you may want to set:</p><ul>
+<li>TangentScale: This value controls the curviness of the path. The default value of 0.5 usually works well.</li>
+<li>MaxAlignmentVelocityDistance: The further the agent drifts from the spline, the more it attempts to move back towards the spline. This is the distance at which the entire DesiredVelocity is devoted to returning to the spline.</li>
+<li>CurvatureOfMaxSlowdown: The agent's DesiredVelocity will slow down on parts of the spline with higher curvature. This is the curvature value at which the slowdown will be the greatest. By turning on DebugPath, you can see the curvature values scaled from green (no curvature) to red (this curvature value) to determine the right value for you.</li>
+<li>MaxCurvatureSlowdown: The multiplier on desired velocity to use when the spline curvature is at CurvatureOfMaxSlowdown. At lower curvature values, the velocity multiplier scales from 1 to this value.</li>
+</ul>
+<h3><a class="anchor" id="autotoc_md27"></a>
+SplineNavAgent Usage</h3>
+<p >Usage of SplineNavAgent is exactly the same as NavAgent - set the Destination and use the DesiredVelocity. </p>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

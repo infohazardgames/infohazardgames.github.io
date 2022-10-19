@@ -1,11 +1,16 @@
 var searchData=
 [
-  ['nativebounds_0',['NativeBounds',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_bounds.html#ab56584492984cdf5df29d8da3f158658',1,'Infohazard::HyperNav::Jobs::NativeBounds']]],
-  ['nativeheap_1',['NativeHeap',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html#ae6659d85a91fd7fc18bc03a5cb25c555',1,'Infohazard::HyperNav::Jobs::NativeHeap']]],
-  ['nativenavexternallinkdata_2',['NativeNavExternalLinkData',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html#a65f5cca832cd531442adbfef5946fa7f',1,'Infohazard::HyperNav::Jobs::NativeNavExternalLinkData']]],
-  ['nativenavhit_3',['NativeNavHit',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html#a075c89a0f713b1c10a41b7a1dad81d35',1,'Infohazard::HyperNav::Jobs::NativeNavHit']]],
-  ['nativenavinternallinkdata_4',['NativeNavInternalLinkData',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#afe3d57127e25fc1dbcabd105d079ce3f',1,'Infohazard::HyperNav::Jobs::NativeNavInternalLinkData']]],
-  ['nativenavregiondata_5',['NativeNavRegionData',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#ac3c3a061112a8c1a4f5efc18b1f69ca5',1,'Infohazard::HyperNav::Jobs::NativeNavRegionData']]],
-  ['nativenavvolumedata_6',['NativeNavVolumeData',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#aeec9168090640da65177c3840b34bd9f',1,'Infohazard::HyperNav::Jobs::NativeNavVolumeData']]],
-  ['nativenavwaypoint_7',['NativeNavWaypoint',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint.html#ad7c4bee451466db748626846eda9858d',1,'Infohazard::HyperNav::Jobs::NativeNavWaypoint']]]
+  ['generateallexternallinks_0',['GenerateAllExternalLinks',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_external_link_util.html#a4bec4f57ace4b36e601270b975f80bb8',1,'Infohazard::HyperNav::Editor::NavVolumeExternalLinkUtil']]],
+  ['generateexternallinks_1',['GenerateExternalLinks',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_external_link_util.html#a50c0cd2932c9b020642995205353732c',1,'Infohazard::HyperNav::Editor::NavVolumeExternalLinkUtil']]],
+  ['getcontrolposition_2',['GetControlPosition',['../class_infohazard_1_1_hyper_nav_1_1_spline_path.html#a4aae4268d21910d5d3907d10a8dbabf2',1,'Infohazard::HyperNav::SplinePath']]],
+  ['getcontroltangent_3',['GetControlTangent',['../class_infohazard_1_1_hyper_nav_1_1_spline_path.html#a46e93889fc131f2d891d2d43366e29cc',1,'Infohazard::HyperNav::SplinePath']]],
+  ['getcurvature_4',['GetCurvature',['../class_infohazard_1_1_hyper_nav_1_1_spline_path.html#ab7d05d7319055c40bc793ab0c9b1a7b9',1,'Infohazard::HyperNav::SplinePath']]],
+  ['getdistance_5',['GetDistance',['../class_infohazard_1_1_hyper_nav_1_1_spline_path.html#af46352ea25759d891924b9164c5e7bcc',1,'Infohazard::HyperNav::SplinePath']]],
+  ['gethashcode_6',['GetHashCode',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#aa7df74599897a983e4cc7450f6350253',1,'Infohazard.HyperNav.Jobs.PendingPathNode.GetHashCode()'],['../struct_infohazard_1_1_hyper_nav_1_1_edge.html#a561a15c850ad515a3ddd3ff49fcf9b84',1,'Infohazard.HyperNav.Edge.GetHashCode()'],['../struct_infohazard_1_1_hyper_nav_1_1_triangle.html#a8c5ab76f222d7931f224723716299ccf',1,'Infohazard.HyperNav.Triangle.GetHashCode()']]],
+  ['getnearestpointonsegment_7',['GetNearestPointOnSegment',['../class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#a8eabaa322a8aebceb35c9e79a474b358',1,'Infohazard::HyperNav::Jobs::NativeMathUtility']]],
+  ['getnearestpointontriangle_8',['GetNearestPointOnTriangle',['../class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#ae491b27a17a255d340fe7365e5ca0ee6',1,'Infohazard::HyperNav::Jobs::NativeMathUtility']]],
+  ['getorcreatedata_9',['GetOrCreateData',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#ab886329a046ee3ac4dda7310724648a0',1,'Infohazard::HyperNav::Editor::NavVolumeBakingUtil']]],
+  ['getparameter_10',['GetParameter',['../class_infohazard_1_1_hyper_nav_1_1_spline_path.html#adecf1a98a5c33b273cc3baffb9613b93',1,'Infohazard::HyperNav::SplinePath']]],
+  ['getposition_11',['GetPosition',['../class_infohazard_1_1_hyper_nav_1_1_spline_path.html#a07743b6ffbdb127bed67a2a92e94022c',1,'Infohazard::HyperNav::SplinePath']]],
+  ['gettangent_12',['GetTangent',['../class_infohazard_1_1_hyper_nav_1_1_spline_path.html#afab68a7323544126a934ebcdca9a895a',1,'Infohazard::HyperNav::SplinePath']]]
 ];

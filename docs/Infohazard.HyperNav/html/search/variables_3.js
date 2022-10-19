@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['edgescount_0',['EdgesCount',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#a5cb0e967849e2735f4fe0b69b8ca5814',1,'Infohazard::HyperNav::Jobs::NativeNavInternalLinkData']]],
-  ['edgesstart_1',['EdgesStart',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#a9898539ef604c4cc344e3d5d884bb4cd',1,'Infohazard::HyperNav::Jobs::NativeNavInternalLinkData']]],
-  ['extents_2',['Extents',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_bounds.html#ae566b804a45bf7645ab51a9c412609d2',1,'Infohazard::HyperNav::Jobs::NativeBounds']]],
-  ['externallinkcount_3',['ExternalLinkCount',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#a5e884f701c579a23103cb8e9627ac9b3',1,'Infohazard::HyperNav::Jobs::NativeNavRegionData']]],
-  ['externallinks_4',['ExternalLinks',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#a0bd7c8655882590ca4437cf7ce1cc8c2',1,'Infohazard::HyperNav::Jobs::NativeNavVolumeData']]],
-  ['externallinkstart_5',['ExternalLinkStart',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#ab6bcd44ba2e31ffad604de462aa65fc5',1,'Infohazard::HyperNav::Jobs::NativeNavRegionData']]]
+  ['center_0',['Center',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_bounds.html#af7d2f09ec1824f283310ec15ec1ae250',1,'Infohazard::HyperNav::Jobs::NativeBounds']]],
+  ['connectionindex_1',['ConnectionIndex',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#adb86128cd5c448309d4cf112b886657c',1,'Infohazard::HyperNav::Jobs::PendingPathNode']]],
+  ['cubeconcaveneighbors_2',['CubeConcaveNeighbors',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_cavity_tables.html#a4f81646b73133a3ce29420cfa7f70541',1,'Infohazard::HyperNav::Editor::MarchingCubesCavityTables']]],
+  ['cubeswithinternalcavities_3',['CubesWithInternalCavities',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_cavity_tables.html#ae99aba6beb6c1b566d5a1a1d1bfe25fa',1,'Infohazard::HyperNav::Editor::MarchingCubesCavityTables']]],
+  ['cumulativecost_4',['CumulativeCost',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#a7df71a47c97bb206ded3faa5daf3fc40',1,'Infohazard::HyperNav::Jobs::VisitedNodeInfo']]]
 ];

@@ -24,7 +24,6 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.0.0</span>
    </div>
@@ -146,6 +145,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab332ba27169c871fa06cee4bb04925d0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#ab332ba27169c871fa06cee4bb04925d0">ExecuteProcess</a> (string command, string args, bool showMessages)</td></tr>
 <tr class="memdesc:ab332ba27169c871fa06cee4bb04925d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Launch an external process using the given command and arguments, and wait for it to complete.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#ab332ba27169c871fa06cee4bb04925d0">More...</a><br /></td></tr>
 <tr class="separator:ab332ba27169c871fa06cee4bb04925d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaec0397fc169bebf67995afc4ef20890"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#aaec0397fc169bebf67995afc4ef20890">InstantiatePrefabInScene</a> (string path, string name)</td></tr>
+<tr class="memdesc:aaec0397fc169bebf67995afc4ef20890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiate the given prefab in the scene, as a child of the selected GameObject if there is one.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#aaec0397fc169bebf67995afc4ef20890">More...</a><br /></td></tr>
+<tr class="separator:aaec0397fc169bebf67995afc4ef20890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16159f7655b45bebf45649902a1f90d2"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a16159f7655b45bebf45649902a1f90d2">CreateGameObjectInScene</a> (string name)</td></tr>
+<tr class="memdesc:a16159f7655b45bebf45649902a1f90d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an empty GameObject in the scene, as a child of the selected GameObject if there is one.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a16159f7655b45bebf45649902a1f90d2">More...</a><br /></td></tr>
+<tr class="separator:a16159f7655b45bebf45649902a1f90d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b7b1f2ad30393887140311dc08c9b1d"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a7b7b1f2ad30393887140311dc08c9b1d">CreateGameObjectInSceneWithComponent&lt; T &gt;</a> (string name)</td></tr>
+<tr class="memdesc:a7b7b1f2ad30393887140311dc08c9b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a GameObject in the scene with a given component, as a child of the selected GameObject if there is one.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a7b7b1f2ad30393887140311dc08c9b1d">More...</a><br /></td></tr>
+<tr class="separator:a7b7b1f2ad30393887140311dc08c9b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -156,6 +164,90 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Contains several editor-only utilities.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a16159f7655b45bebf45649902a1f90d2" name="a16159f7655b45bebf45649902a1f90d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16159f7655b45bebf45649902a1f90d2">&#9670;&#160;</a></span>CreateGameObjectInScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static GameObject Infohazard.Core.Editor.CoreEditorUtility.CreateGameObjectInScene </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create an empty GameObject in the scene, as a child of the selected GameObject if there is one.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name to assign to the object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The created GameObject.</dd></dl>
+
+</div>
+</div>
+<a id="a7b7b1f2ad30393887140311dc08c9b1d" name="a7b7b1f2ad30393887140311dc08c9b1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b7b1f2ad30393887140311dc08c9b1d">&#9670;&#160;</a></span>CreateGameObjectInSceneWithComponent&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T Infohazard.Core.Editor.CoreEditorUtility.CreateGameObjectInSceneWithComponent&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a GameObject in the scene with a given component, as a child of the selected GameObject if there is one.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name to assign to the object.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of component to add.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The created component.</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>Component</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
 <a id="af5210935781fb60e87eca5e6ef31bc22" name="af5210935781fb60e87eca5e6ef31bc22"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af5210935781fb60e87eca5e6ef31bc22">&#9670;&#160;</a></span>DoLazyDropdown&lt; T &gt;()</h2>
 
@@ -670,6 +762,52 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value of the property, or null if not readable.</dd></dl>
+
+</div>
+</div>
+<a id="aaec0397fc169bebf67995afc4ef20890" name="aaec0397fc169bebf67995afc4ef20890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaec0397fc169bebf67995afc4ef20890">&#9670;&#160;</a></span>InstantiatePrefabInScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static GameObject Infohazard.Core.Editor.CoreEditorUtility.InstantiatePrefabInScene </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instantiate the given prefab in the scene, as a child of the selected GameObject if there is one.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>Prefab path to load.</td></tr>
+    <tr><td class="paramname">name</td><td>Name to assign to the object, or null.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The instantiated GameObject.</dd></dl>
 
 </div>
 </div>

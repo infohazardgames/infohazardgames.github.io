@@ -24,9 +24,11 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
    <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
    </div>
+   <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
  </tr>
  </tbody>
@@ -107,8 +109,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html">NativeHeap</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of a Min Heap that can be used with jobs and Burst.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>NativeMathUtility</b></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides math operations that are compatible with Burst.  <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html">NativeMathUtility</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides math operations that are compatible with Burst.   <a href="class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html">NativeNavExternalLinkData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The native-friendly data representing a connection from one region to another region in another volume.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html#details">More...</a><br /></td></tr>
@@ -129,18 +131,38 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A structure used by the navigation job to return the waypoints of a path.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html">NavPathJob</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Burst-compatible job used to find a <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> path.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html">PendingPathNode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A discovered node in a pending path, which serves as a key into the dictionary of per-node discovered info.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html">VisitedNodeInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The information that has been discovered about a node during pathfinding, which is stored in a table.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a4b53df7fe319ec8340bcc2a13bf8b081"><td class="memItemLeft" align="right" valign="top"><a id="a4b53df7fe319ec8340bcc2a13bf8b081" name="a4b53df7fe319ec8340bcc2a13bf8b081"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_infohazard_1_1_hyper_nav_1_1_jobs.html#a4b53df7fe319ec8340bcc2a13bf8b081">NavPathState</a> </td></tr>
-<tr class="memdesc:a4b53df7fe319ec8340bcc2a13bf8b081"><td class="mdescLeft">&#160;</td><td class="mdescRight">The state of a pathfinding request.  <br /></td></tr>
+<tr class="memitem:a4b53df7fe319ec8340bcc2a13bf8b081"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_infohazard_1_1_hyper_nav_1_1_jobs.html#a4b53df7fe319ec8340bcc2a13bf8b081">NavPathState</a> </td></tr>
+<tr class="memdesc:a4b53df7fe319ec8340bcc2a13bf8b081"><td class="mdescLeft">&#160;</td><td class="mdescRight">The state of a pathfinding request.   <a href="namespace_infohazard_1_1_hyper_nav_1_1_jobs.html#a4b53df7fe319ec8340bcc2a13bf8b081">More...</a><br /></td></tr>
 <tr class="separator:a4b53df7fe319ec8340bcc2a13bf8b081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a4b53df7fe319ec8340bcc2a13bf8b081" name="a4b53df7fe319ec8340bcc2a13bf8b081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b53df7fe319ec8340bcc2a13bf8b081">&#9670;&#160;</a></span>NavPathState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_infohazard_1_1_hyper_nav_1_1_jobs.html#a4b53df7fe319ec8340bcc2a13bf8b081">Infohazard.HyperNav.Jobs.NavPathState</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The state of a pathfinding request.  </p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
