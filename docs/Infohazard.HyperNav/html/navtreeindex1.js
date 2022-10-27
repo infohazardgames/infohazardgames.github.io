@@ -1,12 +1,13 @@
 var NAVTREEINDEX1 =
 {
+"functions_t.html":[3,3,0,18],
 "functions_u.html":[3,3,0,19],
 "functions_v.html":[3,3,0,20],
 "functions_vars.html":[3,3,2],
 "functions_w.html":[3,3,0,21],
 "hierarchy.html":[3,2],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "index.html#autotoc_md10":[0,4,1],
 "index.html#autotoc_md11":[0,4,2],
 "index.html#autotoc_md12":[0,5],

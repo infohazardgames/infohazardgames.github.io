@@ -9,7 +9,7 @@ var class_infohazard_1_1_core_1_1_game_object_utility =
     [ "GetRelativeTransformPath", "class_infohazard_1_1_core_1_1_game_object_utility.html#ae9f4e2a73e60b21e5095ccba029fb362", null ],
     [ "GetTransformAtRelativePath", "class_infohazard_1_1_core_1_1_game_object_utility.html#af34ff807b809da1048ea838150e0101f", null ],
     [ "Initialize", "class_infohazard_1_1_core_1_1_game_object_utility.html#ade33da9a44af936fc961b51391b391f2", null ],
-    [ "Initialize", "class_infohazard_1_1_core_1_1_game_object_utility.html#ac629c41e13723b1fddba5daa515d3ee7", null ],
+    [ "Initialize", "class_infohazard_1_1_core_1_1_game_object_utility.html#add5e1df0a8eed20b40be260e4541c0c9", null ],
     [ "SetLayerRecursively", "class_infohazard_1_1_core_1_1_game_object_utility.html#a48a00e2995b1dfff07fdc05916793b99", null ],
     [ "SetParentAndReset", "class_infohazard_1_1_core_1_1_game_object_utility.html#a91fc0732fa1a9c12ef3268947f5673f1", null ],
     [ "TryGetComponentInChildren< T >", "class_infohazard_1_1_core_1_1_game_object_utility.html#ab32eb698a171089a2cc9c3af2a855fe9", null ],

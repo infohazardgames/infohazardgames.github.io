@@ -21,5 +21,6 @@ var class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent =
     [ "MaxAlignmentVelocityDistance", "class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#ae7969c786d8c8109ed8d10527e6ba5ae", null ],
     [ "MaxCurvatureSlowdown", "class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a6bd41362235132e33903a7a62782d2c1", null ],
     [ "MaxSplineDistance", "class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#acf0b25d962871306530a25cfc4d30cb1", null ],
+    [ "SplinePath", "class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a0e58386920c8bcbd3ef89bcce4c72259", null ],
     [ "TangentScale", "class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a6937912758a91829fd3a9ae582014956", null ]
 ];
