@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -97,10 +97,22 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g.html',''); initR
 <div class="textblock"><p >All notable changes to this project will be documented in this file.</p>
 <p >The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>, and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
-[Unreleased]</h1>
-<h1><a class="anchor" id="autotoc_md2"></a>
+[1.1.0] - 2022-11-13</h1>
+<h2><a class="anchor" id="autotoc_md2"></a>
+Changed</h2>
+<ul>
+<li>Made GameTag.cs generation far move robust.<ul>
+<li>Handle when there are more than 64 tags.</li>
+<li>Handle all invalid characters in variable names.</li>
+<li>Handle variable names that are keywords.</li>
+<li>Handle tag strings containing quotation marks.</li>
+</ul>
+</li>
+<li>Removed the warning message when generating GameTag.cs as it's no longer relevant.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
 [1.0.0] - 2022-10-08</h1>
-<h2><a class="anchor" id="autotoc_md3"></a>
+<h2><a class="anchor" id="autotoc_md4"></a>
 Added</h2>
 <ul>
 <li>Initial release, all files and documentation added. </li>
