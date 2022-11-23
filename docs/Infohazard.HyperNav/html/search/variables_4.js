@@ -1,11 +1,8 @@
 var searchData=
 [
-  ['edgescount_0',['EdgesCount',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#a5cb0e967849e2735f4fe0b69b8ca5814',1,'Infohazard::HyperNav::Jobs::NativeNavInternalLinkData']]],
-  ['edgesstart_1',['EdgesStart',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#a9898539ef604c4cc344e3d5d884bb4cd',1,'Infohazard::HyperNav::Jobs::NativeNavInternalLinkData']]],
-  ['edgetovertexindices_2',['EdgeToVertexIndices',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_tables.html#a60c901727dac2bc2bd6a6d531e627324',1,'Infohazard::HyperNav::Editor::MarchingCubesTables']]],
-  ['endhit_3',['EndHit',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a5a0efb5dbd2d27e0b11bd78d2833da41',1,'Infohazard::HyperNav::Jobs::NavPathJob']]],
-  ['extents_4',['Extents',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_bounds.html#ae566b804a45bf7645ab51a9c412609d2',1,'Infohazard::HyperNav::Jobs::NativeBounds']]],
-  ['externallinkcount_5',['ExternalLinkCount',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#a5e884f701c579a23103cb8e9627ac9b3',1,'Infohazard::HyperNav::Jobs::NativeNavRegionData']]],
-  ['externallinks_6',['ExternalLinks',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#a0bd7c8655882590ca4437cf7ce1cc8c2',1,'Infohazard::HyperNav::Jobs::NativeNavVolumeData']]],
-  ['externallinkstart_7',['ExternalLinkStart',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#ab6bcd44ba2e31ffad604de462aa65fc5',1,'Infohazard::HyperNav::Jobs::NativeNavRegionData']]]
+  ['debug_0',['Debug',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_avoidance_obstacle_data.html#a8194947ee2a9d730f56fdbe4efc8630b',1,'Infohazard::HyperNav::Jobs::NativeAvoidanceObstacleData']]],
+  ['debugprojection_1',['DebugProjection',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_spline_project_job.html#a459b24f8d4989085b8f820127beffe94',1,'Infohazard::HyperNav::Jobs::SplineProjectJob']]],
+  ['deltatime_2',['DeltaTime',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_avoidance_job.html#a248f45c9e649308a0b51d93ccb5883cb',1,'Infohazard::HyperNav::Jobs::AvoidanceJob']]],
+  ['direction_3',['Direction',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_ray.html#a777181efb5e0074142fb9b0fad9a8179',1,'Infohazard::HyperNav::Jobs::NativeRay']]],
+  ['distance_4',['Distance',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#a49cace0dd7894441c497502efa950102',1,'Infohazard::HyperNav::Jobs::NativePlane']]]
 ];

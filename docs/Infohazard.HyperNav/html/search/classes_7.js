@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['visitednodeinfo_0',['VisitedNodeInfo',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html',1,'Infohazard::HyperNav::Jobs']]]
+  ['rigidbodyavoidanceobstacle_0',['RigidbodyAvoidanceObstacle',['../class_infohazard_1_1_hyper_nav_1_1_rigidbody_avoidance_obstacle.html',1,'Infohazard::HyperNav']]]
 ];

@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
@@ -131,6 +131,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a110e985d0c78317c2b146890875f9a02"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a110e985d0c78317c2b146890875f9a02">OnDrawGizmos</a> ()</td></tr>
 <tr class="memdesc:a110e985d0c78317c2b146890875f9a02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the current spline if <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a103b570ffba0f342e8ff1230543f8748" title="Whether to draw a debug line in the scene view showing the agent&#39;s current path.">NavAgent.DebugPath</a> is true.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a110e985d0c78317c2b146890875f9a02">More...</a><br /></td></tr>
 <tr class="separator:a110e985d0c78317c2b146890875f9a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bb6503eabd873cb72da1de4174383fa"><td class="memItemLeft" align="right" valign="top">override Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a4bb6503eabd873cb72da1de4174383fa">CalculateDesiredNavigationVelocity</a> ()</td></tr>
+<tr class="memdesc:a4bb6503eabd873cb72da1de4174383fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the velocity the agent wants to move in, in the range [0, 1].   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a4bb6503eabd873cb72da1de4174383fa">More...</a><br /></td></tr>
+<tr class="separator:a4bb6503eabd873cb72da1de4174383fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af92a9a78042c6dcf1dca2f15c3758417"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#af92a9a78042c6dcf1dca2f15c3758417">OnPathReady</a> (long id, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html">NavPath</a> path)</td></tr>
 <tr class="memdesc:af92a9a78042c6dcf1dca2f15c3758417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Callback that is received when a pathfinding request completes, which should start moving along that path. <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -141,7 +144,13 @@ Protected Member Functions</h2></td></tr>
 </dl>
   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#af92a9a78042c6dcf1dca2f15c3758417">More...</a><br /></td></tr>
 <tr class="separator:af92a9a78042c6dcf1dca2f15c3758417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e798bf9dcf8871f295c50d4a663b053"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a5e798bf9dcf8871f295c50d4a663b053">OnDisable</a> ()</td></tr>
+<tr class="memdesc:a5e798bf9dcf8871f295c50d4a663b053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stops all pathfinding and cancels path requests.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a5e798bf9dcf8871f295c50d4a663b053">More...</a><br /></td></tr>
+<tr class="separator:a5e798bf9dcf8871f295c50d4a663b053"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html">Infohazard.HyperNav.NavAgent</a></td></tr>
+<tr class="memitem:aa7d9ee53afc5e529cdaf022e9035ccdd inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aa7d9ee53afc5e529cdaf022e9035ccdd">Awake</a> ()</td></tr>
+<tr class="memdesc:aa7d9ee53afc5e529cdaf022e9035ccdd inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html" title="Base implementation of IAvoidanceAgent that should work in most scenarios.">AvoidanceAgent</a>.<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#aa91a84e3a94a5c7aee566a0129dda95b" title="Function used to calculate InputVelocity.">Infohazard.HyperNav.AvoidanceAgent.InputVelocityFunc</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aa7d9ee53afc5e529cdaf022e9035ccdd">More...</a><br /></td></tr>
+<tr class="separator:aa7d9ee53afc5e529cdaf022e9035ccdd inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58384bd709b1a241ce3b6a04d305551c inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a58384bd709b1a241ce3b6a04d305551c">OnEnable</a> ()</td></tr>
 <tr class="memdesc:a58384bd709b1a241ce3b6a04d305551c inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135" title="Velocity of the agent measured as delta position / delta time over the last frame,...">MeasuredVelocity</a> and sets <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a205558ab9973e02638069ea8b1fd6485" title="True if the agent has no active or pending path.">Arrived</a> to true.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a58384bd709b1a241ce3b6a04d305551c">More...</a><br /></td></tr>
 <tr class="separator:a58384bd709b1a241ce3b6a04d305551c inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,6 +163,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a1d96b8e2634bde486a202a78a7c5e9fd inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a1d96b8e2634bde486a202a78a7c5e9fd">OnDrawGizmos</a> ()</td></tr>
 <tr class="memdesc:a1d96b8e2634bde486a202a78a7c5e9fd inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draws the current path as a sequence of debug lines if <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a103b570ffba0f342e8ff1230543f8748" title="Whether to draw a debug line in the scene view showing the agent&#39;s current path.">DebugPath</a> is true.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a1d96b8e2634bde486a202a78a7c5e9fd">More...</a><br /></td></tr>
 <tr class="separator:a1d96b8e2634bde486a202a78a7c5e9fd inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9204628d3f4326b624ddc8f923df8ad4 inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a9204628d3f4326b624ddc8f923df8ad4">CalculateDesiredNavigationVelocity</a> ()</td></tr>
+<tr class="memdesc:a9204628d3f4326b624ddc8f923df8ad4 inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the velocity the agent wants to move in, in the range [0, 1].   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a9204628d3f4326b624ddc8f923df8ad4">More...</a><br /></td></tr>
+<tr class="separator:a9204628d3f4326b624ddc8f923df8ad4 inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76da2dfabdb41cf217e22ef7077fb5a0 inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a76da2dfabdb41cf217e22ef7077fb5a0">UpdateMeasuredVelocity</a> ()</td></tr>
 <tr class="memdesc:a76da2dfabdb41cf217e22ef7077fb5a0 inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the value of <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135" title="Velocity of the agent measured as delta position / delta time over the last frame,...">MeasuredVelocity</a>, which is used to determine <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f" title="The distance that it will take the agent to come to a stop from its current velocity,...">StoppingDistance</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a76da2dfabdb41cf217e22ef7077fb5a0">More...</a><br /></td></tr>
 <tr class="separator:a76da2dfabdb41cf217e22ef7077fb5a0 inherit pro_methods_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,6 +181,9 @@ Properties</h2></td></tr>
 <tr class="memitem:a6937912758a91829fd3a9ae582014956"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a6937912758a91829fd3a9ae582014956">TangentScale</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a6937912758a91829fd3a9ae582014956"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale to apply to spline tangents (lower values make the spline less curvy).   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a6937912758a91829fd3a9ae582014956">More...</a><br /></td></tr>
 <tr class="separator:a6937912758a91829fd3a9ae582014956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b4f34d1e7482fe7def31edc7776df4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a65b4f34d1e7482fe7def31edc7776df4">RaycastTangents</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a65b4f34d1e7482fe7def31edc7776df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to shorten tangents by raycasting to ensure they don't penetrate blocked areas.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a65b4f34d1e7482fe7def31edc7776df4">More...</a><br /></td></tr>
+<tr class="separator:a65b4f34d1e7482fe7def31edc7776df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad56ba4baf5da671b53ea218b1c2dbd59"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#ad56ba4baf5da671b53ea218b1c2dbd59">DistanceSamplesPerSegment</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ad56ba4baf5da671b53ea218b1c2dbd59"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many samples to take per segment of the spline when mapping the distance.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#ad56ba4baf5da671b53ea218b1c2dbd59">More...</a><br /></td></tr>
 <tr class="separator:ad56ba4baf5da671b53ea218b1c2dbd59"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,7 +202,19 @@ Properties</h2></td></tr>
 <tr class="memitem:a6bd41362235132e33903a7a62782d2c1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a6bd41362235132e33903a7a62782d2c1">MaxCurvatureSlowdown</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a6bd41362235132e33903a7a62782d2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The multiplier on desired tangent velocity when at the max curvature value.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a6bd41362235132e33903a7a62782d2c1">More...</a><br /></td></tr>
 <tr class="separator:a6bd41362235132e33903a7a62782d2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e58386920c8bcbd3ef89bcce4c72259"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_path.html">SplinePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a0e58386920c8bcbd3ef89bcce4c72259">SplinePath</a><code> [get]</code></td></tr>
+<tr class="memitem:a6ea2ff37645a50c46e22f86f61ec469c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a6ea2ff37645a50c46e22f86f61ec469c">DebugProjectOnSpline</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6ea2ff37645a50c46e22f86f61ec469c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to draw debug lines when projecting on the spline.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a6ea2ff37645a50c46e22f86f61ec469c">More...</a><br /></td></tr>
+<tr class="separator:a6ea2ff37645a50c46e22f86f61ec469c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab49043032a63c05166161087ea38b43"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#aab49043032a63c05166161087ea38b43">BlockedDetectionDistance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aab49043032a63c05166161087ea38b43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance in front of the agent to check to see if it needs to avoid level geometry.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#aab49043032a63c05166161087ea38b43">More...</a><br /></td></tr>
+<tr class="separator:aab49043032a63c05166161087ea38b43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38a672cb8744cd3f9bb1c58cf4128a07"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a38a672cb8744cd3f9bb1c58cf4128a07">BlockedDetectionBackDistance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a38a672cb8744cd3f9bb1c58cf4128a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance behind the agent to check to see if it needs to avoid level geometry.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a38a672cb8744cd3f9bb1c58cf4128a07">More...</a><br /></td></tr>
+<tr class="separator:a38a672cb8744cd3f9bb1c58cf4128a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ef803f07643d568daa74e768b640b7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#af7ef803f07643d568daa74e768b640b7">BlockedDetectionMinSplineDistance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:af7ef803f07643d568daa74e768b640b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">How far the agent must be from the spline to check for blocking level geometry.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#af7ef803f07643d568daa74e768b640b7">More...</a><br /></td></tr>
+<tr class="separator:af7ef803f07643d568daa74e768b640b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e58386920c8bcbd3ef89bcce4c72259"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_spline_path.html">SplinePath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a0e58386920c8bcbd3ef89bcce4c72259">SplinePath</a><code> [get]</code></td></tr>
 <tr class="memdesc:a0e58386920c8bcbd3ef89bcce4c72259"><td class="mdescLeft">&#160;</td><td class="mdescRight">The spline that the agent is currently following.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a0e58386920c8bcbd3ef89bcce4c72259">More...</a><br /></td></tr>
 <tr class="separator:a0e58386920c8bcbd3ef89bcce4c72259"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a420cc37b0a7980df7fd519d86ca75631"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a420cc37b0a7980df7fd519d86ca75631">CurrentSplineParameter</a><code> [get]</code></td></tr>
@@ -199,8 +226,6 @@ Properties</h2></td></tr>
 <tr class="memitem:acf0b25d962871306530a25cfc4d30cb1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#acf0b25d962871306530a25cfc4d30cb1">MaxSplineDistance</a><code> [get]</code></td></tr>
 <tr class="memdesc:acf0b25d962871306530a25cfc4d30cb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The length of the agent's current spline path.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#acf0b25d962871306530a25cfc4d30cb1">More...</a><br /></td></tr>
 <tr class="separator:acf0b25d962871306530a25cfc4d30cb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a468d625c983cce440986bed64f00b062"><td class="memItemLeft" align="right" valign="top">override Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a468d625c983cce440986bed64f00b062">DesiredVelocity</a><code> [get]</code></td></tr>
-<tr class="separator:a468d625c983cce440986bed64f00b062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td colspan="2" onclick="javascript:toggleInherit('properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html">Infohazard.HyperNav.NavAgent</a></td></tr>
 <tr class="memitem:a9f38608c0fa3ffd766c757d6e8d2c15a inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a9f38608c0fa3ffd766c757d6e8d2c15a">Acceptance</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a9f38608c0fa3ffd766c757d6e8d2c15a inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">How close the agent must get to a destination before it is considered to have arrived.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a9f38608c0fa3ffd766c757d6e8d2c15a">More...</a><br /></td></tr>
@@ -211,21 +236,27 @@ Properties</h2></td></tr>
 <tr class="memitem:a43ce47b65550307d7fd5da67b8bc4c7c inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a43ce47b65550307d7fd5da67b8bc4c7c">SampleRadius</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a43ce47b65550307d7fd5da67b8bc4c7c inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">The radius to search when finding the nearest <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a43ce47b65550307d7fd5da67b8bc4c7c">More...</a><br /></td></tr>
 <tr class="separator:a43ce47b65550307d7fd5da67b8bc4c7c inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4870426732894feaca97257dc84482 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aed4870426732894feaca97257dc84482">DesiredSpeedRatio</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aed4870426732894feaca97257dc84482 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">The desired fraction of the maximum speed to travel at.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aed4870426732894feaca97257dc84482">More...</a><br /></td></tr>
+<tr class="separator:aed4870426732894feaca97257dc84482 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a103b570ffba0f342e8ff1230543f8748 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a103b570ffba0f342e8ff1230543f8748">DebugPath</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a103b570ffba0f342e8ff1230543f8748 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to draw a debug line in the scene view showing the agent's current path.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a103b570ffba0f342e8ff1230543f8748">More...</a><br /></td></tr>
 <tr class="separator:a103b570ffba0f342e8ff1230543f8748 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab64b1a53a15c57de4a627e29aa8971dd inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab64b1a53a15c57de4a627e29aa8971dd">KeepPathWhileCalculating</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ab64b1a53a15c57de4a627e29aa8971dd inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to keep following the current path while waiting for a new path to finish calculating.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab64b1a53a15c57de4a627e29aa8971dd">More...</a><br /></td></tr>
 <tr class="separator:ab64b1a53a15c57de4a627e29aa8971dd inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0fe24b6c463166065c1fbe47e159574 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html">AvoidanceAgent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#af0fe24b6c463166065c1fbe47e159574">AvoidanceAgent</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:af0fe24b6c463166065c1fbe47e159574 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html" title="Base implementation of IAvoidanceAgent that should work in most scenarios.">AvoidanceAgent</a> that this agent uses for avoidance (can be null).   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#af0fe24b6c463166065c1fbe47e159574">More...</a><br /></td></tr>
+<tr class="separator:af0fe24b6c463166065c1fbe47e159574 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ad33c3199a5cda316ab7dabb273855 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a60ad33c3199a5cda316ab7dabb273855">ControlAvoidanceIsActive</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a60ad33c3199a5cda316ab7dabb273855 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#aadb01d043152e7a6c7c212c1e973f55f" title="Whether the agent should actively avoid obstacles. If false, will still behave as an obstacle.">Infohazard.HyperNav.AvoidanceAgent.IsActive</a> state of the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html" title="Base implementation of IAvoidanceAgent that should work in most scenarios.">AvoidanceAgent</a> is set based on whether there is a current valid path.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a60ad33c3199a5cda316ab7dabb273855">More...</a><br /></td></tr>
+<tr class="separator:a60ad33c3199a5cda316ab7dabb273855 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaadb9eb34ea58c0dff8b4955fee24e19 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aaadb9eb34ea58c0dff8b4955fee24e19">IsPathPending</a><code> [get]</code></td></tr>
 <tr class="memdesc:aaadb9eb34ea58c0dff8b4955fee24e19 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether a path is currently in the process of being calculated for this agent.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aaadb9eb34ea58c0dff8b4955fee24e19">More...</a><br /></td></tr>
 <tr class="separator:aaadb9eb34ea58c0dff8b4955fee24e19 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c90d079a5756739e3f3dd8c9216bd7f inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f">StoppingDistance</a><code> [get]</code></td></tr>
 <tr class="memdesc:a3c90d079a5756739e3f3dd8c9216bd7f inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">The distance that it will take the agent to come to a stop from its current velocity, determined using the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab17eaa990c787a25dfb06e73537b0c88" title="(Serialized) This should be set to the maximum acceleration of your agent.">AccelerationEstimate</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f">More...</a><br /></td></tr>
 <tr class="separator:a3c90d079a5756739e3f3dd8c9216bd7f inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b78432eeaf82525030732529e0d3c57 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a0b78432eeaf82525030732529e0d3c57">DesiredVelocity</a><code> [get]</code></td></tr>
-<tr class="memdesc:a0b78432eeaf82525030732529e0d3c57 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity the agent wants to move in, in the range [0, 1].   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a0b78432eeaf82525030732529e0d3c57">More...</a><br /></td></tr>
-<tr class="separator:a0b78432eeaf82525030732529e0d3c57 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab1aabbcca8c6377481ba71759319abe inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aab1aabbcca8c6377481ba71759319abe">NextWaypoint</a><code> [get]</code></td></tr>
 <tr class="memdesc:aab1aabbcca8c6377481ba71759319abe inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current path waypoint that the agent is trying to move towards.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aab1aabbcca8c6377481ba71759319abe">More...</a><br /></td></tr>
 <tr class="separator:aab1aabbcca8c6377481ba71759319abe inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,12 +272,18 @@ Properties</h2></td></tr>
 <tr class="memitem:aec9a7aeff8728d75113f598fe8833e7b inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html">NavPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aec9a7aeff8728d75113f598fe8833e7b">CurrentPath</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:aec9a7aeff8728d75113f598fe8833e7b inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current path that the agent is following.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aec9a7aeff8728d75113f598fe8833e7b">More...</a><br /></td></tr>
 <tr class="separator:aec9a7aeff8728d75113f598fe8833e7b inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae336051f94109e092f06b7d26ea9a4 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a5ae336051f94109e092f06b7d26ea9a4">AvoidanceMaxSpeed</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a5ae336051f94109e092f06b7d26ea9a4 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum speed possible by this agent when avoiding obstacles.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a5ae336051f94109e092f06b7d26ea9a4">More...</a><br /></td></tr>
+<tr class="separator:a5ae336051f94109e092f06b7d26ea9a4 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_agent"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a1896d8deaaf9df8a7bf46f122d58c668"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a1896d8deaaf9df8a7bf46f122d58c668">_tangentScale</a> = 0.5f</td></tr>
 <tr class="memdesc:a1896d8deaaf9df8a7bf46f122d58c668"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Scale to apply to spline tangents (lower values make the spline less curvy).   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a1896d8deaaf9df8a7bf46f122d58c668">More...</a><br /></td></tr>
 <tr class="separator:a1896d8deaaf9df8a7bf46f122d58c668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74931caa3e60265144140c586238025e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a74931caa3e60265144140c586238025e">_raycastTangents</a> = true</td></tr>
+<tr class="memdesc:a74931caa3e60265144140c586238025e"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether to shorten tangents by raycasting to ensure they don't penetrate blocked areas.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a74931caa3e60265144140c586238025e">More...</a><br /></td></tr>
+<tr class="separator:a74931caa3e60265144140c586238025e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a061eedd859496fca6f97960e613164ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a061eedd859496fca6f97960e613164ac">_distanceSamplesPerSegment</a> = 5</td></tr>
 <tr class="memdesc:a061eedd859496fca6f97960e613164ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) How many samples to take per segment of the spline when mapping the distance.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a061eedd859496fca6f97960e613164ac">More...</a><br /></td></tr>
 <tr class="separator:a061eedd859496fca6f97960e613164ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,6 +302,18 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a9763b1b83126fad69ab255982aa17684"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a9763b1b83126fad69ab255982aa17684">_maxCurvatureSlowdown</a> = 0.5f</td></tr>
 <tr class="memdesc:a9763b1b83126fad69ab255982aa17684"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The multiplier on desired tangent velocity when at the max curvature value.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a9763b1b83126fad69ab255982aa17684">More...</a><br /></td></tr>
 <tr class="separator:a9763b1b83126fad69ab255982aa17684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e99344c68e528560b269378f8ee15bb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a4e99344c68e528560b269378f8ee15bb">_debugProjectOnSpline</a> = false</td></tr>
+<tr class="memdesc:a4e99344c68e528560b269378f8ee15bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether to draw debug lines when projecting on the spline.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a4e99344c68e528560b269378f8ee15bb">More...</a><br /></td></tr>
+<tr class="separator:a4e99344c68e528560b269378f8ee15bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0602a77604deb7c4b22b8d2dcaac92c4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a0602a77604deb7c4b22b8d2dcaac92c4">_blockedDetectionDistance</a> = 0.1f</td></tr>
+<tr class="memdesc:a0602a77604deb7c4b22b8d2dcaac92c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Distance in front of the agent to check to see if it needs to avoid level geometry.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a0602a77604deb7c4b22b8d2dcaac92c4">More...</a><br /></td></tr>
+<tr class="separator:a0602a77604deb7c4b22b8d2dcaac92c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cde94829095badf1f0b1f101131ea78"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a4cde94829095badf1f0b1f101131ea78">_blockedDetectionBackDistance</a> = 0.1f</td></tr>
+<tr class="memdesc:a4cde94829095badf1f0b1f101131ea78"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Distance behind the agent to check to see if it needs to avoid level geometry.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a4cde94829095badf1f0b1f101131ea78">More...</a><br /></td></tr>
+<tr class="separator:a4cde94829095badf1f0b1f101131ea78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2a3c08c4ad7695b0107a46cfe4d92ed"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#aa2a3c08c4ad7695b0107a46cfe4d92ed">_blockedDetectionMinSplineDistance</a> = 0.2f</td></tr>
+<tr class="memdesc:aa2a3c08c4ad7695b0107a46cfe4d92ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) How far the agent must be from the spline to check for blocking level geometry.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#aa2a3c08c4ad7695b0107a46cfe4d92ed">More...</a><br /></td></tr>
+<tr class="separator:aa2a3c08c4ad7695b0107a46cfe4d92ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -278,7 +327,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A script that can be used to calculate smooth paths by any entity that needs to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> for navigation.  </p>
-<p >A <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html" title="A script that can be used to calculate smooth paths by any entity that needs to use HyperNav for navi...">SplineNavAgent</a> works just like (and is a subclass of) <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html" title="A script that can be used to calculate paths by any entity that needs to use HyperNav for navigation.">NavAgent</a>. However, a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html" title="A script that can be used to calculate smooth paths by any entity that needs to use HyperNav for navi...">SplineNavAgent</a> feeds the path waypoints into a spline function to get a smoother path. In order to follow the spline, the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html" title="A script that can be used to calculate smooth paths by any entity that needs to use HyperNav for navi...">SplineNavAgent</a> creates its <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a468d625c983cce440986bed64f00b062">DesiredVelocity</a> based on two factors: </p><ul>
+<p >A <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html" title="A script that can be used to calculate smooth paths by any entity that needs to use HyperNav for navi...">SplineNavAgent</a> works just like (and is a subclass of) <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html" title="A script that can be used to calculate paths by any entity that needs to use HyperNav for navigation.">NavAgent</a>. However, a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html" title="A script that can be used to calculate smooth paths by any entity that needs to use HyperNav for navi...">SplineNavAgent</a> feeds the path waypoints into a spline function to get a smoother path. In order to follow the spline, the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html" title="A script that can be used to calculate smooth paths by any entity that needs to use HyperNav for navi...">SplineNavAgent</a> creates its NavAgent.DesiredVelocity based on two factors: </p><ul>
 <li>
 Tangent: The direction the spline is pointing nearest the agent. </li>
 <li>
@@ -286,6 +335,64 @@ Alignment: The direction from the agent to the nearest point on the spline. </li
 </ul>
 <p>The agent will increase the influence of the alignment velocity the further it gets from the spline, in order to prevent drifting too far off. Additionally, the agent can slow down its desired tangent velocity on high-curvature regions, in order to take the curves more slowly. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4bb6503eabd873cb72da1de4174383fa" name="a4bb6503eabd873cb72da1de4174383fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bb6503eabd873cb72da1de4174383fa">&#9670;&#160;</a></span>CalculateDesiredNavigationVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override Vector3 Infohazard.HyperNav.SplineNavAgent.CalculateDesiredNavigationVelocity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the velocity the agent wants to move in, in the range [0, 1].  </p>
+
+<p>Reimplemented from <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a9204628d3f4326b624ddc8f923df8ad4">Infohazard.HyperNav.NavAgent</a>.</p>
+
+</div>
+</div>
+<a id="a5e798bf9dcf8871f295c50d4a663b053" name="a5e798bf9dcf8871f295c50d4a663b053"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e798bf9dcf8871f295c50d4a663b053">&#9670;&#160;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void Infohazard.HyperNav.SplineNavAgent.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stops all pathfinding and cancels path requests.  </p>
+
+<p>Reimplemented from <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a0b9f6f547a1abc9270964a7c03086076">Infohazard.HyperNav.NavAgent</a>.</p>
+
+</div>
+</div>
 <a id="a110e985d0c78317c2b146890875f9a02" name="a110e985d0c78317c2b146890875f9a02"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a110e985d0c78317c2b146890875f9a02">&#9670;&#160;</a></span>OnDrawGizmos()</h2>
 
@@ -429,6 +536,78 @@ Alignment: The direction from the agent to the nearest point on the spline. </li
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4cde94829095badf1f0b1f101131ea78" name="a4cde94829095badf1f0b1f101131ea78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cde94829095badf1f0b1f101131ea78">&#9670;&#160;</a></span>_blockedDetectionBackDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.SplineNavAgent._blockedDetectionBackDistance = 0.1f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Distance behind the agent to check to see if it needs to avoid level geometry.  </p>
+
+</div>
+</div>
+<a id="a0602a77604deb7c4b22b8d2dcaac92c4" name="a0602a77604deb7c4b22b8d2dcaac92c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0602a77604deb7c4b22b8d2dcaac92c4">&#9670;&#160;</a></span>_blockedDetectionDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.SplineNavAgent._blockedDetectionDistance = 0.1f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Distance in front of the agent to check to see if it needs to avoid level geometry.  </p>
+
+</div>
+</div>
+<a id="aa2a3c08c4ad7695b0107a46cfe4d92ed" name="aa2a3c08c4ad7695b0107a46cfe4d92ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a3c08c4ad7695b0107a46cfe4d92ed">&#9670;&#160;</a></span>_blockedDetectionMinSplineDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.SplineNavAgent._blockedDetectionMinSplineDistance = 0.2f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) How far the agent must be from the spline to check for blocking level geometry.  </p>
+
+</div>
+</div>
 <a id="abf39c597e09091a04d90ce14e9df38e9" name="abf39c597e09091a04d90ce14e9df38e9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abf39c597e09091a04d90ce14e9df38e9">&#9670;&#160;</a></span>_curvatureOfMaxSlowdown</h2>
 
@@ -498,6 +677,30 @@ Alignment: The direction from the agent to the nearest point on the spline. </li
 </div><div class="memdoc">
 
 <p>(Serialized) If <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a103b570ffba0f342e8ff1230543f8748" title="Whether to draw a debug line in the scene view showing the agent&#39;s current path.">NavAgent.DebugPath</a> is enabled, how many points to use to draw the curve.  </p>
+
+</div>
+</div>
+<a id="a4e99344c68e528560b269378f8ee15bb" name="a4e99344c68e528560b269378f8ee15bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e99344c68e528560b269378f8ee15bb">&#9670;&#160;</a></span>_debugProjectOnSpline</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.SplineNavAgent._debugProjectOnSpline = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Whether to draw debug lines when projecting on the spline.  </p>
 
 </div>
 </div>
@@ -573,6 +776,30 @@ Alignment: The direction from the agent to the nearest point on the spline. </li
 
 </div>
 </div>
+<a id="a74931caa3e60265144140c586238025e" name="a74931caa3e60265144140c586238025e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74931caa3e60265144140c586238025e">&#9670;&#160;</a></span>_raycastTangents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.SplineNavAgent._raycastTangents = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Whether to shorten tangents by raycasting to ensure they don't penetrate blocked areas.  </p>
+
+</div>
+</div>
 <a id="a1896d8deaaf9df8a7bf46f122d58c668" name="a1896d8deaaf9df8a7bf46f122d58c668"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1896d8deaaf9df8a7bf46f122d58c668">&#9670;&#160;</a></span>_tangentScale</h2>
 
@@ -598,6 +825,78 @@ Alignment: The direction from the agent to the nearest point on the spline. </li
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a38a672cb8744cd3f9bb1c58cf4128a07" name="a38a672cb8744cd3f9bb1c58cf4128a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38a672cb8744cd3f9bb1c58cf4128a07">&#9670;&#160;</a></span>BlockedDetectionBackDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.SplineNavAgent.BlockedDetectionBackDistance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Distance behind the agent to check to see if it needs to avoid level geometry.  </p>
+
+</div>
+</div>
+<a id="aab49043032a63c05166161087ea38b43" name="aab49043032a63c05166161087ea38b43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab49043032a63c05166161087ea38b43">&#9670;&#160;</a></span>BlockedDetectionDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.SplineNavAgent.BlockedDetectionDistance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Distance in front of the agent to check to see if it needs to avoid level geometry.  </p>
+
+</div>
+</div>
+<a id="af7ef803f07643d568daa74e768b640b7" name="af7ef803f07643d568daa74e768b640b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7ef803f07643d568daa74e768b640b7">&#9670;&#160;</a></span>BlockedDetectionMinSplineDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.SplineNavAgent.BlockedDetectionMinSplineDistance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>How far the agent must be from the spline to check for blocking level geometry.  </p>
+
+</div>
+</div>
 <a id="ad5062715d60c17054300861e534d046d" name="ad5062715d60c17054300861e534d046d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad5062715d60c17054300861e534d046d">&#9670;&#160;</a></span>CurrentSplineDistance</h2>
 
@@ -718,8 +1017,8 @@ Alignment: The direction from the agent to the nearest point on the spline. </li
 
 </div>
 </div>
-<a id="a468d625c983cce440986bed64f00b062" name="a468d625c983cce440986bed64f00b062"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a468d625c983cce440986bed64f00b062">&#9670;&#160;</a></span>DesiredVelocity</h2>
+<a id="a6ea2ff37645a50c46e22f86f61ec469c" name="a6ea2ff37645a50c46e22f86f61ec469c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ea2ff37645a50c46e22f86f61ec469c">&#9670;&#160;</a></span>DebugProjectOnSpline</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -728,17 +1027,17 @@ Alignment: The direction from the agent to the nearest point on the spline. </li
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override Vector3 Infohazard.HyperNav.SplineNavAgent.DesiredVelocity</td>
+          <td class="memname">bool Infohazard.HyperNav.SplineNavAgent.DebugProjectOnSpline</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p></p>
+<p>Whether to draw debug lines when projecting on the spline.  </p>
 
 </div>
 </div>
@@ -838,6 +1137,30 @@ Alignment: The direction from the agent to the nearest point on the spline. </li
 
 </div>
 </div>
+<a id="a65b4f34d1e7482fe7def31edc7776df4" name="a65b4f34d1e7482fe7def31edc7776df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b4f34d1e7482fe7def31edc7776df4">&#9670;&#160;</a></span>RaycastTangents</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.SplineNavAgent.RaycastTangents</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether to shorten tangents by raycasting to ensure they don't penetrate blocked areas.  </p>
+
+</div>
+</div>
 <a id="a0e58386920c8bcbd3ef89bcce4c72259" name="a0e58386920c8bcbd3ef89bcce4c72259"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e58386920c8bcbd3ef89bcce4c72259">&#9670;&#160;</a></span>SplinePath</h2>
 
@@ -848,7 +1171,7 @@ Alignment: The direction from the agent to the nearest point on the spline. </li
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_path.html">SplinePath</a> Infohazard.HyperNav.SplineNavAgent.SplinePath</td>
+          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_spline_path.html">SplinePath</a> Infohazard.HyperNav.SplineNavAgent.SplinePath</td>
         </tr>
       </table>
   </td>

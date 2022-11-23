@@ -26,41 +26,61 @@ var NAVTREE =
 [
   [ "Infohazard.HyperNav", "index.html", [
     [ "HyperNav Documentation", "index.html", [
-      [ "Table of Contents", "index.html#autotoc_md4", null ],
-      [ "Introduction", "index.html#autotoc_md5", null ],
-      [ "Documentation", "index.html#autotoc_md6", null ],
-      [ "License", "index.html#autotoc_md7", null ],
-      [ "Installation", "index.html#autotoc_md8", [
-        [ "Prerequisites", "index.html#autotoc_md9", null ],
-        [ "Asset Store", "index.html#autotoc_md10", null ],
-        [ "Package Manager (Git URL or Submodule)", "index.html#autotoc_md11", null ]
+      [ "Table of Contents", "index.html#autotoc_md8", null ],
+      [ "Introduction", "index.html#autotoc_md9", null ],
+      [ "Documentation and Support", "index.html#autotoc_md10", null ],
+      [ "License", "index.html#autotoc_md11", null ],
+      [ "Installation", "index.html#autotoc_md12", [
+        [ "Prerequisites", "index.html#autotoc_md13", null ],
+        [ "Asset Store", "index.html#autotoc_md14", null ],
+        [ "Package Manager (Git URL or Submodule)", "index.html#autotoc_md15", null ]
       ] ],
-      [ "Setup", "index.html#autotoc_md12", [
-        [ "General Setup", "index.html#autotoc_md13", null ],
-        [ "SRP Setup", "index.html#autotoc_md14", null ]
+      [ "Setup", "index.html#autotoc_md16", [
+        [ "General Setup", "index.html#autotoc_md17", null ],
+        [ "SRP Setup", "index.html#autotoc_md18", null ]
       ] ],
-      [ "Features Guide", "index.html#autotoc_md15", [
-        [ "Volume Setup", "index.html#autotoc_md16", [
-          [ "NavVolume Parameters Configuration", "index.html#autotoc_md17", null ],
-          [ "Baking", "index.html#autotoc_md18", null ],
-          [ "External Links", "index.html#autotoc_md19", null ]
+      [ "Demos", "index.html#autotoc_md19", [
+        [ "HyperNavDemo (Pathfinding)", "index.html#autotoc_md20", null ],
+        [ "HyperNavAvoidanceDemo (Pathfinding Avoidance)", "index.html#autotoc_md21", null ],
+        [ "HyperNavAvoidanceScaleDemo (Many-Agent Standalone Avoidance)", "index.html#autotoc_md22", null ]
+      ] ],
+      [ "Features Guide", "index.html#autotoc_md23", [
+        [ "Volume Setup", "index.html#autotoc_md24", [
+          [ "NavVolume Parameters Configuration", "index.html#autotoc_md25", null ],
+          [ "Baking", "index.html#autotoc_md26", null ],
+          [ "External Links", "index.html#autotoc_md27", null ]
         ] ],
-        [ "Pathfinder Setup", "index.html#autotoc_md20", [
-          [ "NavPathfinder Parameters Configuration", "index.html#autotoc_md21", null ]
+        [ "Pathfinder Setup", "index.html#autotoc_md28", [
+          [ "NavPathfinder Parameters Configuration", "index.html#autotoc_md29", null ]
         ] ],
-        [ "Agent Setup", "index.html#autotoc_md22", [
-          [ "NavAgent Parameters Configuration", "index.html#autotoc_md23", null ],
-          [ "Agent Usage", "index.html#autotoc_md24", null ]
+        [ "Agent Setup", "index.html#autotoc_md30", [
+          [ "NavAgent Parameters Configuration", "index.html#autotoc_md31", null ],
+          [ "Agent Usage", "index.html#autotoc_md32", null ]
         ] ],
-        [ "Spline Agent Setup", "index.html#autotoc_md25", [
-          [ "SplineNavAgent Paremeters Configuration", "index.html#autotoc_md26", null ],
-          [ "SplineNavAgent Usage", "index.html#autotoc_md27", null ]
+        [ "Spline Agent Setup", "index.html#autotoc_md33", [
+          [ "SplineNavAgent Paremeters Configuration", "index.html#autotoc_md34", null ],
+          [ "SplineNavAgent Usage", "index.html#autotoc_md35", null ]
+        ] ],
+        [ "Avoidance", "index.html#autotoc_md36", [
+          [ "AvoidanceManager Setup", "index.html#autotoc_md37", null ],
+          [ "AvoidanceManager Parameters Configuration", "index.html#autotoc_md38", null ],
+          [ "AvoidanceAgent Setup", "index.html#autotoc_md39", null ],
+          [ "AvoidanceAgent Usage", "index.html#autotoc_md40", null ],
+          [ "AvoidanceAgent With NavAgent", "index.html#autotoc_md41", null ],
+          [ "AvoidanceAgent Parameters Configuration", "index.html#autotoc_md42", null ],
+          [ "AvoidanceObstacle Setup", "index.html#autotoc_md43", null ],
+          [ "AvoidanceObstacle Parameters Configuration", "index.html#autotoc_md44", null ]
         ] ]
       ] ]
     ] ],
     [ "Changelog", "md__c_h_a_n_g_e_l_o_g.html", [
-      [ "[Unreleased]", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md1", [
-        [ "Added", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md2", null ]
+      [ "[1.1.0] - 2022-11-22", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md1", [
+        [ "Added", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md2", null ],
+        [ "Changed", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md3", null ],
+        [ "Fixed", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md4", null ]
+      ] ],
+      [ "[1.0.0] - 2022-11-08", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md5", [
+        [ "Added", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md6", null ]
       ] ]
     ] ],
     [ "Package Members", "namespacemembers.html", [
@@ -86,7 +106,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"functions_t.html"
+"class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af201c49315ba85465384b041336497d8",
+"struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#a535528ead8c296e3ebc955a379b8ebfe"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

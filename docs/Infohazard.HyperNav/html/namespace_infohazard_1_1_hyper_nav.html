@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
@@ -101,8 +101,26 @@ $(document).ready(function(){initNavTree('namespace_infohazard_1_1_hyper_nav.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance.html">Avoidance</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static container that keeps track of all avoidance agents and obstacles.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html">AvoidanceAgent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base implementation of <a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html" title="Interface for objects that both can be avoided and themselves avoid other obstacles using the avoidan...">IAvoidanceAgent</a> that should work in most scenarios.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html">AvoidanceManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles calculating the avoidance velocities for all <a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html" title="Interface for objects that both can be avoided and themselves avoid other obstacles using the avoidan...">IAvoidanceAgent</a>s.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_obstacle_base.html">AvoidanceObstacleBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class for obstacles that are not expected to perform avoidance, but are avoided by agents.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_obstacle_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the indices of an edge (two connected vertices) in an indexed mesh.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html">IAvoidanceAgent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for objects that both can be avoided and themselves avoid other obstacles using the avoidance system.   <a href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html">IAvoidanceObstacle</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for objects that can be avoided using the avoidance system.   <a href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html">NavAgent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A script that can be used to calculate paths by any entity that needs to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> for navigation.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#details">More...</a><br /></td></tr>
@@ -143,11 +161,20 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html">NavWaypoint</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A waypoint in a completed path.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_rigidbody_avoidance_obstacle.html">RigidbodyAvoidanceObstacle</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An <a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html" title="Interface for objects that can be avoided using the avoidance system.">IAvoidanceObstacle</a> that gets its <a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#a69b4d13d75e366d744a43aef07d26a5f" title="The object&#39;s desired (or actual) velocity.">IAvoidanceObstacle.InputVelocity</a> from a Rigidbody.   <a href="class_infohazard_1_1_hyper_nav_1_1_rigidbody_avoidance_obstacle.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_simple_avoidance_obstacle.html">SimpleAvoidanceObstacle</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An <a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html" title="Interface for objects that can be avoided using the avoidance system.">IAvoidanceObstacle</a> that gets its <a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#a69b4d13d75e366d744a43aef07d26a5f" title="The object&#39;s desired (or actual) velocity.">IAvoidanceObstacle.InputVelocity</a> by measuring its position/time delta.   <a href="class_infohazard_1_1_hyper_nav_1_1_simple_avoidance_obstacle.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html">SplineNavAgent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A script that can be used to calculate smooth paths by any entity that needs to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> for navigation.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_path.html">SplinePath</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A spline specialized for path following, created with a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html" title="A completed, valid path.">NavPath</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_path.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_spline_path.html">SplinePath</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A spline specialized for path following, created with a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_path.html" title="A completed, valid path.">NavPath</a>.   <a href="struct_infohazard_1_1_hyper_nav_1_1_spline_path.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_spline_point.html">SplinePoint</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a point on a spline and the segment that starts with it.   <a href="struct_infohazard_1_1_hyper_nav_1_1_spline_point.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the indices of a triangle (three vertices by a face) in an indexed mesh.   <a href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html#details">More...</a><br /></td></tr>
@@ -155,6 +182,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:a22f44ea96bcfea9f7733c11de66eb8fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a22f44ea96bcfea9f7733c11de66eb8fa">AvoidanceManagerUpdateMode</a> </td></tr>
+<tr class="memdesc:a22f44ea96bcfea9f7733c11de66eb8fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The update modes in which AvoidanceManager can operate.   <a href="namespace_infohazard_1_1_hyper_nav.html#a22f44ea96bcfea9f7733c11de66eb8fa">More...</a><br /></td></tr>
+<tr class="separator:a22f44ea96bcfea9f7733c11de66eb8fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e76dbff84c16110fac8ea8736f5272d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a4e76dbff84c16110fac8ea8736f5272d">NavPathfindingMode</a> </td></tr>
 <tr class="memdesc:a4e76dbff84c16110fac8ea8736f5272d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The modes in which pathfinding can be executed.   <a href="namespace_infohazard_1_1_hyper_nav.html#a4e76dbff84c16110fac8ea8736f5272d">More...</a><br /></td></tr>
 <tr class="separator:a4e76dbff84c16110fac8ea8736f5272d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +202,22 @@ Functions</h2></td></tr>
 <tr class="separator:a893f3d0e39a2a9a747fbc30f4d85522c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a22f44ea96bcfea9f7733c11de66eb8fa" name="a22f44ea96bcfea9f7733c11de66eb8fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f44ea96bcfea9f7733c11de66eb8fa">&#9670;&#160;</a></span>AvoidanceManagerUpdateMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a22f44ea96bcfea9f7733c11de66eb8fa">Infohazard.HyperNav.AvoidanceManagerUpdateMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The update modes in which <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html" title="Handles calculating the avoidance velocities for all IAvoidanceAgents.">AvoidanceManager</a> can operate.  </p>
+
+</div>
+</div>
 <a id="a4e76dbff84c16110fac8ea8736f5272d" name="a4e76dbff84c16110fac8ea8736f5272d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e76dbff84c16110fac8ea8736f5272d">&#9670;&#160;</a></span>NavPathfindingMode</h2>
 

@@ -11,6 +11,7 @@ var searchData=
   ['visualizeneighbors_8',['VisualizeNeighbors',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a83f1257c5f54ddc4acadcb37189bf3e7',1,'Infohazard::HyperNav::NavVolume']]],
   ['visualizeneighborsregion_9',['VisualizeNeighborsRegion',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ac794a53a58b0d28b6342b9f17245316c',1,'Infohazard::HyperNav::NavVolume']]],
   ['volume_10',['Volume',['../struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a1b72e329acc52a3ac0cfe3a6e831db02',1,'Infohazard::HyperNav::NavHit']]],
-  ['volumes_11',['Volumes',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aef1c17f45f49e648edea7cec80b5e54b',1,'Infohazard::HyperNav::NavVolume']]],
-  ['voxelsize_12',['VoxelSize',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a45ce16bda7db65a6d92a7b842ff840a2',1,'Infohazard::HyperNav::NavVolume']]]
+  ['volumeid_11',['VolumeID',['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a865f549d944e1323636128b158b3531d',1,'Infohazard::HyperNav::NavWaypoint']]],
+  ['volumes_12',['Volumes',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aef1c17f45f49e648edea7cec80b5e54b',1,'Infohazard::HyperNav::NavVolume']]],
+  ['voxelsize_13',['VoxelSize',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a45ce16bda7db65a6d92a7b842ff840a2',1,'Infohazard::HyperNav::NavVolume']]]
 ];

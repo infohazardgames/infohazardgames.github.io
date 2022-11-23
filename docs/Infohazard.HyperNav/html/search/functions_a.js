@@ -6,6 +6,8 @@ var searchData=
   ['nativenavhit_3',['NativeNavHit',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html#a075c89a0f713b1c10a41b7a1dad81d35',1,'Infohazard::HyperNav::Jobs::NativeNavHit']]],
   ['nativenavinternallinkdata_4',['NativeNavInternalLinkData',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_internal_link_data.html#afe3d57127e25fc1dbcabd105d079ce3f',1,'Infohazard::HyperNav::Jobs::NativeNavInternalLinkData']]],
   ['nativenavregiondata_5',['NativeNavRegionData',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html#ac3c3a061112a8c1a4f5efc18b1f69ca5',1,'Infohazard::HyperNav::Jobs::NativeNavRegionData']]],
-  ['nativenavvolumedata_6',['NativeNavVolumeData',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#aeec9168090640da65177c3840b34bd9f',1,'Infohazard::HyperNav::Jobs::NativeNavVolumeData']]],
-  ['nativenavwaypoint_7',['NativeNavWaypoint',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint.html#ad7c4bee451466db748626846eda9858d',1,'Infohazard::HyperNav::Jobs::NativeNavWaypoint']]]
+  ['nativenavvolumedata_6',['NativeNavVolumeData',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#af76fab403e7c23bb318f32abbab1c4b3',1,'Infohazard::HyperNav::Jobs::NativeNavVolumeData']]],
+  ['nativenavwaypoint_7',['NativeNavWaypoint',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint.html#aa7910d99a5fc46b6993b91669adbec74',1,'Infohazard::HyperNav::Jobs::NativeNavWaypoint']]],
+  ['nativeplane_8',['NativePlane',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#aa2d06a19586427db9d632abfba9082bb',1,'Infohazard::HyperNav::Jobs::NativePlane']]],
+  ['navraycast_9',['NavRaycast',['../class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#aaf6bc5b783b3514ebfefa031e53ae727',1,'Infohazard::HyperNav::Jobs::NativeMathUtility']]]
 ];

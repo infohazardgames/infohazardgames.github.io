@@ -5,6 +5,7 @@ var class_infohazard_1_1_hyper_nav_1_1_nav_volume =
     [ "OnDestroy", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a342e17641741561d17f02896b89f98c9", null ],
     [ "OnDisable", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a52cf8830e29a9b790fc816fb89b2d22f", null ],
     [ "OnEnable", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a78f416d6a5180ab6db0ee0155b8f5d31", null ],
+    [ "Raycast", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a6a5ea2998939d2e3ad101947973666b8", null ],
     [ "SamplePosition", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a9d768258045bdbbce47d36661e3d9f80", null ],
     [ "_blockingLayers", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a80b79fecec1073b8e5caf390301ff266", null ],
     [ "_bounds", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a4f34c929afbb8c38b8745095aab6d983", null ],

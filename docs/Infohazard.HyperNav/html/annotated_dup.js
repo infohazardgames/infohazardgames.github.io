@@ -15,7 +15,8 @@ var annotated_dup =
           [ "ThreadSafeIncrementor", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_thread_safe_incrementor.html", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_thread_safe_incrementor" ]
         ] ],
         [ "Jobs", "namespace_infohazard_1_1_hyper_nav_1_1_jobs.html", [
-          [ "NativeArrayPtr", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_array_ptr.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_array_ptr" ],
+          [ "AvoidanceJob", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_avoidance_job.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_avoidance_job" ],
+          [ "NativeAvoidanceObstacleData", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_avoidance_obstacle_data.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_avoidance_obstacle_data" ],
           [ "NativeBounds", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_bounds.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_bounds" ],
           [ "NativeHeap", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap" ],
           [ "NativeMathUtility", "class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html", "class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility" ],
@@ -25,11 +26,24 @@ var annotated_dup =
           [ "NativeNavRegionData", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_region_data" ],
           [ "NativeNavVolumeData", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data" ],
           [ "NativeNavWaypoint", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint" ],
+          [ "NativePlane", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane" ],
+          [ "NativeRay", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_ray.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_ray" ],
+          [ "NativeRaycastElement", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_raycast_element.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_raycast_element" ],
+          [ "NavMultiRaycastJob", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_multi_raycast_job.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_multi_raycast_job" ],
           [ "NavPathJob", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job" ],
+          [ "NavRaycastJob", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_raycast_job.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_raycast_job" ],
           [ "PendingPathNode", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node" ],
+          [ "SplineProjectJob", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_spline_project_job.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_spline_project_job" ],
+          [ "UnsafeArrayPtr", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_unsafe_array_ptr.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_unsafe_array_ptr" ],
           [ "VisitedNodeInfo", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info" ]
         ] ],
+        [ "Avoidance", "class_infohazard_1_1_hyper_nav_1_1_avoidance.html", "class_infohazard_1_1_hyper_nav_1_1_avoidance" ],
+        [ "AvoidanceAgent", "class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html", "class_infohazard_1_1_hyper_nav_1_1_avoidance_agent" ],
+        [ "AvoidanceManager", "class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html", "class_infohazard_1_1_hyper_nav_1_1_avoidance_manager" ],
+        [ "AvoidanceObstacleBase", "class_infohazard_1_1_hyper_nav_1_1_avoidance_obstacle_base.html", "class_infohazard_1_1_hyper_nav_1_1_avoidance_obstacle_base" ],
         [ "Edge", "struct_infohazard_1_1_hyper_nav_1_1_edge.html", "struct_infohazard_1_1_hyper_nav_1_1_edge" ],
+        [ "IAvoidanceAgent", "interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html", "interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent" ],
+        [ "IAvoidanceObstacle", "interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html", "interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle" ],
         [ "NavAgent", "class_infohazard_1_1_hyper_nav_1_1_nav_agent.html", "class_infohazard_1_1_hyper_nav_1_1_nav_agent" ],
         [ "NavDataInternalPointers", "struct_infohazard_1_1_hyper_nav_1_1_nav_data_internal_pointers.html", "struct_infohazard_1_1_hyper_nav_1_1_nav_data_internal_pointers" ],
         [ "NavExternalLinkData", "class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html", "class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data" ],
@@ -43,8 +57,11 @@ var annotated_dup =
         [ "NavVolume", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html", "class_infohazard_1_1_hyper_nav_1_1_nav_volume" ],
         [ "NavVolumeData", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data" ],
         [ "NavWaypoint", "struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html", "struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint" ],
+        [ "RigidbodyAvoidanceObstacle", "class_infohazard_1_1_hyper_nav_1_1_rigidbody_avoidance_obstacle.html", "class_infohazard_1_1_hyper_nav_1_1_rigidbody_avoidance_obstacle" ],
+        [ "SimpleAvoidanceObstacle", "class_infohazard_1_1_hyper_nav_1_1_simple_avoidance_obstacle.html", "class_infohazard_1_1_hyper_nav_1_1_simple_avoidance_obstacle" ],
         [ "SplineNavAgent", "class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html", "class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent" ],
-        [ "SplinePath", "class_infohazard_1_1_hyper_nav_1_1_spline_path.html", "class_infohazard_1_1_hyper_nav_1_1_spline_path" ],
+        [ "SplinePath", "struct_infohazard_1_1_hyper_nav_1_1_spline_path.html", "struct_infohazard_1_1_hyper_nav_1_1_spline_path" ],
+        [ "SplinePoint", "struct_infohazard_1_1_hyper_nav_1_1_spline_point.html", "struct_infohazard_1_1_hyper_nav_1_1_spline_point" ],
         [ "Triangle", "struct_infohazard_1_1_hyper_nav_1_1_triangle.html", "struct_infohazard_1_1_hyper_nav_1_1_triangle" ]
       ] ]
     ] ]

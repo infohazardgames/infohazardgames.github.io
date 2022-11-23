@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.1.0</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.2.0</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -167,6 +167,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa384c29b42ec548edd9478d6b37d411d"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_math_utility.html#aa384c29b42ec548edd9478d6b37d411d">WorldToCanvasPoint</a> (this Camera camera, Canvas canvas, Vector3 point)</td></tr>
 <tr class="memdesc:aa384c29b42ec548edd9478d6b37d411d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects a point in the world onto a canvas in camera or overlay space.   <a href="class_infohazard_1_1_core_1_1_math_utility.html#aa384c29b42ec548edd9478d6b37d411d">More...</a><br /></td></tr>
 <tr class="separator:aa384c29b42ec548edd9478d6b37d411d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7adff70ca2d89863f3436173d33602ca"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_math_utility.html#a7adff70ca2d89863f3436173d33602ca">GetPerpendicularVector</a> (this Vector3 vector)</td></tr>
+<tr class="memdesc:a7adff70ca2d89863f3436173d33602ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a vector that is perpendicular to the given vector.   <a href="class_infohazard_1_1_core_1_1_math_utility.html#a7adff70ca2d89863f3436173d33602ca">More...</a><br /></td></tr>
+<tr class="separator:a7adff70ca2d89863f3436173d33602ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f041a6906b40d38970da936d684e35a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_math_utility.html#a1f041a6906b40d38970da936d684e35a">Dot</a> (Vector3Int v1, Vector3Int v2)</td></tr>
 <tr class="memdesc:a1f041a6906b40d38970da936d684e35a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dot product of two int vectors.   <a href="class_infohazard_1_1_core_1_1_math_utility.html#a1f041a6906b40d38970da936d684e35a">More...</a><br /></td></tr>
 <tr class="separator:a1f041a6906b40d38970da936d684e35a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1138,6 +1141,41 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The nearest point on the triangle to the given point.</dd></dl>
+
+</div>
+</div>
+<a id="a7adff70ca2d89863f3436173d33602ca" name="a7adff70ca2d89863f3436173d33602ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7adff70ca2d89863f3436173d33602ca">&#9670;&#160;</a></span>GetPerpendicularVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 Infohazard.Core.MathUtility.GetPerpendicularVector </td>
+          <td>(</td>
+          <td class="paramtype">this Vector3&#160;</td>
+          <td class="paramname"><em>vector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a vector that is perpendicular to the given vector.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vector</td><td>Input vector.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A perpendicular vector.</dd></dl>
 
 </div>
 </div>

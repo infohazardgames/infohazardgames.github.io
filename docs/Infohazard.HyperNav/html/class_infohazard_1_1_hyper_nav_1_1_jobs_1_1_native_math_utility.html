@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
@@ -118,6 +118,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2e0d33c7150095c2d02fa73846b71d55"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#a2e0d33c7150095c2d02fa73846b71d55">DoesSegmentIntersectTriangle</a> (in float4 v1, in float4 v2, in float4 v3, in float4 s1, in float4 s2, out float t)</td></tr>
 <tr class="memdesc:a2e0d33c7150095c2d02fa73846b71d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raycast a line segment against a triangle, and return whether they intersect.   <a href="class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#a2e0d33c7150095c2d02fa73846b71d55">More...</a><br /></td></tr>
 <tr class="separator:a2e0d33c7150095c2d02fa73846b71d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf6bc5b783b3514ebfefa031e53ae727"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#aaf6bc5b783b3514ebfefa031e53ae727">NavRaycast</a> (float4 start, float4 end, bool earlyReturn, in <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html">NativeNavVolumeData</a> volume, out float t)</td></tr>
+<tr class="memdesc:aaf6bc5b783b3514ebfefa031e53ae727"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast a ray against the blocking triangles of the volume, and return the nearest hit.   <a href="class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#aaf6bc5b783b3514ebfefa031e53ae727">More...</a><br /></td></tr>
+<tr class="separator:aaf6bc5b783b3514ebfefa031e53ae727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4cba795f634690c64ef82467f5ef49c"><td class="memItemLeft" align="right" valign="top">static float4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#af4cba795f634690c64ef82467f5ef49c">GetPerpendicularVector</a> (float4 vector)</td></tr>
+<tr class="memdesc:af4cba795f634690c64ef82467f5ef49c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an arbitrary vector that is perpendicular to the given vector.   <a href="class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#af4cba795f634690c64ef82467f5ef49c">More...</a><br /></td></tr>
+<tr class="separator:af4cba795f634690c64ef82467f5ef49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Provides math operations that are compatible with Burst.  </p>
@@ -326,6 +332,41 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af4cba795f634690c64ef82467f5ef49c" name="af4cba795f634690c64ef82467f5ef49c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4cba795f634690c64ef82467f5ef49c">&#9670;&#160;</a></span>GetPerpendicularVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static float4 Infohazard.HyperNav.Jobs.NativeMathUtility.GetPerpendicularVector </td>
+          <td>(</td>
+          <td class="paramtype">float4&#160;</td>
+          <td class="paramname"><em>vector</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an arbitrary vector that is perpendicular to the given vector.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vector</td><td>Input vector.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A perpendicular vector.</dd></dl>
+
+</div>
+</div>
 <a id="a5cbd62cda82e2bdfefe4a8207aa6e9ca" name="a5cbd62cda82e2bdfefe4a8207aa6e9ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5cbd62cda82e2bdfefe4a8207aa6e9ca">&#9670;&#160;</a></span>IsPointInsideBound()</h2>
 
@@ -383,6 +424,73 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Whether the point is on the inner side.</dd></dl>
+
+</div>
+</div>
+<a id="aaf6bc5b783b3514ebfefa031e53ae727" name="aaf6bc5b783b3514ebfefa031e53ae727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf6bc5b783b3514ebfefa031e53ae727">&#9670;&#160;</a></span>NavRaycast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe bool Infohazard.HyperNav.Jobs.NativeMathUtility.NavRaycast </td>
+          <td>(</td>
+          <td class="paramtype">float4&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float4&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>earlyReturn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html">NativeNavVolumeData</a>&#160;</td>
+          <td class="paramname"><em>volume</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out float&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Cast a ray against the blocking triangles of the volume, and return the nearest hit.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>The position (in world space) to start the query at.</td></tr>
+    <tr><td class="paramname">end</td><td>The position (in world space) to end the query at.</td></tr>
+    <tr><td class="paramname">earlyReturn</td><td>If true, will return true as soon as any triangle is hit, not necessarily giving you the closest hit point.</td></tr>
+    <tr><td class="paramname">volume</td><td>The volume in which to raycast.</td></tr>
+    <tr><td class="paramname">t</td><td>If the query hits a triangle, the ratio between start and end at which the hit occurred.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether a triangle was hit.</dd></dl>
 
 </div>
 </div>

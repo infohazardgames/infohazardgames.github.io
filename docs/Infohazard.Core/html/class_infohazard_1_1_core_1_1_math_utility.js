@@ -19,6 +19,7 @@ var class_infohazard_1_1_core_1_1_math_utility =
     [ "GetNearestPointOnSegment", "class_infohazard_1_1_core_1_1_math_utility.html#a4248cb6875451ee55dc888712d2e6365", null ],
     [ "GetNearestPointOnTriangle", "class_infohazard_1_1_core_1_1_math_utility.html#a4b4a64470a784dd93356d4559f763264", null ],
     [ "GetNearestPointOnTriangleIncludingBounds", "class_infohazard_1_1_core_1_1_math_utility.html#a269d5b99493864ac0da8e16bb3ef5612", null ],
+    [ "GetPerpendicularVector", "class_infohazard_1_1_core_1_1_math_utility.html#a7adff70ca2d89863f3436173d33602ca", null ],
     [ "IsPointInsideBound", "class_infohazard_1_1_core_1_1_math_utility.html#a5810beab8bd36d930c88e1952fed2ef1", null ],
     [ "Multiply", "class_infohazard_1_1_core_1_1_math_utility.html#a5e5154d248690d97b1f5a8f59e92266d", null ],
     [ "NormalizeAngle", "class_infohazard_1_1_core_1_1_math_utility.html#ab5ea3e15879aecf3a68b72c85a0b933f", null ],

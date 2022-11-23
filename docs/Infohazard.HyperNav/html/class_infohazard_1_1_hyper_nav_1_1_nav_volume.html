@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
@@ -117,6 +117,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d768258045bdbbce47d36661e3d9f80"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a9d768258045bdbbce47d36661e3d9f80">SamplePosition</a> (Vector3 position, out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html">NavHit</a> hit, float maxDistance)</td></tr>
 <tr class="memdesc:a9d768258045bdbbce47d36661e3d9f80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a query to find the nearest point on this volume to the given point.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a9d768258045bdbbce47d36661e3d9f80">More...</a><br /></td></tr>
 <tr class="separator:a9d768258045bdbbce47d36661e3d9f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a5ea2998939d2e3ad101947973666b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a6a5ea2998939d2e3ad101947973666b8">Raycast</a> (Vector3 start, Vector3 end, out float hit)</td></tr>
+<tr class="memdesc:a6a5ea2998939d2e3ad101947973666b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast a ray against the blocking triangles of the volume, and return the nearest hit.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a6a5ea2998939d2e3ad101947973666b8">More...</a><br /></td></tr>
+<tr class="separator:a6a5ea2998939d2e3ad101947973666b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -353,6 +356,51 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Register this volume in the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aef1c17f45f49e648edea7cec80b5e54b" title="All currently loaded volumes.">Volumes</a> dictionary.  </p>
+
+</div>
+</div>
+<a id="a6a5ea2998939d2e3ad101947973666b8" name="a6a5ea2998939d2e3ad101947973666b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a5ea2998939d2e3ad101947973666b8">&#9670;&#160;</a></span>Raycast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.NavVolume.Raycast </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>start</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>end</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out float&#160;</td>
+          <td class="paramname"><em>hit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cast a ray against the blocking triangles of the volume, and return the nearest hit.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">start</td><td>The position (in world space) to start the query at.</td></tr>
+    <tr><td class="paramname">end</td><td>The position (in world space) to end the query at.</td></tr>
+    <tr><td class="paramname">hit</td><td>If the query hits a triangle, the ratio between start and end at which the hit occurred.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether a triangle was hit.</dd></dl>
 
 </div>
 </div>
