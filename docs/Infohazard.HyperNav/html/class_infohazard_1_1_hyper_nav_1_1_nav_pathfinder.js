@@ -1,13 +1,13 @@
 var class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder =
 [
     [ "PropNames", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder_1_1_prop_names.html", null ],
-    [ "Awake", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a77b0aa601a53082b4388e23a817a4c6c", null ],
     [ "CancelPath", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a8c05aea5bf03d25b17c24e3ab23c95c1", null ],
     [ "DisposePath", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a82bcd8e3d4ed3165ce4185b095913521", null ],
     [ "FindPath", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ae38657352c0795c00d44d1fafdff3ef1", null ],
     [ "FindPath", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ab77d20b263e0f075fd54a7ddfe1388d2", null ],
     [ "LateUpdate", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a1304414c34e926d22b9554196bf87fdc", null ],
-    [ "OnDestroy", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a4d0e172c83b677974c76b47d302c544e", null ],
+    [ "OnDisable", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a9175a7e044adbbf7a75a947dd6c89464", null ],
+    [ "OnEnable", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a998046ed17d8b2e5ad452b6631a351cb", null ],
     [ "Update", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#aa015f23090f0c0388e8b8825401076d5", null ],
     [ "_isMainInstance", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ac05d9cb2ba85437dcbd5c7ffe25ba459", null ],
     [ "_maxCompletionFrames", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a2ee4ead502ab91f338cd629f1311db9b", null ],

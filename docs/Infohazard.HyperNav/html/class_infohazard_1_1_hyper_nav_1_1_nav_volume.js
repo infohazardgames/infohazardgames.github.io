@@ -1,7 +1,6 @@
 var class_infohazard_1_1_hyper_nav_1_1_nav_volume =
 [
     [ "PropNames", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_1_1_prop_names.html", null ],
-    [ "Awake", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ad8da45ed4676c95eaa9985e6f0694894", null ],
     [ "OnDestroy", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a342e17641741561d17f02896b89f98c9", null ],
     [ "OnDisable", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a52cf8830e29a9b790fc816fb89b2d22f", null ],
     [ "OnEnable", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a78f416d6a5180ab6db0ee0155b8f5d31", null ],
@@ -40,5 +39,7 @@ var class_infohazard_1_1_hyper_nav_1_1_nav_volume =
     [ "VisualizeNeighbors", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a83f1257c5f54ddc4acadcb37189bf3e7", null ],
     [ "VisualizeNeighborsRegion", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ac794a53a58b0d28b6342b9f17245316c", null ],
     [ "Volumes", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aef1c17f45f49e648edea7cec80b5e54b", null ],
-    [ "VoxelSize", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a45ce16bda7db65a6d92a7b842ff840a2", null ]
+    [ "VoxelSize", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a45ce16bda7db65a6d92a7b842ff840a2", null ],
+    [ "VolumeDataChanged", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ac6d69143ddbeeaa42b7c94229ac97a02", null ],
+    [ "VolumeDataChanging", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a5652142aeb17354ada2569307989ee8e", null ]
 ];

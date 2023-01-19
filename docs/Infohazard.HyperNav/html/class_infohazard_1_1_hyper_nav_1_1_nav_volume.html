@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.1</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.2</span>
    </div>
    <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
@@ -97,6 +97,7 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pac-static-attribs">Static Package Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.HyperNav.NavVolume Class Reference</div></div>
@@ -123,9 +124,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ad8da45ed4676c95eaa9985e6f0694894"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ad8da45ed4676c95eaa9985e6f0694894">Awake</a> ()</td></tr>
-<tr class="memdesc:ad8da45ed4676c95eaa9985e6f0694894"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the native-side data for this volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ad8da45ed4676c95eaa9985e6f0694894">More...</a><br /></td></tr>
-<tr class="separator:ad8da45ed4676c95eaa9985e6f0694894"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78f416d6a5180ab6db0ee0155b8f5d31"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a78f416d6a5180ab6db0ee0155b8f5d31">OnEnable</a> ()</td></tr>
 <tr class="memdesc:a78f416d6a5180ab6db0ee0155b8f5d31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register this volume in the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aef1c17f45f49e648edea7cec80b5e54b" title="All currently loaded volumes.">Volumes</a> dictionary.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a78f416d6a5180ab6db0ee0155b8f5d31">More...</a><br /></td></tr>
 <tr class="separator:a78f416d6a5180ab6db0ee0155b8f5d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,6 +194,15 @@ Properties</h2></td></tr>
 <tr class="memdesc:aef1c17f45f49e648edea7cec80b5e54b"><td class="mdescLeft">&#160;</td><td class="mdescRight">All currently loaded volumes.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aef1c17f45f49e648edea7cec80b5e54b">More...</a><br /></td></tr>
 <tr class="separator:aef1c17f45f49e648edea7cec80b5e54b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:a5652142aeb17354ada2569307989ee8e"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a5652142aeb17354ada2569307989ee8e">VolumeDataChanging</a></td></tr>
+<tr class="memdesc:a5652142aeb17354ada2569307989ee8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that is invoked immediately before active volume data changes.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a5652142aeb17354ada2569307989ee8e">More...</a><br /></td></tr>
+<tr class="separator:a5652142aeb17354ada2569307989ee8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d69143ddbeeaa42b7c94229ac97a02"><td class="memItemLeft" align="right" valign="top">static Action&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ac6d69143ddbeeaa42b7c94229ac97a02">VolumeDataChanged</a></td></tr>
+<tr class="memdesc:ac6d69143ddbeeaa42b7c94229ac97a02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that is invoked immediately after active volume data changes.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ac6d69143ddbeeaa42b7c94229ac97a02">More...</a><br /></td></tr>
+<tr class="separator:ac6d69143ddbeeaa42b7c94229ac97a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a4f34c929afbb8c38b8745095aab6d983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a1d77c77b379e62ad00b599550a2c7367">Bounds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a4f34c929afbb8c38b8745095aab6d983">_bounds</a> = new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a1d77c77b379e62ad00b599550a2c7367">Bounds</a>(Vector3.zero, Vector3.one)</td></tr>
@@ -251,33 +258,6 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p >A volume of space in which <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> pathfinding can occur.  </p>
 <p >Each <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> is divided into convex regions that form pathfinding nodes. A volume's regions can have connections to each other, and to regions of other volumes. The information in a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> must be baked in the editor - it cannot be calculated at runtime (for now). </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad8da45ed4676c95eaa9985e6f0694894" name="ad8da45ed4676c95eaa9985e6f0694894"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8da45ed4676c95eaa9985e6f0694894">&#9670;&#160;</a></span>Awake()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Infohazard.HyperNav.NavVolume.Awake </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Calculate the native-side data for this volume.  </p>
-
-</div>
-</div>
 <a id="a342e17641741561d17f02896b89f98c9" name="a342e17641741561d17f02896b89f98c9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a342e17641741561d17f02896b89f98c9">&#9670;&#160;</a></span>OnDestroy()</h2>
 
@@ -1276,6 +1256,55 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The voxel size of this volume, which determines the precision but also baking cost.  </p>
+
+</div>
+</div>
+<h2 class="groupheader">Event Documentation</h2>
+<a id="ac6d69143ddbeeaa42b7c94229ac97a02" name="ac6d69143ddbeeaa42b7c94229ac97a02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6d69143ddbeeaa42b7c94229ac97a02">&#9670;&#160;</a></span>VolumeDataChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action Infohazard.HyperNav.NavVolume.VolumeDataChanged</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event that is invoked immediately after active volume data changes.  </p>
+
+</div>
+</div>
+<a id="a5652142aeb17354ada2569307989ee8e" name="a5652142aeb17354ada2569307989ee8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5652142aeb17354ada2569307989ee8e">&#9670;&#160;</a></span>VolumeDataChanging</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action Infohazard.HyperNav.NavVolume.VolumeDataChanging</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Event that is invoked immediately before active volume data changes.  </p>
 
 </div>
 </div>
