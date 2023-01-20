@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.2</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.3</span>
    </div>
    <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
@@ -97,15 +97,23 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g.html',''); initR
 <div class="textblock"><p >All notable changes to this project will be documented in this file.</p>
 <p >The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>, and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
-[1.1.1] - 2022-12-14</h1>
+[1.1.2] - 2023-1-18</h1>
 <h2><a class="anchor" id="autotoc_md2"></a>
+Fixed</h2>
+<ul>
+<li>Fixed errors due to volume native data not being correctly initialized when "Reload Scene" is disabled in the editor settings.</li>
+<li>Fixed errors due to volumes being loaded or unloaded while a path is in progress.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+[1.1.1] - 2022-12-14</h1>
+<h2><a class="anchor" id="autotoc_md4"></a>
 Fixed</h2>
 <ul>
 <li>Fixed a NullReferenceException that occurred when baking multiple volumes that didn't have their data created yet.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md3"></a>
+<h1><a class="anchor" id="autotoc_md5"></a>
 [1.1.0] - 2022-11-22</h1>
-<h2><a class="anchor" id="autotoc_md4"></a>
+<h2><a class="anchor" id="autotoc_md6"></a>
 Added</h2>
 <ul>
 <li>New avoidance system.<ul>
@@ -119,7 +127,7 @@ Added</h2>
 <li>Added a button to bake all active NavVolumes at once.</li>
 <li>SplineNavAgents can now get un-stuck by raycasting to see if they are stopped on blocking triangles.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md7"></a>
 Changed</h2>
 <ul>
 <li>Volume identifier now depends on the scene GUID, so a save-as can no longer cause volumes in two scenes to have the same ID.<ul>
@@ -129,14 +137,14 @@ Changed</h2>
 <li>SplinePath is now a struct and uses native data, no longer requiring managed memory allocations. This also means it's Burst-compatible.</li>
 <li>Improved performance of spline projecting by using Burst.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md6"></a>
+<h2><a class="anchor" id="autotoc_md8"></a>
 Fixed</h2>
 <ul>
 <li>Fixed several cases where projecting on a spline path would be incorrect.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md7"></a>
+<h1><a class="anchor" id="autotoc_md9"></a>
 [1.0.0] - 2022-11-08</h1>
-<h2><a class="anchor" id="autotoc_md8"></a>
+<h2><a class="anchor" id="autotoc_md10"></a>
 Added</h2>
 <ul>
 <li>Initial release, all files and documentation added. </li>
