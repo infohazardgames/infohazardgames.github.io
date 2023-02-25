@@ -2,7 +2,7 @@ var searchData=
 [
   ['calculatedesirednavigationvelocity_0',['CalculateDesiredNavigationVelocity',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a9204628d3f4326b624ddc8f923df8ad4',1,'Infohazard.HyperNav.NavAgent.CalculateDesiredNavigationVelocity()'],['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a4bb6503eabd873cb72da1de4174383fa',1,'Infohazard.HyperNav.SplineNavAgent.CalculateDesiredNavigationVelocity()']]],
   ['cancelbake_1',['CancelBake',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#ac223f877045147f2337e8cf981d9187d',1,'Infohazard::HyperNav::Editor::NavVolumeBakingUtil']]],
-  ['cancelpath_2',['CancelPath',['../class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a8c05aea5bf03d25b17c24e3ab23c95c1',1,'Infohazard::HyperNav::NavPathfinder']]],
+  ['cancelpath_2',['CancelPath',['../class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a5162ef281540f0f9d40753d0e423ce53',1,'Infohazard::HyperNav::NavPathfinder']]],
   ['center_3',['Center',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#a34b505eebbb0cd8eb60600aac94a8728',1,'Infohazard.HyperNav.Jobs.NativePlane.Center()'],['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_bounds.html#af7d2f09ec1824f283310ec15ec1ae250',1,'Infohazard.HyperNav.Jobs.NativeBounds.Center()']]],
   ['changelog_4',['Changelog',['../md__c_h_a_n_g_e_l_o_g.html',1,'']]],
   ['clear_5',['Clear',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html#a037b17d2473445528a0b534d72fb2cc8',1,'Infohazard.HyperNav.Jobs.NativeHeap.Clear()'],['../class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#abf1123b3fdbf8eb0c5099869814c9c32',1,'Infohazard.HyperNav.NavVolumeData.Clear()']]],

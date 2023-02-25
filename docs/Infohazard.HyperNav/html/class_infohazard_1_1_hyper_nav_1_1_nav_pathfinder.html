@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.3</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.4</span>
    </div>
    <div id="projectbrief">3D Navigation for Flying Characters</div>
   </td>
@@ -121,9 +121,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae38657352c0795c00d44d1fafdff3ef1"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ae38657352c0795c00d44d1fafdff3ef1">FindPath</a> (<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html">NavHit</a> startHit, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html">NavHit</a> endHit, Vector3 startPos, Vector3 endPos, <a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a893f3d0e39a2a9a747fbc30f4d85522c">HyperNavPathCallback</a> receiver)</td></tr>
 <tr class="memdesc:ae38657352c0795c00d44d1fafdff3ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find a path between two already-calculated nav query results, and invoke the receiver when it is completed.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#ae38657352c0795c00d44d1fafdff3ef1">More...</a><br /></td></tr>
 <tr class="separator:ae38657352c0795c00d44d1fafdff3ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c05aea5bf03d25b17c24e3ab23c95c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a8c05aea5bf03d25b17c24e3ab23c95c1">CancelPath</a> (long id)</td></tr>
-<tr class="memdesc:a8c05aea5bf03d25b17c24e3ab23c95c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel a pending path with the given ID.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a8c05aea5bf03d25b17c24e3ab23c95c1">More...</a><br /></td></tr>
-<tr class="separator:a8c05aea5bf03d25b17c24e3ab23c95c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5162ef281540f0f9d40753d0e423ce53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a5162ef281540f0f9d40753d0e423ce53">CancelPath</a> (long id, bool logError=true)</td></tr>
+<tr class="memdesc:a5162ef281540f0f9d40753d0e423ce53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel a pending path with the given ID.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#a5162ef281540f0f9d40753d0e423ce53">More...</a><br /></td></tr>
+<tr class="separator:a5162ef281540f0f9d40753d0e423ce53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -198,8 +198,8 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p >A script used to calculate <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> paths.  </p>
 <p >Can be used as a singleton, or you can have more than one if needed. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8c05aea5bf03d25b17c24e3ab23c95c1" name="a8c05aea5bf03d25b17c24e3ab23c95c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c05aea5bf03d25b17c24e3ab23c95c1">&#9670;&#160;</a></span>CancelPath()</h2>
+<a id="a5162ef281540f0f9d40753d0e423ce53" name="a5162ef281540f0f9d40753d0e423ce53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5162ef281540f0f9d40753d0e423ce53">&#9670;&#160;</a></span>CancelPath()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,8 +208,18 @@ Private Attributes</h2></td></tr>
           <td class="memname">void Infohazard.HyperNav.NavPathfinder.CancelPath </td>
           <td>(</td>
           <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>logError</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -219,6 +229,7 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>The path ID to cancel.</td></tr>
+    <tr><td class="paramname">logError</td><td>Whether to log an error if the path is not running.</td></tr>
   </table>
   </dd>
 </dl>

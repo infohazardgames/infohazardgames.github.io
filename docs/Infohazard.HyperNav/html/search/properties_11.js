@@ -12,7 +12,8 @@ var searchData=
   ['visualizeneighborsregion_9',['VisualizeNeighborsRegion',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ac794a53a58b0d28b6342b9f17245316c',1,'Infohazard::HyperNav::NavVolume']]],
   ['visualizevoxelqueries_10',['VisualizeVoxelQueries',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a6ee4c7d75de676728927093e54497e57',1,'Infohazard::HyperNav::NavVolume']]],
   ['volume_11',['Volume',['../struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#a1b72e329acc52a3ac0cfe3a6e831db02',1,'Infohazard::HyperNav::NavHit']]],
-  ['volumeid_12',['VolumeID',['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a865f549d944e1323636128b158b3531d',1,'Infohazard::HyperNav::NavWaypoint']]],
-  ['volumes_13',['Volumes',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aef1c17f45f49e648edea7cec80b5e54b',1,'Infohazard::HyperNav::NavVolume']]],
-  ['voxelsize_14',['VoxelSize',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a45ce16bda7db65a6d92a7b842ff840a2',1,'Infohazard::HyperNav::NavVolume']]]
+  ['volumechangingcount_12',['VolumeChangingCount',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aedfd092e4a00a87389e4a29b2b8fd8b2',1,'Infohazard::HyperNav::NavVolume']]],
+  ['volumeid_13',['VolumeID',['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a865f549d944e1323636128b158b3531d',1,'Infohazard::HyperNav::NavWaypoint']]],
+  ['volumes_14',['Volumes',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aef1c17f45f49e648edea7cec80b5e54b',1,'Infohazard::HyperNav::NavVolume']]],
+  ['voxelsize_15',['VoxelSize',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a45ce16bda7db65a6d92a7b842ff840a2',1,'Infohazard::HyperNav::NavVolume']]]
 ];
