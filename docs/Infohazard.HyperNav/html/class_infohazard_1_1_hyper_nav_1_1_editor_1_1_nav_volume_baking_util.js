@@ -4,7 +4,7 @@ var class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util =
     [ "BuildTriangulationPreviewMesh", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#ad9c91e6cb79a688a2c4c0e1a12493f7f", null ],
     [ "CancelBake", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#ac223f877045147f2337e8cf981d9187d", null ],
     [ "ClearData", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#a849b4be054340766606db12b5bdf9976", null ],
-    [ "GetOrCreateData", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#a667f71c4c4cafafe388a6d3e291d0278", null ],
+    [ "GetOrCreateData", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#a39e1c67d70b9e101ea26e35ae4a27a49", null ],
     [ "BakeCoroutines", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#a824b4c9f4dcb496d715335479be9b990", null ],
     [ "BakeProgress", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#a946954716601248d3beb1cd4eacece83", null ],
     [ "BakeProgressUpdated", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_baking_util.html#a2290bb895c64c464ad55aa501f9eac4a", null ]
