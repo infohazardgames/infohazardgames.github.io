@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_core_1_1_spawnabl
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#events">Events</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_infohazard_1_1_core_1_1_spawnable-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.Core.Spawnable Class Reference</div></div>
 </div><!--header-->
@@ -115,27 +116,39 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a4b479f7d256ab13da22c9b3f9e704bd7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#a4b479f7d256ab13da22c9b3f9e704bd7">Spawn</a> (<a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> prefab, Vector3? position=null, Quaternion? rotation=null, Transform parent=null, bool inWorldSpace=false, ulong persistedInstanceID=0, Scene? scene=null)</td></tr>
 <tr class="memdesc:a4b479f7d256ab13da22c9b3f9e704bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn a new pooled instance with the given properties.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#a4b479f7d256ab13da22c9b3f9e704bd7">More...</a><br /></td></tr>
 <tr class="separator:a4b479f7d256ab13da22c9b3f9e704bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85174bc7d7da9f73acf5419bdd52387e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#a85174bc7d7da9f73acf5419bdd52387e">Spawn</a> (<a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> prefab, in <a class="el" href="struct_infohazard_1_1_core_1_1_spawn_params.html">SpawnParams</a> spawnParams=default)</td></tr>
+<tr class="memdesc:a85174bc7d7da9f73acf5419bdd52387e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn a new pooled instance with the given properties.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#a85174bc7d7da9f73acf5419bdd52387e">More...</a><br /></td></tr>
+<tr class="separator:a85174bc7d7da9f73acf5419bdd52387e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae46abe2cecd908442903d92768e23a8f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#ae46abe2cecd908442903d92768e23a8f">Despawn</a> (<a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> instance, float inSeconds=0.0f)</td></tr>
 <tr class="memdesc:ae46abe2cecd908442903d92768e23a8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Despawn a pooled instance, optionally after some time has passed.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#ae46abe2cecd908442903d92768e23a8f">More...</a><br /></td></tr>
 <tr class="separator:ae46abe2cecd908442903d92768e23a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7a6f62c2cf271b65b7c67c1983d398a"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#ac7a6f62c2cf271b65b7c67c1983d398a">Spawn</a> (GameObject prefab, Vector3? position=null, Quaternion? rotation=null, Transform parent=null, bool inWorldSpace=false, ulong persistedInstanceID=0, Scene? scene=null)</td></tr>
 <tr class="memdesc:ac7a6f62c2cf271b65b7c67c1983d398a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn a new instance with the given properties, using the pooling system if the prefab has a <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> script.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#ac7a6f62c2cf271b65b7c67c1983d398a">More...</a><br /></td></tr>
 <tr class="separator:ac7a6f62c2cf271b65b7c67c1983d398a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad084351490c1fd8faa1d1cd3c6efbfa0"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#ad084351490c1fd8faa1d1cd3c6efbfa0">Spawn</a> (GameObject prefab, in <a class="el" href="struct_infohazard_1_1_core_1_1_spawn_params.html">SpawnParams</a> spawnParams=default)</td></tr>
+<tr class="memdesc:ad084351490c1fd8faa1d1cd3c6efbfa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn a new instance with the given properties, using the pooling system if the prefab has a <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> script.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#ad084351490c1fd8faa1d1cd3c6efbfa0">More...</a><br /></td></tr>
+<tr class="separator:ad084351490c1fd8faa1d1cd3c6efbfa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac205c42df28036752f606be12f26480e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#ac205c42df28036752f606be12f26480e">Despawn</a> (GameObject instance, float inSeconds=0.0f)</td></tr>
 <tr class="memdesc:ac205c42df28036752f606be12f26480e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Despawn an instance, optionally after some time has passed, using the pooling system if the prefab has a <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> script.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#ac205c42df28036752f606be12f26480e">More...</a><br /></td></tr>
 <tr class="separator:ac205c42df28036752f606be12f26480e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a599eb07ef3758a4904c0fc1f351e8bcc"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#a599eb07ef3758a4904c0fc1f351e8bcc">Spawn&lt; T &gt;</a> (T prefab, Vector3? position=null, Quaternion? rotation=null, Transform parent=null, bool inWorldSpace=false, ulong persistedInstanceID=0, Scene? scene=null)</td></tr>
 <tr class="memdesc:a599eb07ef3758a4904c0fc1f351e8bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn a new instance with the given properties, using the pooling system if the prefab has a <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> script.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#a599eb07ef3758a4904c0fc1f351e8bcc">More...</a><br /></td></tr>
 <tr class="separator:a599eb07ef3758a4904c0fc1f351e8bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a884e4b785ee4f2e524e9435facf2eb0b"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#a884e4b785ee4f2e524e9435facf2eb0b">Spawn&lt; T &gt;</a> (T prefab, in <a class="el" href="struct_infohazard_1_1_core_1_1_spawn_params.html">SpawnParams</a> spawnParams=default)</td></tr>
+<tr class="memdesc:a884e4b785ee4f2e524e9435facf2eb0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn a new instance with the given properties, using the pooling system if the prefab has a <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> script.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#a884e4b785ee4f2e524e9435facf2eb0b">More...</a><br /></td></tr>
+<tr class="separator:a884e4b785ee4f2e524e9435facf2eb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:aefffd30daee23aa8aa7cef138300427a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#aefffd30daee23aa8aa7cef138300427a">Pooled</a><code> [get]</code></td></tr>
+<tr class="memdesc:aefffd30daee23aa8aa7cef138300427a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether this object should be pooled.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#aefffd30daee23aa8aa7cef138300427a">More...</a><br /></td></tr>
+<tr class="separator:aefffd30daee23aa8aa7cef138300427a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad88857228d82dd86c0806f3aae7c283d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#ad88857228d82dd86c0806f3aae7c283d">IsSpawned</a><code> [get, private set]</code></td></tr>
 <tr class="memdesc:ad88857228d82dd86c0806f3aae7c283d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this object is an active, spawned instance.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#ad88857228d82dd86c0806f3aae7c283d">More...</a><br /></td></tr>
 <tr class="separator:ad88857228d82dd86c0806f3aae7c283d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb822756fd54a9080af65dbce4b84438"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#afb822756fd54a9080af65dbce4b84438">Prefab</a><code> [get]</code></td></tr>
-<tr class="memdesc:afb822756fd54a9080af65dbce4b84438"><td class="mdescLeft">&#160;</td><td class="mdescRight">A reference to the prefab that this object was spawned from.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#afb822756fd54a9080af65dbce4b84438">More...</a><br /></td></tr>
-<tr class="separator:afb822756fd54a9080af65dbce4b84438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6c044df307223a52f4b7122258497f3"><td class="memItemLeft" align="right" valign="top">IPoolHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#ae6c044df307223a52f4b7122258497f3">PoolHandler</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae6c044df307223a52f4b7122258497f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">IPoolHandler which was used to spawn the object.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#ae6c044df307223a52f4b7122258497f3">More...</a><br /></td></tr>
+<tr class="separator:ae6c044df307223a52f4b7122258497f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
@@ -145,6 +158,15 @@ Events</h2></td></tr>
 <tr class="memitem:a66a15740adfcd112aaa07b6cd69b6929"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#a66a15740adfcd112aaa07b6cd69b6929">Despawned</a></td></tr>
 <tr class="memdesc:a66a15740adfcd112aaa07b6cd69b6929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoke when the <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> is despawned.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#a66a15740adfcd112aaa07b6cd69b6929">More...</a><br /></td></tr>
 <tr class="separator:a66a15740adfcd112aaa07b6cd69b6929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe5145e9fcd111c903563c7a4978bcaf"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#abe5145e9fcd111c903563c7a4978bcaf">Destroyed</a></td></tr>
+<tr class="memdesc:abe5145e9fcd111c903563c7a4978bcaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> is destroyed (not just despawned).   <a href="class_infohazard_1_1_core_1_1_spawnable.html#abe5145e9fcd111c903563c7a4978bcaf">More...</a><br /></td></tr>
+<tr class="separator:abe5145e9fcd111c903563c7a4978bcaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a8162025917ad93712b5c78eff1d4fad7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#a8162025917ad93712b5c78eff1d4fad7">_pooled</a> = true</td></tr>
+<tr class="memdesc:a8162025917ad93712b5c78eff1d4fad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether this object should be pooled.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#a8162025917ad93712b5c78eff1d4fad7">More...</a><br /></td></tr>
+<tr class="separator:a8162025917ad93712b5c78eff1d4fad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Attach this component to a prefab to enable it to use the pooling system.  </p>
@@ -259,8 +281,54 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<a id="ad084351490c1fd8faa1d1cd3c6efbfa0" name="ad084351490c1fd8faa1d1cd3c6efbfa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad084351490c1fd8faa1d1cd3c6efbfa0">&#9670;&#160;</a></span>Spawn() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static GameObject Infohazard.Core.Spawnable.Spawn </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>prefab</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="struct_infohazard_1_1_core_1_1_spawn_params.html">SpawnParams</a>&#160;</td>
+          <td class="paramname"><em>spawnParams</em> = <code>default</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Spawn a new instance with the given properties, using the pooling system if the prefab has a <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> script.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefab</td><td>The prefab to spawn.</td></tr>
+    <tr><td class="paramname">spawnParams</td><td>Spawn properties.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The spawned instance.</dd></dl>
+
+</div>
+</div>
 <a id="ac7a6f62c2cf271b65b7c67c1983d398a" name="ac7a6f62c2cf271b65b7c67c1983d398a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7a6f62c2cf271b65b7c67c1983d398a">&#9670;&#160;</a></span>Spawn() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a6f62c2cf271b65b7c67c1983d398a">&#9670;&#160;</a></span>Spawn() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,8 +408,54 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<a id="a85174bc7d7da9f73acf5419bdd52387e" name="a85174bc7d7da9f73acf5419bdd52387e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85174bc7d7da9f73acf5419bdd52387e">&#9670;&#160;</a></span>Spawn() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> Infohazard.Core.Spawnable.Spawn </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a>&#160;</td>
+          <td class="paramname"><em>prefab</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="struct_infohazard_1_1_core_1_1_spawn_params.html">SpawnParams</a>&#160;</td>
+          <td class="paramname"><em>spawnParams</em> = <code>default</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Spawn a new pooled instance with the given properties.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefab</td><td>The prefab to spawn.</td></tr>
+    <tr><td class="paramname">spawnParams</td><td>Spawn properties.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The spawned instance.</dd></dl>
+
+</div>
+</div>
 <a id="a4b479f7d256ab13da22c9b3f9e704bd7" name="a4b479f7d256ab13da22c9b3f9e704bd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b479f7d256ab13da22c9b3f9e704bd7">&#9670;&#160;</a></span>Spawn() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b479f7d256ab13da22c9b3f9e704bd7">&#9670;&#160;</a></span>Spawn() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -421,8 +535,62 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<a id="a884e4b785ee4f2e524e9435facf2eb0b" name="a884e4b785ee4f2e524e9435facf2eb0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a884e4b785ee4f2e524e9435facf2eb0b">&#9670;&#160;</a></span>Spawn&lt; T &gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static T <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#a4b479f7d256ab13da22c9b3f9e704bd7">Infohazard.Core.Spawnable.Spawn</a>&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>prefab</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="struct_infohazard_1_1_core_1_1_spawn_params.html">SpawnParams</a>&#160;</td>
+          <td class="paramname"><em>spawnParams</em> = <code>default</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Spawn a new instance with the given properties, using the pooling system if the prefab has a <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> script.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefab</td><td>The prefab to spawn.</td></tr>
+    <tr><td class="paramname">spawnParams</td><td>Spawn properties.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The spawned instance.</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>Component</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
 <a id="a599eb07ef3758a4904c0fc1f351e8bcc" name="a599eb07ef3758a4904c0fc1f351e8bcc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a599eb07ef3758a4904c0fc1f351e8bcc">&#9670;&#160;</a></span>Spawn&lt; T &gt;()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a599eb07ef3758a4904c0fc1f351e8bcc">&#9670;&#160;</a></span>Spawn&lt; T &gt;() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -510,6 +678,31 @@ Events</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8162025917ad93712b5c78eff1d4fad7" name="a8162025917ad93712b5c78eff1d4fad7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8162025917ad93712b5c78eff1d4fad7">&#9670;&#160;</a></span>_pooled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.Core.Spawnable._pooled = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(Serialized) Whether this object should be pooled.  </p>
+
+</div>
+</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="ad88857228d82dd86c0806f3aae7c283d" name="ad88857228d82dd86c0806f3aae7c283d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad88857228d82dd86c0806f3aae7c283d">&#9670;&#160;</a></span>IsSpawned</h2>
@@ -535,8 +728,8 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a id="afb822756fd54a9080af65dbce4b84438" name="afb822756fd54a9080af65dbce4b84438"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb822756fd54a9080af65dbce4b84438">&#9670;&#160;</a></span>Prefab</h2>
+<a id="aefffd30daee23aa8aa7cef138300427a" name="aefffd30daee23aa8aa7cef138300427a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefffd30daee23aa8aa7cef138300427a">&#9670;&#160;</a></span>Pooled</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -545,7 +738,7 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> Infohazard.Core.Spawnable.Prefab</td>
+          <td class="memname">bool Infohazard.Core.Spawnable.Pooled</td>
         </tr>
       </table>
   </td>
@@ -555,7 +748,31 @@ Events</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>A reference to the prefab that this object was spawned from.  </p>
+<p>Whether this object should be pooled.  </p>
+
+</div>
+</div>
+<a id="ae6c044df307223a52f4b7122258497f3" name="ae6c044df307223a52f4b7122258497f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6c044df307223a52f4b7122258497f3">&#9670;&#160;</a></span>PoolHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IPoolHandler Infohazard.Core.Spawnable.PoolHandler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>IPoolHandler which was used to spawn the object.  </p>
 
 </div>
 </div>
@@ -573,6 +790,22 @@ Events</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Invoke when the <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> is despawned.  </p>
+
+</div>
+</div>
+<a id="abe5145e9fcd111c903563c7a4978bcaf" name="abe5145e9fcd111c903563c7a4978bcaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe5145e9fcd111c903563c7a4978bcaf">&#9670;&#160;</a></span>Destroyed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;<a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a>&gt; Infohazard.Core.Spawnable.Destroyed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Invoked when the <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> is destroyed (not just despawned).  </p>
 
 </div>
 </div>

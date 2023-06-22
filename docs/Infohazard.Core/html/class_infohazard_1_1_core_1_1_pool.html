@@ -116,6 +116,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a435692c33d74e94a3350a5c05b0781d2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool.html#a435692c33d74e94a3350a5c05b0781d2">Clear</a> ()</td></tr>
 <tr class="memdesc:a435692c33d74e94a3350a5c05b0781d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy all objects in the pool.   <a href="class_infohazard_1_1_core_1_1_pool.html#a435692c33d74e94a3350a5c05b0781d2">More...</a><br /></td></tr>
 <tr class="separator:a435692c33d74e94a3350a5c05b0781d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7e3254025c6907d99e48c0233c2ab4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool.html#ad7e3254025c6907d99e48c0233c2ab4a">Remove</a> (T item)</td></tr>
+<tr class="memdesc:ad7e3254025c6907d99e48c0233c2ab4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove an item from the pool without cleaning it up.   <a href="class_infohazard_1_1_core_1_1_pool.html#ad7e3254025c6907d99e48c0233c2ab4a">More...</a><br /></td></tr>
+<tr class="separator:ad7e3254025c6907d99e48c0233c2ab4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b07ddef3b41cbfb473bbdc06749682b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool.html#a5b07ddef3b41cbfb473bbdc06749682b">Dispose</a> ()</td></tr>
 <tr class="memdesc:a5b07ddef3b41cbfb473bbdc06749682b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy all objects in the pool.   <a href="class_infohazard_1_1_core_1_1_pool.html#a5b07ddef3b41cbfb473bbdc06749682b">More...</a><br /></td></tr>
 <tr class="separator:a5b07ddef3b41cbfb473bbdc06749682b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,7 +286,33 @@ Properties</h2></td></tr>
 <p>Return an object to the pool, destroying it if over max count.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">item</td><td></td></tr>
+    <tr><td class="paramname">item</td><td>The object to release.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad7e3254025c6907d99e48c0233c2ab4a" name="ad7e3254025c6907d99e48c0233c2ab4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7e3254025c6907d99e48c0233c2ab4a">&#9670;&#160;</a></span>Remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="class_infohazard_1_1_core_1_1_pool.html">Infohazard.Core.Pool</a>&lt; T &gt;.Remove </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>item</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove an item from the pool without cleaning it up.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">item</td><td>Item to remove.</td></tr>
   </table>
   </dd>
 </dl>

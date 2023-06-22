@@ -5,6 +5,7 @@ var class_infohazard_1_1_core_1_1_pool =
     [ "Dispose", "class_infohazard_1_1_core_1_1_pool.html#a5b07ddef3b41cbfb473bbdc06749682b", null ],
     [ "Get", "class_infohazard_1_1_core_1_1_pool.html#aaeb315befbd820912563e6a88d36b304", null ],
     [ "Release", "class_infohazard_1_1_core_1_1_pool.html#a5ca97b90fc3449cd36e360aa52ddcc58", null ],
+    [ "Remove", "class_infohazard_1_1_core_1_1_pool.html#ad7e3254025c6907d99e48c0233c2ab4a", null ],
     [ "CreateFunc", "class_infohazard_1_1_core_1_1_pool.html#aaea8558627660af9139a90095a20aa3f", null ],
     [ "DestroyAction", "class_infohazard_1_1_core_1_1_pool.html#a85ba90d17368aa8e445bd9287d797376", null ],
     [ "GetAction", "class_infohazard_1_1_core_1_1_pool.html#a8e93cf2f3a547bb672b28857cfcb1771", null ],

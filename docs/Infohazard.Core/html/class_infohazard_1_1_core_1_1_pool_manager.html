@@ -104,8 +104,26 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_core_1_1_pool_man
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:addb121b5b8e4a917c225be33f3ad02fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#addb121b5b8e4a917c225be33f3ad02fa">SpawnPrefab</a> (<a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> prefab, in <a class="el" href="struct_infohazard_1_1_core_1_1_spawn_params.html">SpawnParams</a> spawnParams=default)</td></tr>
+<tr class="memdesc:addb121b5b8e4a917c225be33f3ad02fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn an instance of the specified prefab, creating a <a class="el" href="class_infohazard_1_1_core_1_1_default_pool_handler.html" title="An IPoolHandler that is passed a prefab directly.">DefaultPoolHandler</a> if one does not already exist.   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#addb121b5b8e4a917c225be33f3ad02fa">More...</a><br /></td></tr>
+<tr class="separator:addb121b5b8e4a917c225be33f3ad02fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5648a8333617232ed2d8fbf38efa6dbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#a5648a8333617232ed2d8fbf38efa6dbe">SpawnFromKey</a> (object key, in <a class="el" href="struct_infohazard_1_1_core_1_1_spawn_params.html">SpawnParams</a> spawnParams=default)</td></tr>
+<tr class="memdesc:a5648a8333617232ed2d8fbf38efa6dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Spawn an instance with the specified key. If no IPoolHandler is registered for key, an error is logged and null is returned.   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#a5648a8333617232ed2d8fbf38efa6dbe">More...</a><br /></td></tr>
+<tr class="separator:a5648a8333617232ed2d8fbf38efa6dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51e7a750ef28efc5c83bc6505f1e48a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#a51e7a750ef28efc5c83bc6505f1e48a1">HasPoolHandler</a> (object key)</td></tr>
+<tr class="memdesc:a51e7a750ef28efc5c83bc6505f1e48a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether a IPoolHandler has been registered with the given key.   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#a51e7a750ef28efc5c83bc6505f1e48a1">More...</a><br /></td></tr>
+<tr class="separator:a51e7a750ef28efc5c83bc6505f1e48a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7da5264eef43a7039c8493b68a530ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#ac7da5264eef43a7039c8493b68a530ba">TryGetPoolHandler</a> (object key, out IPoolHandler handler)</td></tr>
+<tr class="memdesc:ac7da5264eef43a7039c8493b68a530ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the IPoolHandler for the given key, if one is registered (return false otherwise).   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#ac7da5264eef43a7039c8493b68a530ba">More...</a><br /></td></tr>
+<tr class="separator:ac7da5264eef43a7039c8493b68a530ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3623625affa1379398860315dbbf62c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#a3623625affa1379398860315dbbf62c1">AddPoolHandler</a> (object key, IPoolHandler handler)</td></tr>
+<tr class="memdesc:a3623625affa1379398860315dbbf62c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a new IPoolHandler for the given key.   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#a3623625affa1379398860315dbbf62c1">More...</a><br /></td></tr>
+<tr class="separator:a3623625affa1379398860315dbbf62c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1fa56ddc59ffca031f83c87c8fbb898"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#ab1fa56ddc59ffca031f83c87c8fbb898">DespawnInstance</a> (<a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> instance)</td></tr>
+<tr class="memdesc:ab1fa56ddc59ffca031f83c87c8fbb898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Despawn the given instance, returning it back to its pool if it has one.   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#ab1fa56ddc59ffca031f83c87c8fbb898">More...</a><br /></td></tr>
+<tr class="separator:ab1fa56ddc59ffca031f83c87c8fbb898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affac6a6635bec3e39c5d11448f971a5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#affac6a6635bec3e39c5d11448f971a5d">ClearInactiveObjects</a> ()</td></tr>
-<tr class="memdesc:affac6a6635bec3e39c5d11448f971a5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove and destroy any inactive pooled objects.   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#affac6a6635bec3e39c5d11448f971a5d">More...</a><br /></td></tr>
+<tr class="memdesc:affac6a6635bec3e39c5d11448f971a5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy and cleanup any inactive instances for <a class="el" href="class_infohazard_1_1_core_1_1_default_pool_handler.html" title="An IPoolHandler that is passed a prefab directly.">DefaultPoolHandler</a>s created by the <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a>.   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#affac6a6635bec3e39c5d11448f971a5d">More...</a><br /></td></tr>
 <tr class="separator:affac6a6635bec3e39c5d11448f971a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
@@ -113,11 +131,52 @@ Properties</h2></td></tr>
 <tr class="memitem:aa9ac8f6b4db786432808f0e70ebcca5e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html">PoolManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#aa9ac8f6b4db786432808f0e70ebcca5e">Instance</a><code> [get]</code></td></tr>
 <tr class="memdesc:aa9ac8f6b4db786432808f0e70ebcca5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The singleton <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> instance.   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#aa9ac8f6b4db786432808f0e70ebcca5e">More...</a><br /></td></tr>
 <tr class="separator:aa9ac8f6b4db786432808f0e70ebcca5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4c4e3e2c0ffac8b1f60e5d3d64c5f03"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#ac4c4e3e2c0ffac8b1f60e5d3d64c5f03">PoolTransform</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac4c4e3e2c0ffac8b1f60e5d3d64c5f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform that inactive instances will be parented to.   <a href="class_infohazard_1_1_core_1_1_pool_manager.html#ac4c4e3e2c0ffac8b1f60e5d3d64c5f03">More...</a><br /></td></tr>
+<tr class="separator:ac4c4e3e2c0ffac8b1f60e5d3d64c5f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The singleton manager class that handles object pooling.  </p>
-<p >There should only ever be on <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> at a time, but this can be created either manually or automatically when needed. You can have one <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> per scene, or have a shared one across all scenes. The only time you'll typically need to interact with the <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> is to call <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#affac6a6635bec3e39c5d11448f971a5d" title="Remove and destroy any inactive pooled objects.">ClearInactiveObjects</a> when loading a new level, if the previously pooled objects are no longer necessary. All normal spawning and despawning of instances should be done through the <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> class. </p>
+<p >There should only ever be on <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> at a time, but this can be created either manually or automatically when needed. You can have one <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> per scene, or have a shared one across all scenes. The only time you'll typically need to interact with the <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> is to call <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#affac6a6635bec3e39c5d11448f971a5d" title="Destroy and cleanup any inactive instances for DefaultPoolHandlers created by the PoolManager.">ClearInactiveObjects</a> when loading a new level, if the previously pooled objects are no longer necessary. All normal spawning and despawning of instances should be done through the <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> class. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3623625affa1379398860315dbbf62c1" name="a3623625affa1379398860315dbbf62c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3623625affa1379398860315dbbf62c1">&#9670;&#160;</a></span>AddPoolHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Infohazard.Core.PoolManager.AddPoolHandler </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IPoolHandler&#160;</td>
+          <td class="paramname"><em>handler</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Register a new IPoolHandler for the given key.  </p>
+<p >The registered IPoolHandler will NOT be retained by the <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Key used to spawn objects using handler.</td></tr>
+    <tr><td class="paramname">handler</td><td>IPoolHandler used to spawn objects for key.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="affac6a6635bec3e39c5d11448f971a5d" name="affac6a6635bec3e39c5d11448f971a5d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#affac6a6635bec3e39c5d11448f971a5d">&#9670;&#160;</a></span>ClearInactiveObjects()</h2>
 
@@ -133,7 +192,177 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Remove and destroy any inactive pooled objects.  </p>
+<p>Destroy and cleanup any inactive instances for <a class="el" href="class_infohazard_1_1_core_1_1_default_pool_handler.html" title="An IPoolHandler that is passed a prefab directly.">DefaultPoolHandler</a>s created by the <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a>.  </p>
+<p >IPoolHandlers created manually and added using <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#a3623625affa1379398860315dbbf62c1" title="Register a new IPoolHandler for the given key.">AddPoolHandler</a> will NOT be affected. This is meant to be called when loading a new level, to ensure pooled instances to not stay around forever. </p>
+
+</div>
+</div>
+<a id="ab1fa56ddc59ffca031f83c87c8fbb898" name="ab1fa56ddc59ffca031f83c87c8fbb898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1fa56ddc59ffca031f83c87c8fbb898">&#9670;&#160;</a></span>DespawnInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Infohazard.Core.PoolManager.DespawnInstance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a>&#160;</td>
+          <td class="paramname"><em>instance</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Despawn the given instance, returning it back to its pool if it has one.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">instance</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a51e7a750ef28efc5c83bc6505f1e48a1" name="a51e7a750ef28efc5c83bc6505f1e48a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51e7a750ef28efc5c83bc6505f1e48a1">&#9670;&#160;</a></span>HasPoolHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.Core.PoolManager.HasPoolHandler </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return whether a IPoolHandler has been registered with the given key.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Key of the IPoolHandler, such as the prefab itself.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether there is an IPoolHandler for key.</dd></dl>
+
+</div>
+</div>
+<a id="a5648a8333617232ed2d8fbf38efa6dbe" name="a5648a8333617232ed2d8fbf38efa6dbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5648a8333617232ed2d8fbf38efa6dbe">&#9670;&#160;</a></span>SpawnFromKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> Infohazard.Core.PoolManager.SpawnFromKey </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="struct_infohazard_1_1_core_1_1_spawn_params.html">SpawnParams</a>&#160;</td>
+          <td class="paramname"><em>spawnParams</em> = <code>default</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Spawn an instance with the specified key. If no IPoolHandler is registered for key, an error is logged and null is returned.  </p>
+<p >The key may be a prefab that was previously registered using <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#addb121b5b8e4a917c225be33f3ad02fa" title="Spawn an instance of the specified prefab, creating a DefaultPoolHandler if one does not already exis...">SpawnPrefab</a>, or another object for which an IPoolHandler was manually registered using <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html#a3623625affa1379398860315dbbf62c1" title="Register a new IPoolHandler for the given key.">AddPoolHandler</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Key of the IPoolHandler, such as the prefab itself.</td></tr>
+    <tr><td class="paramname">spawnParams</td><td>Additional spawn info.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The spawned instance, or null if no handler found.</dd></dl>
+
+</div>
+</div>
+<a id="addb121b5b8e4a917c225be33f3ad02fa" name="addb121b5b8e4a917c225be33f3ad02fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addb121b5b8e4a917c225be33f3ad02fa">&#9670;&#160;</a></span>SpawnPrefab()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> Infohazard.Core.PoolManager.SpawnPrefab </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a>&#160;</td>
+          <td class="paramname"><em>prefab</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="struct_infohazard_1_1_core_1_1_spawn_params.html">SpawnParams</a>&#160;</td>
+          <td class="paramname"><em>spawnParams</em> = <code>default</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Spawn an instance of the specified prefab, creating a <a class="el" href="class_infohazard_1_1_core_1_1_default_pool_handler.html" title="An IPoolHandler that is passed a prefab directly.">DefaultPoolHandler</a> if one does not already exist.  </p>
+<p >If a new <a class="el" href="class_infohazard_1_1_core_1_1_default_pool_handler.html" title="An IPoolHandler that is passed a prefab directly.">DefaultPoolHandler</a> is created, it will be retained by the <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefab</td><td>The prefab to spawn.</td></tr>
+    <tr><td class="paramname">spawnParams</td><td>Additional spawn information.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The spawned instance.</dd></dl>
+
+</div>
+</div>
+<a id="ac7da5264eef43a7039c8493b68a530ba" name="ac7da5264eef43a7039c8493b68a530ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7da5264eef43a7039c8493b68a530ba">&#9670;&#160;</a></span>TryGetPoolHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.Core.PoolManager.TryGetPoolHandler </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out IPoolHandler&#160;</td>
+          <td class="paramname"><em>handler</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the IPoolHandler for the given key, if one is registered (return false otherwise).  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Key of the IPoolHandler, such as the prefab itself.</td></tr>
+    <tr><td class="paramname">handler</td><td>The registered IPoolHandler for key, or null if none.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether there is an IPoolHandler for key.</dd></dl>
 
 </div>
 </div>
@@ -160,6 +389,30 @@ Properties</h2></td></tr>
 
 <p>The singleton <a class="el" href="class_infohazard_1_1_core_1_1_pool_manager.html" title="The singleton manager class that handles object pooling.">PoolManager</a> instance.  </p>
 <p >If this property is accessed when there is no active instance, one will be created automatically. </p>
+
+</div>
+</div>
+<a id="ac4c4e3e2c0ffac8b1f60e5d3d64c5f03" name="ac4c4e3e2c0ffac8b1f60e5d3d64c5f03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4c4e3e2c0ffac8b1f60e5d3d64c5f03">&#9670;&#160;</a></span>PoolTransform</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform Infohazard.Core.PoolManager.PoolTransform</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Transform that inactive instances will be parented to.  </p>
 
 </div>
 </div>

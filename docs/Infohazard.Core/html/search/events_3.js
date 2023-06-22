@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['spawned_0',['Spawned',['../class_infohazard_1_1_core_1_1_spawnable.html#af19586dae1cbdb751a1688a2bdc335c5',1,'Infohazard::Core::Spawnable']]]
+  ['objectadded_0',['ObjectAdded',['../class_infohazard_1_1_core_1_1_unique_named_object.html#af3a273ebbabdaaf7f98e19b5eb3f69c4',1,'Infohazard::Core::UniqueNamedObject']]],
+  ['objectremoved_1',['ObjectRemoved',['../class_infohazard_1_1_core_1_1_unique_named_object.html#a545baf71defa9f1d08da976c103232b8',1,'Infohazard::Core::UniqueNamedObject']]]
 ];

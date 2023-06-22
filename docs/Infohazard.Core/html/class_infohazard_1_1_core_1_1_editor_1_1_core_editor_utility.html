@@ -140,6 +140,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa25a3ae73fcaa9cbd077119369bd24a6"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#aa25a3ae73fcaa9cbd077119369bd24a6">GetTypeName</a> (this SerializedProperty property)</td></tr>
 <tr class="memdesc:aa25a3ae73fcaa9cbd077119369bd24a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type full name (including assembly) of the type of the underlying field for the given property.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#aa25a3ae73fcaa9cbd077119369bd24a6">More...</a><br /></td></tr>
 <tr class="separator:aa25a3ae73fcaa9cbd077119369bd24a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9215a4bed2b9f35c0035f186f25ef179"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a9215a4bed2b9f35c0035f186f25ef179">GetFieldType</a> (this PropertyDrawer drawer)</td></tr>
+<tr class="memdesc:a9215a4bed2b9f35c0035f186f25ef179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of the field the property drawer is drawing. If the type is an array or list, returns the element type.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a9215a4bed2b9f35c0035f186f25ef179">More...</a><br /></td></tr>
+<tr class="separator:a9215a4bed2b9f35c0035f186f25ef179"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1adf21a3eb4d7eebd201442c764397e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#ac1adf21a3eb4d7eebd201442c764397e">EnsureDataFolderExists</a> ()</td></tr>
 <tr class="memdesc:ac1adf21a3eb4d7eebd201442c764397e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ensure that the <a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a1dad005eb664819ab376271fa66d0881" title="Folder where all generated files used by the Infohazard libraries should live.">DataFolder</a> directory exists in your project, and contains an assembly definition.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#ac1adf21a3eb4d7eebd201442c764397e">More...</a><br /></td></tr>
 <tr class="separator:ac1adf21a3eb4d7eebd201442c764397e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -592,6 +595,41 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9215a4bed2b9f35c0035f186f25ef179" name="a9215a4bed2b9f35c0035f186f25ef179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9215a4bed2b9f35c0035f186f25ef179">&#9670;&#160;</a></span>GetFieldType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Type Infohazard.Core.Editor.CoreEditorUtility.GetFieldType </td>
+          <td>(</td>
+          <td class="paramtype">this PropertyDrawer&#160;</td>
+          <td class="paramname"><em>drawer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the type of the field the property drawer is drawing. If the type is an array or list, returns the element type.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">drawer</td><td>Drawer to get the type of.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Type of the drawer's field.</dd></dl>
+
+</div>
+</div>
 <a id="abd189c79ac973ecd880f2b68d7ab1f56" name="abd189c79ac973ecd880f2b68d7ab1f56"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd189c79ac973ecd880f2b68d7ab1f56">&#9670;&#160;</a></span>GetPathRelativeToAssetsFolder()</h2>
 
@@ -721,13 +759,14 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get the type full name (including assembly) of the type of the underlying field for the given property.  </p>
+<p >Due to how Unity works, this will not include the namespace. If you need to access the property type from a PropertyDrawer, use PropertyDrawer.fieldInfo.FieldType instead. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">property</td><td></td></tr>
+    <tr><td class="paramname">property</td><td>Property to get type of.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Type name of the property's underlying type, without namespace.</dd></dl>
 
 </div>
 </div>

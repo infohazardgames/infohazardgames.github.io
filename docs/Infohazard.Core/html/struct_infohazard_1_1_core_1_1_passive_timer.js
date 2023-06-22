@@ -26,6 +26,7 @@ var struct_infohazard_1_1_core_1_1_passive_timer =
     [ "PausedTime", "struct_infohazard_1_1_core_1_1_passive_timer.html#ad1626dd4c6d6a81eb45be290d1229353", null ],
     [ "RatioSinceIntervalStart", "struct_infohazard_1_1_core_1_1_passive_timer.html#a8faf5e0f961dc858e439d5c370989ff3", null ],
     [ "RatioUntilIntervalEnd", "struct_infohazard_1_1_core_1_1_passive_timer.html#a43ce638cd64e94f793376ed1d90e3114", null ],
+    [ "TimeSinceIntervalEnded", "struct_infohazard_1_1_core_1_1_passive_timer.html#aaa13431b5fd725fe0fec27e917d55116", null ],
     [ "TimeSinceIntervalStart", "struct_infohazard_1_1_core_1_1_passive_timer.html#ad7746d23ad12dab9dcf08436522a7783", null ],
     [ "TimeUntilIntervalEnd", "struct_infohazard_1_1_core_1_1_passive_timer.html#ae1f6dbb2ece8277621706d6a29d5edde", null ]
 ];

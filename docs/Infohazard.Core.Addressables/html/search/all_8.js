@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['referencecount_0',['ReferenceCount',['../class_infohazard_1_1_core_1_1_addressables_1_1_addressable_pool_handler.html#a4764a91f4c08057a3923c908cf8fc223',1,'Infohazard::Core::Addressables::AddressablePoolHandler']]],
+  ['release_1',['Release',['../class_infohazard_1_1_core_1_1_addressables_1_1_addressable_spawn_ref_base.html#a18b293287d66098a69e25a4e0eb55836',1,'Infohazard::Core::Addressables::AddressableSpawnRefBase']]],
+  ['retain_2',['Retain',['../class_infohazard_1_1_core_1_1_addressables_1_1_addressable_pool_handler.html#a1dcef7b0d04f2e16fc96d72e6afd09fb',1,'Infohazard.Core.Addressables.AddressablePoolHandler.Retain()'],['../class_infohazard_1_1_core_1_1_addressables_1_1_addressable_spawn_ref_base.html#a1b1d4e43fe430af4c73a714cc9b2bbce',1,'Infohazard.Core.Addressables.AddressableSpawnRefBase.Retain()']]],
+  ['retainandwait_3',['RetainAndWait',['../class_infohazard_1_1_core_1_1_addressables_1_1_addressable_pool_handler.html#a5128ed8de47bb35d35d592a502b8b2ce',1,'Infohazard.Core.Addressables.AddressablePoolHandler.RetainAndWait()'],['../class_infohazard_1_1_core_1_1_addressables_1_1_addressable_spawn_ref_base.html#ab4e75f572cec8ab0ef00dcf003515fae',1,'Infohazard.Core.Addressables.AddressableSpawnRefBase.RetainAndWait()']]],
+  ['retainandwaitasync_4',['RetainAndWaitAsync',['../class_infohazard_1_1_core_1_1_addressables_1_1_addressable_pool_handler.html#aed988011ee4ccd6bf6b699635257512f',1,'Infohazard.Core.Addressables.AddressablePoolHandler.RetainAndWaitAsync()'],['../class_infohazard_1_1_core_1_1_addressables_1_1_addressable_spawn_ref_base.html#a0852750d27dabe82502b4f22bf0d06b7',1,'Infohazard.Core.Addressables.AddressableSpawnRefBase.RetainAndWaitAsync()']]],
+  ['retaincount_5',['RetainCount',['../class_infohazard_1_1_core_1_1_addressables_1_1_addressable_spawn_ref_base.html#a73b4f00b8a8998820970552d1f112daa',1,'Infohazard::Core::Addressables::AddressableSpawnRefBase']]]
+];
