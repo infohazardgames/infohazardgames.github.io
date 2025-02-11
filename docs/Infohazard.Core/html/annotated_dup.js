@@ -3,7 +3,11 @@ var annotated_dup =
     [ "Infohazard", "namespace_infohazard.html", [
       [ "Core", "namespace_infohazard_1_1_core.html", [
         [ "Editor", "namespace_infohazard_1_1_core_1_1_editor.html", [
+          [ "CoreDrawers", "class_infohazard_1_1_core_1_1_editor_1_1_core_drawers.html", "class_infohazard_1_1_core_1_1_editor_1_1_core_drawers" ],
           [ "CoreEditorUtility", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility" ],
+          [ "IObjectReferenceFieldAssignmentValidator", "interface_infohazard_1_1_core_1_1_editor_1_1_i_object_reference_field_assignment_validator.html", "interface_infohazard_1_1_core_1_1_editor_1_1_i_object_reference_field_assignment_validator" ],
+          [ "ObjectReferenceFieldAssignmentValidator", "class_infohazard_1_1_core_1_1_editor_1_1_object_reference_field_assignment_validator.html", "class_infohazard_1_1_core_1_1_editor_1_1_object_reference_field_assignment_validator" ],
+          [ "ObjectValidators", "class_infohazard_1_1_core_1_1_editor_1_1_object_validators.html", "class_infohazard_1_1_core_1_1_editor_1_1_object_validators" ],
           [ "TagsGenerator", "class_infohazard_1_1_core_1_1_editor_1_1_tags_generator.html", "class_infohazard_1_1_core_1_1_editor_1_1_tags_generator" ]
         ] ],
         [ "AssetDropdownAttribute", "class_infohazard_1_1_core_1_1_asset_dropdown_attribute.html", null ],
@@ -16,13 +20,15 @@ var annotated_dup =
         [ "EnumerableUtility", "class_infohazard_1_1_core_1_1_enumerable_utility.html", "class_infohazard_1_1_core_1_1_enumerable_utility" ],
         [ "ExpandableAttribute", "class_infohazard_1_1_core_1_1_expandable_attribute.html", "class_infohazard_1_1_core_1_1_expandable_attribute" ],
         [ "GameObjectUtility", "class_infohazard_1_1_core_1_1_game_object_utility.html", "class_infohazard_1_1_core_1_1_game_object_utility" ],
+        [ "HelpBoxAttribute", "class_infohazard_1_1_core_1_1_help_box_attribute.html", null ],
         [ "IPersistedInstance", "interface_infohazard_1_1_core_1_1_i_persisted_instance.html", "interface_infohazard_1_1_core_1_1_i_persisted_instance" ],
         [ "ListQueue", "class_infohazard_1_1_core_1_1_list_queue.html", "class_infohazard_1_1_core_1_1_list_queue" ],
         [ "MathUtility", "class_infohazard_1_1_core_1_1_math_utility.html", "class_infohazard_1_1_core_1_1_math_utility" ],
+        [ "MustImplementAttribute", "class_infohazard_1_1_core_1_1_must_implement_attribute.html", "class_infohazard_1_1_core_1_1_must_implement_attribute" ],
         [ "PassiveTimer", "struct_infohazard_1_1_core_1_1_passive_timer.html", "struct_infohazard_1_1_core_1_1_passive_timer" ],
         [ "Pause", "class_infohazard_1_1_core_1_1_pause.html", "class_infohazard_1_1_core_1_1_pause" ],
         [ "Pool", "class_infohazard_1_1_core_1_1_pool.html", "class_infohazard_1_1_core_1_1_pool" ],
-        [ "PooledParticleEffect", "class_infohazard_1_1_core_1_1_pooled_particle_effect.html", "class_infohazard_1_1_core_1_1_pooled_particle_effect" ],
+        [ "PooledParticleEffect", "class_infohazard_1_1_core_1_1_pooled_particle_effect.html", null ],
         [ "PooledTrail", "class_infohazard_1_1_core_1_1_pooled_trail.html", null ],
         [ "PoolManager", "class_infohazard_1_1_core_1_1_pool_manager.html", "class_infohazard_1_1_core_1_1_pool_manager" ],
         [ "ProgressBar", "class_infohazard_1_1_core_1_1_progress_bar.html", "class_infohazard_1_1_core_1_1_progress_bar" ],

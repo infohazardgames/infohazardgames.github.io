@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ipersistedinstance_0',['IPersistedInstance',['../interface_infohazard_1_1_core_1_1_i_persisted_instance.html',1,'Infohazard::Core']]]
+  ['helpboxattribute_0',['HelpBoxAttribute',['../class_infohazard_1_1_core_1_1_help_box_attribute.html',1,'Infohazard::Core']]]
 ];

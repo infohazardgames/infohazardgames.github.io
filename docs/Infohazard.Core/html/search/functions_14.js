@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['yxrotation_0',['YXRotation',['../class_infohazard_1_1_core_1_1_math_utility.html#ae2df496d5ee86b2ede1498c59fcf542b',1,'Infohazard::Core::MathUtility']]],
-  ['yzrotation_1',['YZRotation',['../class_infohazard_1_1_core_1_1_math_utility.html#ac09ccc9ee282782a271a3948a7901ec8',1,'Infohazard::Core::MathUtility']]]
+  ['xyrotation_0',['XYRotation',['../class_infohazard_1_1_core_1_1_math_utility.html#aba958b66d9cf4d116f0ac53b3da1718d',1,'Infohazard::Core::MathUtility']]],
+  ['xzrotation_1',['XZRotation',['../class_infohazard_1_1_core_1_1_math_utility.html#a22585dac95bdebf2c35d88bf4afc8b95',1,'Infohazard::Core::MathUtility']]]
 ];

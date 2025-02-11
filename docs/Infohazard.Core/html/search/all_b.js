@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['maincamera_0',['MainCamera',['../class_infohazard_1_1_core_1_1_tag.html#a976f2cf42db733505df1702225e70636',1,'Infohazard::Core::Tag']]],
-  ['maincameramask_1',['MainCameraMask',['../struct_infohazard_1_1_core_1_1_tag_mask.html#a530093cdf51a351ec32cdb4fcd8a5722',1,'Infohazard::Core::TagMask']]],
-  ['mathutility_2',['MathUtility',['../class_infohazard_1_1_core_1_1_math_utility.html',1,'Infohazard::Core']]],
-  ['maxcount_3',['MaxCount',['../class_infohazard_1_1_core_1_1_pool.html#a2c1a72e05c19df59ec7da17e151326a8',1,'Infohazard::Core::Pool']]],
-  ['mode_4',['Mode',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a68316c3df3e73e6e1091b6b4ec79bbc7',1,'Infohazard::Core::PassiveTimer']]],
-  ['multiply_5',['Multiply',['../class_infohazard_1_1_core_1_1_math_utility.html#a5e5154d248690d97b1f5a8f59e92266d',1,'Infohazard::Core::MathUtility']]]
+  ['nametotag_0',['NameToTag',['../struct_infohazard_1_1_core_1_1_tag_mask.html#a278be1a5a2191bc83252cb3b93f1c752',1,'Infohazard::Core::TagMask']]],
+  ['nextlong_1',['NextLong',['../class_infohazard_1_1_core_1_1_random_utility.html#a11e8d32202d822d702d9d6d6d2a32fdf',1,'Infohazard::Core::RandomUtility']]],
+  ['nextulong_2',['NextUlong',['../class_infohazard_1_1_core_1_1_random_utility.html#ae88c2a41a03af04ffb31d738be93b00f',1,'Infohazard::Core::RandomUtility']]],
+  ['normalizeangle_3',['NormalizeAngle',['../class_infohazard_1_1_core_1_1_math_utility.html#ab5ea3e15879aecf3a68b72c85a0b933f',1,'Infohazard::Core::MathUtility']]],
+  ['normalizeangles_4',['NormalizeAngles',['../class_infohazard_1_1_core_1_1_math_utility.html#a2fbbae623c8de46b71dbc7ffd24b410b',1,'Infohazard::Core::MathUtility']]],
+  ['normalizeinnerangle_5',['NormalizeInnerAngle',['../class_infohazard_1_1_core_1_1_math_utility.html#a76d8dd1fecfd3b71c1a54c8eda4b4e7d',1,'Infohazard::Core::MathUtility']]],
+  ['normalizeinnerangles_6',['NormalizeInnerAngles',['../class_infohazard_1_1_core_1_1_math_utility.html#a2dd80b042e5c32c70322ccd8f09731a8',1,'Infohazard::Core::MathUtility']]]
 ];

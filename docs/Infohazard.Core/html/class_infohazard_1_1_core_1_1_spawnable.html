@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.2.0</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.0</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -96,7 +96,6 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_core_1_1_spawnabl
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#events">Events</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_infohazard_1_1_core_1_1_spawnable-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.Core.Spawnable Class Reference</div></div>
 </div><!--header-->
@@ -146,6 +145,9 @@ Properties</h2></td></tr>
 <tr class="memitem:ad88857228d82dd86c0806f3aae7c283d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#ad88857228d82dd86c0806f3aae7c283d">IsSpawned</a><code> [get, private set]</code></td></tr>
 <tr class="memdesc:ad88857228d82dd86c0806f3aae7c283d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this object is an active, spawned instance.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#ad88857228d82dd86c0806f3aae7c283d">More...</a><br /></td></tr>
 <tr class="separator:ad88857228d82dd86c0806f3aae7c283d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5106255939763d8958cf217f5b997a75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#a5106255939763d8958cf217f5b997a75">IsDespawned</a><code> [get, private set]</code></td></tr>
+<tr class="memdesc:a5106255939763d8958cf217f5b997a75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this object is currently an inactive instance.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#a5106255939763d8958cf217f5b997a75">More...</a><br /></td></tr>
+<tr class="separator:a5106255939763d8958cf217f5b997a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6c044df307223a52f4b7122258497f3"><td class="memItemLeft" align="right" valign="top">IPoolHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#ae6c044df307223a52f4b7122258497f3">PoolHandler</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ae6c044df307223a52f4b7122258497f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">IPoolHandler which was used to spawn the object.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#ae6c044df307223a52f4b7122258497f3">More...</a><br /></td></tr>
 <tr class="separator:ae6c044df307223a52f4b7122258497f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,12 +163,6 @@ Events</h2></td></tr>
 <tr class="memitem:abe5145e9fcd111c903563c7a4978bcaf"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html">Spawnable</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#abe5145e9fcd111c903563c7a4978bcaf">Destroyed</a></td></tr>
 <tr class="memdesc:abe5145e9fcd111c903563c7a4978bcaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the <a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html" title="Attach this component to a prefab to enable it to use the pooling system.">Spawnable</a> is destroyed (not just despawned).   <a href="class_infohazard_1_1_core_1_1_spawnable.html#abe5145e9fcd111c903563c7a4978bcaf">More...</a><br /></td></tr>
 <tr class="separator:abe5145e9fcd111c903563c7a4978bcaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a8162025917ad93712b5c78eff1d4fad7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_spawnable.html#a8162025917ad93712b5c78eff1d4fad7">_pooled</a> = true</td></tr>
-<tr class="memdesc:a8162025917ad93712b5c78eff1d4fad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether this object should be pooled.   <a href="class_infohazard_1_1_core_1_1_spawnable.html#a8162025917ad93712b5c78eff1d4fad7">More...</a><br /></td></tr>
-<tr class="separator:a8162025917ad93712b5c78eff1d4fad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Attach this component to a prefab to enable it to use the pooling system.  </p>
@@ -678,9 +674,9 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a8162025917ad93712b5c78eff1d4fad7" name="a8162025917ad93712b5c78eff1d4fad7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8162025917ad93712b5c78eff1d4fad7">&#9670;&#160;</a></span>_pooled</h2>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a5106255939763d8958cf217f5b997a75" name="a5106255939763d8958cf217f5b997a75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5106255939763d8958cf217f5b997a75">&#9670;&#160;</a></span>IsDespawned</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -689,21 +685,20 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Infohazard.Core.Spawnable._pooled = true</td>
+          <td class="memname">bool Infohazard.Core.Spawnable.IsDespawned</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>(Serialized) Whether this object should be pooled.  </p>
+<p>Whether or not this object is currently an inactive instance.  </p>
 
 </div>
 </div>
-<h2 class="groupheader">Property Documentation</h2>
 <a id="ad88857228d82dd86c0806f3aae7c283d" name="ad88857228d82dd86c0806f3aae7c283d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad88857228d82dd86c0806f3aae7c283d">&#9670;&#160;</a></span>IsSpawned</h2>
 

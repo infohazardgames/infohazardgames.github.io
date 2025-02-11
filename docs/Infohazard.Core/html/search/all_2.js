@@ -1,6 +1,30 @@
 var searchData=
 [
-  ['baseclass_0',['BaseClass',['../class_infohazard_1_1_core_1_1_type_select_attribute.html#a879a8cdee57eff83dffb5961516affcc',1,'Infohazard::Core::TypeSelectAttribute']]],
-  ['boundscornerarray_1',['BoundsCornerArray',['../class_infohazard_1_1_core_1_1_math_utility.html#a34bb97e2bf40ff353aca518a8ccaa5e4',1,'Infohazard::Core::MathUtility']]],
-  ['boundstoscreenrect_2',['BoundsToScreenRect',['../class_infohazard_1_1_core_1_1_math_utility.html#a87e51bc2ca9c7f221f81811615657962',1,'Infohazard::Core::MathUtility']]]
+  ['capacity_0',['Capacity',['../class_infohazard_1_1_core_1_1_list_queue.html#a94e6a7bf0615e81bde68a9a32457687e',1,'Infohazard::Core::ListQueue']]],
+  ['changelog_1',['Changelog',['../md__c_h_a_n_g_e_l_o_g.html',1,'']]],
+  ['checkclear_2',['CheckClear',['../class_infohazard_1_1_core_1_1_default_pool_handler.html#a2fd3c43ff7e4b229ca5c3ef73331eff8',1,'Infohazard::Core::DefaultPoolHandler']]],
+  ['checkplaying_3',['CheckPlaying',['../class_infohazard_1_1_core_1_1_debug_utility.html#ad2ff1d2a07b7512446cdedfb5b214520',1,'Infohazard::Core::DebugUtility']]],
+  ['clampinnerangle_4',['ClampInnerAngle',['../class_infohazard_1_1_core_1_1_math_utility.html#ad58df5009ba4f1e89feaa6662abe43cd',1,'Infohazard::Core::MathUtility']]],
+  ['clampinnerangles_5',['ClampInnerAngles',['../class_infohazard_1_1_core_1_1_math_utility.html#acd95d580a3b12a48854da86145db5498',1,'Infohazard::Core::MathUtility']]],
+  ['clear_6',['Clear',['../class_infohazard_1_1_core_1_1_list_queue.html#a760e2f2a4b9ae62abbfc447cda453bcd',1,'Infohazard.Core.ListQueue.Clear()'],['../class_infohazard_1_1_core_1_1_default_pool_handler.html#a0036fc3d46a9fd4faf5cae1552ec5033',1,'Infohazard.Core.DefaultPoolHandler.Clear()'],['../class_infohazard_1_1_core_1_1_pool.html#a435692c33d74e94a3350a5c05b0781d2',1,'Infohazard.Core.Pool.Clear()']]],
+  ['clearinactiveobjects_7',['ClearInactiveObjects',['../class_infohazard_1_1_core_1_1_pool_manager.html#affac6a6635bec3e39c5d11448f971a5d',1,'Infohazard::Core::PoolManager']]],
+  ['collidercast_8',['ColliderCast',['../class_infohazard_1_1_core_1_1_game_object_utility.html#a2d4b6138b3f60e65113d636f1bba60cd',1,'Infohazard::Core::GameObjectUtility']]],
+  ['comparetagmask_9',['CompareTagMask',['../class_infohazard_1_1_core_1_1_tag_mask_utility.html#a379ec904280f61d5c6cc7b3d8c8aadab',1,'Infohazard.Core.TagMaskUtility.CompareTagMask(this GameObject obj, long tag)'],['../class_infohazard_1_1_core_1_1_tag_mask_utility.html#a7773122f4efa3e29654e2ad9a83454f3',1,'Infohazard.Core.TagMaskUtility.CompareTagMask(this Component obj, long tag)']]],
+  ['complex_10',['Complex',['../class_infohazard_1_1_core_1_1_math_utility.html#a7acad77bc04b57ac521cee3edee14c59',1,'Infohazard::Core::MathUtility']]],
+  ['componentid_11',['ComponentID',['../struct_infohazard_1_1_core_1_1_component_i_d.html#af48d410d3b3f4726e08f325c650ee51c',1,'Infohazard.Core.ComponentID.ComponentID()'],['../struct_infohazard_1_1_core_1_1_component_i_d.html',1,'Infohazard.Core.ComponentID']]],
+  ['condition_12',['Condition',['../class_infohazard_1_1_core_1_1_conditional_draw_attribute.html#a99623f1556e58dd5afac13d7f1b48fe3',1,'Infohazard::Core::ConditionalDrawAttribute']]],
+  ['conditionaldrawattribute_13',['ConditionalDrawAttribute',['../class_infohazard_1_1_core_1_1_conditional_draw_attribute.html#ad2c5e71029f815e2e5ea27049fb3a2d0',1,'Infohazard.Core.ConditionalDrawAttribute.ConditionalDrawAttribute(string boolCondition)'],['../class_infohazard_1_1_core_1_1_conditional_draw_attribute.html#a1c9071f6c971bd67dab96a46c643d12c',1,'Infohazard.Core.ConditionalDrawAttribute.ConditionalDrawAttribute(string condition, object value, bool isEqual=true)'],['../class_infohazard_1_1_core_1_1_conditional_draw_attribute.html',1,'Infohazard.Core.ConditionalDrawAttribute']]],
+  ['contains_14',['Contains',['../class_infohazard_1_1_core_1_1_list_queue.html#a8794e743c726868f0c044e4b5913b9f5',1,'Infohazard::Core::ListQueue']]],
+  ['controlledcolliders_15',['ControlledColliders',['../class_infohazard_1_1_core_1_1_trigger_volume.html#aeef168c0a853c44c773bf5b054990b56',1,'Infohazard::Core::TriggerVolume']]],
+  ['copyto_16',['CopyTo',['../class_infohazard_1_1_core_1_1_list_queue.html#a62ef65cd2ebb7655dbc48ef92ce92247',1,'Infohazard::Core::ListQueue']]],
+  ['coredrawers_17',['CoreDrawers',['../class_infohazard_1_1_core_1_1_editor_1_1_core_drawers.html',1,'Infohazard::Core::Editor']]],
+  ['coreeditorutility_18',['CoreEditorUtility',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html',1,'Infohazard::Core::Editor']]],
+  ['count_19',['Count',['../class_infohazard_1_1_core_1_1_list_queue.html#ae0f718ba6c358402d5223a90b90af00c',1,'Infohazard::Core::ListQueue']]],
+  ['createandsavenewasset_20',['CreateAndSaveNewAsset',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a063a6a6ba05170f863dd2df5285c9451',1,'Infohazard::Core::Editor::CoreEditorUtility']]],
+  ['createfunc_21',['CreateFunc',['../class_infohazard_1_1_core_1_1_pool.html#aaea8558627660af9139a90095a20aa3f',1,'Infohazard::Core::Pool']]],
+  ['creategameobjectinscene_22',['CreateGameObjectInScene',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a16159f7655b45bebf45649902a1f90d2',1,'Infohazard::Core::Editor::CoreEditorUtility']]],
+  ['creategameobjectinscenewithcomponent_3c_20t_20_3e_23',['CreateGameObjectInSceneWithComponent&lt; T &gt;',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a7b7b1f2ad30393887140311dc08c9b1d',1,'Infohazard::Core::Editor::CoreEditorUtility']]],
+  ['createnewinstancedropdown_24',['CreateNewInstanceDropDown',['../class_infohazard_1_1_core_1_1_editor_1_1_core_drawers.html#a7972bb0203caf2934c43be083c66ba2f',1,'Infohazard::Core::Editor::CoreDrawers']]],
+  ['currenttime_25',['CurrentTime',['../struct_infohazard_1_1_core_1_1_passive_timer.html#acc8ff85478289990725a295ae5a181e2',1,'Infohazard::Core::PassiveTimer']]],
+  ['currenttimewithoutpause_26',['CurrentTimeWithoutPause',['../struct_infohazard_1_1_core_1_1_passive_timer.html#a99d5f27668fb925b0c500f2c5d5a02a1',1,'Infohazard::Core::PassiveTimer']]]
 ];

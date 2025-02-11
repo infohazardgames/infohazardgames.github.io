@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.2.0</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.0</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -112,6 +112,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5f9f5d5fb6b73fedbd2b1dd80442e293"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a5f9f5d5fb6b73fedbd2b1dd80442e293">GetCapsuleInfo</a> (this CapsuleCollider capsule, out Vector3 point1, out Vector3 point2, out float worldRadius, out float worldHeight)</td></tr>
 <tr class="memdesc:a5f9f5d5fb6b73fedbd2b1dd80442e293"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts capsule info in a CapsuleCollider to two-point form for use with Physics.CapsuleCast.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a5f9f5d5fb6b73fedbd2b1dd80442e293">More...</a><br /></td></tr>
 <tr class="separator:a5f9f5d5fb6b73fedbd2b1dd80442e293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d4b6138b3f60e65113d636f1bba60cd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a2d4b6138b3f60e65113d636f1bba60cd">ColliderCast</a> (this Collider collider, float padding, Vector3 direction, out RaycastHit hit, float maxDistance=float.PositiveInfinity, int layerMask=Physics.DefaultRaycastLayers, QueryTriggerInteraction triggerInteraction=QueryTriggerInteraction.UseGlobal)</td></tr>
+<tr class="memdesc:a2d4b6138b3f60e65113d636f1bba60cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a physics cast depending on the type of collider, using its parameters. Only BoxCollider, SphereCollider, and CapsuleCollider are supported. For simplicity, the scale of the transform is assumed to be uniform.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a2d4b6138b3f60e65113d636f1bba60cd">More...</a><br /></td></tr>
+<tr class="separator:a2d4b6138b3f60e65113d636f1bba60cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91fc0732fa1a9c12ef3268947f5673f1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a91fc0732fa1a9c12ef3268947f5673f1">SetParentAndReset</a> (this Transform transform, Transform parent)</td></tr>
 <tr class="memdesc:a91fc0732fa1a9c12ef3268947f5673f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parent of the given transform, and reset it's local position, rotation, and scale.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a91fc0732fa1a9c12ef3268947f5673f1">More...</a><br /></td></tr>
 <tr class="separator:a91fc0732fa1a9c12ef3268947f5673f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,10 +157,141 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a48a00e2995b1dfff07fdc05916793b99"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a48a00e2995b1dfff07fdc05916793b99">SetLayerRecursively</a> (this GameObject obj, int layer)</td></tr>
 <tr class="memdesc:a48a00e2995b1dfff07fdc05916793b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the layer of a GameObject and all of its children.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a48a00e2995b1dfff07fdc05916793b99">More...</a><br /></td></tr>
 <tr class="separator:a48a00e2995b1dfff07fdc05916793b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b45bff2658ffb89ac2f24dbd440d6d7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a8b45bff2658ffb89ac2f24dbd440d6d7">SetLinearVelocity</a> (this Rigidbody rb, Vector3 velocity)</td></tr>
+<tr class="memdesc:a8b45bff2658ffb89ac2f24dbd440d6d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility method to accommodate Unity 6 velocity name change.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a8b45bff2658ffb89ac2f24dbd440d6d7">More...</a><br /></td></tr>
+<tr class="separator:a8b45bff2658ffb89ac2f24dbd440d6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee117f511c7d995039a5ba4790be8c5"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a2ee117f511c7d995039a5ba4790be8c5">GetLinearVelocity</a> (this Rigidbody rb)</td></tr>
+<tr class="memdesc:a2ee117f511c7d995039a5ba4790be8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility method to accommodate Unity 6 velocity name change.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a2ee117f511c7d995039a5ba4790be8c5">More...</a><br /></td></tr>
+<tr class="separator:a2ee117f511c7d995039a5ba4790be8c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c256675674fff480b354732a6d3ace5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a8c256675674fff480b354732a6d3ace5">AddLinearVelocity</a> (this Rigidbody rb, Vector3 velocity)</td></tr>
+<tr class="memdesc:a8c256675674fff480b354732a6d3ace5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility method to accommodate Unity 6 velocity name change.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a8c256675674fff480b354732a6d3ace5">More...</a><br /></td></tr>
+<tr class="separator:a8c256675674fff480b354732a6d3ace5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5da709606ba796f41c8c150a5de65560"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a5da709606ba796f41c8c150a5de65560">MoveTowardsLinearVelocity</a> (this Rigidbody rb, Vector3 targetVelocity, float maxDeltaV)</td></tr>
+<tr class="memdesc:a5da709606ba796f41c8c150a5de65560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility method to accommodate Unity 6 velocity name change.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a5da709606ba796f41c8c150a5de65560">More...</a><br /></td></tr>
+<tr class="separator:a5da709606ba796f41c8c150a5de65560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Contains utility methods for dealing with GameObjects and Transforms.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8c256675674fff480b354732a6d3ace5" name="a8c256675674fff480b354732a6d3ace5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c256675674fff480b354732a6d3ace5">&#9670;&#160;</a></span>AddLinearVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Infohazard.Core.GameObjectUtility.AddLinearVelocity </td>
+          <td>(</td>
+          <td class="paramtype">this Rigidbody&#160;</td>
+          <td class="paramname"><em>rb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>velocity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Utility method to accommodate Unity 6 velocity name change.  </p>
+
+</div>
+</div>
+<a id="a2d4b6138b3f60e65113d636f1bba60cd" name="a2d4b6138b3f60e65113d636f1bba60cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d4b6138b3f60e65113d636f1bba60cd">&#9670;&#160;</a></span>ColliderCast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Infohazard.Core.GameObjectUtility.ColliderCast </td>
+          <td>(</td>
+          <td class="paramtype">this Collider&#160;</td>
+          <td class="paramname"><em>collider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>padding</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>direction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out RaycastHit&#160;</td>
+          <td class="paramname"><em>hit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDistance</em> = <code>float.PositiveInfinity</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>layerMask</em> = <code>Physics.DefaultRaycastLayers</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QueryTriggerInteraction&#160;</td>
+          <td class="paramname"><em>triggerInteraction</em> = <code>QueryTriggerInteraction.UseGlobal</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Perform a physics cast depending on the type of collider, using its parameters. Only BoxCollider, SphereCollider, and CapsuleCollider are supported. For simplicity, the scale of the transform is assumed to be uniform.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collider</td><td>The BoxCollider, SphereCollider, or CapsuleCollider to cast from.</td></tr>
+    <tr><td class="paramname">padding</td><td>A padding to reduce the collider's extents. Given in world units.</td></tr>
+    <tr><td class="paramname">direction</td><td>Direction to cast in.</td></tr>
+    <tr><td class="paramname">hit</td><td>The hit information.</td></tr>
+    <tr><td class="paramname">maxDistance</td><td>The maximum distance to cast. Default is infinity.</td></tr>
+    <tr><td class="paramname">layerMask</td><td>The layer mask to cast against. Default is default raycast layers.</td></tr>
+    <tr><td class="paramname">triggerInteraction</td><td>Whether to include triggers. Default is use global settings.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the cast hit something.</dd></dl>
+
+</div>
+</div>
 <a id="abfc3f6c13a4ae572c9348a685b031542" name="abfc3f6c13a4ae572c9348a685b031542"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abfc3f6c13a4ae572c9348a685b031542">&#9670;&#160;</a></span>DespawnChildren()</h2>
 
@@ -489,6 +623,34 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a2ee117f511c7d995039a5ba4790be8c5" name="a2ee117f511c7d995039a5ba4790be8c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ee117f511c7d995039a5ba4790be8c5">&#9670;&#160;</a></span>GetLinearVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 Infohazard.Core.GameObjectUtility.GetLinearVelocity </td>
+          <td>(</td>
+          <td class="paramtype">this Rigidbody&#160;</td>
+          <td class="paramname"><em>rb</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Utility method to accommodate Unity 6 velocity name change.  </p>
+
+</div>
+</div>
 <a id="ae9f4e2a73e60b21e5095ccba029fb362" name="ae9f4e2a73e60b21e5095ccba029fb362"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae9f4e2a73e60b21e5095ccba029fb362">&#9670;&#160;</a></span>GetRelativeTransformPath()</h2>
 
@@ -767,6 +929,50 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a5da709606ba796f41c8c150a5de65560" name="a5da709606ba796f41c8c150a5de65560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5da709606ba796f41c8c150a5de65560">&#9670;&#160;</a></span>MoveTowardsLinearVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Infohazard.Core.GameObjectUtility.MoveTowardsLinearVelocity </td>
+          <td>(</td>
+          <td class="paramtype">this Rigidbody&#160;</td>
+          <td class="paramname"><em>rb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>targetVelocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDeltaV</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Utility method to accommodate Unity 6 velocity name change.  </p>
+
+</div>
+</div>
 <a id="a48a00e2995b1dfff07fdc05916793b99" name="a48a00e2995b1dfff07fdc05916793b99"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48a00e2995b1dfff07fdc05916793b99">&#9670;&#160;</a></span>SetLayerRecursively()</h2>
 
@@ -809,6 +1015,44 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a8b45bff2658ffb89ac2f24dbd440d6d7" name="a8b45bff2658ffb89ac2f24dbd440d6d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b45bff2658ffb89ac2f24dbd440d6d7">&#9670;&#160;</a></span>SetLinearVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Infohazard.Core.GameObjectUtility.SetLinearVelocity </td>
+          <td>(</td>
+          <td class="paramtype">this Rigidbody&#160;</td>
+          <td class="paramname"><em>rb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>velocity</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Utility method to accommodate Unity 6 velocity name change.  </p>
 
 </div>
 </div>

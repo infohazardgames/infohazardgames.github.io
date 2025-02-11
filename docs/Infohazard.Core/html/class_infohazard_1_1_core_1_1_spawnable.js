@@ -9,7 +9,7 @@ var class_infohazard_1_1_core_1_1_spawnable =
     [ "Spawn", "class_infohazard_1_1_core_1_1_spawnable.html#a4b479f7d256ab13da22c9b3f9e704bd7", null ],
     [ "Spawn< T >", "class_infohazard_1_1_core_1_1_spawnable.html#a884e4b785ee4f2e524e9435facf2eb0b", null ],
     [ "Spawn< T >", "class_infohazard_1_1_core_1_1_spawnable.html#a599eb07ef3758a4904c0fc1f351e8bcc", null ],
-    [ "_pooled", "class_infohazard_1_1_core_1_1_spawnable.html#a8162025917ad93712b5c78eff1d4fad7", null ],
+    [ "IsDespawned", "class_infohazard_1_1_core_1_1_spawnable.html#a5106255939763d8958cf217f5b997a75", null ],
     [ "IsSpawned", "class_infohazard_1_1_core_1_1_spawnable.html#ad88857228d82dd86c0806f3aae7c283d", null ],
     [ "Pooled", "class_infohazard_1_1_core_1_1_spawnable.html#aefffd30daee23aa8aa7cef138300427a", null ],
     [ "PoolHandler", "class_infohazard_1_1_core_1_1_spawnable.html#ae6c044df307223a52f4b7122258497f3", null ],

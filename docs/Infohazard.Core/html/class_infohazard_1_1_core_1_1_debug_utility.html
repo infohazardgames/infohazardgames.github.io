@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.2.0</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.0</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -109,6 +109,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a755fed2f2638074f0cbda8748611a100"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_debug_utility.html#a755fed2f2638074f0cbda8748611a100">DrawDebugCircle</a> (Vector3 point, Vector3 normal, float radius, Color color, float duration=0.0f, bool depthTest=true, int pointCount=32)</td></tr>
 <tr class="memdesc:a755fed2f2638074f0cbda8748611a100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the given circle in the scene view.   <a href="class_infohazard_1_1_core_1_1_debug_utility.html#a755fed2f2638074f0cbda8748611a100">More...</a><br /></td></tr>
 <tr class="separator:a755fed2f2638074f0cbda8748611a100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cf23cda41be3e40824f7d9690c4fdeb"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_debug_utility.html#a6cf23cda41be3e40824f7d9690c4fdeb">DrawDebugSphere</a> (Vector3 center, float radius, Color color, float duration=0.0f, bool depthTest=true, int pointCount=32)</td></tr>
+<tr class="memdesc:a6cf23cda41be3e40824f7d9690c4fdeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the given sphere in the scene view.   <a href="class_infohazard_1_1_core_1_1_debug_utility.html#a6cf23cda41be3e40824f7d9690c4fdeb">More...</a><br /></td></tr>
+<tr class="separator:a6cf23cda41be3e40824f7d9690c4fdeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cb9f40647f3ddfdb27f78b93cc6329e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_debug_utility.html#a1cb9f40647f3ddfdb27f78b93cc6329e">DebugBreakAfterFrames</a> (this MonoBehaviour cmp, int frames)</td></tr>
 <tr class="memdesc:a1cb9f40647f3ddfdb27f78b93cc6329e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_infohazard_1_1_core_1_1_pause.html" title="Manages pausing and unpausing of the game.">Pause</a> the editor after a given number of frames, using a Coroutine and Debug.Break().   <a href="class_infohazard_1_1_core_1_1_debug_utility.html#a1cb9f40647f3ddfdb27f78b93cc6329e">More...</a><br /></td></tr>
 <tr class="separator:a1cb9f40647f3ddfdb27f78b93cc6329e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -345,6 +348,79 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramname">duration</td><td>Time, in seconds, to draw the circle for.</td></tr>
     <tr><td class="paramname">depthTest</td><td>Whether to depth dest the drawn circle.</td></tr>
     <tr><td class="paramname">pointCount</td><td>How many points the circle will consist of.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6cf23cda41be3e40824f7d9690c4fdeb" name="a6cf23cda41be3e40824f7d9690c4fdeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cf23cda41be3e40824f7d9690c4fdeb">&#9670;&#160;</a></span>DrawDebugSphere()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Infohazard.Core.DebugUtility.DrawDebugSphere </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>center</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Color&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>duration</em> = <code>0.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>depthTest</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>pointCount</em> = <code>32</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Draw the given sphere in the scene view.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">center</td><td>Center of the sphere.</td></tr>
+    <tr><td class="paramname">radius</td><td>Radius of the sphere.</td></tr>
+    <tr><td class="paramname">color</td><td>Color to use.</td></tr>
+    <tr><td class="paramname">duration</td><td>Time, in seconds, to draw the sphere for.</td></tr>
+    <tr><td class="paramname">depthTest</td><td>Whether to depth dest the drawn sphere.</td></tr>
+    <tr><td class="paramname">pointCount</td><td>How many points each circle will consist of.</td></tr>
   </table>
   </dd>
 </dl>

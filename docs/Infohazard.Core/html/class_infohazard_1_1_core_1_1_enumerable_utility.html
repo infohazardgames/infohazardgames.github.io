@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.2.0</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.0</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -116,6 +116,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a23517c539aa567f4b4a2492cf8d78c8c"><td class="memItemLeft" align="right" valign="top">static T2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_enumerable_utility.html#a23517c539aa567f4b4a2492cf8d78c8c">FirstOrDefaultWhere&lt; T1, T2 &gt;</a> (this IEnumerable&lt; T1 &gt; input, SelectWhereDelegate&lt; T1, T2 &gt; selectionDelegate)</td></tr>
 <tr class="memdesc:a23517c539aa567f4b4a2492cf8d78c8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform select/map and where/filter operations on a sequence with a single function, and returns the result of the select operation for the first passing element.   <a href="class_infohazard_1_1_core_1_1_enumerable_utility.html#a23517c539aa567f4b4a2492cf8d78c8c">More...</a><br /></td></tr>
 <tr class="separator:a23517c539aa567f4b4a2492cf8d78c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b12ddc2bf983b1719ee01021a2891e9"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_enumerable_utility.html#a1b12ddc2bf983b1719ee01021a2891e9">IndexOf&lt; T &gt;</a> (this IReadOnlyList&lt; T &gt; list, in T item)</td></tr>
+<tr class="memdesc:a1b12ddc2bf983b1719ee01021a2891e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">IndexOf operation for an IReadOnlyList, which is not included in .NET.   <a href="class_infohazard_1_1_core_1_1_enumerable_utility.html#a1b12ddc2bf983b1719ee01021a2891e9">More...</a><br /></td></tr>
+<tr class="separator:a1b12ddc2bf983b1719ee01021a2891e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Contains various static methods for working with sequences, extending the functionality of LINQ.  </p>
@@ -170,6 +173,59 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The result of the select operation for the first passing element.</dd></dl>
+
+</div>
+</div>
+<a id="a1b12ddc2bf983b1719ee01021a2891e9" name="a1b12ddc2bf983b1719ee01021a2891e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b12ddc2bf983b1719ee01021a2891e9">&#9670;&#160;</a></span>IndexOf&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int Infohazard.Core.EnumerableUtility.IndexOf&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IReadOnlyList&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in T&#160;</td>
+          <td class="paramname"><em>item</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>IndexOf operation for an IReadOnlyList, which is not included in .NET.  </p>
+<p >This cannot take into account custom equality comparers. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">list</td><td>List to search.</td></tr>
+    <tr><td class="paramname">item</td><td>Item to search for.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of items in the list.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The index of the item, or -1 if not found.</dd></dl>
 
 </div>
 </div>

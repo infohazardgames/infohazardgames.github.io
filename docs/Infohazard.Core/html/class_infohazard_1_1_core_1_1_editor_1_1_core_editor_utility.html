@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.2.0</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.0</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -113,6 +113,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6ad2b3d18fc6f7fd89ed0194ca1718ca"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a6ad2b3d18fc6f7fd89ed0194ca1718ca">FindValue&lt; T &gt;</a> (this SerializedProperty prop)</td></tr>
 <tr class="memdesc:a6ad2b3d18fc6f7fd89ed0194ca1718ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the value of a given property using Reflection and reading the field directly.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a6ad2b3d18fc6f7fd89ed0194ca1718ca">More...</a><br /></td></tr>
 <tr class="separator:a6ad2b3d18fc6f7fd89ed0194ca1718ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b33dfbc39be838e9625696d82e895bc"><td class="memItemLeft" align="right" valign="top">static FieldInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a8b33dfbc39be838e9625696d82e895bc">FindFieldInfo</a> (this SerializedProperty prop)</td></tr>
+<tr class="memdesc:a8b33dfbc39be838e9625696d82e895bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the FieldInfo of a given property using Reflection and reading the field directly. If the property is an array element, return null.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a8b33dfbc39be838e9625696d82e895bc">More...</a><br /></td></tr>
+<tr class="separator:a8b33dfbc39be838e9625696d82e895bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a516b8dc9a86dc8a855194e50834ba05d"><td class="memItemLeft" align="right" valign="top">static List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a516b8dc9a86dc8a855194e50834ba05d">GetDefinesList</a> (BuildTargetGroup group)</td></tr>
 <tr class="memdesc:a516b8dc9a86dc8a855194e50834ba05d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Unity PlayerSettings list of #define symbols for the given build target.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a516b8dc9a86dc8a855194e50834ba05d">More...</a><br /></td></tr>
 <tr class="separator:a516b8dc9a86dc8a855194e50834ba05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,9 +134,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af5210935781fb60e87eca5e6ef31bc22"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#af5210935781fb60e87eca5e6ef31bc22">DoLazyDropdown&lt; T &gt;</a> (Rect position, GUIContent content, Func&lt; T[]&gt; optionsFunc, Func&lt; T, string &gt; stringifier, Action&lt; T &gt; setter)</td></tr>
 <tr class="memdesc:af5210935781fb60e87eca5e6ef31bc22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a dropdown button in the IMGUI, whose options will not be calculated until it is clicked.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#af5210935781fb60e87eca5e6ef31bc22">More...</a><br /></td></tr>
 <tr class="separator:af5210935781fb60e87eca5e6ef31bc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e5509af2683a2e23207563187b1c99b"><td class="memItemLeft" align="right" valign="top">static IEnumerable&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a2e5509af2683a2e23207563187b1c99b">GetAssetsOfType&lt; T &gt;</a> ()</td></tr>
-<tr class="memdesc:a2e5509af2683a2e23207563187b1c99b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all the assets of the given type in the project.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a2e5509af2683a2e23207563187b1c99b">More...</a><br /></td></tr>
-<tr class="separator:a2e5509af2683a2e23207563187b1c99b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d85597f6af9b7c74f74a472cf00135f"><td class="memItemLeft" align="right" valign="top">static IEnumerable&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a6d85597f6af9b7c74f74a472cf00135f">GetAssetsOfType&lt; T &gt;</a> (string folder=null)</td></tr>
+<tr class="memdesc:a6d85597f6af9b7c74f74a472cf00135f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all the assets of the given type in the project.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a6d85597f6af9b7c74f74a472cf00135f">More...</a><br /></td></tr>
+<tr class="separator:a6d85597f6af9b7c74f74a472cf00135f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a527ab7cb50843a2b6e14e4d458daaac8"><td class="memItemLeft" align="right" valign="top">static IEnumerable&lt; Object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a527ab7cb50843a2b6e14e4d458daaac8">GetAssetsOfType</a> (string type)</td></tr>
 <tr class="memdesc:a527ab7cb50843a2b6e14e4d458daaac8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find all the assets of the given type in the project.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a527ab7cb50843a2b6e14e4d458daaac8">More...</a><br /></td></tr>
 <tr class="separator:a527ab7cb50843a2b6e14e4d458daaac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,6 +161,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b7b1f2ad30393887140311dc08c9b1d"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a7b7b1f2ad30393887140311dc08c9b1d">CreateGameObjectInSceneWithComponent&lt; T &gt;</a> (string name)</td></tr>
 <tr class="memdesc:a7b7b1f2ad30393887140311dc08c9b1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a GameObject in the scene with a given component, as a child of the selected GameObject if there is one.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a7b7b1f2ad30393887140311dc08c9b1d">More...</a><br /></td></tr>
 <tr class="separator:a7b7b1f2ad30393887140311dc08c9b1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a063a6a6ba05170f863dd2df5285c9451"><td class="memItemLeft" align="right" valign="top">static Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a063a6a6ba05170f863dd2df5285c9451">CreateAndSaveNewAsset</a> (string name, Type type, string defaultSavePath, Object copyObject=null, Object parentObject=null, Action&lt; Object, string &gt; saveAction=null)</td></tr>
+<tr class="memdesc:a063a6a6ba05170f863dd2df5285c9451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prompts the user to browse for a path to save a new asset at. Upon confirmation, a new asset is created and saved.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a063a6a6ba05170f863dd2df5285c9451">More...</a><br /></td></tr>
+<tr class="separator:a063a6a6ba05170f863dd2df5285c9451"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -168,6 +174,80 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Contains several editor-only utilities.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a063a6a6ba05170f863dd2df5285c9451" name="a063a6a6ba05170f863dd2df5285c9451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a063a6a6ba05170f863dd2df5285c9451">&#9670;&#160;</a></span>CreateAndSaveNewAsset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Object Infohazard.Core.Editor.CoreEditorUtility.CreateAndSaveNewAsset </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>defaultSavePath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>copyObject</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>parentObject</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; Object, string &gt;&#160;</td>
+          <td class="paramname"><em>saveAction</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prompts the user to browse for a path to save a new asset at. Upon confirmation, a new asset is created and saved.  </p>
+<p >By using a custom save action, you can, for example, add the created object to another asset rather than saving to the project directly. If a custom save action is used, the file browser will not be shown. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The default filename of the created object.</td></tr>
+    <tr><td class="paramname">type</td><td>Type of object to create.</td></tr>
+    <tr><td class="paramname">defaultSavePath</td><td>Default path to save the asset.</td></tr>
+    <tr><td class="paramname">parentObject</td><td>The object containing the created object (can be null).</td></tr>
+    <tr><td class="paramname">saveAction</td><td>Action to take to save the asset. Can be null for regular asset save.</td></tr>
+    <tr><td class="paramname">copyObject</td><td>Copy this object to create the new asset (can be null).</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a16159f7655b45bebf45649902a1f90d2" name="a16159f7655b45bebf45649902a1f90d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a16159f7655b45bebf45649902a1f90d2">&#9670;&#160;</a></span>CreateGameObjectInScene()</h2>
 
@@ -405,6 +485,41 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a8b33dfbc39be838e9625696d82e895bc" name="a8b33dfbc39be838e9625696d82e895bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b33dfbc39be838e9625696d82e895bc">&#9670;&#160;</a></span>FindFieldInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static FieldInfo Infohazard.Core.Editor.CoreEditorUtility.FindFieldInfo </td>
+          <td>(</td>
+          <td class="paramtype">this SerializedProperty&#160;</td>
+          <td class="paramname"><em>prop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Find the FieldInfo of a given property using Reflection and reading the field directly. If the property is an array element, return null.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prop</td><td>The property to read</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The FieldInfo of the property.</dd></dl>
+
+</div>
+</div>
 <a id="ac25758166ae02b1e71884993442fedb8" name="ac25758166ae02b1e71884993442fedb8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac25758166ae02b1e71884993442fedb8">&#9670;&#160;</a></span>FindValue()</h2>
 
@@ -509,7 +624,7 @@ Static Public Attributes</h2></td></tr>
 <p >Only assets whose root object is the given type are included. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">type</td><td>The type name of assets to find.</td></tr>
+    <tr><td class="paramname">type</td><td>The type name of assets to find. Use the class name only, without namespace.</td></tr>
   </table>
   </dd>
 </dl>
@@ -517,8 +632,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2e5509af2683a2e23207563187b1c99b" name="a2e5509af2683a2e23207563187b1c99b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e5509af2683a2e23207563187b1c99b">&#9670;&#160;</a></span>GetAssetsOfType&lt; T &gt;()</h2>
+<a id="a6d85597f6af9b7c74f74a472cf00135f" name="a6d85597f6af9b7c74f74a472cf00135f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d85597f6af9b7c74f74a472cf00135f">&#9670;&#160;</a></span>GetAssetsOfType&lt; T &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -529,7 +644,8 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static IEnumerable&lt; T &gt; <a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a527ab7cb50843a2b6e14e4d458daaac8">Infohazard.Core.Editor.CoreEditorUtility.GetAssetsOfType</a>&lt; T &gt; </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>folder</em> = <code>null</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -542,6 +658,12 @@ Static Public Attributes</h2></td></tr>
 
 <p>Find all the assets of the given type in the project.  </p>
 <p >Only assets whose root object is the given type are included. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">folder</td><td>The folder to search in, or null for the entire project.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>The type of asset to find.</td></tr>

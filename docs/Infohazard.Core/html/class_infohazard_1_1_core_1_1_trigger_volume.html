@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.2.0</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.0</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -95,7 +95,6 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_core_1_1_trigger_
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="#events">Events</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_infohazard_1_1_core_1_1_trigger_volume-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.Core.TriggerVolume Class Reference</div></div>
 </div><!--header-->
@@ -115,12 +114,12 @@ Properties</h2></td></tr>
 <tr class="memitem:a54830ca0a3c1463f212bd0f84464244c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume_1_1_trigger_events.html">TriggerEvents</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume.html#a54830ca0a3c1463f212bd0f84464244c">Events</a><code> [get]</code></td></tr>
 <tr class="memdesc:a54830ca0a3c1463f212bd0f84464244c"><td class="mdescLeft">&#160;</td><td class="mdescRight">UnityEvents that enable you to assign functionality in the editor.   <a href="class_infohazard_1_1_core_1_1_trigger_volume.html#a54830ca0a3c1463f212bd0f84464244c">More...</a><br /></td></tr>
 <tr class="separator:a54830ca0a3c1463f212bd0f84464244c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93c1b60fce78341a6f4d57c83e48c955"><td class="memItemLeft" align="right" valign="top">HashSet&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume.html#a93c1b60fce78341a6f4d57c83e48c955">Occupants</a><code> [get]</code></td></tr>
-<tr class="memdesc:a93c1b60fce78341a6f4d57c83e48c955"><td class="mdescLeft">&#160;</td><td class="mdescRight">All objects currently inside the trigger volume.   <a href="class_infohazard_1_1_core_1_1_trigger_volume.html#a93c1b60fce78341a6f4d57c83e48c955">More...</a><br /></td></tr>
-<tr class="separator:a93c1b60fce78341a6f4d57c83e48c955"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2de5841ee5638e4fe878eecf11c17f9"><td class="memItemLeft" align="right" valign="top">Collider[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume.html#ad2de5841ee5638e4fe878eecf11c17f9">ControlledColliders</a><code> [get]</code></td></tr>
-<tr class="memdesc:ad2de5841ee5638e4fe878eecf11c17f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of colliders to enable/disable along with this component.   <a href="class_infohazard_1_1_core_1_1_trigger_volume.html#ad2de5841ee5638e4fe878eecf11c17f9">More...</a><br /></td></tr>
-<tr class="separator:ad2de5841ee5638e4fe878eecf11c17f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba49baa385e33efc273e4874e0c60dda"><td class="memItemLeft" align="right" valign="top">IReadOnlyCollection&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume.html#aba49baa385e33efc273e4874e0c60dda">Occupants</a><code> [get]</code></td></tr>
+<tr class="memdesc:aba49baa385e33efc273e4874e0c60dda"><td class="mdescLeft">&#160;</td><td class="mdescRight">All objects currently inside the trigger volume.   <a href="class_infohazard_1_1_core_1_1_trigger_volume.html#aba49baa385e33efc273e4874e0c60dda">More...</a><br /></td></tr>
+<tr class="separator:aba49baa385e33efc273e4874e0c60dda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeef168c0a853c44c773bf5b054990b56"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; Collider &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume.html#aeef168c0a853c44c773bf5b054990b56">ControlledColliders</a><code> [get]</code></td></tr>
+<tr class="memdesc:aeef168c0a853c44c773bf5b054990b56"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of colliders to enable/disable along with this component.   <a href="class_infohazard_1_1_core_1_1_trigger_volume.html#aeef168c0a853c44c773bf5b054990b56">More...</a><br /></td></tr>
+<tr class="separator:aeef168c0a853c44c773bf5b054990b56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
@@ -133,25 +132,13 @@ Events</h2></td></tr>
 <tr class="memitem:aa1eef9d6d941da8acf408bc0dc655209"><td class="memItemLeft" align="right" valign="top">Action&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume.html#aa1eef9d6d941da8acf408bc0dc655209">AllExited</a></td></tr>
 <tr class="memdesc:aa1eef9d6d941da8acf408bc0dc655209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the last object matching the tag filter exits the trigger.   <a href="class_infohazard_1_1_core_1_1_trigger_volume.html#aa1eef9d6d941da8acf408bc0dc655209">More...</a><br /></td></tr>
 <tr class="separator:aa1eef9d6d941da8acf408bc0dc655209"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a5cb7ad04097e8cb358e17a1a8edda55c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_core_1_1_tag_mask.html">TagMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume.html#a5cb7ad04097e8cb358e17a1a8edda55c">_tagFilter</a> = <a class="el" href="struct_infohazard_1_1_core_1_1_tag_mask.html#ab1236b09f9a87012c8b6412200b8edf1">TagMask.PlayerMask</a></td></tr>
-<tr class="memdesc:a5cb7ad04097e8cb358e17a1a8edda55c"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Mask of tags that can activate the trigger.   <a href="class_infohazard_1_1_core_1_1_trigger_volume.html#a5cb7ad04097e8cb358e17a1a8edda55c">More...</a><br /></td></tr>
-<tr class="separator:a5cb7ad04097e8cb358e17a1a8edda55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab42e982cbe762c5dec355a1f169baae8"><td class="memItemLeft" align="right" valign="top">Collider[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume.html#ab42e982cbe762c5dec355a1f169baae8">_controlledColliders</a></td></tr>
-<tr class="memdesc:ab42e982cbe762c5dec355a1f169baae8"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) List of colliders to enable/disable along with this component.   <a href="class_infohazard_1_1_core_1_1_trigger_volume.html#ab42e982cbe762c5dec355a1f169baae8">More...</a><br /></td></tr>
-<tr class="separator:ab42e982cbe762c5dec355a1f169baae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8aad6b6eda73f2bd0ab1f1680259cd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume_1_1_trigger_events.html">TriggerEvents</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume.html#ab8aad6b6eda73f2bd0ab1f1680259cd1">_events</a> = default</td></tr>
-<tr class="memdesc:ab8aad6b6eda73f2bd0ab1f1680259cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) UnityEvents that enable you to assign functionality in the editor.   <a href="class_infohazard_1_1_core_1_1_trigger_volume.html#ab8aad6b6eda73f2bd0ab1f1680259cd1">More...</a><br /></td></tr>
-<tr class="separator:ab8aad6b6eda73f2bd0ab1f1680259cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A script that makes it easy to add events to a trigger collider.  </p>
 <p >Provides both UnityEvents (assignable in the inspector) and normal C# events for when an object enters or leaves the trigger, and when all objects have left the trigger. Also provides a tag filter, allowing you to control which types of object can activate it. </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab42e982cbe762c5dec355a1f169baae8" name="ab42e982cbe762c5dec355a1f169baae8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab42e982cbe762c5dec355a1f169baae8">&#9670;&#160;</a></span>_controlledColliders</h2>
+</div><h2 class="groupheader">Property Documentation</h2>
+<a id="aeef168c0a853c44c773bf5b054990b56" name="aeef168c0a853c44c773bf5b054990b56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeef168c0a853c44c773bf5b054990b56">&#9670;&#160;</a></span>ControlledColliders</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,80 +147,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Collider [] Infohazard.Core.TriggerVolume._controlledColliders</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) List of colliders to enable/disable along with this component.  </p>
-
-</div>
-</div>
-<a id="ab8aad6b6eda73f2bd0ab1f1680259cd1" name="ab8aad6b6eda73f2bd0ab1f1680259cd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8aad6b6eda73f2bd0ab1f1680259cd1">&#9670;&#160;</a></span>_events</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_infohazard_1_1_core_1_1_trigger_volume_1_1_trigger_events.html">TriggerEvents</a> Infohazard.Core.TriggerVolume._events = default</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) UnityEvents that enable you to assign functionality in the editor.  </p>
-
-</div>
-</div>
-<a id="a5cb7ad04097e8cb358e17a1a8edda55c" name="a5cb7ad04097e8cb358e17a1a8edda55c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cb7ad04097e8cb358e17a1a8edda55c">&#9670;&#160;</a></span>_tagFilter</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_infohazard_1_1_core_1_1_tag_mask.html">TagMask</a> Infohazard.Core.TriggerVolume._tagFilter = <a class="el" href="struct_infohazard_1_1_core_1_1_tag_mask.html#ab1236b09f9a87012c8b6412200b8edf1">TagMask.PlayerMask</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) Mask of tags that can activate the trigger.  </p>
-
-</div>
-</div>
-<h2 class="groupheader">Property Documentation</h2>
-<a id="ad2de5841ee5638e4fe878eecf11c17f9" name="ad2de5841ee5638e4fe878eecf11c17f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2de5841ee5638e4fe878eecf11c17f9">&#9670;&#160;</a></span>ControlledColliders</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Collider [] Infohazard.Core.TriggerVolume.ControlledColliders</td>
+          <td class="memname">IReadOnlyList&lt;Collider&gt; Infohazard.Core.TriggerVolume.ControlledColliders</td>
         </tr>
       </table>
   </td>
@@ -271,8 +185,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a93c1b60fce78341a6f4d57c83e48c955" name="a93c1b60fce78341a6f4d57c83e48c955"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93c1b60fce78341a6f4d57c83e48c955">&#9670;&#160;</a></span>Occupants</h2>
+<a id="aba49baa385e33efc273e4874e0c60dda" name="aba49baa385e33efc273e4874e0c60dda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba49baa385e33efc273e4874e0c60dda">&#9670;&#160;</a></span>Occupants</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +195,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">HashSet&lt;GameObject&gt; Infohazard.Core.TriggerVolume.Occupants</td>
+          <td class="memname">IReadOnlyCollection&lt;GameObject&gt; Infohazard.Core.TriggerVolume.Occupants</td>
         </tr>
       </table>
   </td>
