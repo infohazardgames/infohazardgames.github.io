@@ -26,30 +26,34 @@ var NAVTREE =
 [
   [ "Infohazard.Core.Addressables", "index.html", [
     [ "Infohazard.Core.Addressables Documentation", "index.html", [
-      [ "Table of Contents", "index.html#autotoc_md4", null ],
-      [ "Introduction", "index.html#autotoc_md5", null ],
-      [ "Documentation and Support", "index.html#autotoc_md6", null ],
-      [ "License", "index.html#autotoc_md7", null ],
-      [ "Installation", "index.html#autotoc_md8", [
-        [ "Method 1 - Package Manager", "index.html#autotoc_md9", null ],
-        [ "Method 2 - Git Submodule", "index.html#autotoc_md10", null ],
-        [ "Method 3 - Add To Assets", "index.html#autotoc_md11", null ],
-        [ "Method 4 - Asset Store", "index.html#autotoc_md12", null ]
+      [ "Table of Contents", "index.html#autotoc_md7", null ],
+      [ "Introduction", "index.html#autotoc_md8", null ],
+      [ "Documentation and Support", "index.html#autotoc_md9", null ],
+      [ "License", "index.html#autotoc_md10", null ],
+      [ "Installation", "index.html#autotoc_md11", [
+        [ "Method 1 - Package Manager", "index.html#autotoc_md12", null ],
+        [ "Method 2 - Git Submodule", "index.html#autotoc_md13", null ],
+        [ "Method 3 - Add To Assets", "index.html#autotoc_md14", null ],
+        [ "Method 4 - Asset Store", "index.html#autotoc_md15", null ]
       ] ],
-      [ "Setup", "index.html#autotoc_md13", [
-        [ "General Setup", "index.html#autotoc_md14", null ]
+      [ "Setup", "index.html#autotoc_md16", [
+        [ "General Setup", "index.html#autotoc_md17", null ]
       ] ],
-      [ "Demo Scene", "index.html#autotoc_md15", null ],
-      [ "Features Guide", "index.html#autotoc_md16", [
-        [ "AddressableSpawnRef", "index.html#autotoc_md17", null ],
-        [ "AdddressableUtil", "index.html#autotoc_md18", null ],
-        [ "TimeToLiveAddressable", "index.html#autotoc_md19", null ]
+      [ "Demo Scene", "index.html#autotoc_md18", null ],
+      [ "Features Guide", "index.html#autotoc_md19", [
+        [ "AddressableSpawnRef", "index.html#autotoc_md20", null ],
+        [ "AdddressableUtil", "index.html#autotoc_md21", null ],
+        [ "TimeToLiveAddressable", "index.html#autotoc_md22", null ]
       ] ],
-      [ "Addendum: Avoiding Spawned Prefab Unloading Issue", "index.html#autotoc_md20", null ]
+      [ "Addendum: Avoiding Spawned Prefab Unloading Issue", "index.html#autotoc_md23", null ]
     ] ],
     [ "Changelog", "md__c_h_a_n_g_e_l_o_g.html", [
-      [ "[1.0.0] - 2023-6-21", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md1", [
-        [ "Added", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md2", null ]
+      [ "[1.1.0] - 2025-2-11", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md1", [
+        [ "Added", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md2", null ],
+        [ "Changed", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md3", null ]
+      ] ],
+      [ "[1.0.0] - 2023-6-21", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md4", [
+        [ "Added", "md__c_h_a_n_g_e_l_o_g.html#autotoc_md5", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -59,7 +63,6 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
         [ "Properties", "functions_prop.html", null ]
       ] ]
     ] ]

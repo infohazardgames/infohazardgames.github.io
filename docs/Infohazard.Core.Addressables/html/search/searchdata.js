@@ -1,12 +1,11 @@
 var indexSectionsWithContent =
 {
-  0: "_acdiklprstw",
+  0: "acdiklprstw",
   1: "apt",
   2: "i",
   3: "acdirstw",
-  4: "_",
-  5: "aiklprs",
-  6: "ci"
+  4: "aiklprs",
+  5: "ci"
 };
 
 var indexSectionNames =
@@ -15,9 +14,8 @@ var indexSectionNames =
   1: "classes",
   2: "namespaces",
   3: "functions",
-  4: "variables",
-  5: "properties",
-  6: "pages"
+  4: "properties",
+  5: "pages"
 };
 
 var indexSectionLabels =
@@ -26,8 +24,7 @@ var indexSectionLabels =
   1: "Classes",
   2: "Namespaces",
   3: "Functions",
-  4: "Variables",
-  5: "Properties",
-  6: "Pages"
+  4: "Properties",
+  5: "Pages"
 };
 

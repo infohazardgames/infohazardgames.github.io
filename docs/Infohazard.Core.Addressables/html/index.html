@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core.Addressables<span id="projectnumber">&#160;1.0.0</span>
+   <div id="projectname">Infohazard.Core.Addressables<span id="projectnumber">&#160;1.1.0</span>
    </div>
    <div id="projectbrief">Infohazard Core Addressables Integration</div>
   </td>
@@ -95,7 +95,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p ><a class="anchor" id="md_README"></a> </p>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md7"></a>
 Table of Contents</h1>
 <ul>
 <li>Infohazard.Core.Addressables Documentation<ul>
@@ -125,20 +125,20 @@ Table of Contents</h1>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md5"></a>
+<h1><a class="anchor" id="autotoc_md8"></a>
 Introduction</h1>
 <p ><a class="el" href="namespace_infohazard_1_1_core_1_1_addressables.html">Infohazard.Core.Addressables</a> is an extension for <a href="https://github.com/infohazardgames/Infohazard.Core">Infohazard.Core</a> which adds support in the pooling system for <a href="https://docs.unity3d.com/Manual/com.unity.addressables.html">Addressables</a>. It is kept separate so that you can use <a class="el" href="namespace_infohazard_1_1_core.html">Infohazard.Core</a> without having the Addressables package imported.</p>
 <p >In addition to adding pooling support, this package makes it much easier to use Addressable prefabs. When using the pakage, you no longer have to keep track of when to unload an Addressable asset. Instead, you just release individual references when you are done with them, and the asset will be unloaded once all references are released and all instances are despawned.</p>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md9"></a>
 Documentation and Support</h1>
 <p ><a href="https://www.infohazardgames.com/docs/Infohazard.Core.Addressables/html/">API Docs</a></p>
 <p ><a href="https://discord.gg/V2jTnpS8zZ">Discord</a></p>
-<h1><a class="anchor" id="autotoc_md7"></a>
+<h1><a class="anchor" id="autotoc_md10"></a>
 License</h1>
 <p >If <a class="el" href="namespace_infohazard_1_1_core.html">Infohazard.Core</a> is acquired from the Unity Asset Store, you must follow the Unity Asset Store license. The open-source repository uses the <a href="https://opensource.org/licenses/MIT">MIT license</a>. You are welcome to have your own packages or assets depend on this package.</p>
-<h1><a class="anchor" id="autotoc_md8"></a>
+<h1><a class="anchor" id="autotoc_md11"></a>
 Installation</h1>
-<h2><a class="anchor" id="autotoc_md9"></a>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Method 1 - Package Manager</h2>
 <p >Using the Package Manager is the easiest way to install the package to your project. Simply install the project as a git URL. Note that if you go this route, you will not be able to make any edits to the package.</p>
 <ol type="1">
@@ -150,7 +150,7 @@ Method 1 - Package Manager</h2>
 <li>Paste in <code><a href="https://github.com/infohazardgames/Infohazard.Core.Addressables.git">https://github.com/infohazardgames/Infohazard.Core.Addressables.git</a></code>.</li>
 <li>Click Add.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 Method 2 - Git Submodule</h2>
 <p >Using a git submodule is an option if you are using git for your project source control. This method will enable you to make changes to the package, but those changes will need to be tracked in a separate git repository.</p>
 <ol type="1">
@@ -168,7 +168,7 @@ Method 2 - Git Submodule</h2>
 <li>Make your changes, commit, and push.</li>
 <li>(Optional) Open your fork again, and create a pull request.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 Method 3 - Add To Assets</h2>
 <p >If you wish to make changes to the library without dealing with a git submodule (or you aren't using git), you can simply copy the files into your project's Assets folder.</p>
 <ol type="1">
@@ -179,15 +179,15 @@ Method 3 - Add To Assets</h2>
 <li>Make a <a class="el" href="namespace_infohazard_1_1_core_1_1_addressables.html">Infohazard.Core.Addressables</a> folder under your project's Assets folder.</li>
 <li>Copy the <code>Editor</code> and <code>Runtime</code> folders from the extracted zip to the newly created folder.</li>
 </ol>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md15"></a>
 Method 4 - Asset Store</h2>
 <p >If you downloaded <a href="https://assetstore.unity.com/packages/add-ons/infohazard-core-utility-library-235104">Infohazard.Core</a> from the asset store, this package is included as an inner unitypackage file. Simply open the package (<code>Assets/Plugins/Infohazard/Infohazard.Core/Integrations/Infohazard.Core.Addressables.unitypackage</code>) to add it. You will also need to install <a href="https://github.com/Cysharp/UniTask">UniTask</a>, through Package Manager or .unitypackage file.</p>
-<h1><a class="anchor" id="autotoc_md13"></a>
+<h1><a class="anchor" id="autotoc_md16"></a>
 Setup</h1>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 General Setup</h2>
 <p >The only setup required beyond installation is to add references to the <a class="el" href="namespace_infohazard_1_1_core_1_1_addressables.html">Infohazard.Core.Addressables</a> assembly if you are using an assembly definition. If you are using the default assemblies (such as Assembly-CSharp), nothing is needed here.</p>
-<h1><a class="anchor" id="autotoc_md15"></a>
+<h1><a class="anchor" id="autotoc_md18"></a>
 Demo Scene</h1>
 <p >The demo scene is provided to demonstrate the usage of <a class="el" href="namespace_infohazard_1_1_core_1_1_addressables.html">Infohazard.Core.Addressables</a>. It is located at <code>Assets/Plugins/Infohazard/Demos/Infohazard.Core.Addressables/Scenes/Demo_PoolingAndTiming_Addressables.unity</code>. This demo shows how you can implement the same functionality as the <a class="el" href="namespace_infohazard_1_1_core.html">Infohazard.Core</a> pooling demo using Addressables.</p>
 <p >For the demo to work, you need to mark the following two prefabs as addressable:</p><ul>
@@ -195,24 +195,25 @@ Demo Scene</h1>
 <li><code>Assets/Plugins/Infohazard/Demos/Infohazard.Core.Addressables/Prefabs/PooledExplosionAddressable.prefab</code></li>
 </ul>
 <p >This is because Unity does not save the addressable state of assets in a package.</p>
-<h1><a class="anchor" id="autotoc_md16"></a>
+<h1><a class="anchor" id="autotoc_md19"></a>
 Features Guide</h1>
-<h2><a class="anchor" id="autotoc_md17"></a>
+<h2><a class="anchor" id="autotoc_md20"></a>
 AddressableSpawnRef</h2>
 <p >The <code>AddressableSpawnRef</code> serializable class provides a convenient way to use the Addressable pooling system. You can add a serialized field of this type to your script to make the prefab reference assignable in the inspector, then use it in your code very similarly to an <a class="el" href="namespace_infohazard_1_1_core.html">Infohazard.Core</a> SpawnRef.</p>
 <p >In your code, you must first call <code>Retain()</code> (or one of the async/blocking variants) to load the Addressable, then call <code>Spawn()</code> in order to spawn it. Finally, call <code>Release()</code> when you no longer need to use that specific <code>AddressableSpawnRef</code>. The system will internally keep the Addressable asset loaded until all instances are despawned AND all <code>AddressableSpawnRef</code>s have been released. This way, you don't have to worry about when to unload an Addressable - only when you don't need this specific reference to it. Additionally, as long as at least one <code>AddressableSpawnRef</code> is retained, the prefab will not be unloaded even if there are no spawned instances.</p>
-<h2><a class="anchor" id="autotoc_md18"></a>
+<h2><a class="anchor" id="autotoc_md21"></a>
 AdddressableUtil</h2>
 <p >The <code>AddressableUtil</code> class provides static methods for spawning Addressable prefabs using the pooling system. It provides both synchronous and asynchronous methods for spawning Addressable prefabs based on a key (which can be a GUID, path, or AssetReference).</p>
 <p >Unlike with <code>AddressableSpawnRef</code>, when using <code>AddressableUtil</code>, the prefab will not be loaded until it is spawned the first time, and will be unloaded as soon as the last instance is despawned (unless there are also <code>AddressableSpawnRef</code>s referencing it). <code>AddressableUtil</code> can be used in conjunction with <code>AddressableSpawnRef</code>, and will share the same pools without issue.</p>
-<h2><a class="anchor" id="autotoc_md19"></a>
+<h2><a class="anchor" id="autotoc_md22"></a>
 TimeToLiveAddressable</h2>
 <p >The <code>TimeToLiveAddressable</code> script is an extension of the Core script <code>TimeToLive</code>, which simply adds an <code>AddressableSpawnRef</code> to spawn on death, in addition to the regular <code>SpawnRef</code>.</p>
 <p >Note that you can still use <code>TimeToLive</code> just fine with Addressable prefabs, but spawning a non-addressable prefab on death can cause the issue described in the next section.</p>
-<h1><a class="anchor" id="autotoc_md20"></a>
+<h1><a class="anchor" id="autotoc_md23"></a>
 Addendum: Avoiding Spawned Prefab Unloading Issue</h1>
 <p >You should not have an Addressable prefab spawn another prefab via a direct reference (use Addressables instead).</p>
-<p >Example: a bullet prefab is loaded from an Addressable asset, and spawns an impact VFX prefab when it hits (through direct reference, not addressable). The last remaining bullet object in the scene impacts, spawns its VFX, and is destroyed. Because it was the last intance, the Addressable asset for that bullet becomes unloaded. Unfortunately, this means that the texture and material used for the VFX is also unloaded, since it was only loaded due to being referenced by the bullet Addressable. This leads to the particles being replacd by PINK SQUARES OF DEATH. </p>
+<p >Example: a bullet prefab is loaded from an Addressable asset, and spawns an impact VFX prefab when it hits (through direct reference, not addressable). The last remaining bullet object in the scene impacts, spawns its VFX, and is destroyed. Because it was the last intance, the Addressable asset for that bullet becomes unloaded. Unfortunately, this means that the texture and material used for the VFX is also unloaded, since it was only loaded due to being referenced by the bullet Addressable. This leads to the particles being replacd by PINK SQUARES OF DEATH.</p>
+<p >Solution: the bullet must also spawn its impact object through an addressable reference. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
