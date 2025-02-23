@@ -1,15 +1,17 @@
 var class_infohazard_1_1_hyper_nav_1_1_nav_volume_data =
 [
     [ "Clear", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#abf1123b3fdbf8eb0c5099869814c9c32", null ],
-    [ "MarkExternalLinksLocalSpace", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ac090cc211dae9acae6153522baab365f", null ],
-    [ "Populate", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ab595bae376a29019aae12fc37aa84711", null ],
-    [ "ToInternalData", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ae311439ca63611a1d1994faa16094777", null ],
-    [ "_blockingTriangleIndices", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ac8401b6db89902e57c4e6233676dfc42", null ],
-    [ "_externalLinksAreLocalSpace", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a3d04f34a168219cab3141b842c32788a", null ],
-    [ "_regions", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a878eb9ab071d27db9a5f7700cbc2cc53", null ],
-    [ "_vertices", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af201c49315ba85465384b041336497d8", null ],
-    [ "BlockingTriangleIndices", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ade2ac755a7a041c4ad41c92c29618c61", null ],
-    [ "ExternalLinksAreLocalSpace", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#aa53163dff1c05f1db8363e4589579505", null ],
+    [ "ToNativeData", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a50089dd72e4c205f27672cb201b29f8f", null ],
+    [ "UpdateData", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ae9b255698a5a7c60689216518d534bbf", null ],
+    [ "UpdateFromNativeData", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ac4f36f6f0fe00d0f3725eca9165a25e6", null ],
+    [ "BlockingTriangleIndexCount", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ad1d161f783c4dd71ebb36572d8b62255", null ],
+    [ "BoundPlanes", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a455998e8906a7added8d569ddb58a55d", null ],
+    [ "InternalLinks", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a8bbd6bfa0a334e715acdb32937d55776", null ],
+    [ "LinkEdges", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a8db5a679c6bf280ccd0533fe13b73c94", null ],
+    [ "LinkTriangles", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a5b56aec41c6960874ad7e9a985876cee", null ],
+    [ "LinkVertices", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a4db7b3d728a911b9354891c7cd1f3745", null ],
     [ "Regions", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a0d3a7554528ea02a4928f8a6232470a7", null ],
+    [ "TriangleIndices", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af4dbd380b7b970b741daaa29f40a791c", null ],
+    [ "Version", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a68cbd3b885c9e5a146cc53caa9c0548e", null ],
     [ "Vertices", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a040a8e9f7913e41fe33d4c58bb7ed940", null ]
 ];

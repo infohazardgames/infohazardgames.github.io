@@ -26,9 +26,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.5</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
    </div>
-   <div id="projectbrief">3D Navigation for Flying Characters</div>
+   <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
  </tr>
  </tbody>
@@ -93,9 +93,7 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.HyperNav.NavRegionData Class Reference</div></div>
 </div><!--header-->
@@ -106,15 +104,18 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6516fcb49f3291bbacaee76d9511e4db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a6516fcb49f3291bbacaee76d9511e4db">SetExternalLinks</a> (<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a>[] externalConnections)</td></tr>
-<tr class="memdesc:a6516fcb49f3291bbacaee76d9511e4db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8127e684df673781bf20f6450f596154" title="The links between this region and regions in other volumes.">ExternalLinks</a> of the region.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a6516fcb49f3291bbacaee76d9511e4db">More...</a><br /></td></tr>
-<tr class="separator:a6516fcb49f3291bbacaee76d9511e4db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a636af0929327ff2a31b324e7ce6a8be5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html">NavRegionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a636af0929327ff2a31b324e7ce6a8be5">Create</a> (int id, int[] indices, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">Bounds</a> bounds, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>[] internalLinks, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a>[] boundPlanes)</td></tr>
-<tr class="memdesc:a636af0929327ff2a31b324e7ce6a8be5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html" title="The serialized data representing a single region in a NavVolume.">NavRegionData</a> with the given values.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a636af0929327ff2a31b324e7ce6a8be5">More...</a><br /></td></tr>
-<tr class="separator:a636af0929327ff2a31b324e7ce6a8be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e44b912d4ce6bcf8862094a21314849"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a0e44b912d4ce6bcf8862094a21314849">NavRegionData</a> ()</td></tr>
+<tr class="memdesc:a0e44b912d4ce6bcf8862094a21314849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor for serialization.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a0e44b912d4ce6bcf8862094a21314849">More...</a><br /></td></tr>
+<tr class="separator:a0e44b912d4ce6bcf8862094a21314849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcc328f971de7a7f35aaf70a232bc6ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#afcc328f971de7a7f35aaf70a232bc6ec">NavRegionData</a> (int id, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">Bounds</a> bounds, SerializableRange triangleIndexRange, SerializableRange boundPlaneRange, SerializableRange internalLinkRange)</td></tr>
+<tr class="memdesc:afcc328f971de7a7f35aaf70a232bc6ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html" title="The serialized data representing a single region in a NavVolume.">NavRegionData</a> with the given properties.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#afcc328f971de7a7f35aaf70a232bc6ec">More...</a><br /></td></tr>
+<tr class="separator:afcc328f971de7a7f35aaf70a232bc6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af545203f8a685ba94e619175ff404a2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#af545203f8a685ba94e619175ff404a2c">NavRegionData</a> (in <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_region_data.html">NativeNavVolumeRegionData</a> data)</td></tr>
+<tr class="memdesc:af545203f8a685ba94e619175ff404a2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html" title="The serialized data representing a single region in a NavVolume.">NavRegionData</a> with the given native data.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#af545203f8a685ba94e619175ff404a2c">More...</a><br /></td></tr>
+<tr class="separator:af545203f8a685ba94e619175ff404a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4885686b5255ef42062e1955afc69558"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_region_data.html">NativeNavVolumeRegionData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a4885686b5255ef42062e1955afc69558">ToNativeData</a> (SerializableRange externalLinkRange)</td></tr>
+<tr class="memdesc:a4885686b5255ef42062e1955afc69558"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a native representation.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a4885686b5255ef42062e1955afc69558">More...</a><br /></td></tr>
+<tr class="separator:a4885686b5255ef42062e1955afc69558"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -124,63 +125,49 @@ Properties</h2></td></tr>
 <tr class="memitem:a52fbe4799f5eb95272e92300ded1f925"><td class="memItemLeft" align="right" valign="top">Bounds&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">Bounds</a><code> [get]</code></td></tr>
 <tr class="memdesc:a52fbe4799f5eb95272e92300ded1f925"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bounds of the region in local space of the volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">More...</a><br /></td></tr>
 <tr class="separator:a52fbe4799f5eb95272e92300ded1f925"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e619ac3d072b62730f067bfcbd0cad1"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a2e619ac3d072b62730f067bfcbd0cad1">Indices</a><code> [get]</code></td></tr>
-<tr class="memdesc:a2e619ac3d072b62730f067bfcbd0cad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The indices of the region's triangle vertices in the volume's vertices array.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a2e619ac3d072b62730f067bfcbd0cad1">More...</a><br /></td></tr>
-<tr class="separator:a2e619ac3d072b62730f067bfcbd0cad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56e6106833ac55da949bbfcc0188c9ba"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a56e6106833ac55da949bbfcc0188c9ba">InternalLinks</a><code> [get]</code></td></tr>
-<tr class="memdesc:a56e6106833ac55da949bbfcc0188c9ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The links between this region and other regions in the same volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a56e6106833ac55da949bbfcc0188c9ba">More...</a><br /></td></tr>
-<tr class="separator:a56e6106833ac55da949bbfcc0188c9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8127e684df673781bf20f6450f596154"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8127e684df673781bf20f6450f596154">ExternalLinks</a><code> [get]</code></td></tr>
-<tr class="memdesc:a8127e684df673781bf20f6450f596154"><td class="mdescLeft">&#160;</td><td class="mdescRight">The links between this region and regions in other volumes.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8127e684df673781bf20f6450f596154">More...</a><br /></td></tr>
-<tr class="separator:a8127e684df673781bf20f6450f596154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07cbbbe6c885fb31829d9d8d65092bed"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a07cbbbe6c885fb31829d9d8d65092bed">BoundPlanes</a><code> [get]</code></td></tr>
-<tr class="memdesc:a07cbbbe6c885fb31829d9d8d65092bed"><td class="mdescLeft">&#160;</td><td class="mdescRight">The planes that form the boundaries of this region, to check if a point is inside or not.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a07cbbbe6c885fb31829d9d8d65092bed">More...</a><br /></td></tr>
-<tr class="separator:a07cbbbe6c885fb31829d9d8d65092bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a1a2e7f148e4f2538c756bac5c8271b31"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a1a2e7f148e4f2538c756bac5c8271b31">_id</a></td></tr>
-<tr class="memdesc:a1a2e7f148e4f2538c756bac5c8271b31"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The ID of the region.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a1a2e7f148e4f2538c756bac5c8271b31">More...</a><br /></td></tr>
-<tr class="separator:a1a2e7f148e4f2538c756bac5c8271b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa01c1630845b1e5315d581cf18b2b098"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">Bounds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aa01c1630845b1e5315d581cf18b2b098">_bounds</a></td></tr>
-<tr class="memdesc:aa01c1630845b1e5315d581cf18b2b098"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The bounds of the region in local space of the volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aa01c1630845b1e5315d581cf18b2b098">More...</a><br /></td></tr>
-<tr class="separator:aa01c1630845b1e5315d581cf18b2b098"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba897a8b34686125dcf122509779fd9a"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aba897a8b34686125dcf122509779fd9a">_indices</a></td></tr>
-<tr class="memdesc:aba897a8b34686125dcf122509779fd9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The indices of the region's triangle vertices in the volume's vertices array.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#aba897a8b34686125dcf122509779fd9a">More...</a><br /></td></tr>
-<tr class="separator:aba897a8b34686125dcf122509779fd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ab8a1a9b4b2eb6abe8b8f1fd120332b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8ab8a1a9b4b2eb6abe8b8f1fd120332b">_internalLinks</a></td></tr>
-<tr class="memdesc:a8ab8a1a9b4b2eb6abe8b8f1fd120332b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The links between this region and other regions in the same volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8ab8a1a9b4b2eb6abe8b8f1fd120332b">More...</a><br /></td></tr>
-<tr class="separator:a8ab8a1a9b4b2eb6abe8b8f1fd120332b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40ba89483bc462bd5fe400dd79593ab5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a40ba89483bc462bd5fe400dd79593ab5">_externalLinks</a></td></tr>
-<tr class="memdesc:a40ba89483bc462bd5fe400dd79593ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The links between this region and regions in other volumes.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a40ba89483bc462bd5fe400dd79593ab5">More...</a><br /></td></tr>
-<tr class="separator:a40ba89483bc462bd5fe400dd79593ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d0f20b5abcca5e2295144ab41fac704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a9d0f20b5abcca5e2295144ab41fac704">_boundPlanes</a></td></tr>
-<tr class="memdesc:a9d0f20b5abcca5e2295144ab41fac704"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The planes that form the boundaries of this region, to check if a point is inside or not.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a9d0f20b5abcca5e2295144ab41fac704">More...</a><br /></td></tr>
-<tr class="separator:a9d0f20b5abcca5e2295144ab41fac704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f6906d89897ec1ed616cdaa9416d25a"><td class="memItemLeft" align="right" valign="top">SerializableRange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a9f6906d89897ec1ed616cdaa9416d25a">TriangleIndexRange</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9f6906d89897ec1ed616cdaa9416d25a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of the region's triangle indices in the volume's index array.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a9f6906d89897ec1ed616cdaa9416d25a">More...</a><br /></td></tr>
+<tr class="separator:a9f6906d89897ec1ed616cdaa9416d25a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8338193837f953d608c42a456d966386"><td class="memItemLeft" align="right" valign="top">SerializableRange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8338193837f953d608c42a456d966386">BoundPlaneRange</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8338193837f953d608c42a456d966386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of bound planes of this region in the volume's bound planes array.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8338193837f953d608c42a456d966386">More...</a><br /></td></tr>
+<tr class="separator:a8338193837f953d608c42a456d966386"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5865916ca2bf29d2fc80abec095f46ba"><td class="memItemLeft" align="right" valign="top">SerializableRange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a5865916ca2bf29d2fc80abec095f46ba">InternalLinkRange</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5865916ca2bf29d2fc80abec095f46ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of links between this region and other regions in volume's internal link array.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a5865916ca2bf29d2fc80abec095f46ba">More...</a><br /></td></tr>
+<tr class="separator:a5865916ca2bf29d2fc80abec095f46ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The serialized data representing a single region in a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>.  </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a636af0929327ff2a31b324e7ce6a8be5" name="a636af0929327ff2a31b324e7ce6a8be5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a636af0929327ff2a31b324e7ce6a8be5">&#9670;&#160;</a></span>Create()</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0e44b912d4ce6bcf8862094a21314849" name="a0e44b912d4ce6bcf8862094a21314849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e44b912d4ce6bcf8862094a21314849">&#9670;&#160;</a></span>NavRegionData() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html">NavRegionData</a> Infohazard.HyperNav.NavRegionData.Create </td>
+          <td class="memname">Infohazard.HyperNav.NavRegionData.NavRegionData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default constructor for serialization.  </p>
+
+</div>
+</div>
+<a id="afcc328f971de7a7f35aaf70a232bc6ec" name="afcc328f971de7a7f35aaf70a232bc6ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcc328f971de7a7f35aaf70a232bc6ec">&#9670;&#160;</a></span>NavRegionData() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Infohazard.HyperNav.NavRegionData.NavRegionData </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int[]&#160;</td>
-          <td class="paramname"><em>indices</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -191,14 +178,20 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>[]&#160;</td>
-          <td class="paramname"><em>internalLinks</em>, </td>
+          <td class="paramtype">SerializableRange&#160;</td>
+          <td class="paramname"><em>triangleIndexRange</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a>[]&#160;</td>
-          <td class="paramname"><em>boundPlanes</em>&#160;</td>
+          <td class="paramtype">SerializableRange&#160;</td>
+          <td class="paramname"><em>boundPlaneRange</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SerializableRange&#160;</td>
+          <td class="paramname"><em>internalLinkRange</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -206,203 +199,79 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Construct a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html" title="The serialized data representing a single region in a NavVolume.">NavRegionData</a> with the given values.  </p>
-<p >No value for <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8127e684df673781bf20f6450f596154" title="The links between this region and regions in other volumes.">ExternalLinks</a> is provided here because that must be calculated later. </p>
+<p>Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html" title="The serialized data representing a single region in a NavVolume.">NavRegionData</a> with the given properties.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>ID of the region.</td></tr>
-    <tr><td class="paramname">indices</td><td>Indices of the region triangles.</td></tr>
     <tr><td class="paramname">bounds</td><td>Bounds of the region.</td></tr>
-    <tr><td class="paramname">internalLinks</td><td>Links to other regions in same volume.</td></tr>
-    <tr><td class="paramname">boundPlanes</td><td>Planes that form the boundaries of the region.</td></tr>
+    <tr><td class="paramname">triangleIndexRange</td><td>Range of the region's triangle indices.</td></tr>
+    <tr><td class="paramname">boundPlaneRange</td><td>Range of bound planes of this region.</td></tr>
+    <tr><td class="paramname">internalLinkRange</td><td>Range of links between this region and other regions.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The created <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html" title="The serialized data representing a single region in a NavVolume.">NavRegionData</a>.</dd></dl>
 
 </div>
 </div>
-<a id="a6516fcb49f3291bbacaee76d9511e4db" name="a6516fcb49f3291bbacaee76d9511e4db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6516fcb49f3291bbacaee76d9511e4db">&#9670;&#160;</a></span>SetExternalLinks()</h2>
+<a id="af545203f8a685ba94e619175ff404a2c" name="af545203f8a685ba94e619175ff404a2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af545203f8a685ba94e619175ff404a2c">&#9670;&#160;</a></span>NavRegionData() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Infohazard.HyperNav.NavRegionData.SetExternalLinks </td>
+          <td class="memname">Infohazard.HyperNav.NavRegionData.NavRegionData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a>[]&#160;</td>
-          <td class="paramname"><em>externalConnections</em></td><td>)</td>
+          <td class="paramtype">in <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_region_data.html">NativeNavVolumeRegionData</a>&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Update the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a8127e684df673781bf20f6450f596154" title="The links between this region and regions in other volumes.">ExternalLinks</a> of the region.  </p>
+<p>Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html" title="The serialized data representing a single region in a NavVolume.">NavRegionData</a> with the given native data.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">externalConnections</td><td>The list of external links to use.</td></tr>
+    <tr><td class="paramname">data</td><td>Native data to copy.</td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9d0f20b5abcca5e2295144ab41fac704" name="a9d0f20b5abcca5e2295144ab41fac704"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d0f20b5abcca5e2295144ab41fac704">&#9670;&#160;</a></span>_boundPlanes</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4885686b5255ef42062e1955afc69558" name="a4885686b5255ef42062e1955afc69558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4885686b5255ef42062e1955afc69558">&#9670;&#160;</a></span>ToNativeData()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a> [] Infohazard.HyperNav.NavRegionData._boundPlanes</td>
+          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_region_data.html">NativeNavVolumeRegionData</a> Infohazard.HyperNav.NavRegionData.ToNativeData </td>
+          <td>(</td>
+          <td class="paramtype">SerializableRange&#160;</td>
+          <td class="paramname"><em>externalLinkRange</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>(Serialized) The planes that form the boundaries of this region, to check if a point is inside or not.  </p>
-
-</div>
-</div>
-<a id="aa01c1630845b1e5315d581cf18b2b098" name="aa01c1630845b1e5315d581cf18b2b098"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa01c1630845b1e5315d581cf18b2b098">&#9670;&#160;</a></span>_bounds</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a52fbe4799f5eb95272e92300ded1f925">Bounds</a> Infohazard.HyperNav.NavRegionData._bounds</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The bounds of the region in local space of the volume.  </p>
-
-</div>
-</div>
-<a id="a40ba89483bc462bd5fe400dd79593ab5" name="a40ba89483bc462bd5fe400dd79593ab5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40ba89483bc462bd5fe400dd79593ab5">&#9670;&#160;</a></span>_externalLinks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a> [] Infohazard.HyperNav.NavRegionData._externalLinks</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The links between this region and regions in other volumes.  </p>
-
-</div>
-</div>
-<a id="a1a2e7f148e4f2538c756bac5c8271b31" name="a1a2e7f148e4f2538c756bac5c8271b31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a2e7f148e4f2538c756bac5c8271b31">&#9670;&#160;</a></span>_id</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Infohazard.HyperNav.NavRegionData._id</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The ID of the region.  </p>
-
-</div>
-</div>
-<a id="aba897a8b34686125dcf122509779fd9a" name="aba897a8b34686125dcf122509779fd9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba897a8b34686125dcf122509779fd9a">&#9670;&#160;</a></span>_indices</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int [] Infohazard.HyperNav.NavRegionData._indices</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The indices of the region's triangle vertices in the volume's vertices array.  </p>
-
-</div>
-</div>
-<a id="a8ab8a1a9b4b2eb6abe8b8f1fd120332b" name="a8ab8a1a9b4b2eb6abe8b8f1fd120332b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ab8a1a9b4b2eb6abe8b8f1fd120332b">&#9670;&#160;</a></span>_internalLinks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a> [] Infohazard.HyperNav.NavRegionData._internalLinks</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The links between this region and other regions in the same volume.  </p>
+<p>Convert to a native representation.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">externalLinkRange</td><td>External links, which are included in the native data but not the serialized data.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Created native data.</dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="a07cbbbe6c885fb31829d9d8d65092bed" name="a07cbbbe6c885fb31829d9d8d65092bed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07cbbbe6c885fb31829d9d8d65092bed">&#9670;&#160;</a></span>BoundPlanes</h2>
+<a id="a8338193837f953d608c42a456d966386" name="a8338193837f953d608c42a456d966386"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8338193837f953d608c42a456d966386">&#9670;&#160;</a></span>BoundPlaneRange</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,7 +280,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IReadOnlyList&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a>&gt; Infohazard.HyperNav.NavRegionData.BoundPlanes</td>
+          <td class="memname">SerializableRange Infohazard.HyperNav.NavRegionData.BoundPlaneRange</td>
         </tr>
       </table>
   </td>
@@ -421,7 +290,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The planes that form the boundaries of this region, to check if a point is inside or not.  </p>
+<p>Range of bound planes of this region in the volume's bound planes array.  </p>
 
 </div>
 </div>
@@ -449,30 +318,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8127e684df673781bf20f6450f596154" name="a8127e684df673781bf20f6450f596154"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8127e684df673781bf20f6450f596154">&#9670;&#160;</a></span>ExternalLinks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">IReadOnlyList&lt;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a>&gt; Infohazard.HyperNav.NavRegionData.ExternalLinks</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The links between this region and regions in other volumes.  </p>
-
-</div>
-</div>
 <a id="a2b9fe1b8cc48159d18c605db249848c0" name="a2b9fe1b8cc48159d18c605db249848c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b9fe1b8cc48159d18c605db249848c0">&#9670;&#160;</a></span>ID</h2>
 
@@ -497,8 +342,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2e619ac3d072b62730f067bfcbd0cad1" name="a2e619ac3d072b62730f067bfcbd0cad1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e619ac3d072b62730f067bfcbd0cad1">&#9670;&#160;</a></span>Indices</h2>
+<a id="a5865916ca2bf29d2fc80abec095f46ba" name="a5865916ca2bf29d2fc80abec095f46ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5865916ca2bf29d2fc80abec095f46ba">&#9670;&#160;</a></span>InternalLinkRange</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -507,7 +352,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IReadOnlyList&lt;int&gt; Infohazard.HyperNav.NavRegionData.Indices</td>
+          <td class="memname">SerializableRange Infohazard.HyperNav.NavRegionData.InternalLinkRange</td>
         </tr>
       </table>
   </td>
@@ -517,12 +362,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The indices of the region's triangle vertices in the volume's vertices array.  </p>
+<p>Range of links between this region and other regions in volume's internal link array.  </p>
 
 </div>
 </div>
-<a id="a56e6106833ac55da949bbfcc0188c9ba" name="a56e6106833ac55da949bbfcc0188c9ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56e6106833ac55da949bbfcc0188c9ba">&#9670;&#160;</a></span>InternalLinks</h2>
+<a id="a9f6906d89897ec1ed616cdaa9416d25a" name="a9f6906d89897ec1ed616cdaa9416d25a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f6906d89897ec1ed616cdaa9416d25a">&#9670;&#160;</a></span>TriangleIndexRange</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -531,7 +376,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IReadOnlyList&lt;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>&gt; Infohazard.HyperNav.NavRegionData.InternalLinks</td>
+          <td class="memname">SerializableRange Infohazard.HyperNav.NavRegionData.TriangleIndexRange</td>
         </tr>
       </table>
   </td>
@@ -541,7 +386,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The links between this region and other regions in the same volume.  </p>
+<p>Range of the region's triangle indices in the volume's index array.  </p>
 
 </div>
 </div>

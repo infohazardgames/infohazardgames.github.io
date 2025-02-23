@@ -26,9 +26,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.5</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
    </div>
-   <div id="projectbrief">3D Navigation for Flying Characters</div>
+   <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
  </tr>
  </tbody>
@@ -93,8 +93,9 @@ $(document).ready(function(){initNavTree('struct_infohazard_1_1_hyper_nav_1_1_ed
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="struct_infohazard_1_1_hyper_nav_1_1_edge-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.HyperNav.Edge Struct Reference</div></div>
 </div><!--header-->
@@ -108,6 +109,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a83a7f42f4fac22c5f4958692fe655961"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a83a7f42f4fac22c5f4958692fe655961">Edge</a> (int vertex1, int vertex2)</td></tr>
 <tr class="memdesc:a83a7f42f4fac22c5f4958692fe655961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html" title="Represents the indices of an edge (two connected vertices) in an indexed mesh.">Edge</a> with the given indices.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a83a7f42f4fac22c5f4958692fe655961">More...</a><br /></td></tr>
 <tr class="separator:a83a7f42f4fac22c5f4958692fe655961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad851d4ab86aa204ea48a192de103a084"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#ad851d4ab86aa204ea48a192de103a084">Edge</a> (int2 vertices)</td></tr>
+<tr class="memdesc:ad851d4ab86aa204ea48a192de103a084"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html" title="Represents the indices of an edge (two connected vertices) in an indexed mesh.">Edge</a> with the given indices.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#ad851d4ab86aa204ea48a192de103a084">More...</a><br /></td></tr>
+<tr class="separator:ad851d4ab86aa204ea48a192de103a084"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42dc932cba8bba8207b9e0d78a051518"><td class="memItemLeft" align="right" valign="top">int2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a42dc932cba8bba8207b9e0d78a051518">ToInt2</a> ()</td></tr>
+<tr class="memdesc:a42dc932cba8bba8207b9e0d78a051518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to int2.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a42dc932cba8bba8207b9e0d78a051518">More...</a><br /></td></tr>
+<tr class="separator:a42dc932cba8bba8207b9e0d78a051518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e97e3d5dfc558d7e000267cbb04b502"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a4e97e3d5dfc558d7e000267cbb04b502">Equals</a> (object obj)</td></tr>
 <tr class="memdesc:a4e97e3d5dfc558d7e000267cbb04b502"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare to another object.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a4e97e3d5dfc558d7e000267cbb04b502">More...</a><br /></td></tr>
 <tr class="separator:a4e97e3d5dfc558d7e000267cbb04b502"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,6 +125,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a561a15c850ad515a3ddd3ff49fcf9b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get integer for use with hash table.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a561a15c850ad515a3ddd3ff49fcf9b84">More...</a><br /></td></tr>
 <tr class="separator:a561a15c850ad515a3ddd3ff49fcf9b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a260c23250766053b4b3be691c990f49a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a260c23250766053b4b3be691c990f49a">operator==</a> (<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a> a, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a> b)</td></tr>
+<tr class="memdesc:a260c23250766053b4b3be691c990f49a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a260c23250766053b4b3be691c990f49a">More...</a><br /></td></tr>
+<tr class="separator:a260c23250766053b4b3be691c990f49a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7389f3c858055816156a4794ce870935"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a7389f3c858055816156a4794ce870935">operator!=</a> (<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a> a, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a> b)</td></tr>
+<tr class="memdesc:a7389f3c858055816156a4794ce870935"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a7389f3c858055816156a4794ce870935">More...</a><br /></td></tr>
+<tr class="separator:a7389f3c858055816156a4794ce870935"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aa4bfd0f32dc1467f88ef51d7adbfa3e5"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#aa4bfd0f32dc1467f88ef51d7adbfa3e5">InvalidEdge</a> = new() { _minVertex = -1, _maxVertex = -1 }</td></tr>
+<tr class="memdesc:aa4bfd0f32dc1467f88ef51d7adbfa3e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html" title="Represents the indices of an edge (two connected vertices) in an indexed mesh.">Edge</a>.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#aa4bfd0f32dc1467f88ef51d7adbfa3e5">More...</a><br /></td></tr>
+<tr class="separator:aa4bfd0f32dc1467f88ef51d7adbfa3e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a820c6ec3add3c0dd1cf4fdbff9b33418"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a820c6ec3add3c0dd1cf4fdbff9b33418">Vertex1</a><code> [get]</code></td></tr>
@@ -126,22 +148,16 @@ Properties</h2></td></tr>
 <tr class="memitem:a0cf9f2bb57821b0966f743d7ab953640"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a0cf9f2bb57821b0966f743d7ab953640">Vertex2</a><code> [get]</code></td></tr>
 <tr class="memdesc:a0cf9f2bb57821b0966f743d7ab953640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Second vertex index, which is the higher of the two.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a0cf9f2bb57821b0966f743d7ab953640">More...</a><br /></td></tr>
 <tr class="separator:a0cf9f2bb57821b0966f743d7ab953640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a50acc186d83ded10f43809dbc6d8080f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a50acc186d83ded10f43809dbc6d8080f">_minVertex</a></td></tr>
-<tr class="memdesc:a50acc186d83ded10f43809dbc6d8080f"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) First vertex index, which is the lower of the two.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#a50acc186d83ded10f43809dbc6d8080f">More...</a><br /></td></tr>
-<tr class="separator:a50acc186d83ded10f43809dbc6d8080f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acac66a762a60409f57d18fac4553d8b4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#acac66a762a60409f57d18fac4553d8b4">_maxVertex</a></td></tr>
-<tr class="memdesc:acac66a762a60409f57d18fac4553d8b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Second vertex index, which is the higher of the two.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#acac66a762a60409f57d18fac4553d8b4">More...</a><br /></td></tr>
-<tr class="separator:acac66a762a60409f57d18fac4553d8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda2f4b136fc384f12e8ee5e34e40e0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#adda2f4b136fc384f12e8ee5e34e40e0d">IsValid</a><code> [get]</code></td></tr>
+<tr class="memdesc:adda2f4b136fc384f12e8ee5e34e40e0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html" title="Represents the indices of an edge (two connected vertices) in an indexed mesh.">Edge</a> is valid.   <a href="struct_infohazard_1_1_hyper_nav_1_1_edge.html#adda2f4b136fc384f12e8ee5e34e40e0d">More...</a><br /></td></tr>
+<tr class="separator:adda2f4b136fc384f12e8ee5e34e40e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Represents the indices of an edge (two connected vertices) in an indexed mesh.  </p>
 <p >The same <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html" title="Represents the indices of an edge (two connected vertices) in an indexed mesh.">Edge</a> will be created regardless of the order in which indices are fed to the constructor. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a83a7f42f4fac22c5f4958692fe655961" name="a83a7f42f4fac22c5f4958692fe655961"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83a7f42f4fac22c5f4958692fe655961">&#9670;&#160;</a></span>Edge()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a83a7f42f4fac22c5f4958692fe655961">&#9670;&#160;</a></span>Edge() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,6 +188,32 @@ Private Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">vertex1</td><td>First vertex index.</td></tr>
     <tr><td class="paramname">vertex2</td><td>Second vertex index.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad851d4ab86aa204ea48a192de103a084" name="ad851d4ab86aa204ea48a192de103a084"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad851d4ab86aa204ea48a192de103a084">&#9670;&#160;</a></span>Edge() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Infohazard.HyperNav.Edge.Edge </td>
+          <td>(</td>
+          <td class="paramtype">int2&#160;</td>
+          <td class="paramname"><em>vertices</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a new <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html" title="Represents the indices of an edge (two connected vertices) in an indexed mesh.">Edge</a> with the given indices.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vertices</td><td>Vertex indices.</td></tr>
   </table>
   </dd>
 </dl>
@@ -253,9 +295,121 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7389f3c858055816156a4794ce870935" name="a7389f3c858055816156a4794ce870935"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7389f3c858055816156a4794ce870935">&#9670;&#160;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Infohazard.HyperNav.Edge.operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inequality operator.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>First edge to compare.</td></tr>
+    <tr><td class="paramname">b</td><td>Second edge to compare.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the edges are not equal.</dd></dl>
+
+</div>
+</div>
+<a id="a260c23250766053b4b3be691c990f49a" name="a260c23250766053b4b3be691c990f49a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a260c23250766053b4b3be691c990f49a">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Infohazard.HyperNav.Edge.operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equality operator.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>First edge to compare.</td></tr>
+    <tr><td class="paramname">b</td><td>Second edge to compare.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the edges are equal.</dd></dl>
+
+</div>
+</div>
+<a id="a42dc932cba8bba8207b9e0d78a051518" name="a42dc932cba8bba8207b9e0d78a051518"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42dc932cba8bba8207b9e0d78a051518">&#9670;&#160;</a></span>ToInt2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int2 Infohazard.HyperNav.Edge.ToInt2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert to int2.  </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html" title="Represents the indices of an edge (two connected vertices) in an indexed mesh.">Edge</a> as int2.</dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="acac66a762a60409f57d18fac4553d8b4" name="acac66a762a60409f57d18fac4553d8b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acac66a762a60409f57d18fac4553d8b4">&#9670;&#160;</a></span>_maxVertex</h2>
+<a id="aa4bfd0f32dc1467f88ef51d7adbfa3e5" name="aa4bfd0f32dc1467f88ef51d7adbfa3e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4bfd0f32dc1467f88ef51d7adbfa3e5">&#9670;&#160;</a></span>InvalidEdge</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,45 +418,45 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Infohazard.HyperNav.Edge._maxVertex</td>
+          <td class="memname">readonly <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a> Infohazard.HyperNav.Edge.InvalidEdge = new() { _minVertex = -1, _maxVertex = -1 }</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>(Serialized) Second vertex index, which is the higher of the two.  </p>
-
-</div>
-</div>
-<a id="a50acc186d83ded10f43809dbc6d8080f" name="a50acc186d83ded10f43809dbc6d8080f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50acc186d83ded10f43809dbc6d8080f">&#9670;&#160;</a></span>_minVertex</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Infohazard.HyperNav.Edge._minVertex</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) First vertex index, which is the lower of the two.  </p>
+<p>Invalid <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html" title="Represents the indices of an edge (two connected vertices) in an indexed mesh.">Edge</a>.  </p>
 
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="adda2f4b136fc384f12e8ee5e34e40e0d" name="adda2f4b136fc384f12e8ee5e34e40e0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adda2f4b136fc384f12e8ee5e34e40e0d">&#9670;&#160;</a></span>IsValid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Infohazard.HyperNav.Edge.IsValid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html" title="Represents the indices of an edge (two connected vertices) in an indexed mesh.">Edge</a> is valid.  </p>
+
+</div>
+</div>
 <a id="a820c6ec3add3c0dd1cf4fdbff9b33418" name="a820c6ec3add3c0dd1cf4fdbff9b33418"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a820c6ec3add3c0dd1cf4fdbff9b33418">&#9670;&#160;</a></span>Vertex1</h2>
 

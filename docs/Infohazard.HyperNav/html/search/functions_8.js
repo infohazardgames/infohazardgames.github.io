@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['increment_0',['Increment',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_thread_safe_incrementor.html#a3b5349e17f7d8140bc6c13dd5e626cc8',1,'Infohazard::HyperNav::Editor::ThreadSafeIncrementor']]],
-  ['initialize_1',['Initialize',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a44008cd4901791145f7547a391e92dd5',1,'Infohazard.HyperNav.Jobs.NavPathJob.Initialize()'],['../struct_infohazard_1_1_hyper_nav_1_1_spline_path.html#ad49b40a5979af044c63153e71277365d',1,'Infohazard.HyperNav.SplinePath.Initialize()']]],
-  ['isoneof_2',['IsOneOf',['../struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_fast3_d_array.html#a66f1cc5a532e96656d7a76f36dc1daf1',1,'Infohazard::HyperNav::Editor::Fast3DArray']]],
-  ['ispointinsidebound_3',['IsPointInsideBound',['../class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#a5cbd62cda82e2bdfefe4a8207aa6e9ca',1,'Infohazard::HyperNav::Jobs::NativeMathUtility']]]
+  ['initialize_0',['Initialize',['../struct_infohazard_1_1_hyper_nav_1_1_spline_path.html#af8177c2fca29d690247af0a0f03d62f7',1,'Infohazard::HyperNav::SplinePath']]],
+  ['interpolaterotation_1',['InterpolateRotation',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a2dab309dca87a39e5130b229199ec749',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['isoneof_2',['IsOneOf',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_fast3_d_array.html#a2c1766ed76f8739dbd897187b33b8079',1,'Infohazard::HyperNav::Jobs::Utility::Fast3DArray']]],
+  ['isoutofbounds_3',['IsOutOfBounds',['../class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_math_utility.html#a4e95e6bbca80ac14cb38b233fbce9eac',1,'Infohazard::HyperNav::Jobs::Utility::NativeMathUtility']]],
+  ['ispointinsidebound_4',['IsPointInsideBound',['../class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_math_utility.html#ab0fb2007a827e97d6a44baa79c286462',1,'Infohazard::HyperNav::Jobs::Utility::NativeMathUtility']]]
 ];

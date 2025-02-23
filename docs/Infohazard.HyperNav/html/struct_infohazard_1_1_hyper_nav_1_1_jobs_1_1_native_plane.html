@@ -26,9 +26,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.5</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
    </div>
-   <div id="projectbrief">3D Navigation for Flying Characters</div>
+   <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
  </tr>
  </tbody>
@@ -108,15 +108,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa2d06a19586427db9d632abfba9082bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#aa2d06a19586427db9d632abfba9082bb">NativePlane</a> (float4 normal, float4 point)</td></tr>
 <tr class="memdesc:aa2d06a19586427db9d632abfba9082bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html" title="A plane constructed using native math types.">NativePlane</a>, calculating the distance based on any point in the plane.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#aa2d06a19586427db9d632abfba9082bb">More...</a><br /></td></tr>
 <tr class="separator:aa2d06a19586427db9d632abfba9082bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42840e73f8eb6d951df299f6df89c1ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#a42840e73f8eb6d951df299f6df89c1ad">NativePlane</a> (float3 normal, float3 point)</td></tr>
+<tr class="memdesc:a42840e73f8eb6d951df299f6df89c1ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html" title="A plane constructed using native math types.">NativePlane</a>, calculating the distance based on any point in the plane.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#a42840e73f8eb6d951df299f6df89c1ad">More...</a><br /></td></tr>
+<tr class="separator:a42840e73f8eb6d951df299f6df89c1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a535528ead8c296e3ebc955a379b8ebfe"><td class="memItemLeft" align="right" valign="top">float4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#a535528ead8c296e3ebc955a379b8ebfe">Normal</a></td></tr>
-<tr class="memdesc:a535528ead8c296e3ebc955a379b8ebfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normal of the plane, which should be normalized.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#a535528ead8c296e3ebc955a379b8ebfe">More...</a><br /></td></tr>
-<tr class="separator:a535528ead8c296e3ebc955a379b8ebfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49cace0dd7894441c497502efa950102"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#a49cace0dd7894441c497502efa950102">Distance</a></td></tr>
-<tr class="memdesc:a49cace0dd7894441c497502efa950102"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance from the origin to the nearest point on the plane.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#a49cace0dd7894441c497502efa950102">More...</a><br /></td></tr>
-<tr class="separator:a49cace0dd7894441c497502efa950102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae4006e9c8774cc915797a3725ba2c9e"><td class="memItemLeft" align="right" valign="top">float4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#aae4006e9c8774cc915797a3725ba2c9e">NormalDistance</a></td></tr>
+<tr class="memdesc:aae4006e9c8774cc915797a3725ba2c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normal of the plane (xyz, normalized) and distance from the origin (w).   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#aae4006e9c8774cc915797a3725ba2c9e">More...</a><br /></td></tr>
+<tr class="separator:aae4006e9c8774cc915797a3725ba2c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -128,7 +128,7 @@ Properties</h2></td></tr>
 <div class="textblock"><p >A plane constructed using native math types.  </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa2d06a19586427db9d632abfba9082bb" name="aa2d06a19586427db9d632abfba9082bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2d06a19586427db9d632abfba9082bb">&#9670;&#160;</a></span>NativePlane()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2d06a19586427db9d632abfba9082bb">&#9670;&#160;</a></span>NativePlane() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -164,36 +164,57 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a42840e73f8eb6d951df299f6df89c1ad" name="a42840e73f8eb6d951df299f6df89c1ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42840e73f8eb6d951df299f6df89c1ad">&#9670;&#160;</a></span>NativePlane() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Infohazard.HyperNav.Jobs.NativePlane.NativePlane </td>
+          <td>(</td>
+          <td class="paramtype">float3&#160;</td>
+          <td class="paramname"><em>normal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float3&#160;</td>
+          <td class="paramname"><em>point</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Construct a new <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html" title="A plane constructed using native math types.">NativePlane</a>, calculating the distance based on any point in the plane.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">normal</td><td>Normal of the plane, which should be normalized.</td></tr>
+    <tr><td class="paramname">point</td><td>Any point on the plane.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a49cace0dd7894441c497502efa950102" name="a49cace0dd7894441c497502efa950102"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49cace0dd7894441c497502efa950102">&#9670;&#160;</a></span>Distance</h2>
+<a id="aae4006e9c8774cc915797a3725ba2c9e" name="aae4006e9c8774cc915797a3725ba2c9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae4006e9c8774cc915797a3725ba2c9e">&#9670;&#160;</a></span>NormalDistance</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float Infohazard.HyperNav.Jobs.NativePlane.Distance</td>
+          <td class="memname">float4 Infohazard.HyperNav.Jobs.NativePlane.NormalDistance</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Distance from the origin to the nearest point on the plane.  </p>
-
-</div>
-</div>
-<a id="a535528ead8c296e3ebc955a379b8ebfe" name="a535528ead8c296e3ebc955a379b8ebfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a535528ead8c296e3ebc955a379b8ebfe">&#9670;&#160;</a></span>Normal</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float4 Infohazard.HyperNav.Jobs.NativePlane.Normal</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Normal of the plane, which should be normalized.  </p>
+<p>Normal of the plane (xyz, normalized) and distance from the origin (w).  </p>
 
 </div>
 </div>

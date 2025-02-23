@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['iavoidanceagent_0',['IAvoidanceAgent',['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html',1,'Infohazard::HyperNav']]],
-  ['iavoidanceobstacle_1',['IAvoidanceObstacle',['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html',1,'Infohazard::HyperNav']]]
+  ['fast3darray_0',['Fast3DArray',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_fast3_d_array.html',1,'Infohazard::HyperNav::Jobs::Utility']]]
 ];

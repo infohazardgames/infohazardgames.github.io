@@ -26,9 +26,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.5</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
    </div>
-   <div id="projectbrief">3D Navigation for Flying Characters</div>
+   <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
  </tr>
  </tbody>
@@ -92,9 +92,8 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.HyperNav.NavInternalLinkData Class Reference</div></div>
 </div><!--header-->
@@ -103,56 +102,66 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 <p>A connection from one region to another region in the same volume.   
  <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:af22974933860eb308a0ad56e59a5d866"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#af22974933860eb308a0ad56e59a5d866">Create</a> (int connectedRegionID, int[] vertices, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>[] edges, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a>[] triangles)</td></tr>
-<tr class="memdesc:af22974933860eb308a0ad56e59a5d866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html" title="A connection from one region to another region in the same volume.">NavInternalLinkData</a> with the given properties.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#af22974933860eb308a0ad56e59a5d866">More...</a><br /></td></tr>
-<tr class="separator:af22974933860eb308a0ad56e59a5d866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a775f8944ac20ff4930b69989e59b488e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a775f8944ac20ff4930b69989e59b488e">NavInternalLinkData</a> ()</td></tr>
+<tr class="memdesc:a775f8944ac20ff4930b69989e59b488e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor for serialization.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a775f8944ac20ff4930b69989e59b488e">More...</a><br /></td></tr>
+<tr class="separator:a775f8944ac20ff4930b69989e59b488e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fd57b73d9b0744b3cdffcbfb7cccc83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a9fd57b73d9b0744b3cdffcbfb7cccc83">NavInternalLinkData</a> (int connectedRegionID, SerializableRange vertexRange, SerializableRange edgeRange, SerializableRange triangleRange)</td></tr>
+<tr class="memdesc:a9fd57b73d9b0744b3cdffcbfb7cccc83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html" title="A connection from one region to another region in the same volume.">NavInternalLinkData</a> with the given properties.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a9fd57b73d9b0744b3cdffcbfb7cccc83">More...</a><br /></td></tr>
+<tr class="separator:a9fd57b73d9b0744b3cdffcbfb7cccc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c64eb569e0e1be17ca05b11328729a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a4c64eb569e0e1be17ca05b11328729a5">NavInternalLinkData</a> (in <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_internal_link_data.html">NativeNavVolumeInternalLinkData</a> data)</td></tr>
+<tr class="memdesc:a4c64eb569e0e1be17ca05b11328729a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html" title="A connection from one region to another region in the same volume.">NavInternalLinkData</a> with the given native data.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a4c64eb569e0e1be17ca05b11328729a5">More...</a><br /></td></tr>
+<tr class="separator:a4c64eb569e0e1be17ca05b11328729a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a838d45d21902e1518eccbce62a2a1b1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_internal_link_data.html">NativeNavVolumeInternalLinkData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a838d45d21902e1518eccbce62a2a1b1e">ToNativeData</a> ()</td></tr>
+<tr class="memdesc:a838d45d21902e1518eccbce62a2a1b1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a native representation.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a838d45d21902e1518eccbce62a2a1b1e">More...</a><br /></td></tr>
+<tr class="separator:a838d45d21902e1518eccbce62a2a1b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a33c335305edda02085c7996b46bef829"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a33c335305edda02085c7996b46bef829">ConnectedRegionID</a><code> [get]</code></td></tr>
 <tr class="memdesc:a33c335305edda02085c7996b46bef829"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the connected region.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a33c335305edda02085c7996b46bef829">More...</a><br /></td></tr>
 <tr class="separator:a33c335305edda02085c7996b46bef829"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5327e203620e2a3fde29287ecc6adfca"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a5327e203620e2a3fde29287ecc6adfca">Vertices</a><code> [get]</code></td></tr>
-<tr class="memdesc:a5327e203620e2a3fde29287ecc6adfca"><td class="mdescLeft">&#160;</td><td class="mdescRight">The indices of vertices that the two regions share.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a5327e203620e2a3fde29287ecc6adfca">More...</a><br /></td></tr>
-<tr class="separator:a5327e203620e2a3fde29287ecc6adfca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05f50ac001af95de5598b3a39fdbf4fa"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a05f50ac001af95de5598b3a39fdbf4fa">Edges</a><code> [get]</code></td></tr>
-<tr class="memdesc:a05f50ac001af95de5598b3a39fdbf4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The indices of edges that the two regions share.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a05f50ac001af95de5598b3a39fdbf4fa">More...</a><br /></td></tr>
-<tr class="separator:a05f50ac001af95de5598b3a39fdbf4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a717c627877f7db408f45cfeb9648ad68"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a717c627877f7db408f45cfeb9648ad68">Triangles</a><code> [get]</code></td></tr>
-<tr class="memdesc:a717c627877f7db408f45cfeb9648ad68"><td class="mdescLeft">&#160;</td><td class="mdescRight">The indices of triangles that the two regions share.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a717c627877f7db408f45cfeb9648ad68">More...</a><br /></td></tr>
-<tr class="separator:a717c627877f7db408f45cfeb9648ad68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a22b5505b0f49e17da281556f1d725431"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a22b5505b0f49e17da281556f1d725431">_connectedRegionID</a></td></tr>
-<tr class="memdesc:a22b5505b0f49e17da281556f1d725431"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The ID of the connected region.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a22b5505b0f49e17da281556f1d725431">More...</a><br /></td></tr>
-<tr class="separator:a22b5505b0f49e17da281556f1d725431"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed9c9dbe56477a5eb9276bc49f94d18b"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#aed9c9dbe56477a5eb9276bc49f94d18b">_vertices</a></td></tr>
-<tr class="memdesc:aed9c9dbe56477a5eb9276bc49f94d18b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The indices of vertices that the two regions share.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#aed9c9dbe56477a5eb9276bc49f94d18b">More...</a><br /></td></tr>
-<tr class="separator:aed9c9dbe56477a5eb9276bc49f94d18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5a7a41136940caec53878b4afd90660"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#ac5a7a41136940caec53878b4afd90660">_edges</a></td></tr>
-<tr class="memdesc:ac5a7a41136940caec53878b4afd90660"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The indices of edges that the two regions share.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#ac5a7a41136940caec53878b4afd90660">More...</a><br /></td></tr>
-<tr class="separator:ac5a7a41136940caec53878b4afd90660"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5511ea19e062b627ed1109acf79cc43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#aa5511ea19e062b627ed1109acf79cc43">_triangles</a></td></tr>
-<tr class="memdesc:aa5511ea19e062b627ed1109acf79cc43"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The indices of triangles that the two regions share.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#aa5511ea19e062b627ed1109acf79cc43">More...</a><br /></td></tr>
-<tr class="separator:aa5511ea19e062b627ed1109acf79cc43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7d22ad7e36ecf6fcd778177f8ed53d"><td class="memItemLeft" align="right" valign="top">SerializableRange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#adc7d22ad7e36ecf6fcd778177f8ed53d">VertexRange</a><code> [get]</code></td></tr>
+<tr class="memdesc:adc7d22ad7e36ecf6fcd778177f8ed53d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of the link's indices in the volume's <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a4db7b3d728a911b9354891c7cd1f3745" title="The shared vertices of all of the volume&#39;s internal links.">NavVolumeData.LinkVertices</a> array.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#adc7d22ad7e36ecf6fcd778177f8ed53d">More...</a><br /></td></tr>
+<tr class="separator:adc7d22ad7e36ecf6fcd778177f8ed53d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7548b7b959cd189695651b75e01d3ea3"><td class="memItemLeft" align="right" valign="top">SerializableRange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a7548b7b959cd189695651b75e01d3ea3">EdgeRange</a><code> [get]</code></td></tr>
+<tr class="memdesc:a7548b7b959cd189695651b75e01d3ea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of the link's indices in the volume's <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a8db5a679c6bf280ccd0533fe13b73c94" title="The shared edges of all of the volume&#39;s internal links.">NavVolumeData.LinkEdges</a> array.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a7548b7b959cd189695651b75e01d3ea3">More...</a><br /></td></tr>
+<tr class="separator:a7548b7b959cd189695651b75e01d3ea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bc8cac35e59208df939da59f97dee73"><td class="memItemLeft" align="right" valign="top">SerializableRange&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a6bc8cac35e59208df939da59f97dee73">TriangleRange</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6bc8cac35e59208df939da59f97dee73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of the link's indices in the volume's <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a5b56aec41c6960874ad7e9a985876cee" title="The shared triangles of all of the volume&#39;s internal links.">NavVolumeData.LinkTriangles</a> array.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a6bc8cac35e59208df939da59f97dee73">More...</a><br /></td></tr>
+<tr class="separator:a6bc8cac35e59208df939da59f97dee73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A connection from one region to another region in the same volume.  </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="af22974933860eb308a0ad56e59a5d866" name="af22974933860eb308a0ad56e59a5d866"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af22974933860eb308a0ad56e59a5d866">&#9670;&#160;</a></span>Create()</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a775f8944ac20ff4930b69989e59b488e" name="a775f8944ac20ff4930b69989e59b488e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a775f8944ac20ff4930b69989e59b488e">&#9670;&#160;</a></span>NavInternalLinkData() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a> Infohazard.HyperNav.NavInternalLinkData.Create </td>
+          <td class="memname">Infohazard.HyperNav.NavInternalLinkData.NavInternalLinkData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default constructor for serialization.  </p>
+
+</div>
+</div>
+<a id="a9fd57b73d9b0744b3cdffcbfb7cccc83" name="a9fd57b73d9b0744b3cdffcbfb7cccc83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fd57b73d9b0744b3cdffcbfb7cccc83">&#9670;&#160;</a></span>NavInternalLinkData() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Infohazard.HyperNav.NavInternalLinkData.NavInternalLinkData </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>connectedRegionID</em>, </td>
@@ -160,20 +169,20 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int[]&#160;</td>
-          <td class="paramname"><em>vertices</em>, </td>
+          <td class="paramtype">SerializableRange&#160;</td>
+          <td class="paramname"><em>vertexRange</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>[]&#160;</td>
-          <td class="paramname"><em>edges</em>, </td>
+          <td class="paramtype">SerializableRange&#160;</td>
+          <td class="paramname"><em>edgeRange</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a>[]&#160;</td>
-          <td class="paramname"><em>triangles</em>&#160;</td>
+          <td class="paramtype">SerializableRange&#160;</td>
+          <td class="paramname"><em>triangleRange</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -181,121 +190,65 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html" title="A connection from one region to another region in the same volume.">NavInternalLinkData</a> with the given properties.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">connectedRegionID</td><td>ID of the connected region.</td></tr>
-    <tr><td class="paramname">vertices</td><td>Shared vertices.</td></tr>
-    <tr><td class="paramname">edges</td><td>Shared edges.</td></tr>
-    <tr><td class="paramname">triangles</td><td>Shared triangles.</td></tr>
+    <tr><td class="paramname">vertexRange</td><td>Range of the link's indices.</td></tr>
+    <tr><td class="paramname">edgeRange</td><td>Range of the link's indices.</td></tr>
+    <tr><td class="paramname">triangleRange</td><td>Range of the link's indices.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The created <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html" title="A connection from one region to another region in the same volume.">NavInternalLinkData</a>.</dd></dl>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a22b5505b0f49e17da281556f1d725431" name="a22b5505b0f49e17da281556f1d725431"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22b5505b0f49e17da281556f1d725431">&#9670;&#160;</a></span>_connectedRegionID</h2>
+<a id="a4c64eb569e0e1be17ca05b11328729a5" name="a4c64eb569e0e1be17ca05b11328729a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c64eb569e0e1be17ca05b11328729a5">&#9670;&#160;</a></span>NavInternalLinkData() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int Infohazard.HyperNav.NavInternalLinkData._connectedRegionID</td>
+          <td class="memname">Infohazard.HyperNav.NavInternalLinkData.NavInternalLinkData </td>
+          <td>(</td>
+          <td class="paramtype">in <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_internal_link_data.html">NativeNavVolumeInternalLinkData</a>&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>(Serialized) The ID of the connected region.  </p>
+<p>Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html" title="A connection from one region to another region in the same volume.">NavInternalLinkData</a> with the given native data.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>Native data to copy.</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="ac5a7a41136940caec53878b4afd90660" name="ac5a7a41136940caec53878b4afd90660"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5a7a41136940caec53878b4afd90660">&#9670;&#160;</a></span>_edges</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a838d45d21902e1518eccbce62a2a1b1e" name="a838d45d21902e1518eccbce62a2a1b1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a838d45d21902e1518eccbce62a2a1b1e">&#9670;&#160;</a></span>ToNativeData()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a> [] Infohazard.HyperNav.NavInternalLinkData._edges</td>
+          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_internal_link_data.html">NativeNavVolumeInternalLinkData</a> Infohazard.HyperNav.NavInternalLinkData.ToNativeData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>(Serialized) The indices of edges that the two regions share.  </p>
-
-</div>
-</div>
-<a id="aa5511ea19e062b627ed1109acf79cc43" name="aa5511ea19e062b627ed1109acf79cc43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5511ea19e062b627ed1109acf79cc43">&#9670;&#160;</a></span>_triangles</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a> [] Infohazard.HyperNav.NavInternalLinkData._triangles</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The indices of triangles that the two regions share.  </p>
-
-</div>
-</div>
-<a id="aed9c9dbe56477a5eb9276bc49f94d18b" name="aed9c9dbe56477a5eb9276bc49f94d18b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed9c9dbe56477a5eb9276bc49f94d18b">&#9670;&#160;</a></span>_vertices</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int [] Infohazard.HyperNav.NavInternalLinkData._vertices</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The indices of vertices that the two regions share.  </p>
+<p>Convert to a native representation.  </p>
+<dl class="section return"><dt>Returns</dt><dd>Created native data.</dd></dl>
 
 </div>
 </div>
@@ -324,8 +277,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a05f50ac001af95de5598b3a39fdbf4fa" name="a05f50ac001af95de5598b3a39fdbf4fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05f50ac001af95de5598b3a39fdbf4fa">&#9670;&#160;</a></span>Edges</h2>
+<a id="a7548b7b959cd189695651b75e01d3ea3" name="a7548b7b959cd189695651b75e01d3ea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7548b7b959cd189695651b75e01d3ea3">&#9670;&#160;</a></span>EdgeRange</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,7 +287,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IReadOnlyList&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>&gt; Infohazard.HyperNav.NavInternalLinkData.Edges</td>
+          <td class="memname">SerializableRange Infohazard.HyperNav.NavInternalLinkData.EdgeRange</td>
         </tr>
       </table>
   </td>
@@ -344,12 +297,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The indices of edges that the two regions share.  </p>
+<p>Range of the link's indices in the volume's <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a8db5a679c6bf280ccd0533fe13b73c94" title="The shared edges of all of the volume&#39;s internal links.">NavVolumeData.LinkEdges</a> array.  </p>
 
 </div>
 </div>
-<a id="a717c627877f7db408f45cfeb9648ad68" name="a717c627877f7db408f45cfeb9648ad68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a717c627877f7db408f45cfeb9648ad68">&#9670;&#160;</a></span>Triangles</h2>
+<a id="a6bc8cac35e59208df939da59f97dee73" name="a6bc8cac35e59208df939da59f97dee73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc8cac35e59208df939da59f97dee73">&#9670;&#160;</a></span>TriangleRange</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,7 +311,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IReadOnlyList&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a>&gt; Infohazard.HyperNav.NavInternalLinkData.Triangles</td>
+          <td class="memname">SerializableRange Infohazard.HyperNav.NavInternalLinkData.TriangleRange</td>
         </tr>
       </table>
   </td>
@@ -368,12 +321,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The indices of triangles that the two regions share.  </p>
+<p>Range of the link's indices in the volume's <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a5b56aec41c6960874ad7e9a985876cee" title="The shared triangles of all of the volume&#39;s internal links.">NavVolumeData.LinkTriangles</a> array.  </p>
 
 </div>
 </div>
-<a id="a5327e203620e2a3fde29287ecc6adfca" name="a5327e203620e2a3fde29287ecc6adfca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5327e203620e2a3fde29287ecc6adfca">&#9670;&#160;</a></span>Vertices</h2>
+<a id="adc7d22ad7e36ecf6fcd778177f8ed53d" name="adc7d22ad7e36ecf6fcd778177f8ed53d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc7d22ad7e36ecf6fcd778177f8ed53d">&#9670;&#160;</a></span>VertexRange</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -382,7 +335,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IReadOnlyList&lt;int&gt; Infohazard.HyperNav.NavInternalLinkData.Vertices</td>
+          <td class="memname">SerializableRange Infohazard.HyperNav.NavInternalLinkData.VertexRange</td>
         </tr>
       </table>
   </td>
@@ -392,7 +345,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The indices of vertices that the two regions share.  </p>
+<p>Range of the link's indices in the volume's <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a4db7b3d728a911b9354891c7cd1f3745" title="The shared vertices of all of the volume&#39;s internal links.">NavVolumeData.LinkVertices</a> array.  </p>
 
 </div>
 </div>

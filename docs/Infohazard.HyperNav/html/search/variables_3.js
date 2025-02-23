@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['center_0',['Center',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_bounds.html#af7d2f09ec1824f283310ec15ec1ae250',1,'Infohazard::HyperNav::Jobs::NativeBounds']]],
-  ['connectionindex_1',['ConnectionIndex',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html#adb86128cd5c448309d4cf112b886657c',1,'Infohazard::HyperNav::Jobs::PendingPathNode']]],
-  ['cubeconcaveneighbors_2',['CubeConcaveNeighbors',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_cavity_tables.html#a4f81646b73133a3ce29420cfa7f70541',1,'Infohazard::HyperNav::Editor::MarchingCubesCavityTables']]],
-  ['cubeswithinternalcavities_3',['CubesWithInternalCavities',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_cavity_tables.html#ae99aba6beb6c1b566d5a1a1d1bfe25fa',1,'Infohazard::HyperNav::Editor::MarchingCubesCavityTables']]],
-  ['cumulativecost_4',['CumulativeCost',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html#a7df71a47c97bb206ded3faa5daf3fc40',1,'Infohazard::HyperNav::Jobs::VisitedNodeInfo']]]
+  ['debug_0',['Debug',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_avoidance_obstacle_data.html#a8194947ee2a9d730f56fdbe4efc8630b',1,'Infohazard::HyperNav::Jobs::NativeAvoidanceObstacleData']]],
+  ['debugprojection_1',['DebugProjection',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_spline_project_job.html#a459b24f8d4989085b8f820127beffe94',1,'Infohazard::HyperNav::Jobs::SplineProjectJob']]],
+  ['deltatime_2',['DeltaTime',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_avoidance_job.html#a248f45c9e649308a0b51d93ccb5883cb',1,'Infohazard::HyperNav::Jobs::AvoidanceJob']]],
+  ['direction_3',['Direction',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_ray.html#a777181efb5e0074142fb9b0fad9a8179',1,'Infohazard::HyperNav::Jobs::NativeRay']]],
+  ['directiontoverticesonsidea_4',['DirectionToVerticesOnSideA',['../class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_marching_cubes_tables.html#a1b73190b7fda2ac61b066556080bfe85',1,'Infohazard::HyperNav::Jobs::Utility::MarchingCubesTables']]],
+  ['directiontoverticesonsideb_5',['DirectionToVerticesOnSideB',['../class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_marching_cubes_tables.html#a0e1d20c1d6a776a66217a1eec60e7d40',1,'Infohazard::HyperNav::Jobs::Utility::MarchingCubesTables']]],
+  ['distance_6',['Distance',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_nav_sample_result.html#ac9af1110de2accc63065365eb1696d53',1,'Infohazard::HyperNav::Jobs::Utility::NavSampleResult']]]
 ];

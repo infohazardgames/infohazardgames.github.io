@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['populate_0',['Populate',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ab595bae376a29019aae12fc37aa84711',1,'Infohazard::HyperNav::NavVolumeData']]],
-  ['projectonplane_1',['ProjectOnPlane',['../class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_math_utility.html#a3e482c21c5847386903db79b52366756',1,'Infohazard::HyperNav::Jobs::NativeMathUtility']]],
-  ['projectposition_2',['ProjectPosition',['../struct_infohazard_1_1_hyper_nav_1_1_spline_path.html#a414d37b57b48e0ac59752bd915a882ed',1,'Infohazard::HyperNav::SplinePath']]]
+  ['raycast_0',['Raycast',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a6a5ea2998939d2e3ad101947973666b8',1,'Infohazard.HyperNav.NavVolume.Raycast(Vector3 start, Vector3 end, out float hit)'],['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a62eb52a720344cb21d6b6ea7c05e0b99',1,'Infohazard.HyperNav.NavVolume.Raycast(Vector3 start, Vector3 end)']]],
+  ['reset_1',['Reset',['../class_infohazard_1_1_hyper_nav_1_1_rigidbody_avoidance_obstacle.html#a4d61e05b9099f2fb739052dc7ca79f11',1,'Infohazard.HyperNav.RigidbodyAvoidanceObstacle.Reset()'],['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a2dea7ab623614b5b06cf99e6e21fa313',1,'Infohazard.HyperNav.SimpleNavAgentMover.Reset()']]]
 ];

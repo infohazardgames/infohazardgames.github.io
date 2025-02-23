@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['length_0',['Length',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_unsafe_array_ptr.html#af16ba1df936a3f090bfb4d182ae2a041',1,'Infohazard::HyperNav::Jobs::UnsafeArrayPtr']]],
-  ['linkedges_1',['LinkEdges',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#a428b9993550fa225d3fcea1b50bacc01',1,'Infohazard::HyperNav::Jobs::NativeNavVolumeData']]],
-  ['linktriangles_2',['LinkTriangles',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#a9a779fb812bd7fe52b1e66bae15bf271',1,'Infohazard::HyperNav::Jobs::NativeNavVolumeData']]],
-  ['linkvertices_3',['LinkVertices',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html#a541f593e09e06fee810d61eea00bc941',1,'Infohazard::HyperNav::Jobs::NativeNavVolumeData']]]
+  ['manuallinkid_0',['ManualLinkID',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_external_link_data.html#ae29a38d156b4980c2f4524d84b785c1f',1,'Infohazard::HyperNav::Jobs::Utility::NativeNavExternalLinkData']]],
+  ['manuallinksenabled_1',['ManualLinksEnabled',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a797e4779c661e8ea21b14b9d0ecd446a',1,'Infohazard::HyperNav::Jobs::NavPathJob']]],
+  ['maxcount_2',['MaxCount',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_int_list2.html#a46b5aa4fff1bdcc4b0bf786fe5e9a491',1,'Infohazard::HyperNav::Jobs::Utility::IntList2']]],
+  ['maxobstaclesconsidered_3',['MaxObstaclesConsidered',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_avoidance_job.html#a34f344ef7b4ed92b3f6564f6448b898f',1,'Infohazard::HyperNav::Jobs::AvoidanceJob']]]
 ];

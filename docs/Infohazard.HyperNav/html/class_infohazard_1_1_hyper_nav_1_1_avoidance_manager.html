@@ -26,9 +26,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.5</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
    </div>
-   <div id="projectbrief">3D Navigation for Flying Characters</div>
+   <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
  </tr>
  </tbody>
@@ -95,7 +95,6 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_avo
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.HyperNav.AvoidanceManager Class Reference</div></div>
 </div><!--header-->
@@ -130,30 +129,6 @@ Properties</h2></td></tr>
 <tr class="memitem:a6f634708bd4f6695a03e8153782621ee"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a6f634708bd4f6695a03e8153782621ee">MaxObstaclesConsidered</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a6f634708bd4f6695a03e8153782621ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum number of obstacles that can be considered by each agent for avoidance.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a6f634708bd4f6695a03e8153782621ee">More...</a><br /></td></tr>
 <tr class="separator:a6f634708bd4f6695a03e8153782621ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d3f5583c464048ee7910dc2788d20a2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a9d3f5583c464048ee7910dc2788d20a2">DataGrowRatio</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a9d3f5583c464048ee7910dc2788d20a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">How much to grow data structures by when they are not large enough.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a9d3f5583c464048ee7910dc2788d20a2">More...</a><br /></td></tr>
-<tr class="separator:a9d3f5583c464048ee7910dc2788d20a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7055808228861f8f0db0e728b3faa024"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a7055808228861f8f0db0e728b3faa024">UseJob</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a7055808228861f8f0db0e728b3faa024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to use the C# Job System/Burst Compiler or to just run updates on the main thread.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a7055808228861f8f0db0e728b3faa024">More...</a><br /></td></tr>
-<tr class="separator:a7055808228861f8f0db0e728b3faa024"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a5dda9ad3075ec18d54c1f8e9cacd706b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a22f44ea96bcfea9f7733c11de66eb8fa">AvoidanceManagerUpdateMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a5dda9ad3075ec18d54c1f8e9cacd706b">_updateMode</a></td></tr>
-<tr class="memdesc:a5dda9ad3075ec18d54c1f8e9cacd706b"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) When to update the avoidance velocities of agents.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a5dda9ad3075ec18d54c1f8e9cacd706b">More...</a><br /></td></tr>
-<tr class="separator:a5dda9ad3075ec18d54c1f8e9cacd706b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63b075c0b8f4563595fc0d458d2e8ee3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a63b075c0b8f4563595fc0d458d2e8ee3">_timeHorizon</a> = 5</td></tr>
-<tr class="memdesc:a63b075c0b8f4563595fc0d458d2e8ee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) How far in the future to look when avoiding collisions.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a63b075c0b8f4563595fc0d458d2e8ee3">More...</a><br /></td></tr>
-<tr class="separator:a63b075c0b8f4563595fc0d458d2e8ee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e838431f38e1e37ffcb24926cb5902f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a3e838431f38e1e37ffcb24926cb5902f">_maxObstaclesConsidered</a> = 10</td></tr>
-<tr class="memdesc:a3e838431f38e1e37ffcb24926cb5902f"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The maximum number of obstacles that can be considered by each agent for avoidance.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a3e838431f38e1e37ffcb24926cb5902f">More...</a><br /></td></tr>
-<tr class="separator:a3e838431f38e1e37ffcb24926cb5902f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cbb58f391e4b175b07622e2a926d363"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a3cbb58f391e4b175b07622e2a926d363">_dataGrowRatio</a> = 1.2f</td></tr>
-<tr class="memdesc:a3cbb58f391e4b175b07622e2a926d363"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) How much to grow data structures by when they are not large enough.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a3cbb58f391e4b175b07622e2a926d363">More...</a><br /></td></tr>
-<tr class="separator:a3cbb58f391e4b175b07622e2a926d363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc6253ae5e9136d2c8d2b7b108e8167e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#adc6253ae5e9136d2c8d2b7b108e8167e">_useJob</a> = true</td></tr>
-<tr class="memdesc:adc6253ae5e9136d2c8d2b7b108e8167e"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether to use the C# Job System/Burst Compiler or to just run updates on the main thread.   <a href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#adc6253ae5e9136d2c8d2b7b108e8167e">More...</a><br /></td></tr>
-<tr class="separator:adc6253ae5e9136d2c8d2b7b108e8167e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Handles calculating the avoidance velocities for all <a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html" title="Interface for objects that both can be avoided and themselves avoid other obstacles using the avoidan...">IAvoidanceAgent</a>s.  </p>
@@ -247,156 +222,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3cbb58f391e4b175b07622e2a926d363" name="a3cbb58f391e4b175b07622e2a926d363"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cbb58f391e4b175b07622e2a926d363">&#9670;&#160;</a></span>_dataGrowRatio</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Infohazard.HyperNav.AvoidanceManager._dataGrowRatio = 1.2f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) How much to grow data structures by when they are not large enough.  </p>
-<p >Higher values reduce the number of allocations if agent count is steadily growing, but may also lead to wasted memory. </p>
-
-</div>
-</div>
-<a id="a3e838431f38e1e37ffcb24926cb5902f" name="a3e838431f38e1e37ffcb24926cb5902f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e838431f38e1e37ffcb24926cb5902f">&#9670;&#160;</a></span>_maxObstaclesConsidered</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Infohazard.HyperNav.AvoidanceManager._maxObstaclesConsidered = 10</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The maximum number of obstacles that can be considered by each agent for avoidance.  </p>
-<p >This value caps the number of avoidance calculations per agent. Generally it should be equal to the max number of obstacles you expect to be within <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a56e64465cddb0b839abed19d10326a49" title="How far in the future to look when avoiding collisions.">TimeHorizon</a> * <a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#a8e635a971512f202f8b3475de3f63ef3" title="Maximum speed the object can travel at.">IAvoidanceObstacle.MaxSpeed</a> of an agent. </p>
-
-</div>
-</div>
-<a id="a63b075c0b8f4563595fc0d458d2e8ee3" name="a63b075c0b8f4563595fc0d458d2e8ee3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63b075c0b8f4563595fc0d458d2e8ee3">&#9670;&#160;</a></span>_timeHorizon</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Infohazard.HyperNav.AvoidanceManager._timeHorizon = 5</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) How far in the future to look when avoiding collisions.  </p>
-<p >A lower value reduces the number of calculations per agent, with the drawback of being able to plan less far ahead. </p>
-
-</div>
-</div>
-<a id="a5dda9ad3075ec18d54c1f8e9cacd706b" name="a5dda9ad3075ec18d54c1f8e9cacd706b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5dda9ad3075ec18d54c1f8e9cacd706b">&#9670;&#160;</a></span>_updateMode</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a22f44ea96bcfea9f7733c11de66eb8fa">AvoidanceManagerUpdateMode</a> Infohazard.HyperNav.AvoidanceManager._updateMode</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) When to update the avoidance velocities of agents.  </p>
-
-</div>
-</div>
-<a id="adc6253ae5e9136d2c8d2b7b108e8167e" name="adc6253ae5e9136d2c8d2b7b108e8167e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc6253ae5e9136d2c8d2b7b108e8167e">&#9670;&#160;</a></span>_useJob</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Infohazard.HyperNav.AvoidanceManager._useJob = true</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) Whether to use the C# Job System/Burst Compiler or to just run updates on the main thread.  </p>
-
-</div>
-</div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="a9d3f5583c464048ee7910dc2788d20a2" name="a9d3f5583c464048ee7910dc2788d20a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d3f5583c464048ee7910dc2788d20a2">&#9670;&#160;</a></span>DataGrowRatio</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Infohazard.HyperNav.AvoidanceManager.DataGrowRatio</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>How much to grow data structures by when they are not large enough.  </p>
-<p >Higher values reduce the number of allocations if agent count is steadily growing, but may also lead to wasted memory. </p>
-
-</div>
-</div>
 <a id="a6f634708bd4f6695a03e8153782621ee" name="a6f634708bd4f6695a03e8153782621ee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f634708bd4f6695a03e8153782621ee">&#9670;&#160;</a></span>MaxObstaclesConsidered</h2>
 
@@ -468,30 +294,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>When to update the avoidance velocities of agents.  </p>
-
-</div>
-</div>
-<a id="a7055808228861f8f0db0e728b3faa024" name="a7055808228861f8f0db0e728b3faa024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7055808228861f8f0db0e728b3faa024">&#9670;&#160;</a></span>UseJob</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Infohazard.HyperNav.AvoidanceManager.UseJob</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Whether to use the C# Job System/Burst Compiler or to just run updates on the main thread.  </p>
 
 </div>
 </div>

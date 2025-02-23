@@ -26,9 +26,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.5</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
    </div>
-   <div id="projectbrief">3D Navigation for Flying Characters</div>
+   <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
  </tr>
  </tbody>
@@ -93,9 +93,7 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.HyperNav.NavExternalLinkData Class Reference</div></div>
 </div><!--header-->
@@ -106,21 +104,21 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaa28f016f5a42f999f136c1365aa4638"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#aaa28f016f5a42f999f136c1365aa4638">ToInternalData</a> (Transform volumeTransform, bool volumeLocalSpace, out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html">NativeNavExternalLinkData</a> data)</td></tr>
-<tr class="memdesc:aaa28f016f5a42f999f136c1365aa4638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a native representation, transforming points to world space if necessary.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#aaa28f016f5a42f999f136c1365aa4638">More...</a><br /></td></tr>
-<tr class="separator:aaa28f016f5a42f999f136c1365aa4638"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:affb585062ede1469c52db17463dec47a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#affb585062ede1469c52db17463dec47a">Create</a> (long connectedVolumeID, int connectedRegionID, Vector3 fromPosition, Vector3 toPosition)</td></tr>
-<tr class="memdesc:affb585062ede1469c52db17463dec47a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html" title="A connection from one region to another region in another volume.">NavExternalLinkData</a> with the given properties.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#affb585062ede1469c52db17463dec47a">More...</a><br /></td></tr>
-<tr class="separator:affb585062ede1469c52db17463dec47a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ef67efb9a09a74d9dde940889765c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#ab6ef67efb9a09a74d9dde940889765c4">NavExternalLinkData</a> (in <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_external_link_data.html">NativeNavExternalLinkData</a> nativeData, string connectedScenePath)</td></tr>
+<tr class="memdesc:ab6ef67efb9a09a74d9dde940889765c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html" title="A connection from one region to another region in another volume.">NavExternalLinkData</a> from the given native data.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#ab6ef67efb9a09a74d9dde940889765c4">More...</a><br /></td></tr>
+<tr class="separator:ab6ef67efb9a09a74d9dde940889765c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cf52a9598220eabc9000a31b2d6b30a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_external_link_data.html">NativeNavExternalLinkData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a5cf52a9598220eabc9000a31b2d6b30a">ToNativeData</a> ()</td></tr>
+<tr class="memdesc:a5cf52a9598220eabc9000a31b2d6b30a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert to a native representation.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a5cf52a9598220eabc9000a31b2d6b30a">More...</a><br /></td></tr>
+<tr class="separator:a5cf52a9598220eabc9000a31b2d6b30a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a76e8d898e993c0c5b75cf1bbc4890e73"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a76e8d898e993c0c5b75cf1bbc4890e73">ConnectedVolumeID</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a76e8d898e993c0c5b75cf1bbc4890e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a443754a053b338368c1888801b490b16" title="The unique ID for this volume to identify it in pathfinding jobs and serialized data.">NavVolume.InstanceID</a> of the connected volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a76e8d898e993c0c5b75cf1bbc4890e73">More...</a><br /></td></tr>
-<tr class="separator:a76e8d898e993c0c5b75cf1bbc4890e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b2d24a28aaeaa96e39068b70eccef3b"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a0b2d24a28aaeaa96e39068b70eccef3b">ConnectedAreaID</a><code> [get]</code></td></tr>
+<tr class="memdesc:a0b2d24a28aaeaa96e39068b70eccef3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The NavVolume.InstanceID of the connected volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a0b2d24a28aaeaa96e39068b70eccef3b">More...</a><br /></td></tr>
+<tr class="separator:a0b2d24a28aaeaa96e39068b70eccef3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55fc0ce707098ba6f46d109853a42804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#acba90ccb4c4d85206e9fc19f61bb9271">NavAreaTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a55fc0ce707098ba6f46d109853a42804">ConnectedAreaType</a><code> [get]</code></td></tr>
+<tr class="memdesc:a55fc0ce707098ba6f46d109853a42804"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of the connected area.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a55fc0ce707098ba6f46d109853a42804">More...</a><br /></td></tr>
+<tr class="separator:a55fc0ce707098ba6f46d109853a42804"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b5496a70dc53659689e82a7e0a9c692"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a7b5496a70dc53659689e82a7e0a9c692">ConnectedRegionID</a><code> [get]</code></td></tr>
 <tr class="memdesc:a7b5496a70dc53659689e82a7e0a9c692"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the connected region.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a7b5496a70dc53659689e82a7e0a9c692">More...</a><br /></td></tr>
 <tr class="separator:a7b5496a70dc53659689e82a7e0a9c692"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,57 +128,33 @@ Properties</h2></td></tr>
 <tr class="memitem:ac2fa20897c446fffbbb13da77fd7e5e8"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#ac2fa20897c446fffbbb13da77fd7e5e8">ToPosition</a><code> [get]</code></td></tr>
 <tr class="memdesc:ac2fa20897c446fffbbb13da77fd7e5e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position at which the connection ends (local space).   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#ac2fa20897c446fffbbb13da77fd7e5e8">More...</a><br /></td></tr>
 <tr class="separator:ac2fa20897c446fffbbb13da77fd7e5e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a54b35c4b2bf20a62c486c632bfc14062"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a54b35c4b2bf20a62c486c632bfc14062">_connectedVolumeID</a></td></tr>
-<tr class="memdesc:a54b35c4b2bf20a62c486c632bfc14062"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a443754a053b338368c1888801b490b16" title="The unique ID for this volume to identify it in pathfinding jobs and serialized data.">NavVolume.InstanceID</a> of the connected volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a54b35c4b2bf20a62c486c632bfc14062">More...</a><br /></td></tr>
-<tr class="separator:a54b35c4b2bf20a62c486c632bfc14062"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af561565d865e0def4f08069222fa66dd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#af561565d865e0def4f08069222fa66dd">_connectedRegionID</a></td></tr>
-<tr class="memdesc:af561565d865e0def4f08069222fa66dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ID of the connected region.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#af561565d865e0def4f08069222fa66dd">More...</a><br /></td></tr>
-<tr class="separator:af561565d865e0def4f08069222fa66dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf71a84b3c4cac05a53e3b28061241fb"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#acf71a84b3c4cac05a53e3b28061241fb">_fromPosition</a></td></tr>
-<tr class="memdesc:acf71a84b3c4cac05a53e3b28061241fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position at which the connection originates (local space).   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#acf71a84b3c4cac05a53e3b28061241fb">More...</a><br /></td></tr>
-<tr class="separator:acf71a84b3c4cac05a53e3b28061241fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69164e346c748666b1f77e8f118ae08f"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a69164e346c748666b1f77e8f118ae08f">_toPosition</a></td></tr>
-<tr class="memdesc:a69164e346c748666b1f77e8f118ae08f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position at which the connection ends (local space).   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#a69164e346c748666b1f77e8f118ae08f">More...</a><br /></td></tr>
-<tr class="separator:a69164e346c748666b1f77e8f118ae08f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa068837f36e0dfe18be53a97c174443"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#aaa068837f36e0dfe18be53a97c174443">ConnectedScenePath</a><code> [get]</code></td></tr>
+<tr class="memdesc:aaa068837f36e0dfe18be53a97c174443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scene path of the connected volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#aaa068837f36e0dfe18be53a97c174443">More...</a><br /></td></tr>
+<tr class="separator:aaa068837f36e0dfe18be53a97c174443"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7a56097787739f65eedb30cb65396c6"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#af7a56097787739f65eedb30cb65396c6">ManualLinkID</a><code> [get]</code></td></tr>
+<tr class="memdesc:af7a56097787739f65eedb30cb65396c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The unique ID of the ManualNavLink that created this link, or 0.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#af7a56097787739f65eedb30cb65396c6">More...</a><br /></td></tr>
+<tr class="separator:af7a56097787739f65eedb30cb65396c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A connection from one region to another region in another volume.  </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="affb585062ede1469c52db17463dec47a" name="affb585062ede1469c52db17463dec47a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affb585062ede1469c52db17463dec47a">&#9670;&#160;</a></span>Create()</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab6ef67efb9a09a74d9dde940889765c4" name="ab6ef67efb9a09a74d9dde940889765c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ef67efb9a09a74d9dde940889765c4">&#9670;&#160;</a></span>NavExternalLinkData()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a> Infohazard.HyperNav.NavExternalLinkData.Create </td>
+          <td class="memname">Infohazard.HyperNav.NavExternalLinkData.NavExternalLinkData </td>
           <td>(</td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>connectedVolumeID</em>, </td>
+          <td class="paramtype">in <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_external_link_data.html">NativeNavExternalLinkData</a>&#160;</td>
+          <td class="paramname"><em>nativeData</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>connectedRegionID</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vector3&#160;</td>
-          <td class="paramname"><em>fromPosition</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vector3&#160;</td>
-          <td class="paramname"><em>toPosition</em>&#160;</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>connectedScenePath</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -188,20 +162,13 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html" title="A connection from one region to another region in another volume.">NavExternalLinkData</a> with the given properties.  </p>
+<p>Create a new <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html" title="A connection from one region to another region in another volume.">NavExternalLinkData</a> from the given native data.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">connectedVolumeID</td><td>ID of the connected volume.</td></tr>
-    <tr><td class="paramname">connectedRegionID</td><td>ID of the connected region.</td></tr>
-    <tr><td class="paramname">fromPosition</td><td>Position at which the connection originates.</td></tr>
-    <tr><td class="paramname">toPosition</td><td>Position at which the connection ends.</td></tr>
+    <tr><td class="paramname">nativeData</td><td>Native data to copy.</td></tr>
+    <tr><td class="paramname">connectedScenePath</td><td>Scene path of the connected volume.</td></tr>
   </table>
   </dd>
 </dl>
@@ -209,148 +176,76 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aaa28f016f5a42f999f136c1365aa4638" name="aaa28f016f5a42f999f136c1365aa4638"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa28f016f5a42f999f136c1365aa4638">&#9670;&#160;</a></span>ToInternalData()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5cf52a9598220eabc9000a31b2d6b30a" name="a5cf52a9598220eabc9000a31b2d6b30a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf52a9598220eabc9000a31b2d6b30a">&#9670;&#160;</a></span>ToNativeData()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Infohazard.HyperNav.NavExternalLinkData.ToInternalData </td>
+          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_external_link_data.html">NativeNavExternalLinkData</a> Infohazard.HyperNav.NavExternalLinkData.ToNativeData </td>
           <td>(</td>
-          <td class="paramtype">Transform&#160;</td>
-          <td class="paramname"><em>volumeTransform</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>volumeLocalSpace</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_external_link_data.html">NativeNavExternalLinkData</a>&#160;</td>
-          <td class="paramname"><em>data</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Convert to a native representation, transforming points to world space if necessary.  </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">volumeTransform</td><td>Transform of the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>.</td></tr>
-    <tr><td class="paramname">volumeLocalSpace</td><td>Whether link is stored in local space.</td></tr>
-    <tr><td class="paramname">data</td><td>The created native data.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="af561565d865e0def4f08069222fa66dd" name="af561565d865e0def4f08069222fa66dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af561565d865e0def4f08069222fa66dd">&#9670;&#160;</a></span>_connectedRegionID</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Infohazard.HyperNav.NavExternalLinkData._connectedRegionID</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The ID of the connected region.  </p>
-
-</div>
-</div>
-<a id="a54b35c4b2bf20a62c486c632bfc14062" name="a54b35c4b2bf20a62c486c632bfc14062"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54b35c4b2bf20a62c486c632bfc14062">&#9670;&#160;</a></span>_connectedVolumeID</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">long Infohazard.HyperNav.NavExternalLinkData._connectedVolumeID</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a443754a053b338368c1888801b490b16" title="The unique ID for this volume to identify it in pathfinding jobs and serialized data.">NavVolume.InstanceID</a> of the connected volume.  </p>
-
-</div>
-</div>
-<a id="acf71a84b3c4cac05a53e3b28061241fb" name="acf71a84b3c4cac05a53e3b28061241fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf71a84b3c4cac05a53e3b28061241fb">&#9670;&#160;</a></span>_fromPosition</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector3 Infohazard.HyperNav.NavExternalLinkData._fromPosition</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The position at which the connection originates (local space).  </p>
-
-</div>
-</div>
-<a id="a69164e346c748666b1f77e8f118ae08f" name="a69164e346c748666b1f77e8f118ae08f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69164e346c748666b1f77e8f118ae08f">&#9670;&#160;</a></span>_toPosition</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector3 Infohazard.HyperNav.NavExternalLinkData._toPosition</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The position at which the connection ends (local space).  </p>
+<p>Convert to a native representation.  </p>
+<dl class="section return"><dt>Returns</dt><dd>Created native data.</dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a0b2d24a28aaeaa96e39068b70eccef3b" name="a0b2d24a28aaeaa96e39068b70eccef3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b2d24a28aaeaa96e39068b70eccef3b">&#9670;&#160;</a></span>ConnectedAreaID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long Infohazard.HyperNav.NavExternalLinkData.ConnectedAreaID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The NavVolume.InstanceID of the connected volume.  </p>
+
+</div>
+</div>
+<a id="a55fc0ce707098ba6f46d109853a42804" name="a55fc0ce707098ba6f46d109853a42804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55fc0ce707098ba6f46d109853a42804">&#9670;&#160;</a></span>ConnectedAreaType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#acba90ccb4c4d85206e9fc19f61bb9271">NavAreaTypes</a> Infohazard.HyperNav.NavExternalLinkData.ConnectedAreaType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The type of the connected area.  </p>
+
+</div>
+</div>
 <a id="a7b5496a70dc53659689e82a7e0a9c692" name="a7b5496a70dc53659689e82a7e0a9c692"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7b5496a70dc53659689e82a7e0a9c692">&#9670;&#160;</a></span>ConnectedRegionID</h2>
 
@@ -375,8 +270,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a76e8d898e993c0c5b75cf1bbc4890e73" name="a76e8d898e993c0c5b75cf1bbc4890e73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76e8d898e993c0c5b75cf1bbc4890e73">&#9670;&#160;</a></span>ConnectedVolumeID</h2>
+<a id="aaa068837f36e0dfe18be53a97c174443" name="aaa068837f36e0dfe18be53a97c174443"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa068837f36e0dfe18be53a97c174443">&#9670;&#160;</a></span>ConnectedScenePath</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,17 +280,17 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long Infohazard.HyperNav.NavExternalLinkData.ConnectedVolumeID</td>
+          <td class="memname">string Infohazard.HyperNav.NavExternalLinkData.ConnectedScenePath</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>The <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a443754a053b338368c1888801b490b16" title="The unique ID for this volume to identify it in pathfinding jobs and serialized data.">NavVolume.InstanceID</a> of the connected volume.  </p>
+<p>Scene path of the connected volume.  </p>
 
 </div>
 </div>
@@ -420,6 +315,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The position at which the connection originates (local space).  </p>
+
+</div>
+</div>
+<a id="af7a56097787739f65eedb30cb65396c6" name="af7a56097787739f65eedb30cb65396c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7a56097787739f65eedb30cb65396c6">&#9670;&#160;</a></span>ManualLinkID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long Infohazard.HyperNav.NavExternalLinkData.ManualLinkID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The unique ID of the ManualNavLink that created this link, or 0.  </p>
 
 </div>
 </div>
@@ -448,7 +367,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Runtime/NavVolumeData.cs</li>
+<li>Runtime/NavExternalLinkData.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

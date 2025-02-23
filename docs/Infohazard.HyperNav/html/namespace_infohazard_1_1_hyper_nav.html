@@ -26,9 +26,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.5</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
    </div>
-   <div id="projectbrief">3D Navigation for Flying Characters</div>
+   <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
  </tr>
  </tbody>
@@ -122,17 +122,26 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html">IAvoidanceObstacle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for objects that can be avoided using the avoidance system.   <a href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_surface_upright_direction_handler.html">ISurfaceUprightDirectionHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface for custom logic to determine the upright direction of a surface.   <a href="interface_infohazard_1_1_hyper_nav_1_1_i_surface_upright_direction_handler.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_native_nav_surface_data_pointers.html">NativeNavSurfaceDataPointers</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">References to the NativeArrays allocated for a NativeNavSurfaceData.   <a href="struct_infohazard_1_1_hyper_nav_1_1_native_nav_surface_data_pointers.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_native_nav_volume_data_pointers.html">NativeNavVolumeDataPointers</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">References to the NativeArrays allocated for a NativeNavVolumeData.   <a href="struct_infohazard_1_1_hyper_nav_1_1_native_nav_volume_data_pointers.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html">NavAgent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A script that can be used to calculate paths by any entity that needs to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> for navigation.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_data_internal_pointers.html">NavDataInternalPointers</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">References to the NativeArrays allocated for a NativeNavVolumeData.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_data_internal_pointers.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_area_bake_progress.html">NavAreaBakeProgress</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents current bake state of a volume, including progress fraction and current operation display name.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_area_bake_progress.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_external_link_update.html">NavAreaExternalLinkUpdate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility for updating external links for nav areas.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area_external_link_update.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html">NavExternalLinkData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A connection from one region to another region in another volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html">NavHit</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Structure that is used to report the nearest point on a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> to a query.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A connection from one region to another region in the same volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#details">More...</a><br /></td></tr>
@@ -143,20 +152,32 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html">NavPathfinder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A script used to calculate <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> paths.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html">NavRegionBoundPlane</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A plane forming one of the boundaries of a region.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_region_bound_plane.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html">NavRegionData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The serialized data representing a single region in a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_util.html">NavUtil</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains utility methods for working with <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> navigation.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_util.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_surface_bake_handler.html">NavSurfaceBakeHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages the baking process for a NavSurface. Cannot be reused.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_surface_bake_handler.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_surface_internal_link_data.html">NavSurfaceInternalLinkData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A connection from one region to another region in the same surface.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_surface_internal_link_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_surface_region_data.html">NavSurfaceRegionData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The serialized data representing a single region in a NavSurface.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_surface_region_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_surface_update.html">NavSurfaceUpdate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility class for updating NavSurface data.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_surface_update.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html">NavVolume</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A volume of space in which <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> pathfinding can occur.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_bake_handler.html">NavVolumeBakeHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages the baking process for a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>. Cannot be reused.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_bake_handler.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html">NavVolumeData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The baked data of a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>, saved as an asset.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_update.html">NavVolumeUpdate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility functions for updating <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> data.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_update.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html">NavWaypoint</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A waypoint in a completed path.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#details">More...</a><br /></td></tr>
@@ -167,6 +188,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_simple_avoidance_obstacle.html">SimpleAvoidanceObstacle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An <a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html" title="Interface for objects that can be avoided using the avoidance system.">IAvoidanceObstacle</a> that gets its <a class="el" href="interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#a69b4d13d75e366d744a43aef07d26a5f" title="The object&#39;s desired (or actual) velocity.">IAvoidanceObstacle.InputVelocity</a> by measuring its position/time delta.   <a href="class_infohazard_1_1_hyper_nav_1_1_simple_avoidance_obstacle.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html">SimpleNavAgentMover</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A script that enables using a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_agent.html" title="A script that can be used to calculate paths by any entity that needs to use HyperNav for navigation.">NavAgent</a> without writing any code.   <a href="class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html">SplineNavAgent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A script that can be used to calculate smooth paths by any entity that needs to use <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> for navigation.   <a href="class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,6 +199,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_spline_point.html">SplinePoint</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a point on a spline and the segment that starts with it.   <a href="struct_infohazard_1_1_hyper_nav_1_1_spline_point.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_surface_upright_direction_handler_with_overrides.html">SurfaceUprightDirectionHandlerWithOverrides</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serves as an example of how to implement a custom upright direction handler for surfaces, including the related jobs.   <a href="class_infohazard_1_1_hyper_nav_1_1_surface_upright_direction_handler_with_overrides.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the indices of a triangle (three vertices by a face) in an indexed mesh.   <a href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html#details">More...</a><br /></td></tr>
@@ -191,9 +218,15 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a0cf1a2756f6f014216376dd0e9f34301"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a0cf1a2756f6f014216376dd0e9f34301">NavWaypointType</a> </td></tr>
 <tr class="memdesc:a0cf1a2756f6f014216376dd0e9f34301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of waypoint in a completed path.   <a href="namespace_infohazard_1_1_hyper_nav.html#a0cf1a2756f6f014216376dd0e9f34301">More...</a><br /></td></tr>
 <tr class="separator:a0cf1a2756f6f014216376dd0e9f34301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5ff3b5027c96ad6f2b67c300a75b9f9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#ab5ff3b5027c96ad6f2b67c300a75b9f9">NavSurfaceVisualizationMode</a> </td></tr>
+<tr class="memdesc:ab5ff3b5027c96ad6f2b67c300a75b9f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The various modes available to generate a preview mesh in the editor for visualization.   <a href="namespace_infohazard_1_1_hyper_nav.html#ab5ff3b5027c96ad6f2b67c300a75b9f9">More...</a><br /></td></tr>
+<tr class="separator:ab5ff3b5027c96ad6f2b67c300a75b9f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5672e7bdc25954d7e7e040990bf4bea3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a5672e7bdc25954d7e7e040990bf4bea3">NavVolumeVisualizationMode</a> </td></tr>
 <tr class="memdesc:a5672e7bdc25954d7e7e040990bf4bea3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The various modes available to generate a preview mesh in the editor for visualization.   <a href="namespace_infohazard_1_1_hyper_nav.html#a5672e7bdc25954d7e7e040990bf4bea3">More...</a><br /></td></tr>
 <tr class="separator:a5672e7bdc25954d7e7e040990bf4bea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acba90ccb4c4d85206e9fc19f61bb9271"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#acba90ccb4c4d85206e9fc19f61bb9271">NavAreaTypes</a> </td></tr>
+<tr class="memdesc:acba90ccb4c4d85206e9fc19f61bb9271"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of NavArea.   <a href="namespace_infohazard_1_1_hyper_nav.html#acba90ccb4c4d85206e9fc19f61bb9271">More...</a><br /></td></tr>
+<tr class="separator:acba90ccb4c4d85206e9fc19f61bb9271"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -218,6 +251,22 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="acba90ccb4c4d85206e9fc19f61bb9271" name="acba90ccb4c4d85206e9fc19f61bb9271"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acba90ccb4c4d85206e9fc19f61bb9271">&#9670;&#160;</a></span>NavAreaTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_infohazard_1_1_hyper_nav.html#acba90ccb4c4d85206e9fc19f61bb9271">Infohazard.HyperNav.NavAreaTypes</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type of NavArea.  </p>
+
+</div>
+</div>
 <a id="a4e76dbff84c16110fac8ea8736f5272d" name="a4e76dbff84c16110fac8ea8736f5272d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e76dbff84c16110fac8ea8736f5272d">&#9670;&#160;</a></span>NavPathfindingMode</h2>
 
@@ -231,6 +280,22 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The modes in which pathfinding can be executed.  </p>
+
+</div>
+</div>
+<a id="ab5ff3b5027c96ad6f2b67c300a75b9f9" name="ab5ff3b5027c96ad6f2b67c300a75b9f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5ff3b5027c96ad6f2b67c300a75b9f9">&#9670;&#160;</a></span>NavSurfaceVisualizationMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespace_infohazard_1_1_hyper_nav.html#ab5ff3b5027c96ad6f2b67c300a75b9f9">Infohazard.HyperNav.NavSurfaceVisualizationMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The various modes available to generate a preview mesh in the editor for visualization.  </p>
 
 </div>
 </div>

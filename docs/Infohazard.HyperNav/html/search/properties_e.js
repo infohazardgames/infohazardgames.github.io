@@ -1,12 +1,20 @@
 var searchData=
 [
-  ['sampleradius_0',['SampleRadius',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a43ce47b65550307d7fd5da67b8bc4c7c',1,'Infohazard::HyperNav::NavAgent']]],
-  ['showvertexnumbers_1',['ShowVertexNumbers',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a3b11e312e67b70b1d83991d2f66551e1',1,'Infohazard::HyperNav::NavVolume']]],
-  ['showvertexnumbersrange_2',['ShowVertexNumbersRange',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a98b5c21b34153a776ff09c5755dc17cd',1,'Infohazard::HyperNav::NavVolume']]],
-  ['splinepath_3',['SplinePath',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a0e58386920c8bcbd3ef89bcce4c72259',1,'Infohazard::HyperNav::SplineNavAgent']]],
-  ['starthit_4',['StartHit',['../class_infohazard_1_1_hyper_nav_1_1_nav_path.html#aecfe3abfb9587ffe48668be4fa03cc90',1,'Infohazard::HyperNav::NavPath']]],
-  ['startlocations_5',['StartLocations',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a31c168e2ad85f9bf9d001fdda15ecc62',1,'Infohazard::HyperNav::NavVolume']]],
-  ['startpos_6',['StartPos',['../class_infohazard_1_1_hyper_nav_1_1_nav_path.html#af7bd408b42f0cc3c158bd952b354a93e',1,'Infohazard::HyperNav::NavPath']]],
-  ['staticonly_7',['StaticOnly',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a7982b0ee3b4ede6af998e5aa48a7f0b9',1,'Infohazard::HyperNav::NavVolume']]],
-  ['stoppingdistance_8',['StoppingDistance',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3c90d079a5756739e3f3dd8c9216bd7f',1,'Infohazard::HyperNav::NavAgent']]]
+  ['radius_0',['Radius',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_obstacle_base.html#a5675b24ad26bb0ad2385bde656402fc2',1,'Infohazard.HyperNav.AvoidanceObstacleBase.Radius()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#adc507de705148df11e0a1d382cfd2852',1,'Infohazard.HyperNav.IAvoidanceObstacle.Radius()']]],
+  ['raycasttangents_1',['RaycastTangents',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a65b4f34d1e7482fe7def31edc7776df4',1,'Infohazard::HyperNav::SplineNavAgent']]],
+  ['region_2',['Region',['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#add387df90a79715e86c618acb36a875a',1,'Infohazard::HyperNav::NavWaypoint']]],
+  ['regions_3',['Regions',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a0d3a7554528ea02a4928f8a6232470a7',1,'Infohazard::HyperNav::NavVolumeData']]],
+  ['remainingdistance_4',['RemainingDistance',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#add99eda9d3371d16db5eedce2a29c9e3',1,'Infohazard::HyperNav::NavAgent']]],
+  ['remainingdistanceafterspline_5',['RemainingDistanceAfterSpline',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a04d5986fc5aeabf60c8e921ddb05ad72',1,'Infohazard::HyperNav::SplineNavAgent']]],
+  ['remainingdistancetonextwaypoint_6',['RemainingDistanceToNextWaypoint',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ae66124339fb9712e4a8836611697bb92',1,'Infohazard::HyperNav::NavAgent']]],
+  ['repathatinterval_7',['RepathAtInterval',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a972f808f0243132ba4c154a5dc5fcb87',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['repathdistancethreshold_8',['RepathDistanceThreshold',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#ab614175bc1d605134586b3119675ce01',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['repathinterval_9',['RepathInterval',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a1559526bfd4860aa672f1aaa8ed56aa7',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['repathondestinationtransformmove_10',['RepathOnDestinationTransformMove',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a5e9c7de41f7ab7cd8cebabeb12c56128',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['repathonreachend_11',['RepathOnReachEnd',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#af387a408034df3d6c752b09da315920e',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['repathonreachenddistance_12',['RepathOnReachEndDistance',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a6106250572752ac50e96115cd687ba57',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['rigidbody_13',['Rigidbody',['../class_infohazard_1_1_hyper_nav_1_1_rigidbody_avoidance_obstacle.html#a7f9ffed5d53ffcd8d9ee38cf9431991a',1,'Infohazard.HyperNav.RigidbodyAvoidanceObstacle.Rigidbody()'],['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a5c86bc130bee0ae5e755603a92cbc43f',1,'Infohazard.HyperNav.NavAgent.Rigidbody()'],['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a55fb24ee1fbf3b99d0c61921048908b5',1,'Infohazard.HyperNav.SimpleNavAgentMover.Rigidbody()']]],
+  ['rotatebyslerp_14',['RotateBySlerp',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#acaeabbe243367274fad04ced4a639e6c',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['rotatemode_15',['RotateMode',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a09a5391c458da7f5c16141db4a512c67',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['rotationspeed_16',['RotationSpeed',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a7f284edad8b7890b15ea61474b600c9c',1,'Infohazard::HyperNav::SimpleNavAgentMover']]]
 ];

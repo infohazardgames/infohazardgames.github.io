@@ -1,9 +1,13 @@
 var searchData=
 [
-  ['radius_0',['Radius',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_obstacle_base.html#a5675b24ad26bb0ad2385bde656402fc2',1,'Infohazard.HyperNav.AvoidanceObstacleBase.Radius()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#adc507de705148df11e0a1d382cfd2852',1,'Infohazard.HyperNav.IAvoidanceObstacle.Radius()']]],
-  ['raycasttangents_1',['RaycastTangents',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a65b4f34d1e7482fe7def31edc7776df4',1,'Infohazard::HyperNav::SplineNavAgent']]],
-  ['region_2',['Region',['../struct_infohazard_1_1_hyper_nav_1_1_nav_hit.html#ad95e37d0e930426bb6ed625ea3f69185',1,'Infohazard::HyperNav::NavHit']]],
-  ['regions_3',['Regions',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a0d3a7554528ea02a4928f8a6232470a7',1,'Infohazard::HyperNav::NavVolumeData']]],
-  ['regiontrianglelists_4',['RegionTriangleLists',['../struct_infohazard_1_1_hyper_nav_1_1_editor_1_1_multi_region_mesh_info.html#a20bce45caf9ccc68f12a00bc79b1ea26',1,'Infohazard::HyperNav::Editor::MultiRegionMeshInfo']]],
-  ['rigidbody_5',['Rigidbody',['../class_infohazard_1_1_hyper_nav_1_1_rigidbody_avoidance_obstacle.html#a7f9ffed5d53ffcd8d9ee38cf9431991a',1,'Infohazard::HyperNav::RigidbodyAvoidanceObstacle']]]
+  ['pathfinder_0',['Pathfinder',['../class_infohazard_1_1_hyper_nav_1_1_nav_path.html#a6220a72921d794d7be08f1a9ae246c2c',1,'Infohazard::HyperNav::NavPath']]],
+  ['pathfindingmode_1',['PathfindingMode',['../class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#afd2fe4fb5d2945d2ae9b01ce59d45d5f',1,'Infohazard::HyperNav::NavPathfinder']]],
+  ['pathfindingparams_2',['PathfindingParams',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a14410f8e9a46e417086e6649ded09add',1,'Infohazard::HyperNav::NavAgent']]],
+  ['pathindexofsplineend_3',['PathIndexOfSplineEnd',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#aaf6185b680b842decf7ab0481834e6ae',1,'Infohazard::HyperNav::SplineNavAgent']]],
+  ['pathtighteningiterations_4',['PathTighteningIterations',['../class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder.html#aaafe2dc0dcf8ebd970d5b63eaa9c2ca7',1,'Infohazard::HyperNav::NavPathfinder']]],
+  ['pointcount_5',['PointCount',['../struct_infohazard_1_1_hyper_nav_1_1_spline_path.html#a1cc601c61ee4c4809054789ed91bc6dc',1,'Infohazard::HyperNav::SplinePath']]],
+  ['position_6',['Position',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_obstacle_base.html#a86f80b36220127c0ff098890d5a5cf19',1,'Infohazard.HyperNav.AvoidanceObstacleBase.Position()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#a705777165c4b38f54e5fd2b2648a55c7',1,'Infohazard.HyperNav.IAvoidanceObstacle.Position()'],['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a64d4b243b1a66dcbbdcfe0680768de8b',1,'Infohazard.HyperNav.NavWaypoint.Position()']]],
+  ['positionforsurface_7',['PositionForSurface',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a9867a28beb8063c33721a7c1516120b3',1,'Infohazard::HyperNav::NavAgent']]],
+  ['positionforvolume_8',['PositionForVolume',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a89063bb399b3478060c2ba1f84793113',1,'Infohazard::HyperNav::NavAgent']]],
+  ['previouswaypoint_9',['PreviousWaypoint',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ae09ede2b64b98418fb3cd1bb11621b80',1,'Infohazard::HyperNav::NavAgent']]]
 ];

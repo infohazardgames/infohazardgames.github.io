@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['acrosscentermidpoints_0',['AcrossCenterMidpoints',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_marching_cubes_tables.html#a69dd041b56709782b46b753d907c8214',1,'Infohazard::HyperNav::Editor::MarchingCubesTables']]],
-  ['agentindices_1',['AgentIndices',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_avoidance_job.html#a1026111a7a2aded8412ba63a3e92e363',1,'Infohazard::HyperNav::Jobs::AvoidanceJob']]],
-  ['allocator_2',['Allocator',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_unsafe_array_ptr.html#ad14fd66b8d98da48da039f67334e59ae',1,'Infohazard::HyperNav::Jobs::UnsafeArrayPtr']]],
-  ['avoidance_3',['Avoidance',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_avoidance_obstacle_data.html#a2454cb959a5dce545cb44ceb3b89ec4c',1,'Infohazard::HyperNav::Jobs::NativeAvoidanceObstacleData']]],
-  ['avoidancevelocities_4',['AvoidanceVelocities',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_avoidance_job.html#a70dae8ba2d58a8a5c2f5952bfaca42cd',1,'Infohazard::HyperNav::Jobs::AvoidanceJob']]],
-  ['avoidedtags_5',['AvoidedTags',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_avoidance_obstacle_data.html#a249c7c5d0e5703e4a8031684d2c12030',1,'Infohazard::HyperNav::Jobs::NativeAvoidanceObstacleData']]]
+  ['bakehandlers_0',['BakeHandlers',['../class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#aa1743614cde85d560853c74d6d6b9a28',1,'Infohazard::HyperNav::Editor::EditorNavAreaBakingUtility']]],
+  ['blockingtriangleindexcount_1',['BlockingTriangleIndexCount',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_data.html#a3476cd66cb6b50734fb9ad2e021331cd',1,'Infohazard::HyperNav::Jobs::Utility::NativeNavVolumeData']]],
+  ['boundplanerange_2',['BoundPlaneRange',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_region_data.html#ac4c5f0fbc17f215067b502b4e56222fa',1,'Infohazard::HyperNav::Jobs::Utility::NativeNavVolumeRegionData']]],
+  ['boundplanes_3',['BoundPlanes',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_data.html#a7665e8dd0723b6937273d73b3245f9ba',1,'Infohazard::HyperNav::Jobs::Utility::NativeNavVolumeData']]],
+  ['bounds_4',['Bounds',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_data.html#a41a792336075f23d385875733ce68b90',1,'Infohazard.HyperNav.Jobs.Utility.NativeNavVolumeData.Bounds()'],['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_region_data.html#ac377da02423867ead9a346ccf716db42',1,'Infohazard.HyperNav.Jobs.Utility.NativeNavVolumeRegionData.Bounds()']]]
 ];

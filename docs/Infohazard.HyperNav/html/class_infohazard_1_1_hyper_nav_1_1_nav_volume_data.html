@@ -26,9 +26,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.5</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
    </div>
-   <div id="projectbrief">3D Navigation for Flying Characters</div>
+   <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
  </tr>
  </tbody>
@@ -94,7 +94,6 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Infohazard.HyperNav.NavVolumeData Class Reference</div></div>
 </div><!--header-->
@@ -105,18 +104,18 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_nav
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab595bae376a29019aae12fc37aa84711"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ab595bae376a29019aae12fc37aa84711">Populate</a> (Vector3[] vertices, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html">NavRegionData</a>[] regions, int[] blockingTriangleIndices)</td></tr>
-<tr class="memdesc:ab595bae376a29019aae12fc37aa84711"><td class="mdescLeft">&#160;</td><td class="mdescRight">Populate the properties of this <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ab595bae376a29019aae12fc37aa84711">More...</a><br /></td></tr>
-<tr class="separator:ab595bae376a29019aae12fc37aa84711"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac090cc211dae9acae6153522baab365f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ac090cc211dae9acae6153522baab365f">MarkExternalLinksLocalSpace</a> ()</td></tr>
-<tr class="memdesc:ac090cc211dae9acae6153522baab365f"><td class="mdescLeft">&#160;</td><td class="mdescRight">After updating external links, mark them as being in local space.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ac090cc211dae9acae6153522baab365f">More...</a><br /></td></tr>
-<tr class="separator:ac090cc211dae9acae6153522baab365f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9b255698a5a7c60689216518d534bbf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ae9b255698a5a7c60689216518d534bbf">UpdateData</a> (Vector3[] vertices, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html">NavRegionData</a>[] regions, int[] triangleIndices, int blockingTriangleIndexCount, <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>[] internalLinks, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html">NativePlane</a>[] boundPlanes, int[] linkVertices, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>[] linkEdges, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a>[] linkTriangles)</td></tr>
+<tr class="memdesc:ae9b255698a5a7c60689216518d534bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the data manually.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ae9b255698a5a7c60689216518d534bbf">More...</a><br /></td></tr>
+<tr class="separator:ae9b255698a5a7c60689216518d534bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf1123b3fdbf8eb0c5099869814c9c32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#abf1123b3fdbf8eb0c5099869814c9c32">Clear</a> ()</td></tr>
 <tr class="memdesc:abf1123b3fdbf8eb0c5099869814c9c32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the properties of this <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a>.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#abf1123b3fdbf8eb0c5099869814c9c32">More...</a><br /></td></tr>
 <tr class="separator:abf1123b3fdbf8eb0c5099869814c9c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae311439ca63611a1d1994faa16094777"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ae311439ca63611a1d1994faa16094777">ToInternalData</a> (<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html">NavVolume</a> volume, out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html">NativeNavVolumeData</a> data, out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_data_internal_pointers.html">NavDataInternalPointers</a> pointers)</td></tr>
-<tr class="memdesc:ae311439ca63611a1d1994faa16094777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert this <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a> to the native format so that it can be used by jobs.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ae311439ca63611a1d1994faa16094777">More...</a><br /></td></tr>
-<tr class="separator:ae311439ca63611a1d1994faa16094777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4f36f6f0fe00d0f3725eca9165a25e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ac4f36f6f0fe00d0f3725eca9165a25e6">UpdateFromNativeData</a> (in <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_data.html">NativeNavVolumeData</a> data)</td></tr>
+<tr class="memdesc:ac4f36f6f0fe00d0f3725eca9165a25e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update this volume data from the given native data.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ac4f36f6f0fe00d0f3725eca9165a25e6">More...</a><br /></td></tr>
+<tr class="separator:ac4f36f6f0fe00d0f3725eca9165a25e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50089dd72e4c205f27672cb201b29f8f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a50089dd72e4c205f27672cb201b29f8f">ToNativeData</a> (INavArea area, out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_data.html">NativeNavVolumeData</a> data, out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_native_nav_volume_data_pointers.html">NativeNavVolumeDataPointers</a> pointers)</td></tr>
+<tr class="memdesc:a50089dd72e4c205f27672cb201b29f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert this <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a> to the native format so that it can be used by jobs.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a50089dd72e4c205f27672cb201b29f8f">More...</a><br /></td></tr>
+<tr class="separator:a50089dd72e4c205f27672cb201b29f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -126,27 +125,30 @@ Properties</h2></td></tr>
 <tr class="memitem:a0d3a7554528ea02a4928f8a6232470a7"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html">NavRegionData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a0d3a7554528ea02a4928f8a6232470a7">Regions</a><code> [get]</code></td></tr>
 <tr class="memdesc:a0d3a7554528ea02a4928f8a6232470a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The regions of the volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a0d3a7554528ea02a4928f8a6232470a7">More...</a><br /></td></tr>
 <tr class="separator:a0d3a7554528ea02a4928f8a6232470a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade2ac755a7a041c4ad41c92c29618c61"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ade2ac755a7a041c4ad41c92c29618c61">BlockingTriangleIndices</a><code> [get]</code></td></tr>
-<tr class="memdesc:ade2ac755a7a041c4ad41c92c29618c61"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vertex indices of triangles that define impassible space in the volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ade2ac755a7a041c4ad41c92c29618c61">More...</a><br /></td></tr>
-<tr class="separator:ade2ac755a7a041c4ad41c92c29618c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa53163dff1c05f1db8363e4589579505"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#aa53163dff1c05f1db8363e4589579505">ExternalLinksAreLocalSpace</a><code> [get]</code></td></tr>
-<tr class="memdesc:aa53163dff1c05f1db8363e4589579505"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the external links are in local space (false = world space).   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#aa53163dff1c05f1db8363e4589579505">More...</a><br /></td></tr>
-<tr class="separator:aa53163dff1c05f1db8363e4589579505"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:af201c49315ba85465384b041336497d8"><td class="memItemLeft" align="right" valign="top">Vector3[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af201c49315ba85465384b041336497d8">_vertices</a></td></tr>
-<tr class="memdesc:af201c49315ba85465384b041336497d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The vertex positions of all of the volume's regions, in local space.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af201c49315ba85465384b041336497d8">More...</a><br /></td></tr>
-<tr class="separator:af201c49315ba85465384b041336497d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a878eb9ab071d27db9a5f7700cbc2cc53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html">NavRegionData</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a878eb9ab071d27db9a5f7700cbc2cc53">_regions</a></td></tr>
-<tr class="memdesc:a878eb9ab071d27db9a5f7700cbc2cc53"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The regions of the volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a878eb9ab071d27db9a5f7700cbc2cc53">More...</a><br /></td></tr>
-<tr class="separator:a878eb9ab071d27db9a5f7700cbc2cc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8401b6db89902e57c4e6233676dfc42"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ac8401b6db89902e57c4e6233676dfc42">_blockingTriangleIndices</a></td></tr>
-<tr class="memdesc:ac8401b6db89902e57c4e6233676dfc42"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) The vertex indices of triangles that define impassible space in the volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ac8401b6db89902e57c4e6233676dfc42">More...</a><br /></td></tr>
-<tr class="separator:ac8401b6db89902e57c4e6233676dfc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d04f34a168219cab3141b842c32788a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a3d04f34a168219cab3141b842c32788a">_externalLinksAreLocalSpace</a></td></tr>
-<tr class="memdesc:a3d04f34a168219cab3141b842c32788a"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Serialized) Whether the external links are in local space (false = world space).   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a3d04f34a168219cab3141b842c32788a">More...</a><br /></td></tr>
-<tr class="separator:a3d04f34a168219cab3141b842c32788a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4dbd380b7b970b741daaa29f40a791c"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af4dbd380b7b970b741daaa29f40a791c">TriangleIndices</a><code> [get]</code></td></tr>
+<tr class="memdesc:af4dbd380b7b970b741daaa29f40a791c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vertex indices of triangles.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af4dbd380b7b970b741daaa29f40a791c">More...</a><br /></td></tr>
+<tr class="separator:af4dbd380b7b970b741daaa29f40a791c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1d161f783c4dd71ebb36572d8b62255"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ad1d161f783c4dd71ebb36572d8b62255">BlockingTriangleIndexCount</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad1d161f783c4dd71ebb36572d8b62255"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of indices in the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af4dbd380b7b970b741daaa29f40a791c" title="The vertex indices of triangles.">TriangleIndices</a> array that represent blocking triangles.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#ad1d161f783c4dd71ebb36572d8b62255">More...</a><br /></td></tr>
+<tr class="separator:ad1d161f783c4dd71ebb36572d8b62255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455998e8906a7added8d569ddb58a55d"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html">NativePlane</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a455998e8906a7added8d569ddb58a55d">BoundPlanes</a><code> [get]</code></td></tr>
+<tr class="memdesc:a455998e8906a7added8d569ddb58a55d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bound planes of all of the volume's regions.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a455998e8906a7added8d569ddb58a55d">More...</a><br /></td></tr>
+<tr class="separator:a455998e8906a7added8d569ddb58a55d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bbd6bfa0a334e715acdb32937d55776"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a8bbd6bfa0a334e715acdb32937d55776">InternalLinks</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8bbd6bfa0a334e715acdb32937d55776"><td class="mdescLeft">&#160;</td><td class="mdescRight">The internal links of all of the volume's regions.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a8bbd6bfa0a334e715acdb32937d55776">More...</a><br /></td></tr>
+<tr class="separator:a8bbd6bfa0a334e715acdb32937d55776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db7b3d728a911b9354891c7cd1f3745"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a4db7b3d728a911b9354891c7cd1f3745">LinkVertices</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4db7b3d728a911b9354891c7cd1f3745"><td class="mdescLeft">&#160;</td><td class="mdescRight">The shared vertices of all of the volume's internal links.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a4db7b3d728a911b9354891c7cd1f3745">More...</a><br /></td></tr>
+<tr class="separator:a4db7b3d728a911b9354891c7cd1f3745"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8db5a679c6bf280ccd0533fe13b73c94"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a8db5a679c6bf280ccd0533fe13b73c94">LinkEdges</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8db5a679c6bf280ccd0533fe13b73c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">The shared edges of all of the volume's internal links.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a8db5a679c6bf280ccd0533fe13b73c94">More...</a><br /></td></tr>
+<tr class="separator:a8db5a679c6bf280ccd0533fe13b73c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b56aec41c6960874ad7e9a985876cee"><td class="memItemLeft" align="right" valign="top">IReadOnlyList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a5b56aec41c6960874ad7e9a985876cee">LinkTriangles</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5b56aec41c6960874ad7e9a985876cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">The shared triangles of all of the volume's internal links.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a5b56aec41c6960874ad7e9a985876cee">More...</a><br /></td></tr>
+<tr class="separator:a5b56aec41c6960874ad7e9a985876cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68cbd3b885c9e5a146cc53caa9c0548e"><td class="memItemLeft" align="right" valign="top">ulong&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a68cbd3b885c9e5a146cc53caa9c0548e">Version</a><code> [get]</code></td></tr>
+<tr class="memdesc:a68cbd3b885c9e5a146cc53caa9c0548e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The version of the data, which increments when it is baked.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a68cbd3b885c9e5a146cc53caa9c0548e">More...</a><br /></td></tr>
+<tr class="separator:a68cbd3b885c9e5a146cc53caa9c0548e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The baked data of a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a>, saved as an asset.  </p>
@@ -170,33 +172,58 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac090cc211dae9acae6153522baab365f" name="ac090cc211dae9acae6153522baab365f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac090cc211dae9acae6153522baab365f">&#9670;&#160;</a></span>MarkExternalLinksLocalSpace()</h2>
+<a id="a50089dd72e4c205f27672cb201b29f8f" name="a50089dd72e4c205f27672cb201b29f8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50089dd72e4c205f27672cb201b29f8f">&#9670;&#160;</a></span>ToNativeData()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Infohazard.HyperNav.NavVolumeData.MarkExternalLinksLocalSpace </td>
+          <td class="memname">bool Infohazard.HyperNav.NavVolumeData.ToNativeData </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">INavArea&#160;</td>
+          <td class="paramname"><em>area</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_data.html">NativeNavVolumeData</a>&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_native_nav_volume_data_pointers.html">NativeNavVolumeDataPointers</a>&#160;</td>
+          <td class="paramname"><em>pointers</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>After updating external links, mark them as being in local space.  </p>
+<p>Convert this <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a> to the native format so that it can be used by jobs.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">area</td><td>Area that owns the data.</td></tr>
+    <tr><td class="paramname">data</td><td>Created native data.</td></tr>
+    <tr><td class="paramname">pointers</td><td>Created data structure references (must be kept in order to deallocate).</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a id="ab595bae376a29019aae12fc37aa84711" name="ab595bae376a29019aae12fc37aa84711"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab595bae376a29019aae12fc37aa84711">&#9670;&#160;</a></span>Populate()</h2>
+<a id="ae9b255698a5a7c60689216518d534bbf" name="ae9b255698a5a7c60689216518d534bbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9b255698a5a7c60689216518d534bbf">&#9670;&#160;</a></span>UpdateData()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Infohazard.HyperNav.NavVolumeData.Populate </td>
+          <td class="memname">void Infohazard.HyperNav.NavVolumeData.UpdateData </td>
           <td>(</td>
           <td class="paramtype">Vector3[]&#160;</td>
           <td class="paramname"><em>vertices</em>, </td>
@@ -211,7 +238,43 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int[]&#160;</td>
-          <td class="paramname"><em>blockingTriangleIndices</em>&#160;</td>
+          <td class="paramname"><em>triangleIndices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>blockingTriangleIndexCount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>[]&#160;</td>
+          <td class="paramname"><em>internalLinks</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html">NativePlane</a>[]&#160;</td>
+          <td class="paramname"><em>boundPlanes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>linkVertices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>[]&#160;</td>
+          <td class="paramname"><em>linkEdges</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a>[]&#160;</td>
+          <td class="paramname"><em>linkTriangles</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -221,162 +284,47 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Populate the properties of this <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a>.  </p>
+<p>Update the data manually.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">vertices</td><td>Vertex positions of the volume's regions.</td></tr>
-    <tr><td class="paramname">regions</td><td>Regions of the volume.</td></tr>
-    <tr><td class="paramname">blockingTriangleIndices</td><td>Indices of triangles that define impassible space.</td></tr>
+    <tr><td class="paramname">vertices</td><td>The vertex positions of all of the volume's regions, in local space.</td></tr>
+    <tr><td class="paramname">regions</td><td>The regions of the volume.</td></tr>
+    <tr><td class="paramname">triangleIndices</td><td>The vertex indices of triangles.</td></tr>
+    <tr><td class="paramname">blockingTriangleIndexCount</td><td>The number of indices that represent blocking triangles.</td></tr>
+    <tr><td class="paramname">internalLinks</td><td>The internal links of all of the volume's regions.</td></tr>
+    <tr><td class="paramname">boundPlanes</td><td>The bound planes of all of the volume's regions.</td></tr>
+    <tr><td class="paramname">linkVertices</td><td>The shared vertices of all of the volume's internal links.</td></tr>
+    <tr><td class="paramname">linkEdges</td><td>The shared edges of all of the volume's internal links.</td></tr>
+    <tr><td class="paramname">linkTriangles</td><td>The shared triangles of all of the volume's internal links.</td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="ae311439ca63611a1d1994faa16094777" name="ae311439ca63611a1d1994faa16094777"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae311439ca63611a1d1994faa16094777">&#9670;&#160;</a></span>ToInternalData()</h2>
+<a id="ac4f36f6f0fe00d0f3725eca9165a25e6" name="ac4f36f6f0fe00d0f3725eca9165a25e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4f36f6f0fe00d0f3725eca9165a25e6">&#9670;&#160;</a></span>UpdateFromNativeData()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Infohazard.HyperNav.NavVolumeData.ToInternalData </td>
+          <td class="memname">void Infohazard.HyperNav.NavVolumeData.UpdateFromNativeData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html">NavVolume</a>&#160;</td>
-          <td class="paramname"><em>volume</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">in <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_data.html">NativeNavVolumeData</a>&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html">NativeNavVolumeData</a>&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_data_internal_pointers.html">NavDataInternalPointers</a>&#160;</td>
-          <td class="paramname"><em>pointers</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Convert this <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a> to the native format so that it can be used by jobs.  </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">volume</td><td>Volume that owns this data.</td></tr>
-    <tr><td class="paramname">data</td><td>Created native data.</td></tr>
-    <tr><td class="paramname">pointers</td><td>Created data structure references (must be kept in order to deallocate).</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac8401b6db89902e57c4e6233676dfc42" name="ac8401b6db89902e57c4e6233676dfc42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8401b6db89902e57c4e6233676dfc42">&#9670;&#160;</a></span>_blockingTriangleIndices</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int [] Infohazard.HyperNav.NavVolumeData._blockingTriangleIndices</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The vertex indices of triangles that define impassible space in the volume.  </p>
-
-</div>
-</div>
-<a id="a3d04f34a168219cab3141b842c32788a" name="a3d04f34a168219cab3141b842c32788a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d04f34a168219cab3141b842c32788a">&#9670;&#160;</a></span>_externalLinksAreLocalSpace</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Infohazard.HyperNav.NavVolumeData._externalLinksAreLocalSpace</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) Whether the external links are in local space (false = world space).  </p>
-
-</div>
-</div>
-<a id="a878eb9ab071d27db9a5f7700cbc2cc53" name="a878eb9ab071d27db9a5f7700cbc2cc53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a878eb9ab071d27db9a5f7700cbc2cc53">&#9670;&#160;</a></span>_regions</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html">NavRegionData</a> [] Infohazard.HyperNav.NavVolumeData._regions</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The regions of the volume.  </p>
-
-</div>
-</div>
-<a id="af201c49315ba85465384b041336497d8" name="af201c49315ba85465384b041336497d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af201c49315ba85465384b041336497d8">&#9670;&#160;</a></span>_vertices</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector3 [] Infohazard.HyperNav.NavVolumeData._vertices</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>(Serialized) The vertex positions of all of the volume's regions, in local space.  </p>
+<p>Update this volume data from the given native data.  </p>
 
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="ade2ac755a7a041c4ad41c92c29618c61" name="ade2ac755a7a041c4ad41c92c29618c61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade2ac755a7a041c4ad41c92c29618c61">&#9670;&#160;</a></span>BlockingTriangleIndices</h2>
+<a id="ad1d161f783c4dd71ebb36572d8b62255" name="ad1d161f783c4dd71ebb36572d8b62255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1d161f783c4dd71ebb36572d8b62255">&#9670;&#160;</a></span>BlockingTriangleIndexCount</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,7 +333,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">IReadOnlyList&lt;int&gt; Infohazard.HyperNav.NavVolumeData.BlockingTriangleIndices</td>
+          <td class="memname">int Infohazard.HyperNav.NavVolumeData.BlockingTriangleIndexCount</td>
         </tr>
       </table>
   </td>
@@ -395,12 +343,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The vertex indices of triangles that define impassible space in the volume.  </p>
+<p>The number of indices in the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af4dbd380b7b970b741daaa29f40a791c" title="The vertex indices of triangles.">TriangleIndices</a> array that represent blocking triangles.  </p>
 
 </div>
 </div>
-<a id="aa53163dff1c05f1db8363e4589579505" name="aa53163dff1c05f1db8363e4589579505"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa53163dff1c05f1db8363e4589579505">&#9670;&#160;</a></span>ExternalLinksAreLocalSpace</h2>
+<a id="a455998e8906a7added8d569ddb58a55d" name="a455998e8906a7added8d569ddb58a55d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455998e8906a7added8d569ddb58a55d">&#9670;&#160;</a></span>BoundPlanes</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -409,7 +357,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Infohazard.HyperNav.NavVolumeData.ExternalLinksAreLocalSpace</td>
+          <td class="memname">IReadOnlyList&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html">NativePlane</a>&gt; Infohazard.HyperNav.NavVolumeData.BoundPlanes</td>
         </tr>
       </table>
   </td>
@@ -419,7 +367,103 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Whether the external links are in local space (false = world space).  </p>
+<p>The bound planes of all of the volume's regions.  </p>
+
+</div>
+</div>
+<a id="a8bbd6bfa0a334e715acdb32937d55776" name="a8bbd6bfa0a334e715acdb32937d55776"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bbd6bfa0a334e715acdb32937d55776">&#9670;&#160;</a></span>InternalLinks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html">NavInternalLinkData</a>&gt; Infohazard.HyperNav.NavVolumeData.InternalLinks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The internal links of all of the volume's regions.  </p>
+
+</div>
+</div>
+<a id="a8db5a679c6bf280ccd0533fe13b73c94" name="a8db5a679c6bf280ccd0533fe13b73c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8db5a679c6bf280ccd0533fe13b73c94">&#9670;&#160;</a></span>LinkEdges</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_edge.html">Edge</a>&gt; Infohazard.HyperNav.NavVolumeData.LinkEdges</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The shared edges of all of the volume's internal links.  </p>
+
+</div>
+</div>
+<a id="a5b56aec41c6960874ad7e9a985876cee" name="a5b56aec41c6960874ad7e9a985876cee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b56aec41c6960874ad7e9a985876cee">&#9670;&#160;</a></span>LinkTriangles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_triangle.html">Triangle</a>&gt; Infohazard.HyperNav.NavVolumeData.LinkTriangles</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The shared triangles of all of the volume's internal links.  </p>
+
+</div>
+</div>
+<a id="a4db7b3d728a911b9354891c7cd1f3745" name="a4db7b3d728a911b9354891c7cd1f3745"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4db7b3d728a911b9354891c7cd1f3745">&#9670;&#160;</a></span>LinkVertices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;int&gt; Infohazard.HyperNav.NavVolumeData.LinkVertices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The shared vertices of all of the volume's internal links.  </p>
 
 </div>
 </div>
@@ -444,6 +488,54 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The regions of the volume.  </p>
+
+</div>
+</div>
+<a id="af4dbd380b7b970b741daaa29f40a791c" name="af4dbd380b7b970b741daaa29f40a791c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4dbd380b7b970b741daaa29f40a791c">&#9670;&#160;</a></span>TriangleIndices</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;int&gt; Infohazard.HyperNav.NavVolumeData.TriangleIndices</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The vertex indices of triangles.  </p>
+
+</div>
+</div>
+<a id="a68cbd3b885c9e5a146cc53caa9c0548e" name="a68cbd3b885c9e5a146cc53caa9c0548e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68cbd3b885c9e5a146cc53caa9c0548e">&#9670;&#160;</a></span>Version</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ulong Infohazard.HyperNav.NavVolumeData.Version</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The version of the data, which increments when it is baked.  </p>
 
 </div>
 </div>

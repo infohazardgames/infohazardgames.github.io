@@ -1,15 +1,21 @@
 var searchData=
 [
   ['accelerationestimate_0',['AccelerationEstimate',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ab17eaa990c787a25dfb06e73537b0c88',1,'Infohazard::HyperNav::NavAgent']]],
-  ['acceptance_1',['Acceptance',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a9f38608c0fa3ffd766c757d6e8d2c15a',1,'Infohazard::HyperNav::NavAgent']]],
-  ['allagents_2',['AllAgents',['../class_infohazard_1_1_hyper_nav_1_1_avoidance.html#ad114a6fd9585f955f67566ddff5e9327',1,'Infohazard::HyperNav::Avoidance']]],
-  ['allobstacles_3',['AllObstacles',['../class_infohazard_1_1_hyper_nav_1_1_avoidance.html#a2296bed6debd88db4164ab572c3547fe',1,'Infohazard::HyperNav::Avoidance']]],
-  ['arrived_4',['Arrived',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a205558ab9973e02638069ea8b1fd6485',1,'Infohazard::HyperNav::NavAgent']]],
-  ['autodetectmovement_5',['AutoDetectMovement',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#ae7c87885a7b1309b66b338a1f4691759',1,'Infohazard::HyperNav::NavVolume']]],
-  ['avoidanceagent_6',['AvoidanceAgent',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#af0fe24b6c463166065c1fbe47e159574',1,'Infohazard::HyperNav::NavAgent']]],
-  ['avoidancemaxspeed_7',['AvoidanceMaxSpeed',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a5ae336051f94109e092f06b7d26ea9a4',1,'Infohazard::HyperNav::NavAgent']]],
-  ['avoidancepadding_8',['AvoidancePadding',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#afb73d25a1b706cf4c828efe1d5765b89',1,'Infohazard.HyperNav.AvoidanceAgent.AvoidancePadding()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html#a298e38bcc3e0a1fbeb90fec742340f6c',1,'Infohazard.HyperNav.IAvoidanceAgent.AvoidancePadding()']]],
-  ['avoidancevelocity_9',['AvoidanceVelocity',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#a694c29450b1e021948f02da320b81e4e',1,'Infohazard.HyperNav.AvoidanceAgent.AvoidanceVelocity()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html#a2c8f812ee3eefadfbdce10780d1873e8',1,'Infohazard.HyperNav.IAvoidanceAgent.AvoidanceVelocity()']]],
-  ['avoidanceweight_10',['AvoidanceWeight',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#ac6b09cf43c908f4238b647908e5e59f2',1,'Infohazard.HyperNav.AvoidanceAgent.AvoidanceWeight()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html#a34d1bee7347204321dbcb81c61b08c4b',1,'Infohazard.HyperNav.IAvoidanceAgent.AvoidanceWeight()']]],
-  ['avoidedtags_11',['AvoidedTags',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#a3c9e493165ef543b118c68a4b2156959',1,'Infohazard.HyperNav.AvoidanceAgent.AvoidedTags()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html#a86df6d2dcf8b5c441a6c93f279c93b8d',1,'Infohazard.HyperNav.IAvoidanceAgent.AvoidedTags()']]]
+  ['accelerationinvolume_1',['AccelerationInVolume',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a5ac6d1cd9de223a5d5039a450c1a9753',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['accelerationonsurface_2',['AccelerationOnSurface',['../class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a8c0b2df0db96eb5dbea8ef5c7dd0063a',1,'Infohazard::HyperNav::SimpleNavAgentMover']]],
+  ['acceptance_3',['Acceptance',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a9f38608c0fa3ffd766c757d6e8d2c15a',1,'Infohazard::HyperNav::NavAgent']]],
+  ['accumulateddistance_4',['AccumulatedDistance',['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a89bc016275b0e28213323b3f224cb38b',1,'Infohazard::HyperNav::NavWaypoint']]],
+  ['advancepredicate_5',['AdvancePredicate',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ae9af13dc42345077e14646fb82df3900',1,'Infohazard::HyperNav::NavAgent']]],
+  ['allagents_6',['AllAgents',['../class_infohazard_1_1_hyper_nav_1_1_avoidance.html#ad114a6fd9585f955f67566ddff5e9327',1,'Infohazard::HyperNav::Avoidance']]],
+  ['allobstacles_7',['AllObstacles',['../class_infohazard_1_1_hyper_nav_1_1_avoidance.html#a2296bed6debd88db4164ab572c3547fe',1,'Infohazard::HyperNav::Avoidance']]],
+  ['area_8',['Area',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_nav_sample_result.html#abd7ffa8db88514387893e23019a29beb',1,'Infohazard::HyperNav::Jobs::Utility::NavSampleResult']]],
+  ['areaid_9',['AreaID',['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a56923c89b528a692b2404213455c3ffa',1,'Infohazard::HyperNav::NavWaypoint']]],
+  ['areatypemask_10',['AreaTypeMask',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a0439f8a9692b3918a774297a5269ff7a',1,'Infohazard::HyperNav::NavAgent']]],
+  ['arrived_11',['Arrived',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a205558ab9973e02638069ea8b1fd6485',1,'Infohazard::HyperNav::NavAgent']]],
+  ['avoidanceagent_12',['AvoidanceAgent',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#af0fe24b6c463166065c1fbe47e159574',1,'Infohazard::HyperNav::NavAgent']]],
+  ['avoidancemaxspeed_13',['AvoidanceMaxSpeed',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a5ae336051f94109e092f06b7d26ea9a4',1,'Infohazard::HyperNav::NavAgent']]],
+  ['avoidancepadding_14',['AvoidancePadding',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#afb73d25a1b706cf4c828efe1d5765b89',1,'Infohazard.HyperNav.AvoidanceAgent.AvoidancePadding()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html#a298e38bcc3e0a1fbeb90fec742340f6c',1,'Infohazard.HyperNav.IAvoidanceAgent.AvoidancePadding()']]],
+  ['avoidancevelocity_15',['AvoidanceVelocity',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#a694c29450b1e021948f02da320b81e4e',1,'Infohazard.HyperNav.AvoidanceAgent.AvoidanceVelocity()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html#a2c8f812ee3eefadfbdce10780d1873e8',1,'Infohazard.HyperNav.IAvoidanceAgent.AvoidanceVelocity()']]],
+  ['avoidanceweight_16',['AvoidanceWeight',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#ac6b09cf43c908f4238b647908e5e59f2',1,'Infohazard.HyperNav.AvoidanceAgent.AvoidanceWeight()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html#a34d1bee7347204321dbcb81c61b08c4b',1,'Infohazard.HyperNav.IAvoidanceAgent.AvoidanceWeight()']]],
+  ['avoidedtags_17',['AvoidedTags',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html#a3c9e493165ef543b118c68a4b2156959',1,'Infohazard.HyperNav.AvoidanceAgent.AvoidedTags()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html#a86df6d2dcf8b5c441a6c93f279c93b8d',1,'Infohazard.HyperNav.IAvoidanceAgent.AvoidedTags()']]]
 ];

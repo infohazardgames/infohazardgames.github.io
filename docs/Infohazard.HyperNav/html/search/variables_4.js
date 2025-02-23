@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['debug_0',['Debug',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_avoidance_obstacle_data.html#a8194947ee2a9d730f56fdbe4efc8630b',1,'Infohazard::HyperNav::Jobs::NativeAvoidanceObstacleData']]],
-  ['debugprojection_1',['DebugProjection',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_spline_project_job.html#a459b24f8d4989085b8f820127beffe94',1,'Infohazard::HyperNav::Jobs::SplineProjectJob']]],
-  ['deltatime_2',['DeltaTime',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_avoidance_job.html#a248f45c9e649308a0b51d93ccb5883cb',1,'Infohazard::HyperNav::Jobs::AvoidanceJob']]],
-  ['direction_3',['Direction',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_ray.html#a777181efb5e0074142fb9b0fad9a8179',1,'Infohazard::HyperNav::Jobs::NativeRay']]],
-  ['distance_4',['Distance',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_plane.html#a49cace0dd7894441c497502efa950102',1,'Infohazard::HyperNav::Jobs::NativePlane']]]
+  ['edgerange_0',['EdgeRange',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_internal_link_data.html#afe55a1a5bf1431939fa9ebddad8fa391',1,'Infohazard::HyperNav::Jobs::Utility::NativeNavVolumeInternalLinkData']]],
+  ['edgetovertexindextable_1',['EdgeToVertexIndexTable',['../class_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_marching_cubes_tables.html#a8c15a0a245aa6d69e593e4f0b0f76e0a',1,'Infohazard::HyperNav::Jobs::Utility::MarchingCubesTables']]],
+  ['end_2',['End',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_raycast_job.html#a698cc31f0d752f28fbd457cbb8b6096c',1,'Infohazard.HyperNav.Jobs.NavRaycastJob.End()'],['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_raycast_element.html#ab61a241558b5dddba393a2954147f30c',1,'Infohazard.HyperNav.Jobs.NativeRaycastElement.End()']]],
+  ['endhit_3',['EndHit',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#aa436c9f546bc2f55392d312e03022bc5',1,'Infohazard::HyperNav::Jobs::NavPathJob']]],
+  ['extents_4',['Extents',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_bounds.html#a437ba0bfba8701d27ec1d5ebbd6dfab0',1,'Infohazard::HyperNav::Jobs::Utility::NativeBounds']]],
+  ['externallinkrange_5',['ExternalLinkRange',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_region_data.html#a1fc4663a61de2f56d69792a05b45bfbc',1,'Infohazard::HyperNav::Jobs::Utility::NativeNavVolumeRegionData']]],
+  ['externallinks_6',['ExternalLinks',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_data.html#a4a4840ceff542edab12d7d502c843b83',1,'Infohazard::HyperNav::Jobs::Utility::NativeNavVolumeData']]]
 ];

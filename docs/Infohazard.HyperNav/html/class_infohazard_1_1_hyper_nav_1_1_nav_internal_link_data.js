@@ -1,12 +1,11 @@
 var class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data =
 [
-    [ "Create", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#af22974933860eb308a0ad56e59a5d866", null ],
-    [ "_connectedRegionID", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a22b5505b0f49e17da281556f1d725431", null ],
-    [ "_edges", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#ac5a7a41136940caec53878b4afd90660", null ],
-    [ "_triangles", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#aa5511ea19e062b627ed1109acf79cc43", null ],
-    [ "_vertices", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#aed9c9dbe56477a5eb9276bc49f94d18b", null ],
+    [ "NavInternalLinkData", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a775f8944ac20ff4930b69989e59b488e", null ],
+    [ "NavInternalLinkData", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a9fd57b73d9b0744b3cdffcbfb7cccc83", null ],
+    [ "NavInternalLinkData", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a4c64eb569e0e1be17ca05b11328729a5", null ],
+    [ "ToNativeData", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a838d45d21902e1518eccbce62a2a1b1e", null ],
     [ "ConnectedRegionID", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a33c335305edda02085c7996b46bef829", null ],
-    [ "Edges", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a05f50ac001af95de5598b3a39fdbf4fa", null ],
-    [ "Triangles", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a717c627877f7db408f45cfeb9648ad68", null ],
-    [ "Vertices", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a5327e203620e2a3fde29287ecc6adfca", null ]
+    [ "EdgeRange", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a7548b7b959cd189695651b75e01d3ea3", null ],
+    [ "TriangleRange", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a6bc8cac35e59208df939da59f97dee73", null ],
+    [ "VertexRange", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#adc7d22ad7e36ecf6fcd778177f8ed53d", null ]
 ];

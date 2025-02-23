@@ -1,7 +1,13 @@
 var searchData=
 [
-  ['updatemode_0',['UpdateMode',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a16dbf39ab713903f6a5f6443cb568400',1,'Infohazard::HyperNav::AvoidanceManager']]],
-  ['usejob_1',['UseJob',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a7055808228861f8f0db0e728b3faa024',1,'Infohazard::HyperNav::AvoidanceManager']]],
-  ['usemultithreading_2',['UseMultithreading',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a1a25659fb8671351d4862df90a5a67c2',1,'Infohazard::HyperNav::NavVolume']]],
-  ['usestartlocations_3',['UseStartLocations',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a57a3ca51536f778c0ab267589dbaa7a4',1,'Infohazard::HyperNav::NavVolume']]]
+  ['tagmask_0',['TagMask',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_obstacle_base.html#a2eb39cb277a3e5ff90ccd48a5f403107',1,'Infohazard.HyperNav.AvoidanceObstacleBase.TagMask()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#a2d93789db6a50b9e8ebac16165d9dbc1',1,'Infohazard.HyperNav.IAvoidanceObstacle.TagMask()']]],
+  ['tangentscale_1',['TangentScale',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a6937912758a91829fd3a9ae582014956',1,'Infohazard::HyperNav::SplineNavAgent']]],
+  ['this_5bint_20index_5d_2',['this[int index]',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_fast3_d_array.html#adec77bb726e5b3683ac97ccc24d70dec',1,'Infohazard.HyperNav.Jobs.Utility.Fast3DArray.this[int index]()'],['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_int_list2.html#a88072c857431a7c71e9a9ed6d22a984e',1,'Infohazard.HyperNav.Jobs.Utility.IntList2.this[int index]()'],['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_unsafe_array.html#a66d3d0e608f914037849701ad021af4e',1,'Infohazard.HyperNav.Jobs.Utility.UnsafeArray.this[int index]()']]],
+  ['this_5bint_20x_2c_20int_20y_2c_20int_20z_5d_3',['this[int x, int y, int z]',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_fast3_d_array.html#a3bb09301da9787f6bf1e958d58d085f7',1,'Infohazard::HyperNav::Jobs::Utility::Fast3DArray']]],
+  ['timehorizon_4',['TimeHorizon',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a56e64465cddb0b839abed19d10326a49',1,'Infohazard::HyperNav::AvoidanceManager']]],
+  ['toposition_5',['ToPosition',['../class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#ac2fa20897c446fffbbb13da77fd7e5e8',1,'Infohazard::HyperNav::NavExternalLinkData']]],
+  ['triangleindexrange_6',['TriangleIndexRange',['../class_infohazard_1_1_hyper_nav_1_1_nav_surface_region_data.html#aefd325338c5af2034e51526254029c7f',1,'Infohazard.HyperNav.NavSurfaceRegionData.TriangleIndexRange()'],['../class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a9f6906d89897ec1ed616cdaa9416d25a',1,'Infohazard.HyperNav.NavRegionData.TriangleIndexRange()']]],
+  ['triangleindices_7',['TriangleIndices',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af4dbd380b7b970b741daaa29f40a791c',1,'Infohazard::HyperNav::NavVolumeData']]],
+  ['trianglerange_8',['TriangleRange',['../class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a6bc8cac35e59208df939da59f97dee73',1,'Infohazard::HyperNav::NavInternalLinkData']]],
+  ['type_9',['Type',['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a58dd77bca1760c9571f89069026c58b0',1,'Infohazard::HyperNav::NavWaypoint']]]
 ];

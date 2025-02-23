@@ -26,9 +26,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.5</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
    </div>
-   <div id="projectbrief">3D Navigation for Flying Characters</div>
+   <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
  </tr>
  </tbody>
@@ -109,13 +109,70 @@ Properties</h2></td></tr>
 <tr class="memitem:a64d4b243b1a66dcbbdcfe0680768de8b"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a64d4b243b1a66dcbbdcfe0680768de8b">Position</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a64d4b243b1a66dcbbdcfe0680768de8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position of the waypoint in world space.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a64d4b243b1a66dcbbdcfe0680768de8b">More...</a><br /></td></tr>
 <tr class="separator:a64d4b243b1a66dcbbdcfe0680768de8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a865f549d944e1323636128b158b3531d"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a865f549d944e1323636128b158b3531d">VolumeID</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a865f549d944e1323636128b158b3531d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifier of the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> that contains this waypoint, or -1.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a865f549d944e1323636128b158b3531d">More...</a><br /></td></tr>
-<tr class="separator:a865f549d944e1323636128b158b3531d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a684d20168f6c853c3a935585749ee0ba"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a684d20168f6c853c3a935585749ee0ba">Up</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a684d20168f6c853c3a935585749ee0ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The up vector for a character standing at the waypoint. For waypoints inside volumes, this is zero.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a684d20168f6c853c3a935585749ee0ba">More...</a><br /></td></tr>
+<tr class="separator:a684d20168f6c853c3a935585749ee0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89bc016275b0e28213323b3f224cb38b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a89bc016275b0e28213323b3f224cb38b">AccumulatedDistance</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a89bc016275b0e28213323b3f224cb38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The accumulated distance from the start of the path to this waypoint.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a89bc016275b0e28213323b3f224cb38b">More...</a><br /></td></tr>
+<tr class="separator:a89bc016275b0e28213323b3f224cb38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56923c89b528a692b2404213455c3ffa"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a56923c89b528a692b2404213455c3ffa">AreaID</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a56923c89b528a692b2404213455c3ffa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifier of the NavArea that contains this waypoint, or -1.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a56923c89b528a692b2404213455c3ffa">More...</a><br /></td></tr>
+<tr class="separator:a56923c89b528a692b2404213455c3ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add387df90a79715e86c618acb36a875a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#add387df90a79715e86c618acb36a875a">Region</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:add387df90a79715e86c618acb36a875a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifier of the region that contains this waypoint.   <a href="struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#add387df90a79715e86c618acb36a875a">More...</a><br /></td></tr>
+<tr class="separator:add387df90a79715e86c618acb36a875a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A waypoint in a completed path.  </p>
 </div><h2 class="groupheader">Property Documentation</h2>
+<a id="a89bc016275b0e28213323b3f224cb38b" name="a89bc016275b0e28213323b3f224cb38b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89bc016275b0e28213323b3f224cb38b">&#9670;&#160;</a></span>AccumulatedDistance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.NavWaypoint.AccumulatedDistance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The accumulated distance from the start of the path to this waypoint.  </p>
+
+</div>
+</div>
+<a id="a56923c89b528a692b2404213455c3ffa" name="a56923c89b528a692b2404213455c3ffa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56923c89b528a692b2404213455c3ffa">&#9670;&#160;</a></span>AreaID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long Infohazard.HyperNav.NavWaypoint.AreaID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Identifier of the NavArea that contains this waypoint, or -1.  </p>
+
+</div>
+</div>
 <a id="a64d4b243b1a66dcbbdcfe0680768de8b" name="a64d4b243b1a66dcbbdcfe0680768de8b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a64d4b243b1a66dcbbdcfe0680768de8b">&#9670;&#160;</a></span>Position</h2>
 
@@ -137,6 +194,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The position of the waypoint in world space.  </p>
+
+</div>
+</div>
+<a id="add387df90a79715e86c618acb36a875a" name="add387df90a79715e86c618acb36a875a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add387df90a79715e86c618acb36a875a">&#9670;&#160;</a></span>Region</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Infohazard.HyperNav.NavWaypoint.Region</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Identifier of the region that contains this waypoint.  </p>
 
 </div>
 </div>
@@ -164,8 +245,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a865f549d944e1323636128b158b3531d" name="a865f549d944e1323636128b158b3531d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a865f549d944e1323636128b158b3531d">&#9670;&#160;</a></span>VolumeID</h2>
+<a id="a684d20168f6c853c3a935585749ee0ba" name="a684d20168f6c853c3a935585749ee0ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a684d20168f6c853c3a935585749ee0ba">&#9670;&#160;</a></span>Up</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -174,7 +255,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long Infohazard.HyperNav.NavWaypoint.VolumeID</td>
+          <td class="memname">Vector3 Infohazard.HyperNav.NavWaypoint.Up</td>
         </tr>
       </table>
   </td>
@@ -184,7 +265,7 @@ Properties</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Identifier of the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> that contains this waypoint, or -1.  </p>
+<p>The up vector for a character standing at the waypoint. For waypoints inside volumes, this is zero.  </p>
 
 </div>
 </div>

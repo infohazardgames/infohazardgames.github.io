@@ -26,9 +26,9 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;1.1.5</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
    </div>
-   <div id="projectbrief">3D Navigation for Flying Characters</div>
+   <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
  </tr>
  </tbody>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('struct_infohazard_1_1_hyper_nav_1_1_jo
 </div><!--header-->
 <div class="contents">
 
-<p>Burst-compatible job used to find a <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> path.   
+<p>Job used to find a <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> path.   
  <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -107,43 +107,51 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab42a62368bb4702f777ef4976d94fc15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#ab42a62368bb4702f777ef4976d94fc15">Execute</a> ()</td></tr>
 <tr class="memdesc:ab42a62368bb4702f777ef4976d94fc15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute the pathfinding operation all the way through.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#ab42a62368bb4702f777ef4976d94fc15">More...</a><br /></td></tr>
 <tr class="separator:ab42a62368bb4702f777ef4976d94fc15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cf6391d2dcb9ebe7e55b2480c1a82d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a7cf6391d2dcb9ebe7e55b2480c1a82d7">UpdatePath</a> (int operationsLimit, out int operationsUsed, out <a class="el" href="namespace_infohazard_1_1_hyper_nav_1_1_jobs.html#a4b53df7fe319ec8340bcc2a13bf8b081">NavPathState</a> state)</td></tr>
-<tr class="memdesc:a7cf6391d2dcb9ebe7e55b2480c1a82d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute pathfinding algorithm up to the given number of steps.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a7cf6391d2dcb9ebe7e55b2480c1a82d7">More...</a><br /></td></tr>
-<tr class="separator:a7cf6391d2dcb9ebe7e55b2480c1a82d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44008cd4901791145f7547a391e92dd5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a44008cd4901791145f7547a391e92dd5">Initialize</a> ()</td></tr>
-<tr class="memdesc:a44008cd4901791145f7547a391e92dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the pathfinding algorithm.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a44008cd4901791145f7547a391e92dd5">More...</a><br /></td></tr>
-<tr class="separator:a44008cd4901791145f7547a391e92dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a26118644ef6940d336d7f6ebc5c18463"><td class="memItemLeft" align="right" valign="top">NativeParallelHashMap&lt; long, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html">NativeNavVolumeData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a26118644ef6940d336d7f6ebc5c18463">Volumes</a></td></tr>
+<tr class="memitem:a26118644ef6940d336d7f6ebc5c18463"><td class="memItemLeft" align="right" valign="top">NativeParallelHashMap&lt; long, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_data.html">NativeNavVolumeData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a26118644ef6940d336d7f6ebc5c18463">Volumes</a></td></tr>
 <tr class="memdesc:a26118644ef6940d336d7f6ebc5c18463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map containing all loaded NavVolumes, keyed by their instance ID&gt;   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a26118644ef6940d336d7f6ebc5c18463">More...</a><br /></td></tr>
 <tr class="separator:a26118644ef6940d336d7f6ebc5c18463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc0f1947e030e4ab0e2ffce7d8993b8"><td class="memItemLeft" align="right" valign="top">NativeParallelHashMap&lt; long, NativeNavSurfaceData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#accc0f1947e030e4ab0e2ffce7d8993b8">Surfaces</a></td></tr>
+<tr class="memdesc:accc0f1947e030e4ab0e2ffce7d8993b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map containing all loaded NavSurfaces, keyed by their instance ID&gt;   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#accc0f1947e030e4ab0e2ffce7d8993b8">More...</a><br /></td></tr>
+<tr class="separator:accc0f1947e030e4ab0e2ffce7d8993b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a797e4779c661e8ea21b14b9d0ecd446a"><td class="memItemLeft" align="right" valign="top">NativeHashMap&lt; long, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a797e4779c661e8ea21b14b9d0ecd446a">ManualLinksEnabled</a></td></tr>
+<tr class="memdesc:a797e4779c661e8ea21b14b9d0ecd446a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map indicating whether manual links (keyed by their instance ID) are enabled.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a797e4779c661e8ea21b14b9d0ecd446a">More...</a><br /></td></tr>
+<tr class="separator:a797e4779c661e8ea21b14b9d0ecd446a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bec1222fc9a5253f74b159a017f91f6"><td class="memItemLeft" align="right" valign="top">float4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a6bec1222fc9a5253f74b159a017f91f6">StartPosition</a></td></tr>
 <tr class="memdesc:a6bec1222fc9a5253f74b159a017f91f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Position where the path starts (world space).   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a6bec1222fc9a5253f74b159a017f91f6">More...</a><br /></td></tr>
 <tr class="separator:a6bec1222fc9a5253f74b159a017f91f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fbe3b31e15d099fa2cbb5be72dead9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html">NativeNavHit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a0fbe3b31e15d099fa2cbb5be72dead9d">StartHit</a></td></tr>
-<tr class="memdesc:a0fbe3b31e15d099fa2cbb5be72dead9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nav query result where the path starts.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a0fbe3b31e15d099fa2cbb5be72dead9d">More...</a><br /></td></tr>
-<tr class="separator:a0fbe3b31e15d099fa2cbb5be72dead9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a0efb5dbd2d27e0b11bd78d2833da41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html">NativeNavHit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a5a0efb5dbd2d27e0b11bd78d2833da41">EndHit</a></td></tr>
-<tr class="memdesc:a5a0efb5dbd2d27e0b11bd78d2833da41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nav query result where the path ends.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a5a0efb5dbd2d27e0b11bd78d2833da41">More...</a><br /></td></tr>
-<tr class="separator:a5a0efb5dbd2d27e0b11bd78d2833da41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2ca0d6c0422f900298f60051090a9d7"><td class="memItemLeft" align="right" valign="top">NativeList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint.html">NativeNavWaypoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#af2ca0d6c0422f900298f60051090a9d7">OutPathWaypoints</a></td></tr>
+<tr class="memitem:ad454a3ad2752cf72cf96306fec95a03b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_nav_sample_result.html">NavSampleResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#ad454a3ad2752cf72cf96306fec95a03b">StartHit</a></td></tr>
+<tr class="memdesc:ad454a3ad2752cf72cf96306fec95a03b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nav query result where the path starts.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#ad454a3ad2752cf72cf96306fec95a03b">More...</a><br /></td></tr>
+<tr class="separator:ad454a3ad2752cf72cf96306fec95a03b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa436c9f546bc2f55392d312e03022bc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_nav_sample_result.html">NavSampleResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#aa436c9f546bc2f55392d312e03022bc5">EndHit</a></td></tr>
+<tr class="memdesc:aa436c9f546bc2f55392d312e03022bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Nav query result where the path ends.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#aa436c9f546bc2f55392d312e03022bc5">More...</a><br /></td></tr>
+<tr class="separator:aa436c9f546bc2f55392d312e03022bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a658aeb9b6ec2bd82d79d0cd725d85cf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#acba90ccb4c4d85206e9fc19f61bb9271">NavAreaTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a658aeb9b6ec2bd82d79d0cd725d85cf9">AllowedAreaTypes</a></td></tr>
+<tr class="memdesc:a658aeb9b6ec2bd82d79d0cd725d85cf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Types of areas that the path can traverse.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a658aeb9b6ec2bd82d79d0cd725d85cf9">More...</a><br /></td></tr>
+<tr class="separator:a658aeb9b6ec2bd82d79d0cd725d85cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8892677892eb51e9fae8cc05c19c19d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#af8892677892eb51e9fae8cc05c19c19d">CostToChangeToVolume</a></td></tr>
+<tr class="memdesc:af8892677892eb51e9fae8cc05c19c19d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows adding an additional cost to changing from a surface to a volume.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#af8892677892eb51e9fae8cc05c19c19d">More...</a><br /></td></tr>
+<tr class="separator:af8892677892eb51e9fae8cc05c19c19d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31fd1f37a08d3b0704b8755bd09651a1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a31fd1f37a08d3b0704b8755bd09651a1">CostToChangeToSurface</a></td></tr>
+<tr class="memdesc:a31fd1f37a08d3b0704b8755bd09651a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows adding an additional cost to changing from a volume to a surface.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a31fd1f37a08d3b0704b8755bd09651a1">More...</a><br /></td></tr>
+<tr class="separator:a31fd1f37a08d3b0704b8755bd09651a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a294a718152bf9eb931a1fedb21326ddf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a294a718152bf9eb931a1fedb21326ddf">VolumeCostMultiplier</a></td></tr>
+<tr class="memdesc:a294a718152bf9eb931a1fedb21326ddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplier for the cost of traversing volume areas.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a294a718152bf9eb931a1fedb21326ddf">More...</a><br /></td></tr>
+<tr class="separator:a294a718152bf9eb931a1fedb21326ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2ed355d5e1e191870fbed3c25cce62"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#aaa2ed355d5e1e191870fbed3c25cce62">SurfaceCostMultiplier</a></td></tr>
+<tr class="memdesc:aaa2ed355d5e1e191870fbed3c25cce62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplier for the cost of traversing surface areas.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#aaa2ed355d5e1e191870fbed3c25cce62">More...</a><br /></td></tr>
+<tr class="separator:aaa2ed355d5e1e191870fbed3c25cce62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a603b7f8cceda6173b0b078a4b91a82f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a603b7f8cceda6173b0b078a4b91a82f5">PathTighteningIterations</a></td></tr>
+<tr class="memdesc:a603b7f8cceda6173b0b078a4b91a82f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of times to apply the path tightening operation to attempt to shorten the path.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a603b7f8cceda6173b0b078a4b91a82f5">More...</a><br /></td></tr>
+<tr class="separator:a603b7f8cceda6173b0b078a4b91a82f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2ca0d6c0422f900298f60051090a9d7"><td class="memItemLeft" align="right" valign="top">NativeList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_waypoint.html">NativeNavWaypoint</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#af2ca0d6c0422f900298f60051090a9d7">OutPathWaypoints</a></td></tr>
 <tr class="memdesc:af2ca0d6c0422f900298f60051090a9d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to return the result path (as a list of waypoints) back to managed code.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#af2ca0d6c0422f900298f60051090a9d7">More...</a><br /></td></tr>
 <tr class="separator:af2ca0d6c0422f900298f60051090a9d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45c5441e949f00b89a4f79c0f140845e"><td class="memItemLeft" align="right" valign="top">NativeParallelHashMap&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html">PendingPathNode</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html">VisitedNodeInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a45c5441e949f00b89a4f79c0f140845e">NodeTable</a></td></tr>
-<tr class="memdesc:a45c5441e949f00b89a4f79c0f140845e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map containing all discovered nodes in the current pathfinding operation.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a45c5441e949f00b89a4f79c0f140845e">More...</a><br /></td></tr>
-<tr class="separator:a45c5441e949f00b89a4f79c0f140845e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25a7e98ec760e18094744d0f346b9aa4"><td class="memItemLeft" align="right" valign="top">NativeList&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html">PendingPathNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a25a7e98ec760e18094744d0f346b9aa4">Waypoints</a></td></tr>
-<tr class="memdesc:a25a7e98ec760e18094744d0f346b9aa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal list for holding the in-progress path waypoints.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a25a7e98ec760e18094744d0f346b9aa4">More...</a><br /></td></tr>
-<tr class="separator:a25a7e98ec760e18094744d0f346b9aa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c14815bd1f80a6b45a7ef46a2a4eb03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html">NativeHeap</a>&lt; <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html">PendingPathNode</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a3c14815bd1f80a6b45a7ef46a2a4eb03">Frontier</a></td></tr>
-<tr class="memdesc:a3c14815bd1f80a6b45a7ef46a2a4eb03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal heap for holding queue of nodes to visit.   <a href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a3c14815bd1f80a6b45a7ef46a2a4eb03">More...</a><br /></td></tr>
-<tr class="separator:a3c14815bd1f80a6b45a7ef46a2a4eb03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Burst-compatible job used to find a <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> path.  </p>
-<p >The methods in this class can be used both as a job and called directly from managed code. This enables pathfinding to operate in different modes without duplicating any of this code. </p>
+<div class="textblock"><p >Job used to find a <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> path.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab42a62368bb4702f777ef4976d94fc15" name="ab42a62368bb4702f777ef4976d94fc15"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab42a62368bb4702f777ef4976d94fc15">&#9670;&#160;</a></span>Execute()</h2>
@@ -164,80 +172,63 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a44008cd4901791145f7547a391e92dd5" name="a44008cd4901791145f7547a391e92dd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44008cd4901791145f7547a391e92dd5">&#9670;&#160;</a></span>Initialize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Infohazard.HyperNav.Jobs.NavPathJob.Initialize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Initialize the pathfinding algorithm.  </p>
-<p >Must be called before <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a7cf6391d2dcb9ebe7e55b2480c1a82d7" title="Execute pathfinding algorithm up to the given number of steps.">UpdatePath</a> can be called directly from managed code. </p>
-
-</div>
-</div>
-<a id="a7cf6391d2dcb9ebe7e55b2480c1a82d7" name="a7cf6391d2dcb9ebe7e55b2480c1a82d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7cf6391d2dcb9ebe7e55b2480c1a82d7">&#9670;&#160;</a></span>UpdatePath()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Infohazard.HyperNav.Jobs.NavPathJob.UpdatePath </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>operationsLimit</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out int&#160;</td>
-          <td class="paramname"><em>operationsUsed</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="namespace_infohazard_1_1_hyper_nav_1_1_jobs.html#a4b53df7fe319ec8340bcc2a13bf8b081">NavPathState</a>&#160;</td>
-          <td class="paramname"><em>state</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Execute pathfinding algorithm up to the given number of steps.  </p>
-<p >When called directly from managed code, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a44008cd4901791145f7547a391e92dd5" title="Initialize the pathfinding algorithm.">Initialize</a> must be called first. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">operationsLimit</td><td>Maximum number of pathfinding steps.</td></tr>
-    <tr><td class="paramname">operationsUsed</td><td>Actual number of pathfinding steps used.</td></tr>
-    <tr><td class="paramname">state</td><td>State of the pathfinding algorithm upon return.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5a0efb5dbd2d27e0b11bd78d2833da41" name="a5a0efb5dbd2d27e0b11bd78d2833da41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a0efb5dbd2d27e0b11bd78d2833da41">&#9670;&#160;</a></span>EndHit</h2>
+<a id="a658aeb9b6ec2bd82d79d0cd725d85cf9" name="a658aeb9b6ec2bd82d79d0cd725d85cf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a658aeb9b6ec2bd82d79d0cd725d85cf9">&#9670;&#160;</a></span>AllowedAreaTypes</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html">NativeNavHit</a> Infohazard.HyperNav.Jobs.NavPathJob.EndHit</td>
+          <td class="memname"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#acba90ccb4c4d85206e9fc19f61bb9271">NavAreaTypes</a> Infohazard.HyperNav.Jobs.NavPathJob.AllowedAreaTypes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Types of areas that the path can traverse.  </p>
+
+</div>
+</div>
+<a id="a31fd1f37a08d3b0704b8755bd09651a1" name="a31fd1f37a08d3b0704b8755bd09651a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31fd1f37a08d3b0704b8755bd09651a1">&#9670;&#160;</a></span>CostToChangeToSurface</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.Jobs.NavPathJob.CostToChangeToSurface</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allows adding an additional cost to changing from a volume to a surface.  </p>
+
+</div>
+</div>
+<a id="af8892677892eb51e9fae8cc05c19c19d" name="af8892677892eb51e9fae8cc05c19c19d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8892677892eb51e9fae8cc05c19c19d">&#9670;&#160;</a></span>CostToChangeToVolume</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.Jobs.NavPathJob.CostToChangeToVolume</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Allows adding an additional cost to changing from a surface to a volume.  </p>
+
+</div>
+</div>
+<a id="aa436c9f546bc2f55392d312e03022bc5" name="aa436c9f546bc2f55392d312e03022bc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa436c9f546bc2f55392d312e03022bc5">&#9670;&#160;</a></span>EndHit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_nav_sample_result.html">NavSampleResult</a> Infohazard.HyperNav.Jobs.NavPathJob.EndHit</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -246,35 +237,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3c14815bd1f80a6b45a7ef46a2a4eb03" name="a3c14815bd1f80a6b45a7ef46a2a4eb03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c14815bd1f80a6b45a7ef46a2a4eb03">&#9670;&#160;</a></span>Frontier</h2>
+<a id="a797e4779c661e8ea21b14b9d0ecd446a" name="a797e4779c661e8ea21b14b9d0ecd446a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a797e4779c661e8ea21b14b9d0ecd446a">&#9670;&#160;</a></span>ManualLinksEnabled</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_heap.html">NativeHeap</a>&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html">PendingPathNode</a>&gt; Infohazard.HyperNav.Jobs.NavPathJob.Frontier</td>
+          <td class="memname">NativeHashMap&lt;long, bool&gt; Infohazard.HyperNav.Jobs.NavPathJob.ManualLinksEnabled</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Internal heap for holding queue of nodes to visit.  </p>
-
-</div>
-</div>
-<a id="a45c5441e949f00b89a4f79c0f140845e" name="a45c5441e949f00b89a4f79c0f140845e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45c5441e949f00b89a4f79c0f140845e">&#9670;&#160;</a></span>NodeTable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">NativeParallelHashMap&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html">PendingPathNode</a>, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_visited_node_info.html">VisitedNodeInfo</a>&gt; Infohazard.HyperNav.Jobs.NavPathJob.NodeTable</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Map containing all discovered nodes in the current pathfinding operation.  </p>
+<p>Map indicating whether manual links (keyed by their instance ID) are enabled.  </p>
 
 </div>
 </div>
@@ -285,7 +260,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">NativeList&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_waypoint.html">NativeNavWaypoint</a>&gt; Infohazard.HyperNav.Jobs.NavPathJob.OutPathWaypoints</td>
+          <td class="memname">NativeList&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_waypoint.html">NativeNavWaypoint</a>&gt; Infohazard.HyperNav.Jobs.NavPathJob.OutPathWaypoints</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -294,14 +269,30 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0fbe3b31e15d099fa2cbb5be72dead9d" name="a0fbe3b31e15d099fa2cbb5be72dead9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fbe3b31e15d099fa2cbb5be72dead9d">&#9670;&#160;</a></span>StartHit</h2>
+<a id="a603b7f8cceda6173b0b078a4b91a82f5" name="a603b7f8cceda6173b0b078a4b91a82f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a603b7f8cceda6173b0b078a4b91a82f5">&#9670;&#160;</a></span>PathTighteningIterations</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_hit.html">NativeNavHit</a> Infohazard.HyperNav.Jobs.NavPathJob.StartHit</td>
+          <td class="memname">int Infohazard.HyperNav.Jobs.NavPathJob.PathTighteningIterations</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of times to apply the path tightening operation to attempt to shorten the path.  </p>
+
+</div>
+</div>
+<a id="ad454a3ad2752cf72cf96306fec95a03b" name="ad454a3ad2752cf72cf96306fec95a03b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad454a3ad2752cf72cf96306fec95a03b">&#9670;&#160;</a></span>StartHit</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_nav_sample_result.html">NavSampleResult</a> Infohazard.HyperNav.Jobs.NavPathJob.StartHit</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -326,6 +317,54 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aaa2ed355d5e1e191870fbed3c25cce62" name="aaa2ed355d5e1e191870fbed3c25cce62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa2ed355d5e1e191870fbed3c25cce62">&#9670;&#160;</a></span>SurfaceCostMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.Jobs.NavPathJob.SurfaceCostMultiplier</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Multiplier for the cost of traversing surface areas.  </p>
+
+</div>
+</div>
+<a id="accc0f1947e030e4ab0e2ffce7d8993b8" name="accc0f1947e030e4ab0e2ffce7d8993b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accc0f1947e030e4ab0e2ffce7d8993b8">&#9670;&#160;</a></span>Surfaces</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NativeParallelHashMap&lt;long, NativeNavSurfaceData&gt; Infohazard.HyperNav.Jobs.NavPathJob.Surfaces</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Map containing all loaded NavSurfaces, keyed by their instance ID&gt;  </p>
+
+</div>
+</div>
+<a id="a294a718152bf9eb931a1fedb21326ddf" name="a294a718152bf9eb931a1fedb21326ddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a294a718152bf9eb931a1fedb21326ddf">&#9670;&#160;</a></span>VolumeCostMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Infohazard.HyperNav.Jobs.NavPathJob.VolumeCostMultiplier</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Multiplier for the cost of traversing volume areas.  </p>
+
+</div>
+</div>
 <a id="a26118644ef6940d336d7f6ebc5c18463" name="a26118644ef6940d336d7f6ebc5c18463"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a26118644ef6940d336d7f6ebc5c18463">&#9670;&#160;</a></span>Volumes</h2>
 
@@ -333,28 +372,12 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">NativeParallelHashMap&lt;long, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_nav_volume_data.html">NativeNavVolumeData</a>&gt; Infohazard.HyperNav.Jobs.NavPathJob.Volumes</td>
+          <td class="memname">NativeParallelHashMap&lt;long, <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_native_nav_volume_data.html">NativeNavVolumeData</a>&gt; Infohazard.HyperNav.Jobs.NavPathJob.Volumes</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Map containing all loaded NavVolumes, keyed by their instance ID&gt;  </p>
-
-</div>
-</div>
-<a id="a25a7e98ec760e18094744d0f346b9aa4" name="a25a7e98ec760e18094744d0f346b9aa4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25a7e98ec760e18094744d0f346b9aa4">&#9670;&#160;</a></span>Waypoints</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">NativeList&lt;<a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_pending_path_node.html">PendingPathNode</a>&gt; Infohazard.HyperNav.Jobs.NavPathJob.Waypoints</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Internal list for holding the in-progress path waypoints.  </p>
 
 </div>
 </div>
