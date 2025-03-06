@@ -1,5 +1,7 @@
 var class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility =
 [
+    [ "CopyFrom", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#ab3e42044cfeccd9cb961cbd6facebc8c", null ],
+    [ "CopyFrom", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a09ee7af19e7649146c1f90ed0d5ac9a1", null ],
     [ "CreateAndSaveNewAsset", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a063a6a6ba05170f863dd2df5285c9451", null ],
     [ "CreateGameObjectInScene", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a16159f7655b45bebf45649902a1f90d2", null ],
     [ "CreateGameObjectInSceneWithComponent< T >", "class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a7b7b1f2ad30393887140311dc08c9b1d", null ],

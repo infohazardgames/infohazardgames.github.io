@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.0</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.1</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -143,6 +143,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa25a3ae73fcaa9cbd077119369bd24a6"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#aa25a3ae73fcaa9cbd077119369bd24a6">GetTypeName</a> (this SerializedProperty property)</td></tr>
 <tr class="memdesc:aa25a3ae73fcaa9cbd077119369bd24a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type full name (including assembly) of the type of the underlying field for the given property.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#aa25a3ae73fcaa9cbd077119369bd24a6">More...</a><br /></td></tr>
 <tr class="separator:aa25a3ae73fcaa9cbd077119369bd24a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3e42044cfeccd9cb961cbd6facebc8c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#ab3e42044cfeccd9cb961cbd6facebc8c">CopyFrom</a> (this SerializedProperty destination, SerializedObject source)</td></tr>
+<tr class="memdesc:ab3e42044cfeccd9cb961cbd6facebc8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a recursive copy of the values from a SerializedObject to a struct-type SerializedProperty.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#ab3e42044cfeccd9cb961cbd6facebc8c">More...</a><br /></td></tr>
+<tr class="separator:ab3e42044cfeccd9cb961cbd6facebc8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09ee7af19e7649146c1f90ed0d5ac9a1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a09ee7af19e7649146c1f90ed0d5ac9a1">CopyFrom</a> (this SerializedProperty destination, SerializedProperty source)</td></tr>
+<tr class="memdesc:a09ee7af19e7649146c1f90ed0d5ac9a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a recursive copy of the values from one SerializedProperty to another. For compound types, values in one of the properties but not the other are ignored.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a09ee7af19e7649146c1f90ed0d5ac9a1">More...</a><br /></td></tr>
+<tr class="separator:a09ee7af19e7649146c1f90ed0d5ac9a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9215a4bed2b9f35c0035f186f25ef179"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a9215a4bed2b9f35c0035f186f25ef179">GetFieldType</a> (this PropertyDrawer drawer)</td></tr>
 <tr class="memdesc:a9215a4bed2b9f35c0035f186f25ef179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the type of the field the property drawer is drawing. If the type is an array or list, returns the element type.   <a href="class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#a9215a4bed2b9f35c0035f186f25ef179">More...</a><br /></td></tr>
 <tr class="separator:a9215a4bed2b9f35c0035f186f25ef179"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,6 +180,96 @@ Static Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Contains several editor-only utilities.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab3e42044cfeccd9cb961cbd6facebc8c" name="ab3e42044cfeccd9cb961cbd6facebc8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3e42044cfeccd9cb961cbd6facebc8c">&#9670;&#160;</a></span>CopyFrom() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Infohazard.Core.Editor.CoreEditorUtility.CopyFrom </td>
+          <td>(</td>
+          <td class="paramtype">this SerializedProperty&#160;</td>
+          <td class="paramname"><em>destination</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SerializedObject&#160;</td>
+          <td class="paramname"><em>source</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Perform a recursive copy of the values from a SerializedObject to a struct-type SerializedProperty.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">destination</td><td>Destination property to update. Must by a serializable class or struct.</td></tr>
+    <tr><td class="paramname">source</td><td>Source object to read.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a09ee7af19e7649146c1f90ed0d5ac9a1" name="a09ee7af19e7649146c1f90ed0d5ac9a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09ee7af19e7649146c1f90ed0d5ac9a1">&#9670;&#160;</a></span>CopyFrom() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Infohazard.Core.Editor.CoreEditorUtility.CopyFrom </td>
+          <td>(</td>
+          <td class="paramtype">this SerializedProperty&#160;</td>
+          <td class="paramname"><em>destination</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SerializedProperty&#160;</td>
+          <td class="paramname"><em>source</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Perform a recursive copy of the values from one SerializedProperty to another. For compound types, values in one of the properties but not the other are ignored.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">destination</td><td>Destination property to update.</td></tr>
+    <tr><td class="paramname">source</td><td>Source property to read.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a063a6a6ba05170f863dd2df5285c9451" name="a063a6a6ba05170f863dd2df5285c9451"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a063a6a6ba05170f863dd2df5285c9451">&#9670;&#160;</a></span>CreateAndSaveNewAsset()</h2>
 

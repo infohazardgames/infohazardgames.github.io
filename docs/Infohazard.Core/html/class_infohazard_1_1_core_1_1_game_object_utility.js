@@ -14,6 +14,8 @@ var class_infohazard_1_1_core_1_1_game_object_utility =
     [ "Initialize", "class_infohazard_1_1_core_1_1_game_object_utility.html#a985ef095284fef0ccb56354029c72adc", null ],
     [ "Initialize", "class_infohazard_1_1_core_1_1_game_object_utility.html#a19ee202df8136d0f8dc5f90b419335fd", null ],
     [ "Initialize", "class_infohazard_1_1_core_1_1_game_object_utility.html#add5e1df0a8eed20b40be260e4541c0c9", null ],
+    [ "IsNameUniqueInSiblings", "class_infohazard_1_1_core_1_1_game_object_utility.html#a4d42d3373f57ecb96fe594836e0c00ed", null ],
+    [ "IsPathUnique", "class_infohazard_1_1_core_1_1_game_object_utility.html#a51cd9a73cc9b6b3c73f876b0e72f192f", null ],
     [ "MoveTowardsLinearVelocity", "class_infohazard_1_1_core_1_1_game_object_utility.html#a5da709606ba796f41c8c150a5de65560", null ],
     [ "SetLayerRecursively", "class_infohazard_1_1_core_1_1_game_object_utility.html#a48a00e2995b1dfff07fdc05916793b99", null ],
     [ "SetLinearVelocity", "class_infohazard_1_1_core_1_1_game_object_utility.html#a8b45bff2658ffb89ac2f24dbd440d6d7", null ],

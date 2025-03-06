@@ -6,5 +6,7 @@ var searchData=
   ['insert_3',['Insert',['../class_infohazard_1_1_core_1_1_list_queue.html#a9f6068342d16c15e0d006e76099bb47d',1,'Infohazard::Core::ListQueue']]],
   ['instantiate_4',['Instantiate',['../class_infohazard_1_1_core_1_1_default_pool_handler.html#a023dd552e0ae4d97ae0bfc0a6519877a',1,'Infohazard::Core::DefaultPoolHandler']]],
   ['instantiateprefabinscene_5',['InstantiatePrefabInScene',['../class_infohazard_1_1_core_1_1_editor_1_1_core_editor_utility.html#aaec0397fc169bebf67995afc4ef20890',1,'Infohazard::Core::Editor::CoreEditorUtility']]],
-  ['ispointinsidebound_6',['IsPointInsideBound',['../class_infohazard_1_1_core_1_1_math_utility.html#a5810beab8bd36d930c88e1952fed2ef1',1,'Infohazard::Core::MathUtility']]]
+  ['isnameuniqueinsiblings_6',['IsNameUniqueInSiblings',['../class_infohazard_1_1_core_1_1_game_object_utility.html#a4d42d3373f57ecb96fe594836e0c00ed',1,'Infohazard::Core::GameObjectUtility']]],
+  ['ispathunique_7',['IsPathUnique',['../class_infohazard_1_1_core_1_1_game_object_utility.html#a51cd9a73cc9b6b3c73f876b0e72f192f',1,'Infohazard::Core::GameObjectUtility']]],
+  ['ispointinsidebound_8',['IsPointInsideBound',['../class_infohazard_1_1_core_1_1_math_utility.html#a5810beab8bd36d930c88e1952fed2ef1',1,'Infohazard::Core::MathUtility']]]
 ];

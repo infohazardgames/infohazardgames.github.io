@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.0</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.1</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -149,11 +149,17 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab32eb698a171089a2cc9c3af2a855fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Like GetComponentInChildren, but more convenient if using in if statements and also using the component value.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#ab32eb698a171089a2cc9c3af2a855fe9">More...</a><br /></td></tr>
 <tr class="separator:ab32eb698a171089a2cc9c3af2a855fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9f4e2a73e60b21e5095ccba029fb362"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#ae9f4e2a73e60b21e5095ccba029fb362">GetRelativeTransformPath</a> (this Transform from, Transform to)</td></tr>
-<tr class="memdesc:ae9f4e2a73e60b21e5095ccba029fb362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the path from one transform to another (object names separated by slashes).   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#ae9f4e2a73e60b21e5095ccba029fb362">More...</a><br /></td></tr>
+<tr class="memdesc:ae9f4e2a73e60b21e5095ccba029fb362"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the path from one transform to another (object names separated by slashes). Names are URL encoded in case they contain slashes.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#ae9f4e2a73e60b21e5095ccba029fb362">More...</a><br /></td></tr>
 <tr class="separator:ae9f4e2a73e60b21e5095ccba029fb362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af34ff807b809da1048ea838150e0101f"><td class="memItemLeft" align="right" valign="top">static Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#af34ff807b809da1048ea838150e0101f">GetTransformAtRelativePath</a> (this Transform from, string path)</td></tr>
-<tr class="memdesc:af34ff807b809da1048ea838150e0101f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a slash-separated Transform path from a parent object to find a child.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#af34ff807b809da1048ea838150e0101f">More...</a><br /></td></tr>
+<tr class="memdesc:af34ff807b809da1048ea838150e0101f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a slash-separated Transform path from a parent object to find a child. The names are expected to be URL encoded.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#af34ff807b809da1048ea838150e0101f">More...</a><br /></td></tr>
 <tr class="separator:af34ff807b809da1048ea838150e0101f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51cd9a73cc9b6b3c73f876b0e72f192f"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a51cd9a73cc9b6b3c73f876b0e72f192f">IsPathUnique</a> (this Transform from, Transform to)</td></tr>
+<tr class="memdesc:a51cd9a73cc9b6b3c73f876b0e72f192f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check whether the path from one transform to another (the one returned by <a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#ae9f4e2a73e60b21e5095ccba029fb362" title="Get the path from one transform to another (object names separated by slashes). Names are URL encoded...">GetRelativeTransformPath</a>) is unique. If the path is not unique, using <a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#af34ff807b809da1048ea838150e0101f" title="Parses a slash-separated Transform path from a parent object to find a child. The names are expected ...">GetTransformAtRelativePath</a> will not necessarily return the correct transform.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a51cd9a73cc9b6b3c73f876b0e72f192f">More...</a><br /></td></tr>
+<tr class="separator:a51cd9a73cc9b6b3c73f876b0e72f192f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d42d3373f57ecb96fe594836e0c00ed"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a4d42d3373f57ecb96fe594836e0c00ed">IsNameUniqueInSiblings</a> (this Transform transform)</td></tr>
+<tr class="memdesc:a4d42d3373f57ecb96fe594836e0c00ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether the name of an object is unique within its siblings.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a4d42d3373f57ecb96fe594836e0c00ed">More...</a><br /></td></tr>
+<tr class="separator:a4d42d3373f57ecb96fe594836e0c00ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48a00e2995b1dfff07fdc05916793b99"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a48a00e2995b1dfff07fdc05916793b99">SetLayerRecursively</a> (this GameObject obj, int layer)</td></tr>
 <tr class="memdesc:a48a00e2995b1dfff07fdc05916793b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the layer of a GameObject and all of its children.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a48a00e2995b1dfff07fdc05916793b99">More...</a><br /></td></tr>
 <tr class="separator:a48a00e2995b1dfff07fdc05916793b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -685,8 +691,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the path from one transform to another (object names separated by slashes).  </p>
-<p >The parameter to must be a direct descendent of from, or an error is logged. The returned path contains the name of to but not from. This path can be turned back to an object reference using <a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#af34ff807b809da1048ea838150e0101f" title="Parses a slash-separated Transform path from a parent object to find a child.">GetTransformAtRelativePath</a>. </p>
+<p>Get the path from one transform to another (object names separated by slashes). Names are URL encoded in case they contain slashes.  </p>
+<p >The parameter to must be a direct descendent of from, or an error is logged. The returned path contains the name of to but not from. This path can be turned back to an object reference using <a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#af34ff807b809da1048ea838150e0101f" title="Parses a slash-separated Transform path from a parent object to find a child. The names are expected ...">GetTransformAtRelativePath</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">from</td><td>The parent Transform to get the path from.</td></tr>
@@ -732,8 +738,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Parses a slash-separated Transform path from a parent object to find a child.  </p>
-<p >This can be used to turn a path created by <a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#ae9f4e2a73e60b21e5095ccba029fb362" title="Get the path from one transform to another (object names separated by slashes).">GetRelativeTransformPath</a> back to an object reference. </p>
+<p>Parses a slash-separated Transform path from a parent object to find a child. The names are expected to be URL encoded.  </p>
+<p >This can be used to turn a path created by <a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#ae9f4e2a73e60b21e5095ccba029fb362" title="Get the path from one transform to another (object names separated by slashes). Names are URL encoded...">GetRelativeTransformPath</a> back to an object reference. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">from</td><td>The parent Transform to search from.</td></tr>
@@ -926,6 +932,88 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a4d42d3373f57ecb96fe594836e0c00ed" name="a4d42d3373f57ecb96fe594836e0c00ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d42d3373f57ecb96fe594836e0c00ed">&#9670;&#160;</a></span>IsNameUniqueInSiblings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Infohazard.Core.GameObjectUtility.IsNameUniqueInSiblings </td>
+          <td>(</td>
+          <td class="paramtype">this Transform&#160;</td>
+          <td class="paramname"><em>transform</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return whether the name of an object is unique within its siblings.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transform</td><td>The object to check.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the name is unique.</dd></dl>
+
+</div>
+</div>
+<a id="a51cd9a73cc9b6b3c73f876b0e72f192f" name="a51cd9a73cc9b6b3c73f876b0e72f192f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51cd9a73cc9b6b3c73f876b0e72f192f">&#9670;&#160;</a></span>IsPathUnique()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Infohazard.Core.GameObjectUtility.IsPathUnique </td>
+          <td>(</td>
+          <td class="paramtype">this Transform&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Transform&#160;</td>
+          <td class="paramname"><em>to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check whether the path from one transform to another (the one returned by <a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#ae9f4e2a73e60b21e5095ccba029fb362" title="Get the path from one transform to another (object names separated by slashes). Names are URL encoded...">GetRelativeTransformPath</a>) is unique. If the path is not unique, using <a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#af34ff807b809da1048ea838150e0101f" title="Parses a slash-separated Transform path from a parent object to find a child. The names are expected ...">GetTransformAtRelativePath</a> will not necessarily return the correct transform.  </p>
+<p >The names of the objects do not need to be globally unique. Rather, they must be unique within all of their siblings according to <a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a4d42d3373f57ecb96fe594836e0c00ed" title="Return whether the name of an object is unique within its siblings.">IsNameUniqueInSiblings</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">from</td><td>The transform to check the path from.</td></tr>
+    <tr><td class="paramname">to</td><td>The transform to check the path to.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Whether the path is unique.</dd></dl>
 
 </div>
 </div>
