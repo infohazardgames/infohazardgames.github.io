@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
@@ -110,15 +110,58 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a62eb52a720344cb21d6b6ea7c05e0b99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a62eb52a720344cb21d6b6ea7c05e0b99">Raycast</a> (Vector3 start, Vector3 end)</td></tr>
 <tr class="memdesc:a62eb52a720344cb21d6b6ea7c05e0b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast a ray against the blocking triangles of the volume, and return if there was a hit.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a62eb52a720344cb21d6b6ea7c05e0b99">More...</a><br /></td></tr>
 <tr class="separator:a62eb52a720344cb21d6b6ea7c05e0b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html">Infohazard.HyperNav.NavArea&lt; NavVolume, NavVolumeData, NativeNavVolumeData, NativeNavVolumeDataPointers, NavVolumeSettings &gt;</a></td></tr>
+<tr class="memitem:ac0babe61febcc2cdca06253f8c93538e inherit pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#ac0babe61febcc2cdca06253f8c93538e">Register</a> ()</td></tr>
+<tr class="memdesc:ac0babe61febcc2cdca06253f8c93538e inherit pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register this volume in the Instances dictionary and perform initialization. This can be used in edit mode to create the native data. It does not need to be called at runtime.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#ac0babe61febcc2cdca06253f8c93538e">More...</a><br /></td></tr>
+<tr class="separator:ac0babe61febcc2cdca06253f8c93538e inherit pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8e65c063af2764418218102b96db71 inherit pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a7a8e65c063af2764418218102b96db71">Deregister</a> (bool destroyData)</td></tr>
+<tr class="memdesc:a7a8e65c063af2764418218102b96db71 inherit pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove this volume from the Instances dictionary, and optionally destroy its native data.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a7a8e65c063af2764418218102b96db71">More...</a><br /></td></tr>
+<tr class="separator:a7a8e65c063af2764418218102b96db71 inherit pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46f03bb92715827979b16527cebd88d8 inherit pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a46f03bb92715827979b16527cebd88d8">UpdateNativeData</a> (in TNativeData newData, in TPointers newPointers, bool updateSerializedAreaData, bool updateSerializedLinkData, IReadOnlyList&lt; string &gt; externalLinkScenePaths=null)</td></tr>
+<tr class="memdesc:a46f03bb92715827979b16527cebd88d8 inherit pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update native data for the nav area, optionally referencing new arrays.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a46f03bb92715827979b16527cebd88d8">More...</a><br /></td></tr>
+<tr class="separator:a46f03bb92715827979b16527cebd88d8 inherit pub_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:aacfd3f39d134ad18bc5576ced01beb19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aacfd3f39d134ad18bc5576ced01beb19">EnableMultiQuery</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:aacfd3f39d134ad18bc5576ced01beb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to enable multiple physics queries per voxel to get a more accurate result.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#aacfd3f39d134ad18bc5576ced01beb19">More...</a><br /></td></tr>
-<tr class="separator:aacfd3f39d134ad18bc5576ced01beb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a745bbfb20e1e28c195059bafc480201c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_infohazard_1_1_hyper_nav.html#a5672e7bdc25954d7e7e040990bf4bea3">NavVolumeVisualizationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a745bbfb20e1e28c195059bafc480201c">VisualizationMode</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a745bbfb20e1e28c195059bafc480201c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stage at which to visualize the volume bake process in the scene view.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a745bbfb20e1e28c195059bafc480201c">More...</a><br /></td></tr>
 <tr class="separator:a745bbfb20e1e28c195059bafc480201c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td colspan="2" onclick="javascript:toggleInherit('properties_class_infohazard_1_1_hyper_nav_1_1_nav_area')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html">Infohazard.HyperNav.NavArea&lt; NavVolume, NavVolumeData, NativeNavVolumeData, NativeNavVolumeDataPointers, NavVolumeSettings &gt;</a></td></tr>
+<tr class="memitem:a390376010b8b1260ff3c3fef9214bad3 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">TData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a390376010b8b1260ff3c3fef9214bad3">Data</a><code> [get, set]</code></td></tr>
+<tr class="separator:a390376010b8b1260ff3c3fef9214bad3 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a181449f0842f3d08b2f60a0aa72681a0 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">ref readonly TNativeData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a181449f0842f3d08b2f60a0aa72681a0">NativeData</a><code> [get]</code></td></tr>
+<tr class="memdesc:a181449f0842f3d08b2f60a0aa72681a0 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">The native data for the volume. Will not be initialized until the volume is registered.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a181449f0842f3d08b2f60a0aa72681a0">More...</a><br /></td></tr>
+<tr class="separator:a181449f0842f3d08b2f60a0aa72681a0 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06b72bb0d55ed7aacb85749b6cd3afd4 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">ref readonly TPointers&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a06b72bb0d55ed7aacb85749b6cd3afd4">DataStructurePointers</a><code> [get]</code></td></tr>
+<tr class="memdesc:a06b72bb0d55ed7aacb85749b6cd3afd4 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">The internal pointers to the native data for the volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a06b72bb0d55ed7aacb85749b6cd3afd4">More...</a><br /></td></tr>
+<tr class="separator:a06b72bb0d55ed7aacb85749b6cd3afd4 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58bcde71a15c6377eeefed09498f4774 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">TSettings&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a58bcde71a15c6377eeefed09498f4774">InstanceSettings</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a58bcde71a15c6377eeefed09498f4774 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">Settings specific to this area instance. On set, SharedSettings will be set to null.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a58bcde71a15c6377eeefed09498f4774">More...</a><br /></td></tr>
+<tr class="separator:a58bcde71a15c6377eeefed09498f4774 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab98a6dfbabbf63da54d619331e37c40e inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings_asset.html">NavAreaBaseSettingsAsset</a>&lt; TSettings &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#ab98a6dfbabbf63da54d619331e37c40e">SharedSettings</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab98a6dfbabbf63da54d619331e37c40e inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shared settings asset for all areas of this type. If not null, InstanceSettings will be ignored.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#ab98a6dfbabbf63da54d619331e37c40e">More...</a><br /></td></tr>
+<tr class="separator:ab98a6dfbabbf63da54d619331e37c40e inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b4997fa442b02582a67457f2707c30e inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">TSettings&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a4b4997fa442b02582a67457f2707c30e">Settings</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4b4997fa442b02582a67457f2707c30e inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">The settings object in use by this area, whether shared or instance. The returned object, while mutable, should not be modified directly as it may reference a ScriptableObject.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a4b4997fa442b02582a67457f2707c30e">More...</a><br /></td></tr>
+<tr class="separator:a4b4997fa442b02582a67457f2707c30e inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab72865fb9cb3d653161498599adf7fcd inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings.html">NavAreaBaseSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#ab72865fb9cb3d653161498599adf7fcd">BaseSettings</a><code> [get]</code></td></tr>
+<tr class="separator:ab72865fb9cb3d653161498599adf7fcd inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3015027a8e1249f24c45db369c306b7f inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a3015027a8e1249f24c45db369c306b7f">IsNativeDataCreated</a><code> [get]</code></td></tr>
+<tr class="separator:a3015027a8e1249f24c45db369c306b7f inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebb7e76e2f0a15cf60c4b66db7c61a40 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">static IReadOnlyDictionary&lt; long, TArea &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#aebb7e76e2f0a15cf60c4b66db7c61a40">Instances</a><code> [get]</code></td></tr>
+<tr class="memdesc:aebb7e76e2f0a15cf60c4b66db7c61a40 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">All currently loaded volumes.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#aebb7e76e2f0a15cf60c4b66db7c61a40">More...</a><br /></td></tr>
+<tr class="separator:aebb7e76e2f0a15cf60c4b66db7c61a40 inherit properties_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html">Infohazard.HyperNav.NavArea&lt; NavVolume, NavVolumeData, NativeNavVolumeData, NativeNavVolumeDataPointers, NavVolumeSettings &gt;</a></td></tr>
+<tr class="memitem:ad0dad80918e0f1c14041c9e28cd07298 inherit pub_static_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#ad0dad80918e0f1c14041c9e28cd07298">UpdateAllTransforms</a> ()</td></tr>
+<tr class="memdesc:ad0dad80918e0f1c14041c9e28cd07298 inherit pub_static_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the native data on all loaded NavAreas. Note, this must be called on each area type class (NavSurface and NavVolume) separately.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#ad0dad80918e0f1c14041c9e28cd07298">More...</a><br /></td></tr>
+<tr class="separator:ad0dad80918e0f1c14041c9e28cd07298 inherit pub_static_methods_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_infohazard_1_1_hyper_nav_1_1_nav_area')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html">Infohazard.HyperNav.NavArea&lt; NavVolume, NavVolumeData, NativeNavVolumeData, NativeNavVolumeDataPointers, NavVolumeSettings &gt;</a></td></tr>
+<tr class="memitem:a757afb2b7be7441a040ff5963e1f60ca inherit pub_static_attribs_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memItemLeft" align="right" valign="top">static NativeParallelHashMap&lt; long, TNativeData &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a757afb2b7be7441a040ff5963e1f60ca">NativeDataMap</a></td></tr>
+<tr class="memdesc:a757afb2b7be7441a040ff5963e1f60ca inherit pub_static_attribs_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="mdescLeft">&#160;</td><td class="mdescRight">Data for all loaded volumes in the format used by jobs.   <a href="class_infohazard_1_1_hyper_nav_1_1_nav_area.html#a757afb2b7be7441a040ff5963e1f60ca">More...</a><br /></td></tr>
+<tr class="separator:a757afb2b7be7441a040ff5963e1f60ca inherit pub_static_attribs_class_infohazard_1_1_hyper_nav_1_1_nav_area"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A volume of space in which <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">HyperNav</a> pathfinding can occur.  </p>
@@ -209,30 +252,6 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
-<a id="aacfd3f39d134ad18bc5576ced01beb19" name="aacfd3f39d134ad18bc5576ced01beb19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacfd3f39d134ad18bc5576ced01beb19">&#9670;&#160;</a></span>EnableMultiQuery</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Infohazard.HyperNav.NavVolume.EnableMultiQuery</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Whether to enable multiple physics queries per voxel to get a more accurate result.  </p>
-
-</div>
-</div>
 <a id="a745bbfb20e1e28c195059bafc480201c" name="a745bbfb20e1e28c195059bafc480201c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a745bbfb20e1e28c195059bafc480201c">&#9670;&#160;</a></span>VisualizationMode</h2>
 

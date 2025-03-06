@@ -5,6 +5,7 @@ var annotated_dup =
         [ "Editor", "namespace_infohazard_1_1_hyper_nav_1_1_editor.html", [
           [ "EditorNavAreaBakingUtility", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility" ],
           [ "ExternalLinkEditorUtility", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_external_link_editor_utility.html", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_external_link_editor_utility" ],
+          [ "NavAreaMigrator", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_area_migrator.html", null ],
           [ "NavEditorUtility", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_editor_utility.html", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_editor_utility" ],
           [ "NavVolumeEditor", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_editor.html", null ]
         ] ],
@@ -45,6 +46,14 @@ var annotated_dup =
           [ "NavRaycastJob", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_raycast_job.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_raycast_job" ],
           [ "SplineProjectJob", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_spline_project_job.html", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_spline_project_job" ]
         ] ],
+        [ "Settings", "namespace_infohazard_1_1_hyper_nav_1_1_settings.html", [
+          [ "NavAreaBaseSettings", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings.html", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings" ],
+          [ "NavAreaBaseSettingsAsset", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings_asset.html", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings_asset" ],
+          [ "NavSurfaceSettings", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_surface_settings.html", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_surface_settings" ],
+          [ "NavSurfaceSettingsAsset", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_surface_settings_asset.html", null ],
+          [ "NavVolumeSettings", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_volume_settings.html", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_volume_settings" ],
+          [ "NavVolumeSettingsAsset", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_volume_settings_asset.html", null ]
+        ] ],
         [ "Avoidance", "class_infohazard_1_1_hyper_nav_1_1_avoidance.html", "class_infohazard_1_1_hyper_nav_1_1_avoidance" ],
         [ "AvoidanceAgent", "class_infohazard_1_1_hyper_nav_1_1_avoidance_agent.html", "class_infohazard_1_1_hyper_nav_1_1_avoidance_agent" ],
         [ "AvoidanceManager", "class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html", "class_infohazard_1_1_hyper_nav_1_1_avoidance_manager" ],
@@ -56,7 +65,10 @@ var annotated_dup =
         [ "NativeNavSurfaceDataPointers", "struct_infohazard_1_1_hyper_nav_1_1_native_nav_surface_data_pointers.html", "struct_infohazard_1_1_hyper_nav_1_1_native_nav_surface_data_pointers" ],
         [ "NativeNavVolumeDataPointers", "struct_infohazard_1_1_hyper_nav_1_1_native_nav_volume_data_pointers.html", "struct_infohazard_1_1_hyper_nav_1_1_native_nav_volume_data_pointers" ],
         [ "NavAgent", "class_infohazard_1_1_hyper_nav_1_1_nav_agent.html", "class_infohazard_1_1_hyper_nav_1_1_nav_agent" ],
+        [ "NavArea", "class_infohazard_1_1_hyper_nav_1_1_nav_area.html", "class_infohazard_1_1_hyper_nav_1_1_nav_area" ],
         [ "NavAreaBakeProgress", "struct_infohazard_1_1_hyper_nav_1_1_nav_area_bake_progress.html", null ],
+        [ "NavAreaBakingUtility", "class_infohazard_1_1_hyper_nav_1_1_nav_area_baking_utility.html", "class_infohazard_1_1_hyper_nav_1_1_nav_area_baking_utility" ],
+        [ "NavAreaBase", "class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html", "class_infohazard_1_1_hyper_nav_1_1_nav_area_base" ],
         [ "NavAreaExternalLinkUpdate", "class_infohazard_1_1_hyper_nav_1_1_nav_area_external_link_update.html", "class_infohazard_1_1_hyper_nav_1_1_nav_area_external_link_update" ],
         [ "NavExternalLinkData", "class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html", "class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data" ],
         [ "NavInternalLinkData", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data" ],

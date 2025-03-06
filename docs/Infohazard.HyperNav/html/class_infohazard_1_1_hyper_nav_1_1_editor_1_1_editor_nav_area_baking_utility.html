@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
@@ -100,41 +100,41 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_hyper_nav_1_1_edi
 </div><!--header-->
 <div class="contents">
 
-<p>Manages multiple NavAreaBaseBakeHandlers for baking NavAreaBases.   
+<p>Manages multiple NavAreaBaseBakeHandlers for baking <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html" title="Base class for areas in which HyperNav pathfinding can occur.">NavAreaBase</a>s.   
  <a href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:adae599f153d0af96cd864cf05b666f87"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#adae599f153d0af96cd864cf05b666f87">GetOrCreateData</a> (NavAreaBase area, SerializedObject serializedObject)</td></tr>
-<tr class="memdesc:adae599f153d0af96cd864cf05b666f87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a> for a given volume, or create and save the object if it doesn't exist yet.   <a href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#adae599f153d0af96cd864cf05b666f87">More...</a><br /></td></tr>
-<tr class="separator:adae599f153d0af96cd864cf05b666f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd33f9e07da4344aba442ba7e365066a"><td class="memItemLeft" align="right" valign="top">static async UniTask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#acd33f9e07da4344aba442ba7e365066a">BakeDataAsync</a> (NavAreaBase area, bool sanityChecks=false, bool profile=false)</td></tr>
+<tr class="memitem:aa2c7d6f57e864fe06551f2b92caa683f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#aa2c7d6f57e864fe06551f2b92caa683f">GetOrCreateData</a> (<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a> area)</td></tr>
+<tr class="memdesc:aa2c7d6f57e864fe06551f2b92caa683f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a> for a given volume, or create and save the object if it doesn't exist yet.   <a href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#aa2c7d6f57e864fe06551f2b92caa683f">More...</a><br /></td></tr>
+<tr class="separator:aa2c7d6f57e864fe06551f2b92caa683f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd33f9e07da4344aba442ba7e365066a"><td class="memItemLeft" align="right" valign="top">static async UniTask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#acd33f9e07da4344aba442ba7e365066a">BakeDataAsync</a> (<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a> area, bool sanityChecks=false, bool profile=false)</td></tr>
 <tr class="memdesc:acd33f9e07da4344aba442ba7e365066a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bake the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a> for a given volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#acd33f9e07da4344aba442ba7e365066a">More...</a><br /></td></tr>
 <tr class="separator:acd33f9e07da4344aba442ba7e365066a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab38d3dccef6e649498f995094c45310a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#ab38d3dccef6e649498f995094c45310a">CancelBake</a> (NavAreaBase area)</td></tr>
+<tr class="memitem:ab38d3dccef6e649498f995094c45310a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#ab38d3dccef6e649498f995094c45310a">CancelBake</a> (<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a> area)</td></tr>
 <tr class="memdesc:ab38d3dccef6e649498f995094c45310a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel an actively baking volume and clear out its data.   <a href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#ab38d3dccef6e649498f995094c45310a">More...</a><br /></td></tr>
 <tr class="separator:ab38d3dccef6e649498f995094c45310a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61cf9e68685696ef0ea63f338554462d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#a61cf9e68685696ef0ea63f338554462d">TryGetBakeProgress</a> (NavAreaBase area, out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_area_bake_progress.html">NavAreaBakeProgress</a> progress)</td></tr>
+<tr class="memitem:a61cf9e68685696ef0ea63f338554462d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#a61cf9e68685696ef0ea63f338554462d">TryGetBakeProgress</a> (<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a> area, out <a class="el" href="struct_infohazard_1_1_hyper_nav_1_1_nav_area_bake_progress.html">NavAreaBakeProgress</a> progress)</td></tr>
 <tr class="memdesc:a61cf9e68685696ef0ea63f338554462d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the bake progress of a volume.   <a href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#a61cf9e68685696ef0ea63f338554462d">More...</a><br /></td></tr>
 <tr class="separator:a61cf9e68685696ef0ea63f338554462d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae35476d473a10879a239e1f35a35d084"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#ae35476d473a10879a239e1f35a35d084">ClearData</a> (NavAreaBase area)</td></tr>
+<tr class="memitem:ae35476d473a10879a239e1f35a35d084"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#ae35476d473a10879a239e1f35a35d084">ClearData</a> (<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a> area)</td></tr>
 <tr class="memdesc:ae35476d473a10879a239e1f35a35d084"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear out the baked data of a volume (does not destroy or un-assign the actual data object).   <a href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#ae35476d473a10879a239e1f35a35d084">More...</a><br /></td></tr>
 <tr class="separator:ae35476d473a10879a239e1f35a35d084"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aa1743614cde85d560853c74d6d6b9a28"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; NavAreaBase, NavAreaBaseBakeHandler &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#aa1743614cde85d560853c74d6d6b9a28">BakeHandlers</a> = new()</td></tr>
+<tr class="memitem:aa1743614cde85d560853c74d6d6b9a28"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a>, NavAreaBaseBakeHandler &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#aa1743614cde85d560853c74d6d6b9a28">BakeHandlers</a> = new()</td></tr>
 <tr class="memdesc:aa1743614cde85d560853c74d6d6b9a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">The coroutine for each volume currently being baked.   <a href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#aa1743614cde85d560853c74d6d6b9a28">More...</a><br /></td></tr>
 <tr class="separator:aa1743614cde85d560853c74d6d6b9a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
-<tr class="memitem:afc6d9c34827a77f28afb5c906e84e2ff"><td class="memItemLeft" align="right" valign="top">static Action&lt; NavAreaBase &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#afc6d9c34827a77f28afb5c906e84e2ff">BakeProgressUpdated</a></td></tr>
+<tr class="memitem:afc6d9c34827a77f28afb5c906e84e2ff"><td class="memItemLeft" align="right" valign="top">static Action&lt; <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#afc6d9c34827a77f28afb5c906e84e2ff">BakeProgressUpdated</a></td></tr>
 <tr class="memdesc:afc6d9c34827a77f28afb5c906e84e2ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked when the bake progress for a <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume.html" title="A volume of space in which HyperNav pathfinding can occur.">NavVolume</a> changes.   <a href="class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#afc6d9c34827a77f28afb5c906e84e2ff">More...</a><br /></td></tr>
 <tr class="separator:afc6d9c34827a77f28afb5c906e84e2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Manages multiple NavAreaBaseBakeHandlers for baking NavAreaBases.  </p>
+<div class="textblock"><p >Manages multiple NavAreaBaseBakeHandlers for baking <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html" title="Base class for areas in which HyperNav pathfinding can occur.">NavAreaBase</a>s.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="acd33f9e07da4344aba442ba7e365066a" name="acd33f9e07da4344aba442ba7e365066a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acd33f9e07da4344aba442ba7e365066a">&#9670;&#160;</a></span>BakeDataAsync()</h2>
@@ -148,7 +148,7 @@ Events</h2></td></tr>
         <tr>
           <td class="memname">static async UniTask Infohazard.HyperNav.Editor.EditorNavAreaBakingUtility.BakeDataAsync </td>
           <td>(</td>
-          <td class="paramtype">NavAreaBase&#160;</td>
+          <td class="paramtype"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a>&#160;</td>
           <td class="paramname"><em>area</em>, </td>
         </tr>
         <tr>
@@ -200,7 +200,7 @@ Events</h2></td></tr>
         <tr>
           <td class="memname">static void Infohazard.HyperNav.Editor.EditorNavAreaBakingUtility.CancelBake </td>
           <td>(</td>
-          <td class="paramtype">NavAreaBase&#160;</td>
+          <td class="paramtype"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a>&#160;</td>
           <td class="paramname"><em>area</em></td><td>)</td>
           <td></td>
         </tr>
@@ -234,7 +234,7 @@ Events</h2></td></tr>
         <tr>
           <td class="memname">static void Infohazard.HyperNav.Editor.EditorNavAreaBakingUtility.ClearData </td>
           <td>(</td>
-          <td class="paramtype">NavAreaBase&#160;</td>
+          <td class="paramtype"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a>&#160;</td>
           <td class="paramname"><em>area</em></td><td>)</td>
           <td></td>
         </tr>
@@ -256,8 +256,8 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a id="adae599f153d0af96cd864cf05b666f87" name="adae599f153d0af96cd864cf05b666f87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adae599f153d0af96cd864cf05b666f87">&#9670;&#160;</a></span>GetOrCreateData()</h2>
+<a id="aa2c7d6f57e864fe06551f2b92caa683f" name="aa2c7d6f57e864fe06551f2b92caa683f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2c7d6f57e864fe06551f2b92caa683f">&#9670;&#160;</a></span>GetOrCreateData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,19 +268,9 @@ Events</h2></td></tr>
         <tr>
           <td class="memname">static void Infohazard.HyperNav.Editor.EditorNavAreaBakingUtility.GetOrCreateData </td>
           <td>(</td>
-          <td class="paramtype">NavAreaBase&#160;</td>
-          <td class="paramname"><em>area</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a>&#160;</td>
+          <td class="paramname"><em>area</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">SerializedObject&#160;</td>
-          <td class="paramname"><em>serializedObject</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -293,8 +283,7 @@ Events</h2></td></tr>
 <p>Get the <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html" title="The baked data of a NavVolume, saved as an asset.">NavVolumeData</a> for a given volume, or create and save the object if it doesn't exist yet.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">area</td><td>The NavAreaBase component.</td></tr>
-    <tr><td class="paramname">serializedObject</td><td>The SerializedObject.</td></tr>
+    <tr><td class="paramname">area</td><td>The <a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html" title="Base class for areas in which HyperNav pathfinding can occur.">NavAreaBase</a> component.</td></tr>
   </table>
   </dd>
 </dl>
@@ -313,7 +302,7 @@ Events</h2></td></tr>
         <tr>
           <td class="memname">static bool Infohazard.HyperNav.Editor.EditorNavAreaBakingUtility.TryGetBakeProgress </td>
           <td>(</td>
-          <td class="paramtype">NavAreaBase&#160;</td>
+          <td class="paramtype"><a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a>&#160;</td>
           <td class="paramname"><em>area</em>, </td>
         </tr>
         <tr>
@@ -358,7 +347,7 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">readonly Dictionary&lt;NavAreaBase, NavAreaBaseBakeHandler&gt; Infohazard.HyperNav.Editor.EditorNavAreaBakingUtility.BakeHandlers = new()</td>
+          <td class="memname">readonly Dictionary&lt;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a>, NavAreaBaseBakeHandler&gt; Infohazard.HyperNav.Editor.EditorNavAreaBakingUtility.BakeHandlers = new()</td>
         </tr>
       </table>
   </td>
@@ -383,7 +372,7 @@ Events</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Action&lt;NavAreaBase&gt; Infohazard.HyperNav.Editor.EditorNavAreaBakingUtility.BakeProgressUpdated</td>
+          <td class="memname">Action&lt;<a class="el" href="class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html">NavAreaBase</a>&gt; Infohazard.HyperNav.Editor.EditorNavAreaBakingUtility.BakeProgressUpdated</td>
         </tr>
       </table>
   </td>

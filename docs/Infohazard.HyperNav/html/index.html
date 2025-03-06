@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="HyperNavIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.0.0</span>
+   <div id="projectname">Infohazard.HyperNav<span id="projectnumber">&#160;2.1.0</span>
    </div>
    <div id="projectbrief">A pathfinding and avoidance solution for volumetric and omnidirectional navigation.</div>
   </td>
@@ -169,7 +169,8 @@ General Setup</h2>
 <p >The only setup required beyond installation is to add references to the <a class="el" href="namespace_infohazard_1_1_hyper_nav.html">Infohazard.HyperNav</a> assembly if you are using an assembly definition. If you are using the default assemblies (such as Assembly-CSharp), nothing is needed here.</p>
 <h2><a class="anchor" id="autotoc_md35"></a>
 SRP Setup</h2>
-<p >If you are using a scriptable render pipeline (URP, HDRP, etc) and wish to run the demos, you will need to upgrade the materials using your render pipeline's material upgrade system. The materials you'll need to upgrade are in:</p><ul>
+<p >If you are using a scriptable render pipeline (URP, HDRP, etc) and wish to run the demos, you will need to upgrade the materials using your render pipeline's material upgrade system. The materials you'll need to upgrade are in:</p>
+<ul>
 <li><code>Assets/Plugins/Infohazard/Demos/Infohazard.HyperNav/Materials</code></li>
 <li><code>Assets/Plugins/Infohazard/Demos/Shared Demo Assets/Materials</code></li>
 <li><code>Assets/StarterAssets/ThirdPersonController/Character/Materials</code></li>
@@ -208,7 +209,8 @@ HyperNavSurfaceAndVolumeDemo (Hybrid Walking/Flying Character)</h2>
 Features Guide</h1>
 <h2><a class="anchor" id="autotoc_md47"></a>
 Volume and Surface Setup</h2>
-<p >The first step to setup navigation in your scene is to create a navigable area (NavSurface, NavVolume, or both), using one of the menu items:</p><ul>
+<p >The first step to setup navigation in your scene is to create a navigable area (NavSurface, NavVolume, or both), using one of the menu items:</p>
+<ul>
 <li><code>Tools &gt; <a class="el" href="namespace_infohazard.html">Infohazard</a> &gt; Create &gt; Nav Volume</code> - create NavVolume for volumetric navigation.</li>
 <li><code>Tools &gt; <a class="el" href="namespace_infohazard.html">Infohazard</a> &gt; Create &gt; Nav Surface</code> - create NavSurface for omnidirectional surface-based navigation.</li>
 <li><code>Tools &gt; <a class="el" href="namespace_infohazard.html">Infohazard</a> &gt; Create &gt; Nav Volume + Surface</code> - create a single area for both types of navigation.</li>
@@ -224,49 +226,53 @@ External Links</h2>
 <p >If you are using multiple areas (including using a volume + surface), you most likely will want agents to be able to find paths between them. This is accomplished using external links. Simply use the "Generate External Links" button after all areas are baked, or, for convenience, "Generate All External Links" to generate links on all loaded areas. Once the external links are generated, you can visualize them in each area's visualization settings.</p>
 <p >Note that if you re-bake an area, you will need to regenerate not only its external links but the external links of all of its neighbors. If you don't do this, you will get links leading to the wrong region, and potentially paths that cross through impassible areas. The "Generate All External Links" button comes in handy here.</p>
 <h3><a class="anchor" id="autotoc_md51"></a>
+Shared Settings</h3>
+<p >By default, the settings for each NavArea are specific to each instance. However, by creating a settings asset, you can share settings between multiple areas. To do so, go into the inspector for an area, and click Create Shared Settings. This will copy the current settings on the area into a new settings asset which can then be assigned to other areas of the same type. You can also clone the asset to make variants. Currently, overriding individual settings is not supported, so if you need to change a setting for a single area, you will need to create a new shared settings asset.</p>
+<h3><a class="anchor" id="autotoc_md52"></a>
 Manual Links</h3>
 <p >In addition to the auto-generated links, you can create manual external links. These links can be toggled on or off at runtime, and can connect different regions in the same volume, rather than only separate volumes. To create a manual link, use the menu item <code>Tools &gt; <a class="el" href="namespace_infohazard.html">Infohazard</a> &gt; Create &gt; Manual Nav Link</code>, and use the gizmos to position the endpoints of the link in the desired areas. The next time you generate the volumes' external links, the manual links will be included (note that generating the links is required for the manual links to be included in the pathfinding data).</p>
-<h3><a class="anchor" id="autotoc_md52"></a>
+<h3><a class="anchor" id="autotoc_md53"></a>
 Runtime Link Generation</h3>
 <p >To regenerate external links at runtime, use <code>NavAreaExternalLinkUpdate.GenerateExternalLinks</code> with the areas you wish to update.</p>
-<h2><a class="anchor" id="autotoc_md53"></a>
+<h2><a class="anchor" id="autotoc_md54"></a>
 Pathfinder Setup</h2>
 <p >Before you can start pathfinding, you also need to create a NavPathfinder, using the menu item Tools &gt; <a class="el" href="namespace_infohazard.html">Infohazard</a> &gt; Create &gt; Nav Pathfinder. You can create a NavPathfinder in each scene that needs one, or you can create one that persists through level loading.</p>
-<h2><a class="anchor" id="autotoc_md54"></a>
+<h2><a class="anchor" id="autotoc_md55"></a>
 Agent Setup</h2>
 <p >The final step to start pathfinding is to set up agents. A NavAgent is the easiest way to start finding paths from code. Simply add the NavAgent to your GameObject, set its Destination, and read its DesiredVelocity.</p>
-<h3><a class="anchor" id="autotoc_md55"></a>
+<h3><a class="anchor" id="autotoc_md56"></a>
 Agent-Driven Movement</h3>
 <p >A NavAgent simply provides a DesiredVelocity, so you'll need another script to actually move the object. You can either use your own movement code that reads DesiredVelocity, or use the provided SimpleNavAgentMover script to handle some common situations.</p>
-<h3><a class="anchor" id="autotoc_md56"></a>
+<h3><a class="anchor" id="autotoc_md57"></a>
 Spline Agent Setup</h3>
 <p >If you wish to use the spline path system to achieve smoother navigation paths, simply replace the NavAgent with a SplineNavAgent. SplineNavAgent provides the same properties as NavAgent (as it is a subclass) with some additional properties. SplineNavAgent works on both volumes and surfaces, but the actual splines will only be used for volume-based navigation; on surfaces it will revert to the NavAgent behavior.</p>
-<h2><a class="anchor" id="autotoc_md57"></a>
+<h2><a class="anchor" id="autotoc_md58"></a>
 Avoidance</h2>
 <p >Whereas NavAgent and SplineNavAgent are used to plan paths between two points, avoidance is used to steer clear of obstacles that might obstruct that path. These obstacles might be moving objects or even other navigating agents, so they can't easily be baked into the area data. Instead, you should use the obstacle avoidance system.</p>
-<h3><a class="anchor" id="autotoc_md58"></a>
+<h3><a class="anchor" id="autotoc_md59"></a>
 AvoidanceManager Setup</h3>
 <p >In order to use avoidance, there must be an AvoidanceManager present in your scene. To create an AvoidanceManager, use the menu item Tools &gt; <a class="el" href="namespace_infohazard.html">Infohazard</a> &gt; Create &gt; Avoidance Manager.</p>
-<h3><a class="anchor" id="autotoc_md59"></a>
+<h3><a class="anchor" id="autotoc_md60"></a>
 AvoidanceAgent Setup</h3>
 <p >If you want an object to avoid obstacles, you should add an AvoidanceAgent script. This script needs to know the maximum speed the agent can travel at, the agent's size, and several other properties.</p>
-<h3><a class="anchor" id="autotoc_md60"></a>
+<h3><a class="anchor" id="autotoc_md61"></a>
 AvoidanceAgent With NavAgent</h3>
 <p >When you want to use avoidance with a NavAgent or SplineNavAgent, the usage is simple. The NavAgent should have a button to create an AvoidanceAgent on the object and instantly connect it to the NavAgent. The NavAgent will handle the input and output velocity for the AvoidanceAgent, so you can simply read the NavAgent's DesiredVelocity which now includes avoidance. You will still need to configure the max speed on the AvoidanceAgent for it to work properly.</p>
-<h3><a class="anchor" id="autotoc_md61"></a>
+<h3><a class="anchor" id="autotoc_md62"></a>
 AvoidanceAgent Usage</h3>
 <p >You can use an AvoidanceAgent without a NavAgent. For this use case, you must supply an input velocity (the velocity the agent wants to move in) and read its AvoidanceVelocity (the velocity it should move in to avoid obstacles). The input velocity is provided via a delegate, allowing you to connected it to whatever source you want.</p>
-<h3><a class="anchor" id="autotoc_md62"></a>
+<h3><a class="anchor" id="autotoc_md63"></a>
 AvoidanceObstacle Setup</h3>
-<p >While AvoidanceAgents will automatically avoid each other, you may wish to add additional obstacles that are not agents. This can be done using AvoidanceObstacleBase or any of its subclasses (which determine the current velocity using different methods). Just add one of these scripts to an object and the obstacle is good to go:</p><ul>
+<p >While AvoidanceAgents will automatically avoid each other, you may wish to add additional obstacles that are not agents. This can be done using AvoidanceObstacleBase or any of its subclasses (which determine the current velocity using different methods). Just add one of these scripts to an object and the obstacle is good to go:</p>
+<ul>
 <li>AvoidanceObstacleBase: Does not calculate a velocity, so it is assumed to be stationary. You can inherit from it to add your own velocity calculations.</li>
 <li>SimpleAvoidanceObstacle: Calculates its velocity by measuring delta position / delta time every frame.</li>
 <li>RigidbodyAvoidanceObstacle: Uses the current velocity of an attached Rigidbody component.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md63"></a>
+<h2><a class="anchor" id="autotoc_md64"></a>
 Moving Volumes and Floating Origin</h2>
 <p >You may need to occasionally move NavVolumes, either individually or all together. When this occurs, the native data for the volumes needs to be updated. For moving individual volumes, you can enable <code>AutoDetectMovement</code> on the volumes and the data updating will be handled automatically. For moving all volumes at once such as in a floating origin system, it will be more performant to use <code>NavVolume.UpdateAllTransforms()</code> after they are moved.</p>
-<h3><a class="anchor" id="autotoc_md64"></a>
+<h3><a class="anchor" id="autotoc_md65"></a>
 Moving Volume Limitations</h3>
 <p >In both cases, any pathfinding operations currently underway will automatically be restarted. Any agents that already have paths, however, will need to be manually stopped by calling <code>Stop()</code> and the destination re-supplied in shifted space.</p>
 <p >Moving volumes does update the external link positions, so two volumes with links to one another that move together will have the links updated correctly. However, if one volume moves relative to another volume that it shares links with, the link positions will stay relative to the originating volume. To account for this, you'll need to regenerate the links at runtime.</p>

@@ -15,5 +15,6 @@ var searchData=
   ['currentsplinedistance_12',['CurrentSplineDistance',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#ad5062715d60c17054300861e534d046d',1,'Infohazard::HyperNav::SplineNavAgent']]],
   ['currentsplineparameter_13',['CurrentSplineParameter',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a420cc37b0a7980df7fd519d86ca75631',1,'Infohazard::HyperNav::SplineNavAgent']]],
   ['curvatureofmaxslowdown_14',['CurvatureOfMaxSlowdown',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#ad38055b2368b38d827425c977763c10b',1,'Infohazard::HyperNav::SplineNavAgent']]],
-  ['curvaturesampledistance_15',['CurvatureSampleDistance',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a22fe9b9ace2ff2b7c8862a3ad6b64300',1,'Infohazard::HyperNav::SplineNavAgent']]]
+  ['curvaturesampledistance_15',['CurvatureSampleDistance',['../class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html#a22fe9b9ace2ff2b7c8862a3ad6b64300',1,'Infohazard::HyperNav::SplineNavAgent']]],
+  ['customuprightdirectionhandler_16',['CustomUprightDirectionHandler',['../class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_surface_settings.html#a6e42bbb0b21ea765e45cb3af3b27b823',1,'Infohazard::HyperNav::Settings::NavSurfaceSettings']]]
 ];

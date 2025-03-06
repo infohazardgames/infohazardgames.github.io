@@ -6,8 +6,9 @@ var searchData=
   ['this_5bint_20x_2c_20int_20y_2c_20int_20z_5d_3',['this[int x, int y, int z]',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_fast3_d_array.html#a3bb09301da9787f6bf1e958d58d085f7',1,'Infohazard::HyperNav::Jobs::Utility::Fast3DArray']]],
   ['timehorizon_4',['TimeHorizon',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_manager.html#a56e64465cddb0b839abed19d10326a49',1,'Infohazard::HyperNav::AvoidanceManager']]],
   ['toposition_5',['ToPosition',['../class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html#ac2fa20897c446fffbbb13da77fd7e5e8',1,'Infohazard::HyperNav::NavExternalLinkData']]],
-  ['triangleindexrange_6',['TriangleIndexRange',['../class_infohazard_1_1_hyper_nav_1_1_nav_surface_region_data.html#aefd325338c5af2034e51526254029c7f',1,'Infohazard.HyperNav.NavSurfaceRegionData.TriangleIndexRange()'],['../class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a9f6906d89897ec1ed616cdaa9416d25a',1,'Infohazard.HyperNav.NavRegionData.TriangleIndexRange()']]],
-  ['triangleindices_7',['TriangleIndices',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af4dbd380b7b970b741daaa29f40a791c',1,'Infohazard::HyperNav::NavVolumeData']]],
-  ['trianglerange_8',['TriangleRange',['../class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a6bc8cac35e59208df939da59f97dee73',1,'Infohazard::HyperNav::NavInternalLinkData']]],
-  ['type_9',['Type',['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a58dd77bca1760c9571f89069026c58b0',1,'Infohazard::HyperNav::NavWaypoint']]]
+  ['transform_6',['Transform',['../class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html#ab1707e7c37ba22a0bda7e10427a5053d',1,'Infohazard::HyperNav::NavAreaBase']]],
+  ['triangleindexrange_7',['TriangleIndexRange',['../class_infohazard_1_1_hyper_nav_1_1_nav_surface_region_data.html#aefd325338c5af2034e51526254029c7f',1,'Infohazard.HyperNav.NavSurfaceRegionData.TriangleIndexRange()'],['../class_infohazard_1_1_hyper_nav_1_1_nav_region_data.html#a9f6906d89897ec1ed616cdaa9416d25a',1,'Infohazard.HyperNav.NavRegionData.TriangleIndexRange()']]],
+  ['triangleindices_8',['TriangleIndices',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#af4dbd380b7b970b741daaa29f40a791c',1,'Infohazard::HyperNav::NavVolumeData']]],
+  ['trianglerange_9',['TriangleRange',['../class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#a6bc8cac35e59208df939da59f97dee73',1,'Infohazard::HyperNav::NavInternalLinkData']]],
+  ['type_10',['Type',['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a58dd77bca1760c9571f89069026c58b0',1,'Infohazard::HyperNav::NavWaypoint']]]
 ];

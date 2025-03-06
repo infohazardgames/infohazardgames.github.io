@@ -9,5 +9,7 @@ var searchData=
   ['position_6',['Position',['../class_infohazard_1_1_hyper_nav_1_1_avoidance_obstacle_base.html#a86f80b36220127c0ff098890d5a5cf19',1,'Infohazard.HyperNav.AvoidanceObstacleBase.Position()'],['../interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_obstacle.html#a705777165c4b38f54e5fd2b2648a55c7',1,'Infohazard.HyperNav.IAvoidanceObstacle.Position()'],['../struct_infohazard_1_1_hyper_nav_1_1_nav_waypoint.html#a64d4b243b1a66dcbbdcfe0680768de8b',1,'Infohazard.HyperNav.NavWaypoint.Position()']]],
   ['positionforsurface_7',['PositionForSurface',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a9867a28beb8063c33721a7c1516120b3',1,'Infohazard::HyperNav::NavAgent']]],
   ['positionforvolume_8',['PositionForVolume',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a89063bb399b3478060c2ba1f84793113',1,'Infohazard::HyperNav::NavAgent']]],
-  ['previouswaypoint_9',['PreviousWaypoint',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ae09ede2b64b98418fb3cd1bb11621b80',1,'Infohazard::HyperNav::NavAgent']]]
+  ['previewmaterials_9',['PreviewMaterials',['../class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html#ad3498e3a06334c3e74f61103d06e8d3f',1,'Infohazard::HyperNav::NavAreaBase']]],
+  ['previewmesh_10',['PreviewMesh',['../class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html#a12d238e555a7e335df049f8c07b593d2',1,'Infohazard::HyperNav::NavAreaBase']]],
+  ['previouswaypoint_11',['PreviousWaypoint',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#ae09ede2b64b98418fb3cd1bb11621b80',1,'Infohazard::HyperNav::NavAgent']]]
 ];

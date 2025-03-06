@@ -56,23 +56,24 @@ var NAVTREE =
           [ "Runtime Baking", "index.html#autotoc_md49", null ]
         ] ],
         [ "External Links", "index.html#autotoc_md50", [
-          [ "Manual Links", "index.html#autotoc_md51", null ],
-          [ "Runtime Link Generation", "index.html#autotoc_md52", null ]
+          [ "Shared Settings", "index.html#autotoc_md51", null ],
+          [ "Manual Links", "index.html#autotoc_md52", null ],
+          [ "Runtime Link Generation", "index.html#autotoc_md53", null ]
         ] ],
-        [ "Pathfinder Setup", "index.html#autotoc_md53", null ],
-        [ "Agent Setup", "index.html#autotoc_md54", [
-          [ "Agent-Driven Movement", "index.html#autotoc_md55", null ],
-          [ "Spline Agent Setup", "index.html#autotoc_md56", null ]
+        [ "Pathfinder Setup", "index.html#autotoc_md54", null ],
+        [ "Agent Setup", "index.html#autotoc_md55", [
+          [ "Agent-Driven Movement", "index.html#autotoc_md56", null ],
+          [ "Spline Agent Setup", "index.html#autotoc_md57", null ]
         ] ],
-        [ "Avoidance", "index.html#autotoc_md57", [
-          [ "AvoidanceManager Setup", "index.html#autotoc_md58", null ],
-          [ "AvoidanceAgent Setup", "index.html#autotoc_md59", null ],
-          [ "AvoidanceAgent With NavAgent", "index.html#autotoc_md60", null ],
-          [ "AvoidanceAgent Usage", "index.html#autotoc_md61", null ],
-          [ "AvoidanceObstacle Setup", "index.html#autotoc_md62", null ]
+        [ "Avoidance", "index.html#autotoc_md58", [
+          [ "AvoidanceManager Setup", "index.html#autotoc_md59", null ],
+          [ "AvoidanceAgent Setup", "index.html#autotoc_md60", null ],
+          [ "AvoidanceAgent With NavAgent", "index.html#autotoc_md61", null ],
+          [ "AvoidanceAgent Usage", "index.html#autotoc_md62", null ],
+          [ "AvoidanceObstacle Setup", "index.html#autotoc_md63", null ]
         ] ],
-        [ "Moving Volumes and Floating Origin", "index.html#autotoc_md63", [
-          [ "Moving Volume Limitations", "index.html#autotoc_md64", null ]
+        [ "Moving Volumes and Floating Origin", "index.html#autotoc_md64", [
+          [ "Moving Volume Limitations", "index.html#autotoc_md65", null ]
         ] ]
       ] ]
     ] ],
@@ -124,7 +125,7 @@ var NAVTREE =
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
-        [ "Properties", "functions_prop.html", null ],
+        [ "Properties", "functions_prop.html", "functions_prop" ],
         [ "Events", "functions_evnt.html", null ]
       ] ]
     ] ]
@@ -134,8 +135,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover.html#a2bd8e4037053b14003a133309fc28dc4",
-"struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#af8892677892eb51e9fae8cc05c19c19d"
+"class_infohazard_1_1_hyper_nav_1_1_nav_surface_internal_link_data.html#ac6333bf5a059c68b5c766d0e1745cb81",
+"interface_infohazard_1_1_hyper_nav_1_1_i_avoidance_agent.html#a34d1bee7347204321dbcb81c61b08c4b",
+"struct_infohazard_1_1_hyper_nav_1_1_spline_path.html#a64fae6e3e74865501fc24a5bb78d317c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

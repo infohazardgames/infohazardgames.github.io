@@ -41,8 +41,32 @@ var hierarchy =
     [ "Infohazard.HyperNav.NavAgent", "class_infohazard_1_1_hyper_nav_1_1_nav_agent.html", [
       [ "Infohazard.HyperNav.SplineNavAgent", "class_infohazard_1_1_hyper_nav_1_1_spline_nav_agent.html", null ]
     ] ],
+    [ "Infohazard.HyperNav.NavArea< NavSurface, NavSurfaceData, NativeNavSurfaceData, NativeNavSurfaceDataPointers, NavSurfaceSettings >", "class_infohazard_1_1_hyper_nav_1_1_nav_area.html", null ],
+    [ "Infohazard.HyperNav.NavArea< NavVolume, NavVolumeData, NativeNavVolumeData, NativeNavVolumeDataPointers, NavVolumeSettings >", "class_infohazard_1_1_hyper_nav_1_1_nav_area.html", [
+      [ "Infohazard.HyperNav.NavVolume", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html", null ]
+    ] ],
     [ "Infohazard.HyperNav.NavAreaBakeProgress", "struct_infohazard_1_1_hyper_nav_1_1_nav_area_bake_progress.html", null ],
+    [ "Infohazard.HyperNav.NavAreaBakingUtility", "class_infohazard_1_1_hyper_nav_1_1_nav_area_baking_utility.html", null ],
+    [ "Infohazard.HyperNav.NavAreaBase", "class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html", [
+      [ "Infohazard.HyperNav.NavArea< TArea, TData, TNativeData, TPointers, TSettings >", "class_infohazard_1_1_hyper_nav_1_1_nav_area.html", null ]
+    ] ],
+    [ "Infohazard.HyperNav.Settings.NavAreaBaseSettings< TSelf >", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings.html", null ],
+    [ "Infohazard.HyperNav.Settings.NavAreaBaseSettings< NavSurfaceSettings >", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings.html", [
+      [ "Infohazard.HyperNav.Settings.NavSurfaceSettings", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_surface_settings.html", null ]
+    ] ],
+    [ "Infohazard.HyperNav.Settings.NavAreaBaseSettings< NavVolumeSettings >", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings.html", [
+      [ "Infohazard.HyperNav.Settings.NavVolumeSettings", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_volume_settings.html", null ]
+    ] ],
+    [ "Infohazard.HyperNav.Settings.NavAreaBaseSettingsAsset< TData >", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings_asset.html", null ],
+    [ "Infohazard.HyperNav.Settings.NavAreaBaseSettingsAsset< NavSurfaceSettings >", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings_asset.html", [
+      [ "Infohazard.HyperNav.Settings.NavSurfaceSettingsAsset", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_surface_settings_asset.html", null ]
+    ] ],
+    [ "Infohazard.HyperNav.Settings.NavAreaBaseSettingsAsset< NavVolumeSettings >", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings_asset.html", [
+      [ "Infohazard.HyperNav.Settings.NavVolumeSettingsAsset", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_volume_settings_asset.html", null ]
+    ] ],
+    [ "Infohazard.HyperNav.Settings.NavAreaBaseSettingsAsset< TSettings >", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings_asset.html", null ],
     [ "Infohazard.HyperNav.NavAreaExternalLinkUpdate", "class_infohazard_1_1_hyper_nav_1_1_nav_area_external_link_update.html", null ],
+    [ "Infohazard.HyperNav.Editor.NavAreaMigrator", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_area_migrator.html", null ],
     [ "Infohazard.HyperNav.Editor.NavEditorUtility", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_editor_utility.html", null ],
     [ "Infohazard.HyperNav.NavExternalLinkData", "class_infohazard_1_1_hyper_nav_1_1_nav_external_link_data.html", null ],
     [ "Infohazard.HyperNav.NavInternalLinkData", "class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html", null ],
@@ -57,7 +81,6 @@ var hierarchy =
     [ "Infohazard.HyperNav.NavSurfaceInternalLinkData", "class_infohazard_1_1_hyper_nav_1_1_nav_surface_internal_link_data.html", null ],
     [ "Infohazard.HyperNav.NavSurfaceRegionData", "class_infohazard_1_1_hyper_nav_1_1_nav_surface_region_data.html", null ],
     [ "Infohazard.HyperNav.NavSurfaceUpdate", "class_infohazard_1_1_hyper_nav_1_1_nav_surface_update.html", null ],
-    [ "Infohazard.HyperNav.NavVolume", "class_infohazard_1_1_hyper_nav_1_1_nav_volume.html", null ],
     [ "Infohazard.HyperNav.NavVolumeBakeHandler", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_bake_handler.html", null ],
     [ "Infohazard.HyperNav.NavVolumeData", "class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html", null ],
     [ "Infohazard.HyperNav.Editor.NavVolumeEditor", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_nav_volume_editor.html", null ],
@@ -67,6 +90,10 @@ var hierarchy =
     [ "Infohazard.HyperNav.NavAreaBase.PropNames", "class_infohazard_1_1_hyper_nav_1_1_nav_area_base_1_1_prop_names.html", null ],
     [ "Infohazard.HyperNav.NavPathfinder.PropNames", "class_infohazard_1_1_hyper_nav_1_1_nav_pathfinder_1_1_prop_names.html", null ],
     [ "Infohazard.HyperNav.NavSurface.PropNames", "class_infohazard_1_1_hyper_nav_1_1_nav_surface_1_1_prop_names.html", null ],
+    [ "Infohazard.HyperNav.Settings.NavAreaBaseSettings< TSelf >.PropNames", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings_1_1_prop_names.html", null ],
+    [ "Infohazard.HyperNav.Settings.NavAreaBaseSettingsAsset< TData >.PropNames", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings_asset_1_1_prop_names.html", null ],
+    [ "Infohazard.HyperNav.Settings.NavSurfaceSettings.PropNames", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_surface_settings_1_1_prop_names.html", null ],
+    [ "Infohazard.HyperNav.Settings.NavVolumeSettings.PropNames", "class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_volume_settings_1_1_prop_names.html", null ],
     [ "Infohazard.HyperNav.SimpleNavAgentMover.PropNames", "class_infohazard_1_1_hyper_nav_1_1_simple_nav_agent_mover_1_1_prop_names.html", null ],
     [ "Infohazard.HyperNav.Jobs.Utility.ReadOnlyArrayPointer< T >", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_read_only_array_pointer.html", null ],
     [ "Infohazard.HyperNav.Jobs.Utility.ReadOnlyArrayPointer< float4 >", "struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_read_only_array_pointer.html", null ],

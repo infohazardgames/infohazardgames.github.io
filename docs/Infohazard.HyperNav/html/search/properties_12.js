@@ -7,6 +7,13 @@ var searchData=
   ['vertexrange_4',['VertexRange',['../class_infohazard_1_1_hyper_nav_1_1_nav_surface_internal_link_data.html#aa70bf9d5e0efd1892e47d6c68dc4458b',1,'Infohazard.HyperNav.NavSurfaceInternalLinkData.VertexRange()'],['../class_infohazard_1_1_hyper_nav_1_1_nav_internal_link_data.html#adc7d22ad7e36ecf6fcd778177f8ed53d',1,'Infohazard.HyperNav.NavInternalLinkData.VertexRange()']]],
   ['vertices_5',['Vertices',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume_data.html#a040a8e9f7913e41fe33d4c58bb7ed940',1,'Infohazard::HyperNav::NavVolumeData']]],
   ['visualizationmode_6',['VisualizationMode',['../class_infohazard_1_1_hyper_nav_1_1_nav_volume.html#a745bbfb20e1e28c195059bafc480201c',1,'Infohazard::HyperNav::NavVolume']]],
-  ['volume_7',['Volume',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_nav_sample_result.html#adf693f17a062bfaff9cdf4778fe65644',1,'Infohazard::HyperNav::Jobs::Utility::NavSampleResult']]],
-  ['volumecostmultiplier_8',['VolumeCostMultiplier',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a472dfca4c83b45aad3cfce7d8c792c9e',1,'Infohazard::HyperNav::NavAgent']]]
+  ['visualizationsoloregion_7',['VisualizationSoloRegion',['../class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html#a456facdba4b06dc991b5d54e63fc4368',1,'Infohazard::HyperNav::NavAreaBase']]],
+  ['visualizeexternallinks_8',['VisualizeExternalLinks',['../class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html#a4762ab372ec08610dc8f5082f9904a53',1,'Infohazard::HyperNav::NavAreaBase']]],
+  ['visualizeneighbors_9',['VisualizeNeighbors',['../class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html#a6c54c3e4d9b1a80b76ca3086272cceb9',1,'Infohazard::HyperNav::NavAreaBase']]],
+  ['visualizeneighborsregion_10',['VisualizeNeighborsRegion',['../class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html#a89ccbec007483a812c69730100df2f28',1,'Infohazard::HyperNav::NavAreaBase']]],
+  ['visualizeregionbounds_11',['VisualizeRegionBounds',['../class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html#aacd71eeadea2aeb15b9b6836f3706f65',1,'Infohazard::HyperNav::NavAreaBase']]],
+  ['visualizevoxelqueries_12',['VisualizeVoxelQueries',['../class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html#a22e7fe5dca162c5f4b37307bfb8b2aff',1,'Infohazard::HyperNav::NavAreaBase']]],
+  ['volume_13',['Volume',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_nav_sample_result.html#adf693f17a062bfaff9cdf4778fe65644',1,'Infohazard::HyperNav::Jobs::Utility::NavSampleResult']]],
+  ['volumecostmultiplier_14',['VolumeCostMultiplier',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a472dfca4c83b45aad3cfce7d8c792c9e',1,'Infohazard::HyperNav::NavAgent']]],
+  ['voxelsize_15',['VoxelSize',['../class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings.html#a81b314b533fa62e74ec604f0d95ec4f5',1,'Infohazard::HyperNav::Settings::NavAreaBaseSettings']]]
 ];
