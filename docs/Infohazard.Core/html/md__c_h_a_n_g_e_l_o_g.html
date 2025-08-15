@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.1</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.2</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -97,8 +97,28 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g.html',''); initR
 <div class="textblock"><p >All notable changes to this project will be documented in this file.</p>
 <p >The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>, and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
-[1.4.0] - 2025-2-11</h1>
+[1.4.1] - 2025-3-5</h1>
 <h2><a class="anchor" id="autotoc_md2"></a>
+Added</h2>
+<ul>
+<li>Added methods to check if a GameObject's relative path is unique.</li>
+<li>Added methods to recursively copy values in SerializedProperties.</li>
+<li>Added option for an Expandable attribute to show only the main line and not the expansion.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md3"></a>
+Changed</h2>
+<ul>
+<li>GameObject path methods now URL-encode the path to avoid issues with the slash character.</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Fixed</h2>
+<ul>
+<li>Fixed ExpandableAttribute property not showing as overridden in a prefab instance.</li>
+<li>Fixed FindFieldInfo not actually working on nested fields.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md5"></a>
+[1.4.0] - 2025-2-11</h1>
+<h2><a class="anchor" id="autotoc_md6"></a>
 Added</h2>
 <ul>
 <li>Added attribute to require a referenced object to implement an interface.</li>
@@ -113,14 +133,14 @@ Added</h2>
 <li>Added a simple general-use state machine.</li>
 <li>Added a ColliderCast utility for easily configuring sphere, capsule, and box casts.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3"></a>
+<h2><a class="anchor" id="autotoc_md7"></a>
 Changed</h2>
 <ul>
 <li>Renamed SpawnRef.Valid to SpawnRef.IsValid.</li>
 <li>Minimum Unity version changed to 2022.3.</li>
 <li>Use correct linear velocity property for Rigidbody depending on Unity version, so you won't see deprecated API warnings.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md4"></a>
+<h2><a class="anchor" id="autotoc_md8"></a>
 Fixed</h2>
 <ul>
 <li>TriggerVolume now registers exit events if all of an occupant's colliders are disabled.</li>
@@ -128,9 +148,9 @@ Fixed</h2>
 <li>Fixed a bug with expandable foldouts overlapping the label.</li>
 <li>Fixed Spawnable trying to clear velocity on a kinematic rigidbody.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md5"></a>
+<h1><a class="anchor" id="autotoc_md9"></a>
 [1.3.0] - 2023-6-21</h1>
-<h2><a class="anchor" id="autotoc_md6"></a>
+<h2><a class="anchor" id="autotoc_md10"></a>
 Added</h2>
 <ul>
 <li>Addressables integration package.</li>
@@ -142,14 +162,14 @@ Added</h2>
 <li>Added events when a UniqueNamedObject is registered or deregistered.</li>
 <li>Added ability to include the GameObject's scene in SpawnParams.At.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md11"></a>
 Changed</h2>
 <ul>
 <li>ListQueue now implements IReadOnlyList.</li>
 <li>Singleton.Instance can now return a destroyed instance if there is not a new instance to replace it.</li>
 <li>Exposed TriggerVolume occupants list.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md8"></a>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Fixed</h2>
 <ul>
 <li>Fixed Expandable attribute not working when a type had a namespace.</li>
@@ -157,22 +177,22 @@ Fixed</h2>
 <li>Fixed PassiveTimer.IsIntervalEnded not respecting time mode.</li>
 <li>Fixed SpawnParams.At including global position/rotation when the parented is set to true.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md9"></a>
+<h1><a class="anchor" id="autotoc_md13"></a>
 [1.2.0] - 2022-11-22</h1>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 Added</h2>
 <ul>
 <li>DebugUtility.DrawDebugCircle.</li>
 <li>MathUtility.GetPerpendicularVector.</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md15"></a>
 Fixed</h2>
 <ul>
 <li>Fixed TagMaskEditor messing up values when editing multiple objects.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md12"></a>
+<h1><a class="anchor" id="autotoc_md16"></a>
 [1.1.0] - 2022-11-13</h1>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 Changed</h2>
 <ul>
 <li>Made GameTag.cs generation far move robust.<ul>
@@ -184,9 +204,9 @@ Changed</h2>
 </li>
 <li>Removed the warning message when generating GameTag.cs as it's no longer relevant.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md14"></a>
+<h1><a class="anchor" id="autotoc_md18"></a>
 [1.0.0] - 2022-10-08</h1>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md19"></a>
 Added</h2>
 <ul>
 <li>Initial release, all files and documentation added. </li>

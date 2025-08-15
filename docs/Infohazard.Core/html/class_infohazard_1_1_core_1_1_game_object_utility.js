@@ -2,10 +2,11 @@ var class_infohazard_1_1_core_1_1_game_object_utility =
 [
     [ "AddLinearVelocity", "class_infohazard_1_1_core_1_1_game_object_utility.html#a8c256675674fff480b354732a6d3ace5", null ],
     [ "ColliderCast", "class_infohazard_1_1_core_1_1_game_object_utility.html#a2d4b6138b3f60e65113d636f1bba60cd", null ],
+    [ "ColliderCastNonAlloc", "class_infohazard_1_1_core_1_1_game_object_utility.html#ac153a85b74badaac454f76cbc01d5e2b", null ],
     [ "DespawnChildren", "class_infohazard_1_1_core_1_1_game_object_utility.html#abfc3f6c13a4ae572c9348a685b031542", null ],
     [ "DestroyChildren", "class_infohazard_1_1_core_1_1_game_object_utility.html#aeb584fdaf56bc763ad9485f8db4ff884", null ],
     [ "DestroyChildrenImmediate", "class_infohazard_1_1_core_1_1_game_object_utility.html#a04e79165efb82bdbe7a1d9ae22a45fbf", null ],
-    [ "GetCapsuleInfo", "class_infohazard_1_1_core_1_1_game_object_utility.html#ad746aceec2e32d697deb8c02403821cd", null ],
+    [ "GetCapsuleInfo", "class_infohazard_1_1_core_1_1_game_object_utility.html#afb1aacadb190d0033051d34e049af9bc", null ],
     [ "GetCapsuleInfo", "class_infohazard_1_1_core_1_1_game_object_utility.html#a5f9f5d5fb6b73fedbd2b1dd80442e293", null ],
     [ "GetCapsuleInfo", "class_infohazard_1_1_core_1_1_game_object_utility.html#afb06bd47ce02b780dd402b3fc094e2d7", null ],
     [ "GetLinearVelocity", "class_infohazard_1_1_core_1_1_game_object_utility.html#a2ee117f511c7d995039a5ba4790be8c5", null ],

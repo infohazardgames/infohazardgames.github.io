@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.1</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.2</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -103,9 +103,9 @@ $(document).ready(function(){initNavTree('class_infohazard_1_1_core_1_1_game_obj
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad746aceec2e32d697deb8c02403821cd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#ad746aceec2e32d697deb8c02403821cd">GetCapsuleInfo</a> (float radius, float height, Vector3 center, int direction, Transform transform, out Vector3 point1, out Vector3 point2, out float worldRadius, out float worldHeight)</td></tr>
-<tr class="memdesc:ad746aceec2e32d697deb8c02403821cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts capsule info in transform/height/radius form to two-point form for use with Physics.CapsuleCast.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#ad746aceec2e32d697deb8c02403821cd">More...</a><br /></td></tr>
-<tr class="separator:ad746aceec2e32d697deb8c02403821cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb1aacadb190d0033051d34e049af9bc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#afb1aacadb190d0033051d34e049af9bc">GetCapsuleInfo</a> (float radius, float height, Vector3 center, int direction, Matrix4x4 transform, out Vector3 point1, out Vector3 point2, out float worldRadius, out float worldHeight)</td></tr>
+<tr class="memdesc:afb1aacadb190d0033051d34e049af9bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts capsule info in transform/height/radius form to two-point form for use with Physics.CapsuleCast.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#afb1aacadb190d0033051d34e049af9bc">More...</a><br /></td></tr>
+<tr class="separator:afb1aacadb190d0033051d34e049af9bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb06bd47ce02b780dd402b3fc094e2d7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#afb06bd47ce02b780dd402b3fc094e2d7">GetCapsuleInfo</a> (this CharacterController capsule, out Vector3 point1, out Vector3 point2, out float worldRadius, out float worldHeight)</td></tr>
 <tr class="memdesc:afb06bd47ce02b780dd402b3fc094e2d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts capsule info in a CharacterController to two-point form for use with Physics.CapsuleCast.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#afb06bd47ce02b780dd402b3fc094e2d7">More...</a><br /></td></tr>
 <tr class="separator:afb06bd47ce02b780dd402b3fc094e2d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,6 +115,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2d4b6138b3f60e65113d636f1bba60cd"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a2d4b6138b3f60e65113d636f1bba60cd">ColliderCast</a> (this Collider collider, float padding, Vector3 direction, out RaycastHit hit, float maxDistance=float.PositiveInfinity, int layerMask=Physics.DefaultRaycastLayers, QueryTriggerInteraction triggerInteraction=QueryTriggerInteraction.UseGlobal)</td></tr>
 <tr class="memdesc:a2d4b6138b3f60e65113d636f1bba60cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a physics cast depending on the type of collider, using its parameters. Only BoxCollider, SphereCollider, and CapsuleCollider are supported. For simplicity, the scale of the transform is assumed to be uniform.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a2d4b6138b3f60e65113d636f1bba60cd">More...</a><br /></td></tr>
 <tr class="separator:a2d4b6138b3f60e65113d636f1bba60cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac153a85b74badaac454f76cbc01d5e2b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#ac153a85b74badaac454f76cbc01d5e2b">ColliderCastNonAlloc</a> (this Collider collider, float padding, Vector3 direction, RaycastHit[] hits, float maxDistance=float.PositiveInfinity, int layerMask=Physics.DefaultRaycastLayers, QueryTriggerInteraction triggerInteraction=QueryTriggerInteraction.UseGlobal)</td></tr>
+<tr class="memdesc:ac153a85b74badaac454f76cbc01d5e2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a physics cast depending on the type of collider, using its parameters. Only BoxCollider, SphereCollider, and CapsuleCollider are supported. For simplicity, the scale of the transform is assumed to be uniform.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#ac153a85b74badaac454f76cbc01d5e2b">More...</a><br /></td></tr>
+<tr class="separator:ac153a85b74badaac454f76cbc01d5e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91fc0732fa1a9c12ef3268947f5673f1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_game_object_utility.html#a91fc0732fa1a9c12ef3268947f5673f1">SetParentAndReset</a> (this Transform transform, Transform parent)</td></tr>
 <tr class="memdesc:a91fc0732fa1a9c12ef3268947f5673f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parent of the given transform, and reset it's local position, rotation, and scale.   <a href="class_infohazard_1_1_core_1_1_game_object_utility.html#a91fc0732fa1a9c12ef3268947f5673f1">More...</a><br /></td></tr>
 <tr class="separator:a91fc0732fa1a9c12ef3268947f5673f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,6 +301,87 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ac153a85b74badaac454f76cbc01d5e2b" name="ac153a85b74badaac454f76cbc01d5e2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac153a85b74badaac454f76cbc01d5e2b">&#9670;&#160;</a></span>ColliderCastNonAlloc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int Infohazard.Core.GameObjectUtility.ColliderCastNonAlloc </td>
+          <td>(</td>
+          <td class="paramtype">this Collider&#160;</td>
+          <td class="paramname"><em>collider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>padding</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>direction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RaycastHit[]&#160;</td>
+          <td class="paramname"><em>hits</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>maxDistance</em> = <code>float.PositiveInfinity</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>layerMask</em> = <code>Physics.DefaultRaycastLayers</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QueryTriggerInteraction&#160;</td>
+          <td class="paramname"><em>triggerInteraction</em> = <code>QueryTriggerInteraction.UseGlobal</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Perform a physics cast depending on the type of collider, using its parameters. Only BoxCollider, SphereCollider, and CapsuleCollider are supported. For simplicity, the scale of the transform is assumed to be uniform.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collider</td><td>The BoxCollider, SphereCollider, or CapsuleCollider to cast from.</td></tr>
+    <tr><td class="paramname">padding</td><td>A padding to reduce the collider's extents. Given in world units.</td></tr>
+    <tr><td class="paramname">direction</td><td>Direction to cast in.</td></tr>
+    <tr><td class="paramname">hits</td><td>The hit information.</td></tr>
+    <tr><td class="paramname">maxDistance</td><td>The maximum distance to cast. Default is infinity.</td></tr>
+    <tr><td class="paramname">layerMask</td><td>The layer mask to cast against. Default is default raycast layers.</td></tr>
+    <tr><td class="paramname">triggerInteraction</td><td>Whether to include triggers. Default is use global settings.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of valid hits.</dd></dl>
+
+</div>
+</div>
 <a id="abfc3f6c13a4ae572c9348a685b031542" name="abfc3f6c13a4ae572c9348a685b031542"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abfc3f6c13a4ae572c9348a685b031542">&#9670;&#160;</a></span>DespawnChildren()</h2>
 
@@ -400,8 +484,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad746aceec2e32d697deb8c02403821cd" name="ad746aceec2e32d697deb8c02403821cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad746aceec2e32d697deb8c02403821cd">&#9670;&#160;</a></span>GetCapsuleInfo() <span class="overload">[1/3]</span></h2>
+<a id="afb1aacadb190d0033051d34e049af9bc" name="afb1aacadb190d0033051d34e049af9bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb1aacadb190d0033051d34e049af9bc">&#9670;&#160;</a></span>GetCapsuleInfo() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -436,7 +520,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Transform&#160;</td>
+          <td class="paramtype">Matrix4x4&#160;</td>
           <td class="paramname"><em>transform</em>, </td>
         </tr>
         <tr>

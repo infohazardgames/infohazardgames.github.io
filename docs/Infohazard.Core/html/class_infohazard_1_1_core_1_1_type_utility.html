@@ -26,7 +26,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="InfohazardCoreIcon.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.1</span>
+   <div id="projectname">Infohazard.Core<span id="projectnumber">&#160;1.4.2</span>
    </div>
    <div id="projectbrief">Infohazard Core Utility Library</div>
   </td>
@@ -107,6 +107,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a63304c253843e3a5ca5ad773da6cc6c7"><td class="memItemLeft" align="right" valign="top">static Type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_type_utility.html#a63304c253843e3a5ca5ad773da6cc6c7">GetType</a> (string fullName)</td></tr>
 <tr class="memdesc:a63304c253843e3a5ca5ad773da6cc6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a type given its full name (including namespace).   <a href="class_infohazard_1_1_core_1_1_type_utility.html#a63304c253843e3a5ca5ad773da6cc6c7">More...</a><br /></td></tr>
 <tr class="separator:a63304c253843e3a5ca5ad773da6cc6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25724e0a6eed42056b0f260379437db5"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_infohazard_1_1_core_1_1_type_utility.html#a25724e0a6eed42056b0f260379437db5">GetDisplayName</a> (this Type type, bool includeNamespace=false, bool capitalizeFirst=false)</td></tr>
+<tr class="memdesc:a25724e0a6eed42056b0f260379437db5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a human-readable name of a type (mostly used for generic types). Generally equivalent to the name you use in C# code.   <a href="class_infohazard_1_1_core_1_1_type_utility.html#a25724e0a6eed42056b0f260379437db5">More...</a><br /></td></tr>
+<tr class="separator:a25724e0a6eed42056b0f260379437db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -120,6 +123,59 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Contains utilities for working with C# reflection types and getting a type by its name.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a25724e0a6eed42056b0f260379437db5" name="a25724e0a6eed42056b0f260379437db5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25724e0a6eed42056b0f260379437db5">&#9670;&#160;</a></span>GetDisplayName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string Infohazard.Core.TypeUtility.GetDisplayName </td>
+          <td>(</td>
+          <td class="paramtype">this Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>includeNamespace</em> = <code>false</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>capitalizeFirst</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get a human-readable name of a type (mostly used for generic types). Generally equivalent to the name you use in C# code.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td>The type.</td></tr>
+    <tr><td class="paramname">includeNamespace</td><td>Whether to include namespaces in the result.</td></tr>
+    <tr><td class="paramname">capitalizeFirst</td><td>If true, force the first character to a capital.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A human-readable name of the type.</dd></dl>
+
+</div>
+</div>
 <a id="a63304c253843e3a5ca5ad773da6cc6c7" name="a63304c253843e3a5ca5ad773da6cc6c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a63304c253843e3a5ca5ad773da6cc6c7">&#9670;&#160;</a></span>GetType()</h2>
 
