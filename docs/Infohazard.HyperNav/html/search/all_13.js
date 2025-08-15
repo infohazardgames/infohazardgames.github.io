@@ -18,5 +18,6 @@ var searchData=
   ['volumecostmultiplier_15',['VolumeCostMultiplier',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a294a718152bf9eb931a1fedb21326ddf',1,'Infohazard.HyperNav.Jobs.NavPathJob.VolumeCostMultiplier()'],['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a472dfca4c83b45aad3cfce7d8c792c9e',1,'Infohazard.HyperNav.NavAgent.VolumeCostMultiplier()']]],
   ['volumeid_16',['VolumeID',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_native_raycast_element.html#a06e33ddb8727307e4499026f72074b86',1,'Infohazard::HyperNav::Jobs::NativeRaycastElement']]],
   ['volumes_17',['Volumes',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_path_job.html#a26118644ef6940d336d7f6ebc5c18463',1,'Infohazard.HyperNav.Jobs.NavPathJob.Volumes()'],['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_nav_multi_raycast_job.html#a40dda7b29c6b46d436b04986ccb51f80',1,'Infohazard.HyperNav.Jobs.NavMultiRaycastJob.Volumes()']]],
-  ['voxelsize_18',['VoxelSize',['../class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings.html#a81b314b533fa62e74ec604f0d95ec4f5',1,'Infohazard::HyperNav::Settings::NavAreaBaseSettings']]]
+  ['volumesamplingtransform_18',['VolumeSamplingTransform',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a5fff42a7b5e9178fefc11b272401aa02',1,'Infohazard::HyperNav::NavAgent']]],
+  ['voxelsize_19',['VoxelSize',['../class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings.html#a81b314b533fa62e74ec604f0d95ec4f5',1,'Infohazard::HyperNav::Settings::NavAreaBaseSettings']]]
 ];

@@ -15,5 +15,6 @@ var searchData=
   ['visualizevoxelqueries_12',['VisualizeVoxelQueries',['../class_infohazard_1_1_hyper_nav_1_1_nav_area_base.html#a22e7fe5dca162c5f4b37307bfb8b2aff',1,'Infohazard::HyperNav::NavAreaBase']]],
   ['volume_13',['Volume',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_nav_sample_result.html#adf693f17a062bfaff9cdf4778fe65644',1,'Infohazard::HyperNav::Jobs::Utility::NavSampleResult']]],
   ['volumecostmultiplier_14',['VolumeCostMultiplier',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a472dfca4c83b45aad3cfce7d8c792c9e',1,'Infohazard::HyperNav::NavAgent']]],
-  ['voxelsize_15',['VoxelSize',['../class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings.html#a81b314b533fa62e74ec604f0d95ec4f5',1,'Infohazard::HyperNav::Settings::NavAreaBaseSettings']]]
+  ['volumesamplingtransform_15',['VolumeSamplingTransform',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a5fff42a7b5e9178fefc11b272401aa02',1,'Infohazard::HyperNav::NavAgent']]],
+  ['voxelsize_16',['VoxelSize',['../class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_area_base_settings.html#a81b314b533fa62e74ec604f0d95ec4f5',1,'Infohazard::HyperNav::Settings::NavAreaBaseSettings']]]
 ];

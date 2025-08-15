@@ -22,5 +22,6 @@ var searchData=
   ['measuredvelocity_19',['MeasuredVelocity',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#aba8daf9344fc3e228bdf9e3edfd21135',1,'Infohazard::HyperNav::NavAgent']]],
   ['memorysize_20',['MemorySize',['../struct_infohazard_1_1_hyper_nav_1_1_jobs_1_1_utility_1_1_unsafe_array.html#ac4bd835d98a14436178e5d6d035a77e4',1,'Infohazard::HyperNav::Jobs::Utility::UnsafeArray']]],
   ['minislandsurfacearea_21',['MinIslandSurfaceArea',['../class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_surface_settings.html#adfd863165170b01ea3994b968a4f5112',1,'Infohazard::HyperNav::Settings::NavSurfaceSettings']]],
-  ['mintriangleareafraction_22',['MinTriangleAreaFraction',['../class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_surface_settings.html#a90336bbce0ae37f1ce4894057d4e2710',1,'Infohazard::HyperNav::Settings::NavSurfaceSettings']]]
+  ['minsurfaceupvectordot_22',['MinSurfaceUpVectorDot',['../class_infohazard_1_1_hyper_nav_1_1_nav_agent.html#a3ee119c482af878951f1f8fcdd2403bc',1,'Infohazard::HyperNav::NavAgent']]],
+  ['mintriangleareafraction_23',['MinTriangleAreaFraction',['../class_infohazard_1_1_hyper_nav_1_1_settings_1_1_nav_surface_settings.html#a90336bbce0ae37f1ce4894057d4e2710',1,'Infohazard::HyperNav::Settings::NavSurfaceSettings']]]
 ];

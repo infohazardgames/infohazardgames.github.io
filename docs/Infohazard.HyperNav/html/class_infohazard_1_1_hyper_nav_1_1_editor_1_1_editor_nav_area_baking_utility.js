@@ -1,6 +1,7 @@
 var class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility =
 [
-    [ "BakeDataAsync", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#acd33f9e07da4344aba442ba7e365066a", null ],
+    [ "BakeDataAsync", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#a91d6dbfdbfb7d9e1b2657f8bd0d637d6", null ],
+    [ "BakeDataWithCompletionSource", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#a5c288cf7910a089253a9dc253379de6b", null ],
     [ "CancelBake", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#ab38d3dccef6e649498f995094c45310a", null ],
     [ "ClearData", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#ae35476d473a10879a239e1f35a35d084", null ],
     [ "GetOrCreateData", "class_infohazard_1_1_hyper_nav_1_1_editor_1_1_editor_nav_area_baking_utility.html#aa2c7d6f57e864fe06551f2b92caa683f", null ],
